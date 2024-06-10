@@ -486,7 +486,7 @@ style navigation_button:
 style navigation_button_text:
     properties gui.button_text_properties("navigation_button")
     # outlines [(1, gold, 0, 0)]
-    font "fonts/alegreyaSC-bold.ttf"
+    #font "fonts/alegreyaSC-bold.ttf"
 
 style main_navigation_button:
     size_group "navigation"
@@ -496,9 +496,10 @@ style main_navigation_button:
 style main_navigation_button_text:
     properties gui.button_text_properties("navigation_button")
     # outlines [(1, gold, 0, 0)]
-    font "fonts/alegreyaSC-bold.ttf"
+    #font "fonts/alegreyaSC-bold.ttf"
     hover_color gold
     idle_color black
+
 
 
 ## Main Menu screen ############################################################
@@ -507,104 +508,70 @@ style main_navigation_button_text:
 ##
 ## https://www.renpy.org/doc/html/screen_special.html#main-menu
 
+## Replace this with your background image, if you like
+image main_menu_background = "mainmenu.png"
+
+# image main_menu_foreground_pc = HBox(
+#     Solid("#292835AA", xsize=325, ysize=580)
+# )
+
+# image main_menu_foreground_web = HBox(
+#     Solid("#292835AA", xsize=325, ysize=500)
+# )
+
 screen main_menu():
 
     ## This ensures that any other menu screen is replaced.
     tag menu
-    add gui.main_menu_background
 
-    ## This empty frame darkens the main menu.
-    frame:
-        style "main_menu_frame"
+    add "main_menu_background":
+        ypos 0
+        xpos 0
 
-        add "gui/starlight_1.png":
-            at starlight1
-        
-        add "gui/starlight_2.png":
-            at starlight2
-        
-        add "gui/starlight_3.png":
-            at starlight3
+    # if renpy.emscripten:
+    #     add "main_menu_foreground_web":
+    #         xalign 0.5
+    #         yalign 0.95
+    # else:
+    #     add "main_menu_foreground_pc":
+    #         xalign 0.5
+    #         yalign 0.95
 
-        add "gui/rays.png":
-            xpos 960
-            yalign 0.5
-            at rayTurn
+    vbox:
+        xalign 0.5
+        yalign 0.95
+        spacing -8
 
-        add "gui/constellations backing.png":
-            xpos 960
-            yalign 0.5
-            at clockwise
+        textbutton _("Start") action Start():
+            xalign 0.5
 
-        add "gui/constellationsMain.png":
-            xpos 960
-            yalign 0.5
-            at clockwise
+        textbutton _("Codex") action ShowMenu('category_welcome'):
+            xalign 0.5
 
-        add "gui/circle1.png":
-            xpos 960
-            yalign 0.5
-            at clockwise
+        textbutton _("Load") action ShowMenu("load"):
+            xalign 0.5
 
-        add "gui/circle2.png":
-            xpos 960
-            yalign 0.5
-            at counterClockwise
+        textbutton _("Endings") action ShowMenu("ending_gallery"):
+            xalign 0.5
 
-        add "gui/comet2.png":
-            xpos 960
-            yalign 0.5
-            at comet2
+        textbutton _("Preferences") action ShowMenu("preferences"):
+            xalign 0.5
 
-    add SnowBlossom("gui/particles/light1.png", 15, xspeed=(20, 50), yspeed=(25, 300), start=50)
-    add SnowBlossom("gui/particles/light2.png", 15, xspeed=(20, 50), yspeed=(50, 300), start=50)
-    add SnowBlossom("gui/particles/light3.png", 50, xspeed=(20, 50), yspeed=(50, 300), start=50)
-    add SnowBlossom("gui/particles/light4.png", 3, xspeed=(20, 50), yspeed=(100, 300), start=50)
+        textbutton _("About") action ShowMenu("about"):
+            xalign 0.5
 
-    add "gui/border.png"
-    ## The use statement includes another screen inside this one. The actual
-    ## contents of the main menu are in the navigation screen.
-    use navigation
+        if renpy.variant("pc") or (renpy.variant("web") and not renpy.variant("mobile")):
 
-    if gui.show_name:
+            ## Help isn't necessary or relevant to mobile devices.
+            textbutton _("Help") action ShowMenu("help"):
+                xalign 0.5
 
-        vbox:
-            style "main_menu_vbox"
+        if renpy.variant("pc"):
 
-            text "[config.name!t]":
-                style "main_menu_title"
-
-            text "[config.version]":
-                style "main_menu_version"
-
-
-style main_menu_frame is empty
-style main_menu_vbox is vbox
-style main_menu_text is gui_text
-style main_menu_title is main_menu_text
-style main_menu_version is main_menu_text
-
-style main_menu_frame:
-    xsize 420
-    yfill True
-
-    background "gui/overlay/main_menu.png"
-
-style main_menu_vbox:
-    xalign 1.0
-    xoffset -30
-    xmaximum 1200
-    yalign 1.0
-    yoffset -30
-
-style main_menu_text:
-    properties gui.text_properties("main_menu", accent=True)
-
-style main_menu_title:
-    properties gui.text_properties("title")
-
-style main_menu_version:
-    properties gui.text_properties("version")
+            ## The quit button is banned on iOS and unnecessary on Android and
+            ## Web.
+            textbutton _("Quit") action Quit(confirm=not main_menu):
+                xalign 0.5
 
 
 ## Game Menu screen ############################################################
@@ -620,62 +587,16 @@ screen game_menu(title, scroll=None, yinitial=0.0):
 
     style_prefix "game_menu"
 
-    if main_menu:
-        add gui.main_menu_background
+    # if main_menu:
+    #     add gui.main_menu_background
     # else:
         # add gui.game_menu_background
 
     frame:
         style "game_menu_outer_frame"
 
-        add "gui/starlight_1.png":
-            at starlight1
-            alpha 0.6
-            yoffset -180.75
-        
-        add "gui/starlight_2.png":
-            at starlight2
-            alpha 0.6
-            yoffset -180.75
-        
-        add "gui/starlight_3.png":
-            at starlight3
-            alpha 0.6
-            yoffset -180.75
-
         add "gui/border.png":
             yoffset -180.75
-
-        add "gui/constellations.png":
-            xpos 50
-            ypos -150
-            at clockwise
-
-        add "gui/circle1.png":
-            xpos 50
-            ypos -150
-            at clockwise
-
-        add "gui/circle2.png":
-            xpos 50
-            ypos -150
-            at counterClockwise
-
-        add "gui/circle3.png":
-            xpos 50
-            ypos -150
-            at clockwise
-
-        add "gui/circle1.png":
-            xpos 1900
-            ypos 1000
-            alpha 0.5
-            at counterClockwise
-
-        add "gui/comet1.png":
-            xpos 2200
-            ypos 1300
-            at comet1
 
         # hbox:
 
@@ -760,7 +681,7 @@ style game_menu_outer_frame:
     bottom_padding 45
     top_padding 180
 
-    background "gui/overlay/game_menu.png"
+    # background "gui/overlay/game_menu.png"
 
 style game_menu_navigation_frame:
     xsize 420
@@ -1821,7 +1742,7 @@ style main_menu_frame:
 
 style game_menu_outer_frame:
     variant "small"
-    background "gui/phone/overlay/game_menu.png"
+    # background "gui/phone/overlay/game_menu.png"
 
 style game_menu_navigation_frame:
     variant "small"

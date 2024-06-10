@@ -12,13 +12,13 @@
 ##
 ## The _() surrounding the string marks it as eligible for translation.
 
-define config.name = _("BL Pride Jam 6")
+define config.name = _("TouhouVillains")
 
 ## A short name for the game used for executables and directories in the built
 ## distribution. This must be ASCII-only, and must not contain spaces, colons,
 ## or semicolons.
 
-define build.name = "BL Pride Jam 6"
+define build.name = "TouhouVillains"
 
 
 ## Determines if the title given above is shown on the main menu screen. Set
@@ -37,7 +37,7 @@ define config.version = "1.0"
 
 define gui.about = _p("""A game created for Touhou Pride Jam 6.
 
-By Jacoder23, Joel, DX5536, JerryStuffRo, BurlyBurly.
+By Jacoder23, Joel, DX5536, JerryStuffRo, and BurlyBurly.
 
 -------------------------------------------------------------
 
@@ -45,7 +45,7 @@ This game uses assets from many different creators:
 
 - {a=https://siyokoy.itch.io/astrology-renpy-gui-kit}Astrology GUI{/a} by Siyokoy
 
-- {a=https://feniksdev.itch.io/outline-shader-renpy}Outline Shader{/a}, {a=https://feniksdev.itch.io/achievements-for-renpy}Achievements{/a}, {a=https://feniksdev.itch.io/parallax-zoom-viewports-for-renpy}Parallax Viewports{/a}, and {a=https://feniksdev.itch.io/in-depth-pronouns-for-renpy}In-depth Pronouns{/a} by Feniks
+- {a=https://feniksdev.itch.io/outline-shader-renpy}Outline Shader{/a}, {a=https://feniksdev.itch.io/achievements-for-renpy}Achievements{/a}, and {a=https://feniksdev.itch.io/parallax-zoom-viewports-for-renpy}Parallax Viewports{/a} by Feniks
 
 - {a=https://dmochas-assets.itch.io/dmochas-bleeps-pack}Bleeps Pack{/a} by dmochas
 
@@ -63,7 +63,7 @@ This game uses assets from many different creators:
 ## distribution. This must be ASCII-only, and must not contain spaces, colons,
 ## or semicolons.
 
-define build.name = "BLPrideJam6"
+define build.name = "TouhouVillains"
 
 
 ## Sounds and music ############################################################
@@ -171,7 +171,7 @@ default preferences.afm_time = 15
 ## This generally should not be changed, and if it is, should always be a
 ## literal string, not an expression.
 
-define config.save_directory = "BLPrideJam6-9943655072"
+define config.save_directory = "TouhouVillains-9943655072"
 
 
 ## Icon ########################################################################

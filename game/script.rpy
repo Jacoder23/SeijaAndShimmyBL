@@ -1,5 +1,7 @@
 ﻿init python:
+    import random
     import functools
+    import copy
     def boopy_voice(event, interact=True, boopfile="bleeps/bleep001.ogg", **kwargs):
         if not interact:
             return
@@ -9,171 +11,175 @@
         elif event == "slow_done" or event == "end":
             renpy.sound.stop(fadeout=1)
 
-define s = Character("Siyokoy", callback = [name_callback, functools.partial(boopy_voice, boopfile="bleeps/bleep010.ogg")], cb_name = "siyokoy")
+define sei = Character("Seija", callback = [name_callback, functools.partial(boopy_voice, boopfile="bleeps/bleep002.ogg")], cb_name = "Seija")
 define n = Character("", callback = name_callback, cb_name = "")
 
-image siyokoy happy = At('sprite1', sprite_highlight('siyokoy'))
+image sei neutral = At('this sprite does not exist', sprite_highlight('sei'))
 
-image test:
-    "bg room.png"
-    truecenter
-    zpos -20000 zzoom True
-
-init python:
-    latest_message = ""
-    text_input = ""
+image placeholder:
+    "placeholder.jpg"
 
 # The game starts here.
 
 label start:
 
-    jump test2
+    # $ cinematic = True
 
-label test2:
-    $ cinematic = True
+    python:
+        import functools
 
-    camera:
-        reset
-        perspective True
+        @functools.total_ordering
+        class Storylet:
+            def __init__(self, label, prerequisites, results, urgency, completed):
+                self.label = label                      # which label to jump to; the content of the storylet
+                self.prerequisites = prerequisites      # what has to be fulfilled in order for the storylet to be drawn
+                self.results = results                  # what completing the storylet does to the game's variables/qualities; does not take into account choices made in the storylet, if any
+                self.urgency = urgency                  # how the list is sorted, even after being shuffled
+                self.completed = completed              # whether or not the storylet has been completed and thus can be ignored in the future; removed from the "draw pile" so to say
 
-    show border onlayer UI
+            def __eq__(self, other):
+                if(other == None):
+                    return False
+                return (self.urgency ==
+                        other.urgency)
 
-    show test
+            def __lt__(self, other):
+                return (self.urgency <
+                        other.urgency)
 
-    show siyokoy happy at truecenter, outline_transform(9, "#FFFFFF", 4.0) with dissolve
-
-    s "Just doing a test."
-
-    s "Trying new things out."
-
-    camera:
-        ease 1.0 zpos -500 xoffset -100 yoffset 10
-
-    show test:
-        ease 1.0 truecenter zoom 2.0
-
-    s "Was I though?" (cb_name="")
-
-    camera:
-        zpos -500 xoffset -100 yoffset 10
-        matrixtransform RotateMatrix(0, 0, 0) * OffsetMatrix(0, 0, 0)
-        ease 2.0 matrixtransform RotateMatrix(0, -30, 0) * OffsetMatrix(0, 0, 0)
-
-    show test:
-        zoom 2.0
-        ease 1.0 truecenter zoom 4.0
-
-    show siyokoy happy:
-        matrixtransform RotateMatrix(0, 0, 0) * OffsetMatrix(0, 0, 0)
-        ease 2.0 matrixtransform RotateMatrix(0, 30, 0) * OffsetMatrix(0, 0, 0)
-
-    s "Or was I ruminating on the nature of thought?"  (cb_name="")
-
-    s "I was doing a test."
-
-    $ name = renpy.input("What's your name?");
-
-    camera:
-        smoothreset
-
-    show siyokoy happy:
-        matrixtransform RotateMatrix(0, 30, 0) * OffsetMatrix(0, 0, 0)
-        ease 2.0 matrixtransform RotateMatrix(0, 0, 0) * OffsetMatrix(0, 0, 0)
-
-    show test:
-        truecenter zoom 4.0
-        ease 2.0 zpos -20000
-        ease 2.0 truecenter zoom 2.0
-
-    n "Well okay, [name]."
-
-    return
-
-label readme:
-    ###################################
-    ## Do not remove this portion
-    show border onlayer UI 
-    ###################################
-
-    # Show a background. This uses a placeholder by default, but you can
-    # add a file (named either "bg room.png" or "bg room.jpg") to the
-    # images directory to show it.
-
-    scene bg room
-
-    # These display lines of dialogue.
-
-    s "So you want to use this GUI?"
-
-    # This shows a character sprite. A placeholder is used, but you can
-    # replace it by adding a file named "eileen happy.png" to the images
-    # directory.
-
-    show sprite1 with dissolve
-
-    s "Good for you! Because I've provided it for free."
-
-    show sprite1 at left with moveinright
-
-    s "I don't mind if you use it for commercial or non-commercial projects as long as you credit me in the game itself."
-
-    s "However, do NOT resell any portion of this GUI as your own."
-
-    s "Anyway, if you {i}are{/i} going to use it in  a commercial project, please consider tipping my kofi."
-
-    show sprite1 at center with moveinleft
-
-    $ cinematic = True
-
-    s "I'm literally just a college student with no income."
-
-    s "Right now we've entered the UI's cinematic mode."
-
-    s "If you want to use this, add \"$ cinematic = True\" to your script turn it on."
-
-    s "And if you don't want to use it anymore..."
-
-    $ cinematic = False
-
-    s "Just change True to False."
-
-    show sprite1 at left with moveinright
-
-    menu:
-        s "This is what menu choices look like if you add text."
+            def __str__(self):
+                return f"Label: {self.label}, Prereq: {self.prerequisites}, Results: {self.results}, Urgency: {self.urgency}, Completed: {self.completed}"
         
-        "test choice 1":
-            pass
-        "test choice 2":
-            pass
-        "test choice 3":
-            pass
-        "test choice 4":
-            pass
-        "test choice 5":
-            pass
+        def CheckPrequisites(storylet):
+            if(storylet.completed):
+                return False
+            elif(storylet.prerequisites == ""):
+                return True
+            else:
+                prerequisitesMet = True
+                for x in storylet.prerequisites:
+                    prerequisitesMet = prerequisitesMet and eval(x)
+                return prerequisitesMet
 
-    s "And this is what they look like without it."
-    
-    menu:
-        "test choice 1":
-            pass
-        "test choice 2":
-            pass
-        "test choice 3":
-            pass
-        "test choice 4":
-            pass
-        "test choice 5":
-            pass
+        def DeclareStorylet(label, prerequisites, results, urgency, completed):
+            storylet = Storylet(label, prerequisites, results, urgency, completed)
 
-    
-    s "That's it for this portion."
+            if(not next((True for x in storylets if x.label==label), False)):
+                storylets.append(storylet)
+                renpy.jump("traversal")
 
-    s "Try screenshotting and opening up the game menu by clicking the sun below."
+        def FinishStorylet(label):
+            for idx, item in enumerate(storylets):
+                if item.label == label:
+                    item.completed = True
+                    storylets[idx] = item
+                    for x in item.results:
+                        exec(x)
+                    break
+            renpy.jump("storylets")
 
-    s "Ciao!"
+    $ storylets = []
 
-    # This ends the game.
+    $ label_traversal_list = ["urgentTestStorylet1", "testStorylet1", "testStorylet2", "testStorylet3"]
+
+    $ randomize_storylets = True
+
+    $ time = 0
+
+    $ chapter = 1
+
+    jump traversal
+
+label traversal:
+    # initialize all the storylets
+
+    python:
+        if(len(label_traversal_list) > 0):
+            next_label = label_traversal_list.pop(0)
+            renpy.jump(next_label)
+
+    jump storylets
+
+label storylets:
+
+    # TODO: add in a whole board game theme to this part
+
+    n "Finding the correct storylet..."
+
+    python:
+        default_value = None
+        shuffled_storylets = copy.deepcopy(storylets)
+        if(randomize_storylets):
+            random.shuffle(shuffled_storylets)
+        shuffled_storylets.sort(reverse=True) # I'm fairly sure that the shuffle will remain for storylets with the same urgency
+        storylet = next((x for x in iter(shuffled_storylets) if CheckPrequisites(x)), default_value)
+
+    if(storylet == None):
+        n "No storylet found. Returning to main menu."
+    else:
+        $ renpy.jump(storylet.label)
 
     return
+
+label urgentTestStorylet1:
+    $ DeclareStorylet("urgentTestStorylet1", ["chapter == 1"], [""], 100, False)
+
+    n "urgentTestStorylet1"
+
+    $ FinishStorylet("urgentTestStorylet1")
+
+label testStorylet1:
+
+    $ DeclareStorylet("testStorylet1", ["time >= 0", "chapter == 1"], ["global time; time += 1"], 0, False)
+
+    n "testStorylet1"
+
+    $ FinishStorylet("testStorylet1")
+
+label testStorylet2:
+
+    $ DeclareStorylet("testStorylet2", ["time >= 0", "chapter == 1"], ["global time; time += 1"], 0, False)
+
+    n "testStorylet2"
+
+    $ FinishStorylet("testStorylet2")
+
+label testStorylet3:
+
+    $ DeclareStorylet("testStorylet3", ["time >= 0", "chapter == 1"], ["global time; time += 1"], 0, False)
+
+    n "testStorylet3"
+
+    $ FinishStorylet("testStorylet3")
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+# ------------------------------------------------------------------------------------------------------------------- #
