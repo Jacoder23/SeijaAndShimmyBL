@@ -11,7 +11,9 @@
         elif event == "slow_done" or event == "end":
             renpy.sound.stop(fadeout=1)
 
-define sei = Character("Seija", callback = [name_callback, functools.partial(boopy_voice, boopfile="bleeps/bleep002.ogg")], cb_name = "Seija")
+define seija = Character("Seija", callback = [name_callback, functools.partial(boopy_voice, boopfile="bleeps/bleep002.ogg")], cb_name = "Seija")
+define seija_secret = Character("???", callback = [name_callback, functools.partial(boopy_voice, boopfile="bleeps/bleep002.ogg")], cb_name = "???")
+define shin = Character("Shin", callback = [name_callback, functools.partial(boopy_voice, boopfile="bleeps/bleep025.ogg")], cb_name = "Shin")
 define n = Character("", callback = name_callback, cb_name = "")
 
 image sei neutral = At('this sprite does not exist', sprite_highlight('sei'))
@@ -25,74 +27,32 @@ label start:
 
     # $ cinematic = True
 
-    python:
-        import functools
-
-        @functools.total_ordering
-        class Storylet:
-            def __init__(self, label, prerequisites, results, urgency, completed):
-                self.label = label                      # which label to jump to; the content of the storylet
-                self.prerequisites = prerequisites      # what has to be fulfilled in order for the storylet to be drawn
-                self.results = results                  # what completing the storylet does to the game's variables/qualities; does not take into account choices made in the storylet, if any
-                self.urgency = urgency                  # how the list is sorted, even after being shuffled
-                self.completed = completed              # whether or not the storylet has been completed and thus can be ignored in the future; removed from the "draw pile" so to say
-
-            def __eq__(self, other):
-                if(other == None):
-                    return False
-                return (self.urgency ==
-                        other.urgency)
-
-            def __lt__(self, other):
-                return (self.urgency <
-                        other.urgency)
-
-            def __str__(self):
-                return f"Label: {self.label}, Prereq: {self.prerequisites}, Results: {self.results}, Urgency: {self.urgency}, Completed: {self.completed}"
-        
-        def CheckPrequisites(storylet):
-            if(storylet.completed):
-                return False
-            elif(storylet.prerequisites == ""):
-                return True
-            else:
-                prerequisitesMet = True
-                for x in storylet.prerequisites:
-                    prerequisitesMet = prerequisitesMet and eval(x)
-                return prerequisitesMet
-
-        def DeclareStorylet(label, prerequisites, results, urgency, completed):
-            storylet = Storylet(label, prerequisites, results, urgency, completed)
-
-            if(not next((True for x in storylets if x.label==label), False)):
-                storylets.append(storylet)
-                renpy.jump("traversal")
-
-        def FinishStorylet(label):
-            for idx, item in enumerate(storylets):
-                if item.label == label:
-                    item.completed = True
-                    storylets[idx] = item
-                    for x in item.results:
-                        exec(x)
-                    break
-            renpy.jump("storylets")
+    ## NARRATIVE STATE VARIABLES ##
 
     $ storylets = []
 
-    $ label_traversal_list = ["urgentTestStorylet1", "testStorylet1", "testStorylet2", "testStorylet3"]
+    $ label_traversal_list = [x for x in renpy.get_all_labels() if x[:3] == "st_"]
 
     $ randomize_storylets = True
 
-    $ time = 0
+    $ time = 0 # move on to end of chapter/next chapter once we hit 7
+            # (with a theoretical 13 storylets per chapter, meaning we can only see half in each playthrough)
 
     $ chapter = 1
+
+    $ seija_relationship_devotion = 5
+
+    $ shin_relationship_devotion = 5
+
+    $ seija_cause_devotion = 5
+
+    $ shin_cause_devotion = 5
+
+    ## ------------------------- ##
 
     jump traversal
 
 label traversal:
-    # initialize all the storylets
-
     python:
         if(len(label_traversal_list) > 0):
             next_label = label_traversal_list.pop(0)
@@ -104,54 +64,83 @@ label storylets:
 
     # TODO: add in a whole board game theme to this part
 
-    n "Finding the correct storylet..."
-
     python:
         default_value = None
         shuffled_storylets = copy.deepcopy(storylets)
         if(randomize_storylets):
             random.shuffle(shuffled_storylets)
-        shuffled_storylets.sort(reverse=True) # I'm fairly sure that the shuffle will remain for storylets with the same urgency
+        shuffled_storylets.sort(reverse=True)
         storylet = next((x for x in iter(shuffled_storylets) if CheckPrequisites(x)), default_value)
 
     if(storylet == None):
-        n "No storylet found. Returning to main menu."
+        "No storylet found. Returning to main menu."
     else:
         $ renpy.jump(storylet.label)
 
     return
 
-label urgentTestStorylet1:
-    $ DeclareStorylet("urgentTestStorylet1", ["chapter == 1"], [""], 100, False)
+label st_chapter_start_1:
 
-    n "urgentTestStorylet1"
+    $ DeclareStorylet("st_chapter_start_1",["chapter == 1"], [""], 100, False)
 
-    $ FinishStorylet("urgentTestStorylet1")
+    # POV: Shin
 
-label testStorylet1:
+    # CG: Shin hiding behind a wall with his signature weapon as a villain in a mascot suit (does not look like Seija) approaches, in search for him
 
-    $ DeclareStorylet("testStorylet1", ["time >= 0", "chapter == 1"], ["global time; time += 1"], 0, False)
+    scene bg black
 
-    n "testStorylet1"
+    $ cinematic = True
 
-    $ FinishStorylet("testStorylet1")
+    "There's shattered glass in the stage curtain, shimmering in blue. Your enemy calls from the skies."
+    
+    $ cinematic = False
 
-label testStorylet2:
+    "???" "Come out, come out wish boy!"
 
-    $ DeclareStorylet("testStorylet2", ["time >= 0", "chapter == 1"], ["global time; time += 1"], 0, False)
+    $ cinematic = True
+    "Now... now is the time to strike!"
+    $ cinematic = False
 
-    n "testStorylet2"
+    # CG: Shin strikes!
 
-    $ FinishStorylet("testStorylet2")
+    shin "May even your wish come true, someday."
 
-label testStorylet3:
+    "Children" "{sc}WOOOOOOOOOOOOO!{/sc}"
 
-    $ DeclareStorylet("testStorylet3", ["time >= 0", "chapter == 1"], ["global time; time += 1"], 0, False)
+    $ cinematic = True
+    "The sound of tiny applause and unenthused parents rings out from your audience. It's a sea of small hands pointing to you."
+    "You hear the cue to bow so you do."
+    $ cinematic = False
 
-    n "testStorylet3"
+    "We love you Wishmaker!"
 
-    $ FinishStorylet("testStorylet3")
+    "{i}The smiles, the games, the acting...{/i}"
 
+    seija_secret "Kids shit."
+
+    seija_secret "I was wonderin' about the noise following some a new hero. Looks like noise was all it was."
+
+    $ cinematic = True
+    "The fallen mascot suit, in upstage left, took to its feet{nw}"
+
+    # CG: Seija reveals herself
+
+    "The fallen mascot suit, in upstage left, took to its feet{fast} and removed its oversized head."
+    $ cinematic = False
+
+    seija "Don't you agree, wish boy?"
+
+    # JUMP TO FIRST BATTLE #
+
+    $ FinishStorylet("st_chapter_start_1")
+
+label st_shin_solo_1:
+
+    $ DeclareStorylet("st_shin_solo_1", ["time >= 0", "chapter == 1"], ["global time; time += 1"], 0, False)
+
+    
+
+    $ FinishStorylet("st_shin_solo_1")
 
 
 

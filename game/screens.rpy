@@ -180,6 +180,32 @@ screen say(who, what):
                         size 30
                         outlines([(2, "#5e510acb", 0, 2)])
 
+            else:
+
+                hbox:
+                    spacing 10
+                    xalign 0.5
+                    yalign 0.6
+                    window:
+                        id "namebox"
+                        background None
+                        xysize (None, None)
+                        yalign 0.5
+                        text " ":
+                            color "#ffffff"
+                            size 40
+                            xoffset -20
+                            outlines([(2, "#5e510acb", 0, 2)])
+                        
+
+                    text what id "what":
+                        xsize 1600
+                        ysize 90
+                        yoffset 7
+                        color "#ffffff"
+                        size 30
+                        outlines([(2, "#5e510acb", 0, 2)])
+
     ## If there's a side image, display it above the text. Do not display on the
     ## phone variant - there's no room.
     if not renpy.variant("small"):
