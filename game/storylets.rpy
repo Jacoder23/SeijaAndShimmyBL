@@ -39,7 +39,7 @@ init python:
 
         if(not next((True for x in storylets if x.label==label), False)):
             storylets.append(storylet)
-            renpy.jump("traversal")
+            InitializeNextLabel()
 
     def FinishStorylet(label):
         for idx, item in enumerate(storylets):
@@ -56,3 +56,34 @@ init python:
             if item.label == label:
                 return item.completed
         return False
+
+    def NextStorylet():
+        default_value = None
+        shuffled_storylets = copy.deepcopy(storylets)
+        if(randomize_storylets):
+            random.shuffle(shuffled_storylets)
+        shuffled_storylets.sort(reverse=True)
+        storylet = next((x for x in iter(shuffled_storylets) if CheckPrequisites(x)), default_value)
+
+        if(storylet == None):
+            renpy.notify("No storylet found. Returning to main menu.")
+            renpy.pause()
+        else:
+            renpy.jump(storylet.label)
+
+    def InitializeStorylets(randomize = True):
+        global storylets
+        storylets = []
+
+        global randomize_storylets
+        randomize_storylets = randomize
+
+        global label_traversal_list
+        label_traversal_list = [x for x in renpy.get_all_labels() if x[:3] == "st_"]
+
+        InitializeNextLabel()
+
+    def InitializeNextLabel():
+        if(len(label_traversal_list) > 0):
+            next_label = label_traversal_list.pop(0)
+            renpy.jump(next_label)

@@ -12,6 +12,7 @@
             renpy.sound.stop(fadeout=1)
 
 define seija = Character("Seija", callback = [name_callback, functools.partial(boopy_voice, boopfile="bleeps/bleep002.ogg")], cb_name = "Seija")
+define seija_costumed = Character("Backswitch", callback = [name_callback, functools.partial(boopy_voice, boopfile="bleeps/bleep002.ogg")], cb_name = "Backswitch")
 define seija_secret = Character("???", callback = [name_callback, functools.partial(boopy_voice, boopfile="bleeps/bleep002.ogg")], cb_name = "???")
 define shin = Character("Shin", callback = [name_callback, functools.partial(boopy_voice, boopfile="bleeps/bleep025.ogg")], cb_name = "Shin")
 define n = Character("", callback = name_callback, cb_name = "")
@@ -21,19 +22,21 @@ image sei neutral = At('this sprite does not exist', sprite_highlight('sei'))
 image placeholder:
     "placeholder.jpg"
 
+label splashscreen:
+    show text "This is a fan-made video game not affiliated\nwith or endorsed by the original creators.\n\n{color=e63d3c}Touhou Project{/color} original concept, characters, and elements are property of\n{color=e63d3c}ZUN{/color} and {color=e63d3c}Team Shanghai Alice{/color}. Please support the official series."
+    with Pause(11)
+
+    return
+
 # The game starts here.
 
 label start:
 
     # $ cinematic = True
 
+    # ------------------------------------------------------------------------------------------------------------------- #
+
     ## NARRATIVE STATE VARIABLES ##
-
-    $ storylets = []
-
-    $ label_traversal_list = [x for x in renpy.get_all_labels() if x[:3] == "st_"]
-
-    $ randomize_storylets = True
 
     $ time = 0 # move on to end of chapter/next chapter once we hit 7
             # (with a theoretical 13 storylets per chapter, meaning we can only see half in each playthrough)
@@ -48,15 +51,9 @@ label start:
 
     $ shin_cause_devotion = 5
 
-    ## ------------------------- ##
+    # ------------------------------------------------------------------------------------------------------------------- #
 
-    jump traversal
-
-label traversal:
-    python:
-        if(len(label_traversal_list) > 0):
-            next_label = label_traversal_list.pop(0)
-            renpy.jump(next_label)
+    $ InitializeStorylets()
 
     jump storylets
 
@@ -64,18 +61,7 @@ label storylets:
 
     # TODO: add in a whole board game theme to this part
 
-    python:
-        default_value = None
-        shuffled_storylets = copy.deepcopy(storylets)
-        if(randomize_storylets):
-            random.shuffle(shuffled_storylets)
-        shuffled_storylets.sort(reverse=True)
-        storylet = next((x for x in iter(shuffled_storylets) if CheckPrequisites(x)), default_value)
-
-    if(storylet == None):
-        "No storylet found. Returning to main menu."
-    else:
-        $ renpy.jump(storylet.label)
+    $ NextStorylet()
 
     return
 
@@ -114,23 +100,49 @@ label st_chapter_start_1:
 
     "We love you Wishmaker!"
 
-    "{i}The smiles, the games, the acting...{/i}"
+    "{i}The smiles, the games, the acting... it's all...{/i}"
 
     seija_secret "Kids shit."
 
     seija_secret "I was wonderin' about the noise following some a new hero. Looks like noise was all it was."
 
     $ cinematic = True
-    "The fallen mascot suit, in upstage left, took to its feet{nw}"
+    "The fallen mascot suit, in upstage left, took to its feet{nw}{done} and removed its oversized head."
 
     # CG: Seija reveals herself
 
     "The fallen mascot suit, in upstage left, took to its feet{fast} and removed its oversized head."
     $ cinematic = False
 
-    seija "Don't you agree, wish boy?"
+    seija_costumed "Don't you agree, {i}wish boy?{/i}"
 
     # JUMP TO FIRST BATTLE #
+
+    # TODO: Make this battle stuff into its own single file
+
+    $ party_one =[{"name":"Wishmaker",
+                    "max_hp":8, 
+                    "hp":8,
+                    "agility":4,
+                    "power":2,
+                    "tech":4,
+                    "effects":[],
+                    "options":["Hammer!", "Duck!", "Run away!", "Wait and see."]}]
+
+    $ party_two =[{"name":"Backswitch",
+                    "max_hp":10,
+                    "hp":10,
+                    "agility":5,
+                    "power":2,
+                    "tech":2,
+                    "effects":[],
+                    "options":[]}]
+
+    $ selecting_target = True
+     
+    show screen battle_screen
+
+    pause
 
     $ FinishStorylet("st_chapter_start_1")
 
@@ -142,33 +154,3 @@ label st_shin_solo_1:
 
     $ FinishStorylet("st_shin_solo_1")
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-# ------------------------------------------------------------------------------------------------------------------- #
