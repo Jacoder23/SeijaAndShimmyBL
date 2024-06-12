@@ -33,15 +33,21 @@ screen battle:
 define battle_narrator = Character(None, interact=False)
 
 init python:
+
+    selecting_target = False
+
     def SkipTurn():
         pass
 
     def ChooseTarget(target):
         pass
 
+    def DoOption(party, member, option):
+        option.pop(0)
+
 screen battle_screen:
     vbox:
-        xalign 0.01 yalign 0.05
+        xalign 0.03 yalign 0.05
         spacing 5
 
         for member in party_one:
@@ -50,7 +56,7 @@ screen battle_screen:
                 xminimum 250 xmaximum 250
                 yminimum 75
                 vbox:
-                    text "[member['name']]" size 26 xalign 0.5
+                    text "[member['name']]" size 36 xalign 0.5
                     null height 5
                     hbox:
                         bar:
@@ -69,18 +75,12 @@ screen battle_screen:
                 frame:
                     size_group "party"
                     yminimum 30
-                    text "Skills" yalign 0.5 xalign 0.5
+                    text "Choices" yalign 0.5 xalign 0.5
                 for option in member["options"]:
-                    textbutton "[option]" text_size 20 action Function(SkipTurn) yminimum 30
-
-        vbox:
-            frame:
-                size_group "party"
-                yminimum 30
-                text "Other" yalign 0.5 xalign 0.5
+                    textbutton "[option[0][-1]]" text_size 30 action Function(DoOption, party_one, member, option) yminimum 30
 
     vbox:
-        xalign 0.99 yalign 0.05
+        xalign 0.97 yalign 0.05
         spacing 5
 
         if party_two != []:
@@ -94,7 +94,7 @@ screen battle_screen:
                         xminimum 250 xmaximum 250
                         yminimum 75
                         vbox:
-                            text "[member['name']]" size 22 xalign 0.5
+                            text "[member['name']]" size 36 xalign 0.5
                             null height 5
                             hbox:
                                 bar:
@@ -109,3 +109,5 @@ screen battle_screen:
                                 null width 5
 
                                 text "[member['hp']] / [member['max_hp']]" size 16
+
+    # on "show" action Function(RunBattleTurn)

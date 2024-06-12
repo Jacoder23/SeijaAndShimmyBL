@@ -1,0 +1,263 @@
+﻿--- Thu Jun 13 02:06:06 2024
+
+Initialized st_chapter_start_1
+Initialized st_shin_solo_1
+Done with initialization
+For some reason...
+
+This gets shown
+
+Sometimes, not always
+
+Before initialization is done
+
+Jumping back to storylets...
+100
+0
+Initialized st_chapter_start_1
+Done with initialization
+There's shattered glass in the stage curtain, shimmering in blue. Your enemy
+calls from the skies.
+
+--- Thu Jun 13 02:06:49 2024
+
+Initialized st_chapter_start_1
+Initialized st_shin_solo_1
+Done with initialization
+For some reason...
+
+This gets shown
+
+Sometimes, not always
+
+Before initialization is done
+
+Jumping back to storylets...
+100
+0
+Initialized st_chapter_start_1
+Done with initialization
+There's shattered glass in the stage curtain, shimmering in blue. Your enemy
+calls from the skies.
+
+--- Thu Jun 13 02:10:04 2024
+
+Initialized st_chapter_start_1
+Initialized st_shin_solo_1
+Done with initialization at label: st_shin_solo_1
+For some reason...
+
+This gets shown
+
+Sometimes, not always
+
+Before initialization is done
+
+Jumping back to storylets...
+100
+0
+Initialized st_chapter_start_1
+Done with initialization at label: st_chapter_start_1
+There's shattered glass in the stage curtain, shimmering in blue. Your enemy
+calls from the skies.
+
+???
+Come out, come out wish boy!
+
+--- Thu Jun 13 02:11:06 2024
+
+Initialized st_chapter_start_1
+Initialized st_shin_solo_1
+Done with initialization at label: st_shin_solo_1
+100
+0
+Initialized st_chapter_start_1
+Done with initialization at label: st_chapter_start_1
+100
+0
+100
+Initialized st_chapter_start_1
+Done with initialization at label: st_chapter_start_1
+100
+0
+100
+100
+Initialized st_chapter_start_1
+Done with initialization at label: st_chapter_start_1
+100
+0
+100
+100
+100
+Initialized st_chapter_start_1
+Done with initialization at label: st_chapter_start_1
+100
+0
+100
+100
+100
+100
+Initialized st_chapter_start_1
+Done with initialization at label: st_chapter_start_1
+100
+0
+100
+100
+100
+100
+100
+Initialized st_chapter_start_1
+Done with initialization at label: st_chapter_start_1
+100
+0
+100
+100
+100
+100
+100
+100
+Initialized st_chapter_start_1
+Done with initialization at label: st_chapter_start_1
+100
+0
+100
+100
+100
+100
+100
+100
+100
+Initialized st_chapter_start_1
+Done with initialization at label: st_chapter_start_1
+100
+0
+100
+100
+100
+100
+100
+100
+100
+100--- Thu Jun 13 02:13:19 2024
+
+Initialized st_chapter_start_1
+For some reason...
+
+This gets shown
+
+Sometimes, not always
+
+Before initialization is done
+
+Jumping back to storylets...
+100
+There's shattered glass in the stage curtain, shimmering in blue. Your enemy
+calls from the skies.
+
+???
+Come out, come out wish boy!
+
+--- Thu Jun 13 02:15:07 2024
+
+Initialized st_chapter_start_1
+Initialized st_shin_solo_1
+--- Thu Jun 13 02:15:16 2024
+
+Initialized st_chapter_start_1
+Initialized st_shin_solo_1
+--- Thu Jun 13 02:16:15 2024
+
+Initialized st_chapter_start_1
+Initialized st_shin_solo_1
+--- Thu Jun 13 02:16:33 2024
+
+--- Thu Jun 13 02:16:44 2024
+
+Initialized st_chapter_start_1
+Initialized st_shin_solo_1
+Done with initialization at label: st_shin_solo_1
+100
+0
+There's shattered glass in the stage curtain, shimmering in blue. Your enemy
+calls from the skies.
+
+???
+Come out, come out wish boy!
+
+Now... now is the time to strike!
+
+Shin
+May even your wish come true, someday.
+
+Children
+{sc}WOOOOOOOOOOOOO!{/sc}
+
+The sound of tiny applause and unenthused parents rings out from your
+audience. It's a sea of small hands pointing to you.
+
+You hear the cue to bow so you do.
+
+We love you Wishmaker!
+
+{i}The smiles, the games, the acting... it's all...{/i}
+
+???
+Kids shit.
+
+???
+I was wonderin' about the noise following some a new hero. Looks like noise
+was all it was.
+
+The fallen mascot suit, in upstage left, took to its feet{fast} and removed
+its oversized head.
+
+Backswitch
+Don't you agree, {i}wish boy?{/i}
+
+--- Thu Jun 13 02:16:51 2024
+
+--- Thu Jun 13 02:16:55 2024
+
+Initialized st_chapter_start_1
+Initialized st_shin_solo_1
+Done with initialization at label: st_shin_solo_1
+100
+0
+There's shattered glass in the stage curtain, shimmering in blue. Your enemy
+calls from the skies.
+
+???
+Come out, come out wish boy!
+
+Now... now is the time to strike!
+
+Shin
+May even your wish come true, someday.
+
+Children
+{sc}WOOOOOOOOOOOOO!{/sc}
+
+The sound of tiny applause and unenthused parents rings out from your
+audience. It's a sea of small hands pointing to you.
+
+You hear the cue to bow so you do.
+
+We love you Wishmaker!
+
+{i}The smiles, the games, the acting... it's all...{/i}
+
+???
+Kids shit.
+
+???
+I was wonderin' about the noise following some a new hero. Looks like noise
+was all it was.
+
+The fallen mascot suit, in upstage left, took to its feet{fast} and removed
+its oversized head.
+
+Backswitch
+Don't you agree, {i}wish boy?{/i}
+
+--- Thu Jun 13 02:17:03 2024
+

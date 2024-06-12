@@ -257,3 +257,5 @@ init python:
 ## by a slash.
 
 # define build.itch_project = "jacoder23/doujins-and-dragons-2"
+
+define config.log = "PrideJam6_log.txt"

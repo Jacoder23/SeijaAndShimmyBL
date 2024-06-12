@@ -11,6 +11,18 @@
         elif event == "slow_done" or event == "end":
             renpy.sound.stop(fadeout=1)
 
+    class Battler:
+        def __init__(self, name, max_hp, power, agility, tech, upgrades, violence, pacifism, team_player):
+            self.name = name
+            self.max_hp = max_hp
+            self.power = power
+            self.agility = agility
+            self.tech = tech
+            self.upgrades = upgrades
+            self.violence = violence
+            self.pacifism = pacifism
+            self.team_player = team_player
+
 define seija = Character("Seija", callback = [name_callback, functools.partial(boopy_voice, boopfile="bleeps/bleep002.ogg")], cb_name = "Seija")
 define seija_costumed = Character("Backswitch", callback = [name_callback, functools.partial(boopy_voice, boopfile="bleeps/bleep002.ogg")], cb_name = "Backswitch")
 define seija_secret = Character("???", callback = [name_callback, functools.partial(boopy_voice, boopfile="bleeps/bleep002.ogg")], cb_name = "???")
@@ -23,6 +35,9 @@ image placeholder:
     "placeholder.jpg"
 
 label splashscreen:
+
+    $ label_tracker = "splashscreen"
+
     show text "This is a fan-made video game not affiliated\nwith or endorsed by the original creators.\n\n{color=e63d3c}Touhou Project{/color} original concept, characters, and elements are property of\n{color=e63d3c}ZUN{/color} and {color=e63d3c}Team Shanghai Alice{/color}. Please support the official series."
     with Pause(11)
 
@@ -31,6 +46,8 @@ label splashscreen:
 # The game starts here.
 
 label start:
+
+    $ label_tracker = "start"
 
     # $ cinematic = True
 
@@ -51,21 +68,41 @@ label start:
 
     $ shin_cause_devotion = 5
 
+    $ shin_battler = Battler("Shin", 8, 2, 4, 4, 0, 0, 1, 1)
+
+    $ seija_battler = Battler("Seija", 10, 2, 5, 2, 0, 3, 0, 0)
+    
     # ------------------------------------------------------------------------------------------------------------------- #
 
     $ InitializeStorylets()
 
-    jump storylets
-
 label storylets:
+
+    $ label_tracker = "storylets"
 
     # TODO: add in a whole board game theme to this part
 
     $ NextStorylet()
 
-    return
+label st_shin_solo_1:
+
+    $ label_tracker = "st_shin_solo_1"
+
+    $ DeclareStorylet("st_shin_solo_1", ["time >= 0", "chapter == 1"], ["global time; time += 1"], 0, False)
+
+    "For some reason..."
+
+    "This gets shown"
+
+    "Sometimes, not always"
+
+    "Before initialization is done"
+
+    $ FinishStorylet("st_shin_solo_1")
 
 label st_chapter_start_1:
+
+    $ label_tracker = "st_chapter_start_1"
 
     $ DeclareStorylet("st_chapter_start_1",["chapter == 1"], [""], 100, False)
 
@@ -120,41 +157,54 @@ label st_chapter_start_1:
 
     # TODO: Make this battle stuff into its own single file
 
+    $ violence = 0
+
+    $ pacifism = 0
+
+    $ precision = 0
+
     $ party_one =[{"name":"Wishmaker",
-                    "max_hp":8, 
-                    "hp":8,
-                    "agility":4,
-                    "power":2,
-                    "tech":4,
+                    "max_hp":shin_battler.max_hp, 
+                    "hp":shin_battler.max_hp,
+                    "power":shin_battler.power,
+                    "agility":shin_battler.agility,
+                    "tech":shin_battler.tech,
                     "effects":[],
-                    "options":["Hammer!", "Duck!", "Run away!", "Wait and see."]}]
+                    "options":[[("violence += 1", "Strike"), ("violence += 1", "Hit harder"), ("violence += 1", "Go for the finisher")],
+                            [("pacifism += 1", "Duck"), ("pacifism += 1","Roll for cover"), ("team_player += 1" ,"Call for backup")],
+                            [("precision += 1", "Wait and see"), ("precision -= 1", "Forget where you are")]],
+                    "dialogue":[("battle_started == False and battle_dialogue == 0", "Really? Don't you villains have better things to do than show up to kids' shows?")]}]
 
     $ party_two =[{"name":"Backswitch",
                     "max_hp":10,
                     "hp":10,
-                    "agility":5,
                     "power":2,
+                    "agility":5,
                     "tech":2,
                     "effects":[],
-                    "options":[]}]
-
-    $ selecting_target = True
+                    "options":[],
+                    "dialogue":[("battle_started == False and battle_dialogue == 1", "Maybe if you heroes did something other than kids shows, I'd have something else to crash!")]}]
      
-    show screen battle_screen
+    label battle_st_chapter_start_1:
 
-    pause
+        show screen battle_screen
 
-    $ renpy.hide_screen("battle_screen")
+        window hide
 
-    scene bg black with fade
+        python:
+            selecting_target = False
+            result = ui.interact()
+            renpy.notify(result)
 
-    $ FinishStorylet("st_chapter_start_1")
+        pause
 
-label st_shin_solo_1:
+        jump battle_st_chapter_start_1
 
-    $ DeclareStorylet("st_shin_solo_1", ["time >= 0", "chapter == 1"], ["global time; time += 1"], 0, False)
+    label exit_battle_st_chapter_start_1:
 
-    "Test"
+        $ renpy.hide_screen("battle_screen")
 
-    $ FinishStorylet("st_shin_solo_1")
+        scene bg black with fade
+
+        $ FinishStorylet("st_chapter_start_1")
 
