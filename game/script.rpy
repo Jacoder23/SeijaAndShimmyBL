@@ -70,7 +70,7 @@ label start:
 
     $ shin_battler = Battler("Shin", 8, 2, 4, 4, 0, 0, 1, 1)
 
-    $ seija_battler = Battler("Seija", 10, 2, 5, 2, 0, 3, 0, 0)
+    $ seija_battler = Battler("Seija", 12, 2, 5, 2, 0, 3, 0, 0)
     
     # ------------------------------------------------------------------------------------------------------------------- #
 
@@ -163,6 +163,12 @@ label st_chapter_start_1:
 
     $ precision = 0
 
+    $ dmg_to_target = 0
+
+    $ chosen_target = (0, 0) # party index, member index
+
+    $ turn = "party_one"
+
     $ party_one =[{"name":"Wishmaker",
                     "max_hp":shin_battler.max_hp, 
                     "hp":shin_battler.max_hp,
@@ -170,9 +176,16 @@ label st_chapter_start_1:
                     "agility":shin_battler.agility,
                     "tech":shin_battler.tech,
                     "effects":[],
-                    "options":[[("violence += 1", "Strike"), ("violence += 1", "Hit harder"), ("violence += 1", "Go for the finisher")],
-                            [("pacifism += 1", "Duck"), ("pacifism += 1","Roll for cover"), ("team_player += 1" ,"Call for backup")],
-                            [("precision += 1", "Wait and see"), ("precision -= 1", "Forget where you are")]],
+                    "options":[[["selecting_target = True", "violence += 1; dmg_to_target = 3", "violence += 0.5", 1, shin_battler.power,  # run prior to outcome, effect on success, effect on failure, DC (1d20), relevant stat (if any)
+                                    "You bring your weapon in for a swing at [party_two[chosen_target[1]]['name']]'s midriff.",                       # initial dialogue
+                                    "[party_two[chosen_target[1]]['name']] stifles a pained grunt.",                                                # post-roll success dialogue
+                                    "[party_two[chosen_target[1]]['name']]'s laugh booms from his echoing demon mask.\nseija_costumed:Idiot.", "Strike"],   # post-roll failure dialogue, action text
+                                ["violence += 1; dmg_to_target = 4", "Hit harder"],
+                                ["violence += 1; dmg_to_target = 5", "Go for a wild swing"]],
+                                [["pacifism += 1", "Duck"],
+                                ["pacifism += 1","Roll for cover"],
+                                ["team_player += 1" ,"Call for backup"]],
+                                [["precision += 1", "Wait and see"]]],
                     "dialogue":[("battle_started == False and battle_dialogue == 0", "Really? Don't you villains have better things to do than show up to kids' shows?")]}]
 
     $ party_two =[{"name":"Backswitch",
@@ -187,20 +200,24 @@ label st_chapter_start_1:
      
     label battle_st_chapter_start_1:
 
-        show screen battle_screen
+        $ label_tracker = "battle_st_chapter_start_1"
+
+        call screen battle_screen
 
         window hide
 
         python:
             selecting_target = False
-            result = ui.interact()
-            renpy.notify(result)
+            # result = ui.interact()
 
-        pause
+            for statement in queued_say_statements:
+                renpy.say(statement[0], statement[1])
 
         jump battle_st_chapter_start_1
 
     label exit_battle_st_chapter_start_1:
+
+        $ label_tracker = "exit_battle_st_chapter_start_1"
 
         $ renpy.hide_screen("battle_screen")
 
