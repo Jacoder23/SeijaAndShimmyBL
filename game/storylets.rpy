@@ -57,12 +57,15 @@ init python:
                 return item.completed
         return False
 
+    def StoryletUrgency(storylet):
+        return storylet.urgency
+
     def NextStorylet():
         default_value = None
         shuffled_storylets = copy.deepcopy(storylets)
         if(randomize_storylets):
             random.shuffle(shuffled_storylets)
-        shuffled_storylets.sort(reverse=True)
+        shuffled_storylets.sort(reverse=True, key=StoryletUrgency)
         storylet = next((x for x in iter(shuffled_storylets) if CheckPrequisites(x)), default_value)
 
         if(storylet == None):

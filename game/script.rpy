@@ -144,13 +144,17 @@ label st_chapter_start_1:
 
     pause
 
+    $ renpy.hide_screen("battle_screen")
+
+    scene bg black with fade
+
     $ FinishStorylet("st_chapter_start_1")
 
 label st_shin_solo_1:
 
     $ DeclareStorylet("st_shin_solo_1", ["time >= 0", "chapter == 1"], ["global time; time += 1"], 0, False)
 
-    
+    "Test"
 
     $ FinishStorylet("st_shin_solo_1")
 
