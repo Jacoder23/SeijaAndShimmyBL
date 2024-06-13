@@ -46,14 +46,17 @@ init python:
         pass
 
     def SayDialogueData(dialogue):
-        lines = dialogue.split("\n")
+        if dialogue == "":
+            return
+
+        lines = ApplyFilter(config.say_menu_text_filter, dialogue).split("\n")
 
         for line in lines:
             sections = line.split(":", 1)
             if len(sections) == 1:
                 queued_say_statements.append((n, sections[0]))
             else:
-                queued_say_statements.append((globals()[sections[0]], sections[1]))
+                queued_say_statements.append((globals()[eval(sections[0][1:-1])], sections[1]))
 
     def ApplyEffect(effect): # TODO: add vfx support to this 
                             # Just gonna have to assume everything in here is a variable change for now so I can add in the global keyword
@@ -76,7 +79,7 @@ init python:
 
         exec(current_option[0])
         
-        dice_roll = renpy.random.randint(1,20) + current_option[4]
+        dice_roll = max(renpy.random.randint(1,20) + current_option[4], 1)
 
         SayDialogueData(current_option[5])
 
@@ -89,8 +92,6 @@ init python:
             ApplyEffect(current_option[2])
             SayDialogueData(current_option[7])
 
-        renpy.log(dmg_to_target)
-
         global dmg_to_target
         if dmg_to_target != 0:
             if chosen_target[0] == 1: # idk why this is 1 and not 0
@@ -100,12 +101,24 @@ init python:
 
             dmg_to_target = 0
 
+        global dmg_to_self
+        if dmg_to_self != 0:
+            if chosen_target[0] == 0: # idk why this is 0 and not 1
+                party_one[chosen_target[1]]["hp"] = max(party_one[chosen_target[1]]["hp"] - dmg_to_self, 0)
+            else:
+                party_two[chosen_target[1]]["hp"] = max(party_two[chosen_target[1]]["hp"] - dmg_to_self, 0)
+
+            dmg_to_target = 0
+
         option.pop(0)
         
         if len(option) == 0:
             member["options"].remove(option)
 
         return False
+
+    def ApplyFilter(function, text):
+        return function(text)
 
 screen battle_screen:
     vbox:

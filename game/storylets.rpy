@@ -55,8 +55,8 @@ init python:
         default_value = None
         shuffled_storylets = copy.deepcopy(storylets)
 
-        #if(randomize_storylets):
-            # random.shuffle(shuffled_storylets)
+        if(randomize_storylets):
+            random.shuffle(shuffled_storylets)
 
         shuffled_storylets = sorted(shuffled_storylets, reverse=True, key=StoryletUrgency)
         storylet = next((x for x in iter(shuffled_storylets) if CheckPrequisites(x)), default_value)

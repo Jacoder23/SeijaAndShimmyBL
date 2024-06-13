@@ -12,7 +12,7 @@
             renpy.sound.stop(fadeout=1)
 
     class Battler:
-        def __init__(self, name, max_hp, power, agility, tech, upgrades, violence, pacifism, team_player):
+        def __init__(self, name, max_hp, power, agility, tech, upgrades, violence, pacifism, team_player, isolation, precision, tenderness):
             self.name = name
             self.max_hp = max_hp
             self.power = power
@@ -22,11 +22,15 @@
             self.violence = violence
             self.pacifism = pacifism
             self.team_player = team_player
+            self.isolation = isolation
+            self.precision = precision
+            self.tenderness = tenderness
 
 define seija = Character("Seija", callback = [name_callback, functools.partial(boopy_voice, boopfile="bleeps/bleep002.ogg")], cb_name = "Seija")
 define seija_costumed = Character("Backswitch", callback = [name_callback, functools.partial(boopy_voice, boopfile="bleeps/bleep002.ogg")], cb_name = "Backswitch")
 define seija_secret = Character("???", callback = [name_callback, functools.partial(boopy_voice, boopfile="bleeps/bleep002.ogg")], cb_name = "???")
 define shin = Character("Shin", callback = [name_callback, functools.partial(boopy_voice, boopfile="bleeps/bleep025.ogg")], cb_name = "Shin")
+define shin_costumed = Character("Wishmaker", callback = [name_callback, functools.partial(boopy_voice, boopfile="bleeps/bleep025.ogg")], cb_name = "Wishmaker")
 define n = Character("", callback = name_callback, cb_name = "")
 
 image sei neutral = At('this sprite does not exist', sprite_highlight('sei'))
@@ -68,9 +72,9 @@ label start:
 
     $ shin_cause_devotion = 5
 
-    $ shin_battler = Battler("Shin", 8, 2, 4, 4, 0, 0, 1, 1)
+    $ shin_battler = Battler("Shin", 8, 2, 4, 4, 0, 0, 1, 2, 1, 1, 2)
 
-    $ seija_battler = Battler("Seija", 12, 2, 5, 2, 0, 3, 0, 0)
+    $ seija_battler = Battler("Seija", 12, 2, 5, 2, 0, 3, 0, 0, 1, 1, 1)
     
     # ------------------------------------------------------------------------------------------------------------------- #
 
@@ -165,9 +169,13 @@ label st_chapter_start_1:
 
     $ dmg_to_target = 0
 
+    $ dmg_to_self = 0
+
     $ chosen_target = (0, 0) # party index, member index
 
     $ turn = "party_one"
+
+    # TODO: reformat all this into a dict
 
     $ party_one =[{"name":"Wishmaker",
                     "max_hp":shin_battler.max_hp, 
@@ -176,28 +184,45 @@ label st_chapter_start_1:
                     "agility":shin_battler.agility,
                     "tech":shin_battler.tech,
                     "effects":[],
-                    "options":[[["selecting_target = True", "violence += 1; dmg_to_target = 3", "violence += 0.5", 1, shin_battler.power,  # run prior to outcome, effect on success, effect on failure, DC (1d20), relevant stat (if any)
-                                    "You bring your weapon in for a swing at [party_two[chosen_target[1]]['name']]'s midriff.",                       # initial dialogue
-                                    "[party_two[chosen_target[1]]['name']] stifles a pained grunt.",                                                # post-roll success dialogue
-                                    "[party_two[chosen_target[1]]['name']]'s laugh booms from his echoing demon mask.\nseija_costumed:Idiot.", "Strike"],   # post-roll failure dialogue, action text
-                                ["violence += 1; dmg_to_target = 4", "Hit harder"],
-                                ["violence += 1; dmg_to_target = 5", "Go for a wild swing"]],
-                                [["pacifism += 1", "Duck"],
-                                ["pacifism += 1","Roll for cover"],
-                                ["team_player += 1" ,"Call for backup"]],
-                                [["precision += 1", "Wait and see"]]],
-                    "dialogue":[("battle_started == False and battle_dialogue == 0", "Really? Don't you villains have better things to do than show up to kids' shows?")]}]
+                    "options":[[["selecting_target = True", "violence += 1; dmg_to_target = 3", "violence += 0.5", 10, shin_battler.power,               # run prior to outcome, effect on success, effect on failure, DC (1d20), relevant stat (if any)
+                                    "You bring your weapon in for a swing at [party_two[chosen_target[1]]['name']]'s midriff.",                          # initial dialogue
+                                    "[party_two[chosen_target[1]]['name']] stifles a pained grunt.",                                                     # post-roll success dialogue
+                                    "[party_two[chosen_target[1]]['name']] points at your weapon and sends you it flying out of your hands.\nYou manage to get ahold of it before it goes offstage.\n[party_two[chosen_target[1]]['name']]'s laugh booms from his echoing demon mask.\n[party_two[chosen_target[1]]['sayer']]:Idiot.", "Strike"],   # post-roll failure dialogue, action text
+                                ["selecting_target = True", "violence += 1; dmg_to_target = 4", "violence += 0.5; dmg_to_self = 1 if precision == 0 else 0", 99, shin_battler.power,
+                                    "You throw your weight behind your weapon, bringing it down in a wide arc.",
+                                    "[party_two[chosen_target[1]]['name']] is hit squarely in the chest.\nHe backs away a step while gasping for air.",
+                                    "[party_two[chosen_target[1]]['name']] sidesteps your swing and sends a prop sword flying at your face.\n{if precision == 0}You parry it as well as you can but still get a bit roughed up.\n[party_two[chosen_target[1]]['sayer']]:Iiiiiiidiot.{else}You parry the prop sword, reading [party_two[chosen_target[1]]['name']]'s rhythm.",
+                                    "Hit harder"],
+                                ["selecting_target = True", "violence += 1; dmg_to_target = 5", "violence += 0.5; dmg_to_self = 3 if precision == 0 dmg_to_self = 1", 16, shin_battler.power,
+                                    "",
+                                    "",
+                                    "",
+                                    "Go for a wild swing"]],
+                                [["", "pacifism += 1", "",
+                                    "Duck"],
+                                ["", "pacifism += 1", "",
+                                    "Roll for cover"],
+                                ["", "team_player += 1", "",
+                                    "Call for backup"]],
+                                [["", "precision += 1", "", 0, 0,
+                                    "You hold a defensive stance, keeping distance from [party_two[chosen_target[1]]['name']].\nAfter dodging one or two hits, you start to get a feel for his timing, his rhythm.",
+                                    "",
+                                    "",
+                                    "Wait and see"]]],
+                    "dialogue":[("battle_started == False and battle_dialogue == 0", "Really? Don't you villains have better things to do than show up to kids' shows?")],
+                    "sayer": "shin_costumed"}]
 
     $ party_two =[{"name":"Backswitch",
-                    "max_hp":10,
-                    "hp":10,
-                    "power":2,
-                    "agility":5,
-                    "tech":2,
+                    "max_hp":seija_battler.max_hp, 
+                    "hp":seija_battler.max_hp,
+                    "power":seija_battler.power,
+                    "agility":seija_battler.agility,
+                    "tech":seija_battler.tech,
                     "effects":[],
                     "options":[],
-                    "dialogue":[("battle_started == False and battle_dialogue == 1", "Maybe if you heroes did something other than kids shows, I'd have something else to crash!")]}]
-     
+                    "dialogue":[("battle_started == False and battle_dialogue == 1", "Maybe if you heroes did something other than kids shows, I'd have something else to crash!")],
+                    "sayer": "seija_costumed"}]
+
     label battle_st_chapter_start_1:
 
         $ label_tracker = "battle_st_chapter_start_1"
@@ -212,6 +237,8 @@ label st_chapter_start_1:
 
             for statement in queued_say_statements:
                 renpy.say(statement[0], statement[1])
+            
+            queued_say_statements = []
 
         jump battle_st_chapter_start_1
 

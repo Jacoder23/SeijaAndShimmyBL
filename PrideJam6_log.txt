@@ -2441,3 +2441,1698 @@ You bring your weapon in for a swing at Backswitch's midriff.
 
 Backswitch stifles a pained grunt.
 
+--- Thu Jun 13 16:52:00 2024
+
+Initialized st_chapter_start_1
+Initialized st_shin_solo_1
+Done with initialization at label: st_shin_solo_1
+0
+100
+There's shattered glass in the stage curtain, shimmering in blue. Your enemy
+calls from the skies.
+
+???
+Come out, come out wish boy!
+
+Now... now is the time to strike!
+
+Shin
+May even your wish come true, someday.
+
+Children
+{sc}WOOOOOOOOOOOOO!{/sc}
+
+The sound of tiny applause and unenthused parents rings out from your
+audience. It's a sea of small hands pointing to you.
+
+You hear the cue to bow so you do.
+
+We love you Wishmaker!
+
+{i}The smiles, the games, the acting... it's all...{/i}
+
+???
+Kids shit.
+
+???
+I was wonderin' about the noise following some a new hero. Looks like noise
+was all it was.
+
+The fallen mascot suit, in upstage left, took to its feet{fast} and removed
+its oversized head.
+
+Backswitch
+Don't you agree, {i}wish boy?{/i}
+
+global violence; violence += 1
+global dmg_to_target; dmg_to_target = 3
+You bring your weapon in for a swing at Backswitch's midriff.
+
+Backswitch stifles a pained grunt.
+
+--- Thu Jun 13 16:52:44 2024
+
+Initialized st_chapter_start_1
+Initialized st_shin_solo_1
+Done with initialization at label: st_shin_solo_1
+100
+0
+There's shattered glass in the stage curtain, shimmering in blue. Your enemy
+calls from the skies.
+
+???
+Come out, come out wish boy!
+
+Now... now is the time to strike!
+
+Shin
+May even your wish come true, someday.
+
+Children
+{sc}WOOOOOOOOOOOOO!{/sc}
+
+The sound of tiny applause and unenthused parents rings out from your
+audience. It's a sea of small hands pointing to you.
+
+You hear the cue to bow so you do.
+
+We love you Wishmaker!
+
+{i}The smiles, the games, the acting... it's all...{/i}
+
+???
+Kids shit.
+
+???
+I was wonderin' about the noise following some a new hero. Looks like noise
+was all it was.
+
+The fallen mascot suit, in upstage left, took to its feet{fast} and removed
+its oversized head.
+
+Backswitch
+Don't you agree, {i}wish boy?{/i}
+
+global violence; violence += 0.5
+--- Thu Jun 13 16:55:04 2024
+
+Initialized st_chapter_start_1
+Initialized st_shin_solo_1
+Done with initialization at label: st_shin_solo_1
+100
+0
+There's shattered glass in the stage curtain, shimmering in blue. Your enemy
+calls from the skies.
+
+???
+Come out, come out wish boy!
+
+Now... now is the time to strike!
+
+Shin
+May even your wish come true, someday.
+
+Children
+{sc}WOOOOOOOOOOOOO!{/sc}
+
+The sound of tiny applause and unenthused parents rings out from your
+audience. It's a sea of small hands pointing to you.
+
+You hear the cue to bow so you do.
+
+We love you Wishmaker!
+
+{i}The smiles, the games, the acting... it's all...{/i}
+
+???
+Kids shit.
+
+???
+I was wonderin' about the noise following some a new hero. Looks like noise
+was all it was.
+
+The fallen mascot suit, in upstage left, took to its feet{fast} and removed
+its oversized head.
+
+Backswitch
+Don't you agree, {i}wish boy?{/i}
+
+global violence; violence += 1
+global dmg_to_target; dmg_to_target = 3
+You bring your weapon in for a swing at Backswitch's midriff.
+
+Backswitch stifles a pained grunt.
+
+global violence; violence += 0.5
+global dmg_to_self; dmg_to_self = 2
+--- Thu Jun 13 16:55:29 2024
+
+Initialized st_chapter_start_1
+Initialized st_shin_solo_1
+Done with initialization at label: st_shin_solo_1
+100
+0
+There's shattered glass in the stage curtain, shimmering in blue. Your enemy
+calls from the skies.
+
+???
+Come out, come out wish boy!
+
+Now... now is the time to strike!
+
+Shin
+May even your wish come true, someday.
+
+Children
+{sc}WOOOOOOOOOOOOO!{/sc}
+
+The sound of tiny applause and unenthused parents rings out from your
+audience. It's a sea of small hands pointing to you.
+
+You hear the cue to bow so you do.
+
+We love you Wishmaker!
+
+{i}The smiles, the games, the acting... it's all...{/i}
+
+???
+Kids shit.
+
+???
+I was wonderin' about the noise following some a new hero. Looks like noise
+was all it was.
+
+The fallen mascot suit, in upstage left, took to its feet{fast} and removed
+its oversized head.
+
+Backswitch
+Don't you agree, {i}wish boy?{/i}
+
+global violence; violence += 1
+global dmg_to_target; dmg_to_target = 3
+You bring your weapon in for a swing at Backswitch's midriff.
+
+Backswitch stifles a pained grunt.
+
+global violence; violence += 1
+global dmg_to_target; dmg_to_target = 4
+You bring your weapon in for a swing at Backswitch's midriff.
+
+Backswitch stifles a pained grunt.
+
+--- Thu Jun 13 16:56:23 2024
+
+Initialized st_chapter_start_1
+Initialized st_shin_solo_1
+Done with initialization at label: st_shin_solo_1
+100
+0
+There's shattered glass in the stage curtain, shimmering in blue. Your enemy
+calls from the skies.
+
+???
+Come out, come out wish boy!
+
+Now... now is the time to strike!
+
+Shin
+May even your wish come true, someday.
+
+Children
+{sc}WOOOOOOOOOOOOO!{/sc}
+
+The sound of tiny applause and unenthused parents rings out from your
+audience. It's a sea of small hands pointing to you.
+
+You hear the cue to bow so you do.
+
+We love you Wishmaker!
+
+{i}The smiles, the games, the acting... it's all...{/i}
+
+???
+Kids shit.
+
+???
+I was wonderin' about the noise following some a new hero. Looks like noise
+was all it was.
+
+The fallen mascot suit, in upstage left, took to its feet{fast} and removed
+its oversized head.
+
+Backswitch
+Don't you agree, {i}wish boy?{/i}
+
+global violence; violence += 1
+global dmg_to_target; dmg_to_target = 3
+You bring your weapon in for a swing at Backswitch's midriff.
+
+Backswitch stifles a pained grunt.
+
+global violence; violence += 0.5
+global dmg_to_self; dmg_to_self = 2
+You throw your weight behind your weapon, bringing it down in a wide arc.
+
+You parry it as well as you can but still get roughed up.
+
+global violence; violence += 0.5
+global dmg_to_self; dmg_to_self = 2
+Backswitch sidesteps your swing and sends a prop sword flying at your face.
+
+The fallen mascot suit, in upstage left, took to its feet{fast} and removed
+its oversized head.
+
+Backswitch
+Don't you agree, {i}wish boy?{/i}
+
+global violence; violence += 1
+global dmg_to_target; dmg_to_target = 3
+Backswitch
+Iiiiiidiot.
+
+Backswitch sidesteps your swing and sends a prop sword flying at your face.
+
+Backswitch
+Iiiiiidiot.
+
+Backswitch stifles a pained grunt.
+
+The fallen mascot suit, in upstage left, took to its feet{fast} and removed
+its oversized head.
+
+Initialized st_chapter_start_1
+Initialized st_shin_solo_1
+Done with initialization at label: st_shin_solo_1
+100
+0
+There's shattered glass in the stage curtain, shimmering in blue. Your enemy
+calls from the skies.
+
+???
+Come out, come out wish boy!
+
+Now... now is the time to strike!
+
+Shin
+May even your wish come true, someday.
+
+Children
+{sc}WOOOOOOOOOOOOO!{/sc}
+
+The sound of tiny applause and unenthused parents rings out from your
+audience. It's a sea of small hands pointing to you.
+
+You hear the cue to bow so you do.
+
+We love you Wishmaker!
+
+{i}The smiles, the games, the acting... it's all...{/i}
+
+???
+Kids shit.
+
+???
+I was wonderin' about the noise following some a new hero. Looks like noise
+was all it was.
+
+The fallen mascot suit, in upstage left, took to its feet{fast} and removed
+its oversized head.
+
+Backswitch
+Don't you agree, {i}wish boy?{/i}
+
+--- Thu Jun 13 16:57:45 2024
+
+Initialized st_chapter_start_1
+Initialized st_shin_solo_1
+Done with initialization at label: st_shin_solo_1
+100
+0
+There's shattered glass in the stage curtain, shimmering in blue. Your enemy
+calls from the skies.
+
+???
+Come out, come out wish boy!
+
+Now... now is the time to strike!
+
+Shin
+May even your wish come true, someday.
+
+Children
+{sc}WOOOOOOOOOOOOO!{/sc}
+
+The sound of tiny applause and unenthused parents rings out from your
+audience. It's a sea of small hands pointing to you.
+
+You hear the cue to bow so you do.
+
+We love you Wishmaker!
+
+{i}The smiles, the games, the acting... it's all...{/i}
+
+???
+Kids shit.
+
+???
+I was wonderin' about the noise following some a new hero. Looks like noise
+was all it was.
+
+The fallen mascot suit, in upstage left, took to its feet{fast} and removed
+its oversized head.
+
+Backswitch
+Don't you agree, {i}wish boy?{/i}
+
+--- Thu Jun 13 16:58:14 2024
+
+Initialized st_chapter_start_1
+Initialized st_shin_solo_1
+Done with initialization at label: st_shin_solo_1
+100
+0
+There's shattered glass in the stage curtain, shimmering in blue. Your enemy
+calls from the skies.
+
+???
+Come out, come out wish boy!
+
+Now... now is the time to strike!
+
+Shin
+May even your wish come true, someday.
+
+Children
+{sc}WOOOOOOOOOOOOO!{/sc}
+
+The sound of tiny applause and unenthused parents rings out from your
+audience. It's a sea of small hands pointing to you.
+
+You hear the cue to bow so you do.
+
+We love you Wishmaker!
+
+{i}The smiles, the games, the acting... it's all...{/i}
+
+???
+Kids shit.
+
+???
+I was wonderin' about the noise following some a new hero. Looks like noise
+was all it was.
+
+The fallen mascot suit, in upstage left, took to its feet{fast} and removed
+its oversized head.
+
+Backswitch
+Don't you agree, {i}wish boy?{/i}
+
+global violence; violence += 0.5
+You bring your weapon in for a swing at Backswitch's midriff.
+
+Backswitch's laugh booms from his echoing demon mask.
+
+Backswitch
+Idiot.
+
+global violence; violence += 1
+global dmg_to_target; dmg_to_target = 4
+You throw your weight behind your weapon, bringing it down in a wide arc.
+
+Backswitch is hit squarely in the chest.
+
+He backs away a step while gasping for air.
+
+Backswitch
+Don't you agree, {i}wish boy?{/i}
+
+???
+I was wonderin' about the noise following some a new hero. Looks like noise
+was all it was.
+
+The fallen mascot suit, in upstage left, took to its feet{fast} and removed
+its oversized head.
+
+Backswitch
+Don't you agree, {i}wish boy?{/i}
+
+global violence; violence += 0.5
+You bring your weapon in for a swing at Backswitch's midriff.
+
+Backswitch's laugh booms from his echoing demon mask.
+
+Backswitch
+Idiot.
+
+global violence; violence += 1
+global dmg_to_target; dmg_to_target = 4
+You throw your weight behind your weapon, bringing it down in a wide arc.
+
+Backswitch is hit squarely in the chest.
+
+He backs away a step while gasping for air.
+
+global violence; violence += 0.5
+You bring your weapon in for a swing at Backswitch's midriff.
+
+Backswitch's laugh booms from his echoing demon mask.
+
+Backswitch
+Idiot.
+
+global violence; violence += 1
+global dmg_to_target; dmg_to_target = 4
+You throw your weight behind your weapon, bringing it down in a wide arc.
+
+Backswitch is hit squarely in the chest.
+
+He backs away a step while gasping for air.
+
+global violence; violence += 0.5
+You bring your weapon in for a swing at Backswitch's midriff.
+
+Backswitch's laugh booms from his echoing demon mask.
+
+Backswitch
+Idiot.
+
+global violence; violence += 1
+global dmg_to_target; dmg_to_target = 4
+You throw your weight behind your weapon, bringing it down in a wide arc.
+
+Backswitch is hit squarely in the chest.
+
+He backs away a step while gasping for air.
+
+--- Thu Jun 13 17:05:50 2024
+
+Initialized st_chapter_start_1
+Initialized st_shin_solo_1
+Done with initialization at label: st_shin_solo_1
+100
+0
+There's shattered glass in the stage curtain, shimmering in blue. Your enemy
+calls from the skies.
+
+???
+Come out, come out wish boy!
+
+Now... now is the time to strike!
+
+Shin
+May even your wish come true, someday.
+
+Children
+{sc}WOOOOOOOOOOOOO!{/sc}
+
+The sound of tiny applause and unenthused parents rings out from your
+audience. It's a sea of small hands pointing to you.
+
+You hear the cue to bow so you do.
+
+We love you Wishmaker!
+
+{i}The smiles, the games, the acting... it's all...{/i}
+
+???
+Kids shit.
+
+???
+I was wonderin' about the noise following some a new hero. Looks like noise
+was all it was.
+
+The fallen mascot suit, in upstage left, took to its feet{fast} and removed
+its oversized head.
+
+Backswitch
+Don't you agree, {i}wish boy?{/i}
+
+--- Thu Jun 13 17:09:30 2024
+
+--- Thu Jun 13 17:09:51 2024
+
+Initialized st_chapter_start_1
+Initialized st_shin_solo_1
+Done with initialization at label: st_shin_solo_1
+100
+0
+There's shattered glass in the stage curtain, shimmering in blue. Your enemy
+calls from the skies.
+
+???
+Come out, come out wish boy!
+
+Now... now is the time to strike!
+
+Shin
+May even your wish come true, someday.
+
+Children
+{sc}WOOOOOOOOOOOOO!{/sc}
+
+The sound of tiny applause and unenthused parents rings out from your
+audience. It's a sea of small hands pointing to you.
+
+You hear the cue to bow so you do.
+
+We love you Wishmaker!
+
+{i}The smiles, the games, the acting... it's all...{/i}
+
+???
+Kids shit.
+
+???
+I was wonderin' about the noise following some a new hero. Looks like noise
+was all it was.
+
+The fallen mascot suit, in upstage left, took to its feet{fast} and removed
+its oversized head.
+
+Backswitch
+Don't you agree, {i}wish boy?{/i}
+
+--- Thu Jun 13 17:09:57 2024
+
+--- Thu Jun 13 19:20:37 2024
+
+Initialized st_chapter_start_1
+Initialized st_shin_solo_1
+Done with initialization at label: st_shin_solo_1
+100
+0
+There's shattered glass in the stage curtain, shimmering in blue. Your enemy
+calls from the skies.
+
+???
+Come out, come out wish boy!
+
+Now... now is the time to strike!
+
+Shin
+May even your wish come true, someday.
+
+Children
+{sc}WOOOOOOOOOOOOO!{/sc}
+
+The sound of tiny applause and unenthused parents rings out from your
+audience. It's a sea of small hands pointing to you.
+
+You hear the cue to bow so you do.
+
+We love you Wishmaker!
+
+{i}The smiles, the games, the acting... it's all...{/i}
+
+???
+Kids shit.
+
+???
+I was wonderin' about the noise following some a new hero. Looks like noise
+was all it was.
+
+The fallen mascot suit, in upstage left, took to its feet{fast} and removed
+its oversized head.
+
+Backswitch
+Don't you agree, {i}wish boy?{/i}
+
+global violence; violence += 1
+global dmg_to_target; dmg_to_target = 3
+You bring your weapon in for a swing at Backswitch's midriff.
+
+Backswitch stifles a pained grunt.
+
+global violence; violence += 0.5
+global dmg_to_self; dmg_to_self = 2
+You throw your weight behind your weapon, bringing it down in a wide arc.
+
+Backswitch sidesteps your swing and sends a prop sword flying at your face.
+
+You parry it as well as you can but still get roughed up.
+
+Backswitch
+Iiiiiidiot.
+
+--- Thu Jun 13 19:51:43 2024
+
+Initialized st_chapter_start_1
+Initialized st_shin_solo_1
+Done with initialization at label: st_shin_solo_1
+100
+0
+There's shattered glass in the stage curtain, shimmering in blue. Your enemy
+calls from the skies.
+
+???
+Come out, come out wish boy!
+
+Now... now is the time to strike!
+
+Shin
+May even your wish come true, someday.
+
+Children
+{sc}WOOOOOOOOOOOOO!{/sc}
+
+The sound of tiny applause and unenthused parents rings out from your
+audience. It's a sea of small hands pointing to you.
+
+You hear the cue to bow so you do.
+
+We love you Wishmaker!
+
+{i}The smiles, the games, the acting... it's all...{/i}
+
+???
+Kids shit.
+
+???
+I was wonderin' about the noise following some a new hero. Looks like noise
+was all it was.
+
+The fallen mascot suit, in upstage left, took to its feet{fast} and removed
+its oversized head.
+
+Backswitch
+Don't you agree, {i}wish boy?{/i}
+
+global violence; violence += 1
+global dmg_to_target; dmg_to_target = 3
+You bring your weapon in for a swing at Backswitch's midriff.
+
+Backswitch stifles a pained grunt.
+
+global violence; violence += 0.5
+global dmg_to_self; dmg_to_self = 2
+You throw your weight behind your weapon, bringing it down in a wide arc.
+
+Backswitch sidesteps your swing and sends a prop sword flying at your face.
+
+You parry it as well as you can but still get roughed up.
+
+Backswitch
+Iiiiiidiot.
+
+global violence; violence += 0.5
+
+
+
+
+--- Thu Jun 13 19:52:24 2024
+
+Initialized st_chapter_start_1
+Initialized st_shin_solo_1
+Done with initialization at label: st_shin_solo_1
+100
+0
+There's shattered glass in the stage curtain, shimmering in blue. Your enemy
+calls from the skies.
+
+???
+Come out, come out wish boy!
+
+Now... now is the time to strike!
+
+Shin
+May even your wish come true, someday.
+
+Children
+{sc}WOOOOOOOOOOOOO!{/sc}
+
+The sound of tiny applause and unenthused parents rings out from your
+audience. It's a sea of small hands pointing to you.
+
+You hear the cue to bow so you do.
+
+We love you Wishmaker!
+
+{i}The smiles, the games, the acting... it's all...{/i}
+
+???
+Kids shit.
+
+???
+I was wonderin' about the noise following some a new hero. Looks like noise
+was all it was.
+
+The fallen mascot suit, in upstage left, took to its feet{fast} and removed
+its oversized head.
+
+Backswitch
+Don't you agree, {i}wish boy?{/i}
+
+global violence; violence += 1
+global dmg_to_target; dmg_to_target = 3
+You bring your weapon in for a swing at Backswitch's midriff.
+
+Backswitch stifles a pained grunt.
+
+global violence; violence += 1
+global dmg_to_target; dmg_to_target = 4
+You throw your weight behind your weapon, bringing it down in a wide arc.
+
+Backswitch is hit squarely in the chest.
+
+He backs away a step while gasping for air.
+
+global violence; violence += 0.5
+--- Thu Jun 13 19:53:02 2024
+
+Initialized st_chapter_start_1
+Initialized st_shin_solo_1
+Done with initialization at label: st_shin_solo_1
+0
+100
+There's shattered glass in the stage curtain, shimmering in blue. Your enemy
+calls from the skies.
+
+???
+Come out, come out wish boy!
+
+Now... now is the time to strike!
+
+Shin
+May even your wish come true, someday.
+
+Children
+{sc}WOOOOOOOOOOOOO!{/sc}
+
+The sound of tiny applause and unenthused parents rings out from your
+audience. It's a sea of small hands pointing to you.
+
+You hear the cue to bow so you do.
+
+We love you Wishmaker!
+
+{i}The smiles, the games, the acting... it's all...{/i}
+
+???
+Kids shit.
+
+???
+I was wonderin' about the noise following some a new hero. Looks like noise
+was all it was.
+
+The fallen mascot suit, in upstage left, took to its feet{fast} and removed
+its oversized head.
+
+Backswitch
+Don't you agree, {i}wish boy?{/i}
+
+global violence; violence += 1
+global dmg_to_target; dmg_to_target = 3
+You bring your weapon in for a swing at Backswitch's midriff.
+
+Backswitch stifles a pained grunt.
+
+global violence; violence += 1
+global dmg_to_target; dmg_to_target = 4
+You throw your weight behind your weapon, bringing it down in a wide arc.
+
+Backswitch is hit squarely in the chest.
+
+He backs away a step while gasping for air.
+
+global violence; violence += 0.5
+global dmg_to_self; dmg_to_self = 3
+--- Thu Jun 13 20:04:48 2024
+
+Initialized st_chapter_start_1
+Initialized st_shin_solo_1
+Done with initialization at label: st_shin_solo_1
+0
+100
+There's shattered glass in the stage curtain, shimmering in blue. Your enemy
+calls from the skies.
+
+???
+Come out, come out wish boy!
+
+Now... now is the time to strike!
+
+Shin
+May even your wish come true, someday.
+
+Children
+{sc}WOOOOOOOOOOOOO!{/sc}
+
+The sound of tiny applause and unenthused parents rings out from your
+audience. It's a sea of small hands pointing to you.
+
+You hear the cue to bow so you do.
+
+We love you Wishmaker!
+
+{i}The smiles, the games, the acting... it's all...{/i}
+
+???
+Kids shit.
+
+???
+I was wonderin' about the noise following some a new hero. Looks like noise
+was all it was.
+
+The fallen mascot suit, in upstage left, took to its feet{fast} and removed
+its oversized head.
+
+Backswitch
+Don't you agree, {i}wish boy?{/i}
+
+global violence; violence += 1
+global dmg_to_target; dmg_to_target = 3
+You bring your weapon in for a swing at Backswitch's midriff.
+
+Backswitch stifles a pained grunt.
+
+global violence; violence += 0.5
+global dmg_to_self; dmg_to_self = 2 if precision == 0
+--- Thu Jun 13 20:06:19 2024
+
+Initialized st_chapter_start_1
+Initialized st_shin_solo_1
+Done with initialization at label: st_shin_solo_1
+0
+100
+There's shattered glass in the stage curtain, shimmering in blue. Your enemy
+calls from the skies.
+
+???
+Come out, come out wish boy!
+
+Now... now is the time to strike!
+
+Shin
+May even your wish come true, someday.
+
+Children
+{sc}WOOOOOOOOOOOOO!{/sc}
+
+The sound of tiny applause and unenthused parents rings out from your
+audience. It's a sea of small hands pointing to you.
+
+You hear the cue to bow so you do.
+
+We love you Wishmaker!
+
+{i}The smiles, the games, the acting... it's all...{/i}
+
+???
+Kids shit.
+
+???
+I was wonderin' about the noise following some a new hero. Looks like noise
+was all it was.
+
+The fallen mascot suit, in upstage left, took to its feet{fast} and removed
+its oversized head.
+
+Backswitch
+Don't you agree, {i}wish boy?{/i}
+
+global violence; violence += 0.5
+You bring your weapon in for a swing at Backswitch's midriff.
+
+Backswitch points at your weapon and sends you it flying out of your hands.
+
+You manage to get ahold of it before it goes offstage.
+
+Backswitch's laugh booms from his echoing demon mask.
+
+Backswitch
+Idiot.
+
+--- Thu Jun 13 20:07:33 2024
+
+Initialized st_chapter_start_1
+Initialized st_shin_solo_1
+Done with initialization at label: st_shin_solo_1
+100
+0
+There's shattered glass in the stage curtain, shimmering in blue. Your enemy
+calls from the skies.
+
+???
+Come out, come out wish boy!
+
+Now... now is the time to strike!
+
+Shin
+May even your wish come true, someday.
+
+Children
+{sc}WOOOOOOOOOOOOO!{/sc}
+
+The sound of tiny applause and unenthused parents rings out from your
+audience. It's a sea of small hands pointing to you.
+
+You hear the cue to bow so you do.
+
+We love you Wishmaker!
+
+{i}The smiles, the games, the acting... it's all...{/i}
+
+???
+Kids shit.
+
+???
+I was wonderin' about the noise following some a new hero. Looks like noise
+was all it was.
+
+The fallen mascot suit, in upstage left, took to its feet{fast} and removed
+its oversized head.
+
+Backswitch
+Don't you agree, {i}wish boy?{/i}
+
+global violence; violence += 1
+global dmg_to_target; dmg_to_target = 3
+You bring your weapon in for a swing at Backswitch's midriff.
+
+Backswitch stifles a pained grunt.
+
+???
+I was wonderin' about the noise following some a new hero. Looks like noise
+was all it was.
+
+The fallen mascot suit, in upstage left, took to its feet{fast} and removed
+its oversized head.
+
+Backswitch
+Don't you agree, {i}wish boy?{/i}
+
+global violence; violence += 1
+global dmg_to_target; dmg_to_target = 3
+You bring your weapon in for a swing at Backswitch's midriff.
+
+Backswitch stifles a pained grunt.
+
+global violence; violence += 0.5
+global dmg_to_self; dmg_to_self = 2 if precision == 0 else 0
+You throw your weight behind your weapon, bringing it down in a wide arc.
+
+Backswitch sidesteps your swing and sends a prop sword flying at your face.
+
+--- Thu Jun 13 20:17:19 2024
+
+Initialized st_chapter_start_1
+Initialized st_shin_solo_1
+Done with initialization at label: st_shin_solo_1
+100
+0
+There's shattered glass in the stage curtain, shimmering in blue. Your enemy
+calls from the skies.
+
+???
+Come out, come out wish boy!
+
+Now... now is the time to strike!
+
+Shin
+May even your wish come true, someday.
+
+Children
+{sc}WOOOOOOOOOOOOO!{/sc}
+
+The sound of tiny applause and unenthused parents rings out from your
+audience. It's a sea of small hands pointing to you.
+
+You hear the cue to bow so you do.
+
+We love you Wishmaker!
+
+{i}The smiles, the games, the acting... it's all...{/i}
+
+???
+Kids shit.
+
+???
+I was wonderin' about the noise following some a new hero. Looks like noise
+was all it was.
+
+The fallen mascot suit, in upstage left, took to its feet{fast} and removed
+its oversized head.
+
+Backswitch
+Don't you agree, {i}wish boy?{/i}
+
+--- Thu Jun 13 20:17:39 2024
+
+Initialized st_chapter_start_1
+Initialized st_shin_solo_1
+Done with initialization at label: st_shin_solo_1
+100
+0
+There's shattered glass in the stage curtain, shimmering in blue. Your enemy
+calls from the skies.
+
+???
+Come out, come out wish boy!
+
+Now... now is the time to strike!
+
+Shin
+May even your wish come true, someday.
+
+Children
+{sc}WOOOOOOOOOOOOO!{/sc}
+
+The sound of tiny applause and unenthused parents rings out from your
+audience. It's a sea of small hands pointing to you.
+
+You hear the cue to bow so you do.
+
+We love you Wishmaker!
+
+{i}The smiles, the games, the acting... it's all...{/i}
+
+???
+Kids shit.
+
+???
+I was wonderin' about the noise following some a new hero. Looks like noise
+was all it was.
+
+The fallen mascot suit, in upstage left, took to its feet{fast} and removed
+its oversized head.
+
+Backswitch
+Don't you agree, {i}wish boy?{/i}
+
+Backswitch points at your weapon and sends you it flying out of your hands.
+You manage to get ahold of it before it goes offstage. Backswitch's laugh
+booms from his echoing demon mask. seija_costumed:Idiot.
+
+--- Thu Jun 13 20:18:21 2024
+
+Initialized st_chapter_start_1
+Initialized st_shin_solo_1
+Done with initialization at label: st_shin_solo_1
+100
+0
+There's shattered glass in the stage curtain, shimmering in blue. Your enemy
+calls from the skies.
+
+???
+Come out, come out wish boy!
+
+Now... now is the time to strike!
+
+Shin
+May even your wish come true, someday.
+
+Children
+{sc}WOOOOOOOOOOOOO!{/sc}
+
+The sound of tiny applause and unenthused parents rings out from your
+audience. It's a sea of small hands pointing to you.
+
+You hear the cue to bow so you do.
+
+We love you Wishmaker!
+
+{i}The smiles, the games, the acting... it's all...{/i}
+
+???
+Kids shit.
+
+???
+I was wonderin' about the noise following some a new hero. Looks like noise
+was all it was.
+
+The fallen mascot suit, in upstage left, took to its feet{fast} and removed
+its oversized head.
+
+Backswitch
+Don't you agree, {i}wish boy?{/i}
+
+--- Thu Jun 13 20:19:08 2024
+
+Initialized st_chapter_start_1
+Initialized st_shin_solo_1
+Done with initialization at label: st_shin_solo_1
+100
+0
+There's shattered glass in the stage curtain, shimmering in blue. Your enemy
+calls from the skies.
+
+???
+Come out, come out wish boy!
+
+Now... now is the time to strike!
+
+Shin
+May even your wish come true, someday.
+
+Children
+{sc}WOOOOOOOOOOOOO!{/sc}
+
+The sound of tiny applause and unenthused parents rings out from your
+audience. It's a sea of small hands pointing to you.
+
+You hear the cue to bow so you do.
+
+We love you Wishmaker!
+
+{i}The smiles, the games, the acting... it's all...{/i}
+
+???
+Kids shit.
+
+???
+I was wonderin' about the noise following some a new hero. Looks like noise
+was all it was.
+
+The fallen mascot suit, in upstage left, took to its feet{fast} and removed
+its oversized head.
+
+Backswitch
+Don't you agree, {i}wish boy?{/i}
+
+--- Thu Jun 13 20:19:31 2024
+
+Initialized st_chapter_start_1
+Initialized st_shin_solo_1
+Done with initialization at label: st_shin_solo_1
+100
+0
+There's shattered glass in the stage curtain, shimmering in blue. Your enemy
+calls from the skies.
+
+???
+Come out, come out wish boy!
+
+Now... now is the time to strike!
+
+Shin
+May even your wish come true, someday.
+
+Children
+{sc}WOOOOOOOOOOOOO!{/sc}
+
+The sound of tiny applause and unenthused parents rings out from your
+audience. It's a sea of small hands pointing to you.
+
+You hear the cue to bow so you do.
+
+We love you Wishmaker!
+
+{i}The smiles, the games, the acting... it's all...{/i}
+
+???
+Kids shit.
+
+???
+I was wonderin' about the noise following some a new hero. Looks like noise
+was all it was.
+
+The fallen mascot suit, in upstage left, took to its feet{fast} and removed
+its oversized head.
+
+Backswitch
+Don't you agree, {i}wish boy?{/i}
+
+You set it on the table.
+
+You set them on the table.
+
+Backswitch sidesteps your swing and sends a prop sword flying at your face.
+You parry it as well as you can but still get a bit roughed up.
+seija_costumed:Iiiiiidiot.
+
+--- Thu Jun 13 20:25:32 2024
+
+Initialized st_chapter_start_1
+Initialized st_shin_solo_1
+Done with initialization at label: st_shin_solo_1
+0
+100
+There's shattered glass in the stage curtain, shimmering in blue. Your enemy
+calls from the skies.
+
+???
+Come out, come out wish boy!
+
+Now... now is the time to strike!
+
+Shin
+May even your wish come true, someday.
+
+Children
+{sc}WOOOOOOOOOOOOO!{/sc}
+
+The sound of tiny applause and unenthused parents rings out from your
+audience. It's a sea of small hands pointing to you.
+
+You hear the cue to bow so you do.
+
+We love you Wishmaker!
+
+{i}The smiles, the games, the acting... it's all...{/i}
+
+???
+Kids shit.
+
+???
+I was wonderin' about the noise following some a new hero. Looks like noise
+was all it was.
+
+The fallen mascot suit, in upstage left, took to its feet{fast} and removed
+its oversized head.
+
+Backswitch
+Don't you agree, {i}wish boy?{/i}
+
+global violence; violence += 0.5
+You bring your weapon in for a swing at Backswitch's midriff.
+
+Backswitch points at your weapon and sends you it flying out of your hands.
+
+You manage to get ahold of it before it goes offstage.
+
+Backswitch's laugh booms from his echoing demon mask.
+
+Backswitch
+Idiot.
+
+global violence; violence += 0.5
+global dmg_to_self; dmg_to_self = 1 if precision == 0 else 0
+You throw your weight behind your weapon, bringing it down in a wide arc.
+
+Backswitch sidesteps your swing and sends a prop sword flying at your face.
+
+--- Thu Jun 13 20:28:03 2024
+
+Initialized st_chapter_start_1
+Initialized st_shin_solo_1
+Done with initialization at label: st_shin_solo_1
+0
+100
+There's shattered glass in the stage curtain, shimmering in blue. Your enemy
+calls from the skies.
+
+???
+Come out, come out wish boy!
+
+Now... now is the time to strike!
+
+Shin
+May even your wish come true, someday.
+
+Children
+{sc}WOOOOOOOOOOOOO!{/sc}
+
+The sound of tiny applause and unenthused parents rings out from your
+audience. It's a sea of small hands pointing to you.
+
+You hear the cue to bow so you do.
+
+We love you Wishmaker!
+
+{i}The smiles, the games, the acting... it's all...{/i}
+
+???
+Kids shit.
+
+???
+I was wonderin' about the noise following some a new hero. Looks like noise
+was all it was.
+
+The fallen mascot suit, in upstage left, took to its feet{fast} and removed
+its oversized head.
+
+Backswitch
+Don't you agree, {i}wish boy?{/i}
+
+global violence; violence += 0.5
+You bring your weapon in for a swing at Backswitch's midriff.
+
+Backswitch points at your weapon and sends you it flying out of your hands.
+
+You manage to get ahold of it before it goes offstage.
+
+Backswitch's laugh booms from his echoing demon mask.
+
+Backswitch
+Idiot.
+
+global violence; violence += 0.5
+global dmg_to_self; dmg_to_self = 1 if precision == 0 else 0
+You throw your weight behind your weapon, bringing it down in a wide arc.
+
+Backswitch sidesteps your swing and sends a prop sword flying at your face.
+
+You parry it as well as you can but still get a bit roughed up.
+
+You throw your weight behind your weapon, bringing it down in a wide arc.
+
+Backswitch sidesteps your swing and sends a prop sword flying at your face.
+
+You parry it as well as you can but still get a bit roughed up.
+
+--- Thu Jun 13 20:29:35 2024
+
+Initialized st_chapter_start_1
+Initialized st_shin_solo_1
+Done with initialization at label: st_shin_solo_1
+100
+0
+There's shattered glass in the stage curtain, shimmering in blue. Your enemy
+calls from the skies.
+
+???
+Come out, come out wish boy!
+
+Now... now is the time to strike!
+
+Shin
+May even your wish come true, someday.
+
+Children
+{sc}WOOOOOOOOOOOOO!{/sc}
+
+The sound of tiny applause and unenthused parents rings out from your
+audience. It's a sea of small hands pointing to you.
+
+You hear the cue to bow so you do.
+
+We love you Wishmaker!
+
+{i}The smiles, the games, the acting... it's all...{/i}
+
+???
+Kids shit.
+
+???
+I was wonderin' about the noise following some a new hero. Looks like noise
+was all it was.
+
+The fallen mascot suit, in upstage left, took to its feet{fast} and removed
+its oversized head.
+
+Backswitch
+Don't you agree, {i}wish boy?{/i}
+
+global violence; violence += 1
+global dmg_to_target; dmg_to_target = 3
+You bring your weapon in for a swing at Backswitch's midriff.
+
+Backswitch stifles a pained grunt.
+
+global violence; violence += 0.5
+global dmg_to_self; dmg_to_self = 1 if precision == 0 else 0
+You throw your weight behind your weapon, bringing it down in a wide arc.
+
+Backswitch sidesteps your swing and sends a prop sword flying at your face.
+
+--- Thu Jun 13 20:29:57 2024
+
+Initialized st_chapter_start_1
+Initialized st_shin_solo_1
+Done with initialization at label: st_shin_solo_1
+0
+100
+There's shattered glass in the stage curtain, shimmering in blue. Your enemy
+calls from the skies.
+
+???
+Come out, come out wish boy!
+
+Now... now is the time to strike!
+
+Shin
+May even your wish come true, someday.
+
+Children
+{sc}WOOOOOOOOOOOOO!{/sc}
+
+The sound of tiny applause and unenthused parents rings out from your
+audience. It's a sea of small hands pointing to you.
+
+You hear the cue to bow so you do.
+
+We love you Wishmaker!
+
+{i}The smiles, the games, the acting... it's all...{/i}
+
+???
+Kids shit.
+
+???
+I was wonderin' about the noise following some a new hero. Looks like noise
+was all it was.
+
+The fallen mascot suit, in upstage left, took to its feet{fast} and removed
+its oversized head.
+
+Backswitch
+Don't you agree, {i}wish boy?{/i}
+
+global violence; violence += 0.5
+You bring your weapon in for a swing at Backswitch's midriff.
+
+Backswitch points at your weapon and sends you it flying out of your hands.
+
+You manage to get ahold of it before it goes offstage.
+
+Backswitch's laugh booms from his echoing demon mask.
+
+Backswitch
+Idiot.
+
+global violence; violence += 0.5
+global dmg_to_self; dmg_to_self = 1 if precision == 0 else 0
+You throw your weight behind your weapon, bringing it down in a wide arc.
+
+Backswitch sidesteps your swing and sends a prop sword flying at your face.
+
+You parry it as well as you can but still get a bit roughed up.
+
+Backswitch
+Iiiiiiidiot.{else}You parry the prop sword, reading Backswitch's rhythm.
+
+You bring your weapon in for a swing at Backswitch's midriff.
+
+Backswitch points at your weapon and sends you it flying out of your hands.
+
+You manage to get ahold of it before it goes offstage.
+
+Backswitch's laugh booms from his echoing demon mask.
+
+Backswitch
+Idiot.
+
+global precision; precision += 1
+You hold a defensive stance, keeping distance from Backswitch.
+
+After dodging one or two hits, you start to get a feel for his timing, his
+rhythm.
+
+global violence; violence += 0.5
+global dmg_to_self; dmg_to_self = 1 if precision == 0 else 0
+You throw your weight behind your weapon, bringing it down in a wide arc.
+
+Backswitch sidesteps your swing and sends a prop sword flying at your face.
+
+
+
+--- Thu Jun 13 20:31:34 2024
+
+Initialized st_chapter_start_1
+Initialized st_shin_solo_1
+Done with initialization at label: st_shin_solo_1
+0
+100
+There's shattered glass in the stage curtain, shimmering in blue. Your enemy
+calls from the skies.
+
+???
+Come out, come out wish boy!
+
+Now... now is the time to strike!
+
+Shin
+May even your wish come true, someday.
+
+Children
+{sc}WOOOOOOOOOOOOO!{/sc}
+
+The sound of tiny applause and unenthused parents rings out from your
+audience. It's a sea of small hands pointing to you.
+
+You hear the cue to bow so you do.
+
+We love you Wishmaker!
+
+{i}The smiles, the games, the acting... it's all...{/i}
+
+???
+Kids shit.
+
+???
+I was wonderin' about the noise following some a new hero. Looks like noise
+was all it was.
+
+The fallen mascot suit, in upstage left, took to its feet{fast} and removed
+its oversized head.
+
+Backswitch
+Don't you agree, {i}wish boy?{/i}
+
+global violence; violence += 0.5
+You bring your weapon in for a swing at Backswitch's midriff.
+
+Backswitch points at your weapon and sends you it flying out of your hands.
+
+You manage to get ahold of it before it goes offstage.
+
+Backswitch's laugh booms from his echoing demon mask.
+
+Backswitch
+Idiot.
+
+global violence; violence += 0.5
+global dmg_to_self; dmg_to_self = 1 if precision == 0 else 0
+You throw your weight behind your weapon, bringing it down in a wide arc.
+
+Backswitch sidesteps your swing and sends a prop sword flying at your face.
+
+You parry it as well as you can but still get a bit roughed up.
+
+Backswitch
+Iiiiiiidiot.{else}You parry the prop sword, reading Backswitch's rhythm.
+
+global precision; precision += 1
+You hold a defensive stance, keeping distance from Backswitch.
+
+After dodging one or two hits, you start to get a feel for his timing, his
+rhythm.
+
+global violence; violence += 0.5
+global dmg_to_self; dmg_to_self = 1 if precision == 0 else 0
+You throw your weight behind your weapon, bringing it down in a wide arc.
+
+Backswitch sidesteps your swing and sends a prop sword flying at your face.
+
+
+
+Backswitch
+Iiiiiiidiot.{else}You parry the prop sword, reading Backswitch's rhythm.
+
+--- Thu Jun 13 20:32:55 2024
+
+Initialized st_chapter_start_1
+Initialized st_shin_solo_1
+Done with initialization at label: st_shin_solo_1
+0
+100
+There's shattered glass in the stage curtain, shimmering in blue. Your enemy
+calls from the skies.
+
+???
+Come out, come out wish boy!
+
+Now... now is the time to strike!
+
+Shin
+May even your wish come true, someday.
+
+Children
+{sc}WOOOOOOOOOOOOO!{/sc}
+
+The sound of tiny applause and unenthused parents rings out from your
+audience. It's a sea of small hands pointing to you.
+
+You hear the cue to bow so you do.
+
+We love you Wishmaker!
+
+{i}The smiles, the games, the acting... it's all...{/i}
+
+???
+Kids shit.
+
+???
+I was wonderin' about the noise following some a new hero. Looks like noise
+was all it was.
+
+The fallen mascot suit, in upstage left, took to its feet{fast} and removed
+its oversized head.
+
+Backswitch
+Don't you agree, {i}wish boy?{/i}
+
+--- Thu Jun 13 20:33:26 2024
+
+Initialized st_chapter_start_1
+Initialized st_shin_solo_1
+Done with initialization at label: st_shin_solo_1
+100
+0
+There's shattered glass in the stage curtain, shimmering in blue. Your enemy
+calls from the skies.
+
+???
+Come out, come out wish boy!
+
+Now... now is the time to strike!
+
+Shin
+May even your wish come true, someday.
+
+Children
+{sc}WOOOOOOOOOOOOO!{/sc}
+
+The sound of tiny applause and unenthused parents rings out from your
+audience. It's a sea of small hands pointing to you.
+
+You hear the cue to bow so you do.
+
+We love you Wishmaker!
+
+{i}The smiles, the games, the acting... it's all...{/i}
+
+???
+Kids shit.
+
+???
+I was wonderin' about the noise following some a new hero. Looks like noise
+was all it was.
+
+The fallen mascot suit, in upstage left, took to its feet{fast} and removed
+its oversized head.
+
+Backswitch
+Don't you agree, {i}wish boy?{/i}
+
+global violence; violence += 1
+global dmg_to_target; dmg_to_target = 3
+You bring your weapon in for a swing at Backswitch's midriff.
+
+Backswitch stifles a pained grunt.
+
+global violence; violence += 0.5
+global dmg_to_self; dmg_to_self = 1 if precision == 0 else 0
+You throw your weight behind your weapon, bringing it down in a wide arc.
+
+Backswitch sidesteps your swing and sends a prop sword flying at your face.
+
+You parry it as well as you can but still get a bit roughed up.
+
+Backswitch
+Iiiiiiidiot.
+
+global precision; precision += 1
+You hold a defensive stance, keeping distance from Backswitch.
+
+After dodging one or two hits, you start to get a feel for his timing, his
+rhythm.
+
+global violence; violence += 0.5
+global dmg_to_self; dmg_to_self = 1 if precision == 0 else 0
+You throw your weight behind your weapon, bringing it down in a wide arc.
+
+Backswitch sidesteps your swing and sends a prop sword flying at your face.
+
+You parry the prop sword, reading Backswitch's rhythm.
+

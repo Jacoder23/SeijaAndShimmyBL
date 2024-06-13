@@ -286,7 +286,7 @@ transform achievement_popout():
 ## The screen displaying a list of the achievements the player has earned.
 ## Feel free to update the styling for this however you like; this is just one
 ## way to display the various information.
-screen ending_gallery():
+screen achievement_gallery():
     tag menu
 
     add VBox(Transform("#292835", ysize=110), "#21212db2") # Background
@@ -376,7 +376,7 @@ screen ending_gallery():
     ## A header that shows how many achievements you've earned, out of
     ## the total number of achievements in the game. Feel free to remove
     ## or relocate this.
-    label __("Endings: ") + "{earned}/{total}".format(
+    label __("Achievements: ") + "{earned}/{total}".format(
             earned=Achievement.num_earned(), total=Achievement.num_total()):
         text_size 64 xalign 0.5 text_color "#f93c3e" top_padding 15
 
