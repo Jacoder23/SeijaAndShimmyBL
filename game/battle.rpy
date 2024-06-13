@@ -54,7 +54,7 @@ init python:
         for line in lines:
             sections = line.split(":", 1)
             if len(sections) == 1:
-                queued_say_statements.append((n, sections[0]))
+                queued_say_statements.append((narrator, sections[0]))
             else:
                 queued_say_statements.append((globals()[eval(sections[0][1:-1])], sections[1]))
 
@@ -70,7 +70,9 @@ init python:
             renpy.log(complete_line)
             exec(complete_line)
 
-    def RollDice(dice_result, dc): # visual effect
+    def RollDice(result, dc): # visual effect
+        global dice_result
+        dice_result = result
         pass
 
     def DoOption(party, member, option, interrupting_party): # maybe this should've been a dict or a custom class... eh it makes the writing part easier in trade for making the debugging a fucking ticking bomb

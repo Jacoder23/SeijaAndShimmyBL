@@ -2,6 +2,7 @@
     import random
     import functools
     import copy
+    # from the beeps bleeps thing credited in about
     def boopy_voice(event, interact=True, boopfile="bleeps/bleep001.ogg", **kwargs):
         if not interact:
             return
@@ -31,7 +32,7 @@ define seija_costumed = Character("Backswitch", callback = [name_callback, funct
 define seija_secret = Character("???", callback = [name_callback, functools.partial(boopy_voice, boopfile="bleeps/bleep002.ogg")], cb_name = "???")
 define shin = Character("Shin", callback = [name_callback, functools.partial(boopy_voice, boopfile="bleeps/bleep025.ogg")], cb_name = "Shin")
 define shin_costumed = Character("Wishmaker", callback = [name_callback, functools.partial(boopy_voice, boopfile="bleeps/bleep025.ogg")], cb_name = "Wishmaker")
-define n = Character("", callback = name_callback, cb_name = "")
+define narrator = Character("", callback = [name_callback], cb_name = "")
 
 image sei neutral = At('this sprite does not exist', sprite_highlight('sei'))
 
@@ -49,9 +50,55 @@ label splashscreen:
 
 # The game starts here.
 
+label dice_animation:
+    
+    show dice at dice_shake, truecenter
+
+    label dice_animation_section:
+
+        $ random_num = renpy.random.randint(1,20)
+
+        if dice_animation_counter == 16:
+            show text "{vspace=25}{size=70}{color=000000}[dice_result]{/color}{/size}" at dice_text5
+        elif dice_animation_counter % 2 == 0 and dice_animation_counter < 8:
+            show text "{vspace=25}{size=70}{color=000000}[random_num]{/color}{/size}" at dice_text1
+        elif dice_animation_counter % 2 == 1 and dice_animation_counter < 8:
+            show text "{vspace=25}{size=70}{color=000000}[random_num]{/color}{/size}" at dice_text2
+        elif dice_animation_counter % 2 == 0 and dice_animation_counter >= 8 and dice_animation_counter < 16:
+            show text "{vspace=25}{size=70}{color=000000}[random_num]{/color}{/size}" at dice_text3
+        elif dice_animation_counter % 2 == 1 and dice_animation_counter >= 8 and dice_animation_counter < 16:
+            show text "{vspace=25}{size=70}{color=000000}[random_num]{/color}{/size}" at dice_text4
+
+        python:
+            dice_animation_counter += 1
+
+            renpy.pause(0.1 - 0.0305, hard = True) # tiny bit of delay messes up the sync, hand adjusted the delay, hopefully consistent across platforms (oh no)
+
+            if dice_animation_counter >= 23:
+                dice_animation_counter = 0
+            else:
+                renpy.jump("dice_animation_section")
+
+        show dice at truecenter
+
+        show text "{vspace=25}{size=70}{color=000000}[dice_result]{/color}{/size}" at dice_text_center
+
+        $ renpy.jump(continue_label)
+
 label start:
 
     $ label_tracker = "start"
+
+    $ continue_label = "start_continue"
+
+    $ dice_animation_counter = 0
+
+    $ dice_result = 1
+
+    jump dice_animation
+
+    label start_continue:
+        pause
 
     # $ cinematic = True
 
@@ -94,13 +141,7 @@ label st_shin_solo_1:
 
     $ DeclareStorylet("st_shin_solo_1", ["time >= 0", "chapter == 1"], ["global time; time += 1"], 0, False)
 
-    "For some reason..."
-
-    "This gets shown"
-
-    "Sometimes, not always"
-
-    "Before initialization is done"
+    "[label_tracker]"
 
     $ FinishStorylet("st_shin_solo_1")
 
@@ -116,28 +157,20 @@ label st_chapter_start_1:
 
     scene bg black
 
-    $ cinematic = True
-
     "There's shattered glass in the stage curtain, shimmering in blue. Your enemy calls from the skies."
-    
-    $ cinematic = False
 
-    "???" "Come out, come out wish boy!"
+    seija_secret "Come out, come out wish boy!"
 
-    $ cinematic = True
     "Now... now is the time to strike!"
-    $ cinematic = False
 
     # CG: Shin strikes!
 
     shin "May even your wish come true, someday."
 
-    "Children" "{sc}WOOOOOOOOOOOOO!{/sc}"
+    "{sc}WOOOOOOOOOOOOO!{/sc}"
 
-    $ cinematic = True
     "The sound of tiny applause and unenthused parents rings out from your audience. It's a sea of small hands pointing to you."
     "You hear the cue to bow so you do."
-    $ cinematic = False
 
     "We love you Wishmaker!"
 
@@ -145,7 +178,6 @@ label st_chapter_start_1:
 
     seija_secret "Kids shit."
 
-    $ cinematic = True
     "The fallen mascot suit, in upstage left, took to its feet{nw}{done} and removed its oversized head."
 
     # CG: Seija reveals herself
@@ -157,13 +189,12 @@ label st_chapter_start_1:
     "She's been around the block, making waves with her gravity flipping powers. As a relative newbie, this is your first time face-to-face with a villain."
 
     "Despite the excited gasps from the audience, the staff begin ushering everyone out."
-    $ cinematic = False
 
     shin "{i}Okay, this is fine. Drop the banter for now, focus on keeping it together.{/i}"
 
     seija_costumed "I was wonderin' about the noise following some new hero. Looks like noise was all it was."
 
-    seija_costumed "Don't you agree, {sc}wish boy?{/sc}"
+    seija_costumed "Don't you agree, {bt=6}wish boy?{/bt}"
 
     # JUMP TO FIRST BATTLE #
 
@@ -294,7 +325,17 @@ label st_chapter_start_1:
 
         scene bg black with fade
 
-        "BATTLE OVER WITH RESULT: [battle_result]"
+        if battle_result == "double knockout":
+            shin_costumed "And... shut..."
 
+            "You collapse onto the ground after knocking Backswitch on her ass."
+        elif battle_result == "party_one win":
+            shin_costumed "And shut it!"
+        elif battle_result == "party_two win":
+            "The last thing you see before you collapse onto the ground is their mask. You can't see it but you can tell they've got the ugliest smirk behind it."
+        elif battle_result == "stalemate":
+            seija_costumed "Hmm. Not as talkative as your stage persona, are ya?"
+
+            shin_costumed "Quit it with the remarks, Backswitch."
         $ FinishStorylet("st_chapter_start_1")
 
