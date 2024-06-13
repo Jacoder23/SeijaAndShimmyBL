@@ -64,6 +64,7 @@ init python:
         if(storylet == None):
             renpy.notify("No storylet found. Returning to main menu.")
             renpy.pause()
+            MainMenu(confirm=False)()
         else:
             renpy.jump(storylet.label)
 
