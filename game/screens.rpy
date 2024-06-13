@@ -577,7 +577,7 @@ screen main_menu():
         textbutton _("Load") action ShowMenu("load"):
             xalign 0.5
 
-        textbutton _("Endings") action ShowMenu("ending_gallery"):
+        textbutton _("Achievements") action ShowMenu("achievement_gallery"):
             xalign 0.5
 
         textbutton _("Preferences") action ShowMenu("preferences"):

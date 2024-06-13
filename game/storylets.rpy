@@ -1,7 +1,5 @@
 init python:
     import functools
-
-    @functools.total_ordering
     class Storylet:
         def __init__(self, label, prerequisites, results, urgency, completed):
             self.label = label                      # which label to jump to; the content of the storylet
@@ -9,16 +7,6 @@ init python:
             self.results = results                  # what completing the storylet does to the game's variables/qualities; does not take into account choices made in the storylet, if any
             self.urgency = urgency                  # how the list is sorted, even after being shuffled
             self.completed = completed              # whether or not the storylet has been completed and thus can be ignored in the future; removed from the "draw pile" so to say
-
-        def __eq__(self, other):
-            if(other == None):
-                return False
-            return (self.urgency ==
-                    other.urgency)
-
-        def __lt__(self, other):
-            return (self.urgency <
-                    other.urgency)
 
         def __str__(self):
             return f"Label: {self.label}, Prereq: {self.prerequisites}, Results: {self.results}, Urgency: {self.urgency}, Completed: {self.completed}"
@@ -37,8 +25,9 @@ init python:
     def DeclareStorylet(label, prerequisites, results, urgency, completed):
         storylet = Storylet(label, prerequisites, results, urgency, completed)
 
-        if(not next((True for x in storylets if x.label==label), False)):
+        if(len(label_traversal_list) > 0):
             storylets.append(storylet)
+            renpy.log("Initialized " + label)
             InitializeNextLabel()
 
     def FinishStorylet(label):
@@ -49,6 +38,7 @@ init python:
                 for x in item.results:
                     exec(x)
                 break
+        renpy.log("Jumping back to storylets...")
         renpy.jump("storylets")
 
     def CheckStoryletCompletion(label):
@@ -58,19 +48,23 @@ init python:
         return False
 
     def StoryletUrgency(storylet):
-        return storylet.urgency
+        renpy.log(storylet.urgency)
+        return int(storylet.urgency)
 
     def NextStorylet():
         default_value = None
         shuffled_storylets = copy.deepcopy(storylets)
+
         if(randomize_storylets):
             random.shuffle(shuffled_storylets)
-        shuffled_storylets.sort(reverse=True, key=StoryletUrgency)
+
+        shuffled_storylets = sorted(shuffled_storylets, reverse=True, key=StoryletUrgency)
         storylet = next((x for x in iter(shuffled_storylets) if CheckPrequisites(x)), default_value)
 
         if(storylet == None):
             renpy.notify("No storylet found. Returning to main menu.")
             renpy.pause()
+            MainMenu(confirm=False)()
         else:
             renpy.jump(storylet.label)
 
@@ -82,11 +76,20 @@ init python:
         randomize_storylets = randomize
 
         global label_traversal_list
-        label_traversal_list = [x for x in renpy.get_all_labels() if x[:3] == "st_"]
+        label_traversal_list = sorted([x for x in renpy.get_all_labels() if x[:3] == "st_"])
+        label_traversal_list.append("Non-existent filler storylet")
 
         InitializeNextLabel()
 
     def InitializeNextLabel():
+        global label_traversal_list
         if(len(label_traversal_list) > 0):
             next_label = label_traversal_list.pop(0)
-            renpy.jump(next_label)
+            if(next_label == "Non-existent filler storylet"):
+                label_traversal_list = []
+                InitializeNextLabel()
+            else:
+                renpy.jump(next_label)
+        else:
+            renpy.log("Done with initialization at label: " + label_tracker)
+            renpy.jump("storylets")

@@ -45,7 +45,7 @@ This game uses assets from many different creators:
 
 - {a=https://siyokoy.itch.io/astrology-renpy-gui-kit}Astrology GUI{/a} by Siyokoy
 
-- {a=https://feniksdev.itch.io/outline-shader-renpy}Outline Shader{/a}, {a=https://feniksdev.itch.io/achievements-for-renpy}Achievements{/a}, and {a=https://feniksdev.itch.io/parallax-zoom-viewports-for-renpy}Parallax Viewports{/a} by Feniks
+- {a=https://feniksdev.itch.io/outline-shader-renpy}Outline Shader{/a} and {a=https://feniksdev.itch.io/achievements-for-renpy}Achievements{/a}, and {a=https://feniksdev.itch.io/inline-conditions-for-renpy}Inline Conditions{/a} by Feniks
 
 - {a=https://dmochas-assets.itch.io/dmochas-bleeps-pack}Bleeps Pack{/a} by dmochas
 
@@ -257,3 +257,5 @@ init python:
 ## by a slash.
 
 # define build.itch_project = "jacoder23/doujins-and-dragons-2"
+
+define config.log = "PrideJam6_log.txt"
