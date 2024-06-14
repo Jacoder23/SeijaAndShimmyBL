@@ -36,7 +36,7 @@ init python:
 
     selecting_target = False
 
-    queued_say_statements = []
+    queued_statements = []
 
     def SkipTurn():
         pass
@@ -54,9 +54,9 @@ init python:
         for line in lines:
             sections = line.split(":", 1)
             if len(sections) == 1:
-                queued_say_statements.append((narrator, sections[0]))
+                queued_statements.append(("say", (narrator, sections[0])))
             else:
-                queued_say_statements.append((globals()[eval(sections[0][1:-1])], sections[1]))
+                queued_statements.append(("say", (globals()[eval(sections[0][1:-1])], sections[1])))
 
     def ApplyEffect(effect): # TODO: add vfx support to this 
                             # Just gonna have to assume everything in here is a variable change for now so I can add in the global keyword
@@ -72,8 +72,33 @@ init python:
 
     def RollDice(result, dc): # visual effect
         global dice_result
+        global continue_label
+        global dice_animation_counter
+
         dice_result = result
-        pass
+        dice_animation_counter = 0
+        queued_statements.append(("exec", "renpy.jump('dice_animation')"))
+
+    def OptionDescription(member, option):
+        dc = option[0][3]
+        modifier = option[0][4][1]
+        stat_name = option[0][4][0] if option[0][4][0] != "" else "No modifiers"
+
+        chance = round((20 - (dc - modifier)) / 20 * 100)
+        
+        if modifier == 0:
+            modifier_formatted = ""
+        elif modifier > 0:
+            modifier_formatted = ": " + "+" + str(abs(modifier))
+        else:
+            modifier_formatted = ": " + "-" + str(abs(modifier))
+
+        if len(member['effects']) > 0:
+            effects_formatted = member['effects'] # TODO: actually format this
+        else:
+            effects_formatted = ""
+
+        return stat_name + modifier_formatted + effects_formatted + "\n{size=70}" + str(chance) + "%{/size}\nDC: {size=*2.0}{font=Dicier-Round-Heavy.otf}" + str(dc) + "_ON_D20{/font}{/size} \nAlways loses: {size=*2.0}{font=Dicier-Round-Heavy.otf}1_ON_D20{/font}{/size}\nAlways wins: {size=*2.0}{font=Dicier-Round-Heavy.otf}20_ON_D20{/font}{/size}"
 
     def DoOption(party, member, option, interrupting_party): # maybe this should've been a dict or a custom class... eh it makes the writing part easier in trade for making the debugging a fucking ticking bomb
         # effect before outcome [0], effect on success [1], effect on failure [2], DC [3], stat [4], initial dialogue [5], post-success [6], post-failure [7], name of action [8]
@@ -94,19 +119,26 @@ init python:
 
             interrupting_member["options"].remove(current_option)
 
+            queued_statements.append(("exec", "renpy.jump('interrupt_animation')"))
+
         else:
 
             current_option = option[0]
 
         exec(current_option[0])
         
-        dice_roll = max(renpy.random.randint(1,20) + current_option[4], 1)
+        dice_roll = renpy.random.randint(1,20)
 
         SayDialogueData(current_option[5])
 
-        RollDice(dice_roll, current_option[3])
+        if current_option[3] > 0:
+            renpy.log(current_option[3])
+            RollDice(dice_roll, current_option[3])
 
-        if dice_roll >= current_option[3]:
+        auto_success = dice_roll == 20
+        auto_fail = dice_roll == 1 and current_option[3] != 0
+
+        if (max(dice_roll + current_option[4][1], 1) >= current_option[3] or auto_success) and not auto_fail:
             ApplyEffect(current_option[1])
             SayDialogueData(current_option[6])
         else:
@@ -185,6 +217,7 @@ screen battle_screen:
                     textbutton "[option[0][-1]]":
                         text_size 30
                         action Function(DoOption, party_one, member, option, party_two)
+                        tooltip OptionDescription(member, option)
                         yminimum 30
                         sensitive whose_turn == "party_one"
 
@@ -218,5 +251,17 @@ screen battle_screen:
                                 null width 5
 
                                 text "[member['hp']] / [member['max_hp']]" size 26
+
+    $ tooltip = GetTooltip()
+
+    if tooltip:
+        timer 0.05 repeat True action Function(get_mouse)
+        $ mx = mouse_xy[0] + 50 # LR
+        $ my = mouse_xy[1] + 50 # UD
+        text tooltip:
+            pos(mx, my)
+            color "#fff"
+            size 15
+            outlines [(2, "#000005", 0, 0)]
 
     on "show" action Function(CheckIfBattleOver)
