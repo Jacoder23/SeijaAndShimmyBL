@@ -59,6 +59,8 @@ This game uses assets from many different creators:
 
 - {a=https://wattson.itch.io/renpy-auto-highlight}Renpy Auto Highlight{/a} and {a=https://wattson.itch.io/kinetic-text-tags}Kinetic Text Tags{/a} by Wattson
 
+A large amount of SFX came from {a=https://www.shapeforms.com/}Shapeforms Audio{/a}. Their license doesn't require mention but so much was used that I feel the need to credit them. They are very good at what they do.
+
 """)
 
 ## A short name for the game used for executables and directories in the built
