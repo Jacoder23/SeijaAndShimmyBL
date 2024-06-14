@@ -122,7 +122,7 @@ init python:
         return stat_name + modifier_formatted + effects_formatted + "\n{size=70}" + str(chance) + "%{/size}\n{size=*1.5}DC: {/size}{size=*3.0}{font=Dicier-Round-Heavy.otf}" + str(dc) + "_ON_D20{/font}{/size}\n\nAlways loses: {size=*2.0}{font=Dicier-Round-Heavy.otf}1_ON_D20{/font}{/size}\nAlways wins: {size=*2.0}{font=Dicier-Round-Heavy.otf}20_ON_D20{/font}{/size}"
 
     def DoOption(party, member, option, interrupting_party): # maybe this should've been a dict or a custom class... eh it makes the writing part easier in trade for making the debugging a fucking ticking bomb
-        # effect before outcome [0], effect on success [1], effect on failure [2], DC [3], stat [4], initial dialogue [5], post-success [6], post-failure [7], name of action [8]
+        # effect before outcome [0], effect on success [1], effect on failure [2], DC [3], stat [4], initial dialogue [5], post-success [6], post-failure [7], formatting [8] or [-2], name of action [-1]
 
         # TODO: assign each of these to its own variable instead of being part of an array; like just some variable declarations to make it clearer what is what
 
@@ -203,6 +203,14 @@ init python:
                 battle_result = condition[0]
                 renpy.jump(end_battle_label)
 
+    def FormatOption(text, option_type):
+        if option_type == "violence":
+            return "{color=FF0000}{font=ITC Eras Std Bold.otf}{u}" + text + "{/u}{/font}{/color}"
+        elif option_type == "pacifism":
+            return "{color=2357BC}{font=ITC Eras Std Bold.otf}{u}" + text + "{/u}{/font}{/color}"
+        else:
+            return "{color=FFFFFF}{font=ITC Eras Std Bold.otf}{u}" + text + "{/u}{/font}{/color}"
+
 screen battle_screen:
     vbox:
         xalign 0.03 yalign 0.05
@@ -233,14 +241,33 @@ screen battle_screen:
                 frame:
                     size_group "party"
                     yminimum 30
-                    text "Action" yalign 0.5 xalign 0.5
+                    text "Actions" yalign 0.5 xalign 0.5
                 for option in member["options"]:
-                    textbutton "[option[0][-1]]":
-                        text_size 30
+                    # TODO: match the logos and colors up properly
+                    button:
                         action Function(DoOption, party_one, member, option, party_two)
-                        tooltip OptionDescription(member, option)
-                        yminimum 30
                         sensitive whose_turn == "party_one"
+
+                        at transform:
+                            on idle:
+                                outline_transform(-1, "#fff", 0.0)
+                            on hover:
+                                outline_transform(1, "#fff", 8.0, num_passes=4)
+
+                        tooltip OptionDescription(member, option)
+                        hbox:
+                            text "[option[0][-1]]":
+                                size 30
+                            if option[0][-2] == "violence":
+                                add "gui/DX_button/Fist_Unselected.png":
+                                    xpos 0
+                                    ypos -8
+                                    zoom 0.075
+                            elif option[0][-2] == "pacifism":
+                                add "gui/DX_button/OpenHand_Unselected.png":
+                                    xpos 0
+                                    ypos -8
+                                    zoom 0.075
 
     vbox:
         xalign 0.97 yalign 0.05
