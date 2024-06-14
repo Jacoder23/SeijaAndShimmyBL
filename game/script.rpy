@@ -43,6 +43,8 @@ label splashscreen:
 
     $ label_tracker = "splashscreen"
 
+    # TODO: have kogasa explain this all very cutely
+
     show text "This is a fan-made video game not affiliated\nwith or endorsed by the original creators.\n\n{color=e63d3c}Touhou Project{/color} original concept, characters, and elements are property of\n{color=e63d3c}ZUN{/color} and {color=e63d3c}Team Shanghai Alice{/color}. Please support the official series."
     with Pause(11)
 
@@ -52,13 +54,15 @@ label splashscreen:
 
 label interrupt_animation:
 
-    # play audio "countered.ogg"
+    play audio "countered.opus"
 
     show text "{sc}{size=120}COUNTERED!{/size}{/sc}"
 
     pause
 
     if first_time_countered:
+        play audio "question.opus"
+
         $ cinematic = True
         "Tutorial" "Often times, opponents will COUNTER or INTERRUPT your action and force you to make an unknown roll."
         $ cinematic = False
@@ -101,6 +105,11 @@ label dice_animation:
                 renpy.jump("dice_animation_section")
 
         show text "{vspace=25}{size=70}{color=000000}[dice_result]{/color}{/size}" at dice_text_center
+
+        if dice_modifier_formatted != "" and dice_result != 1 and dice_result != 20:
+            $ renpy.pause(0.4, hard=True)
+
+            show text "{vspace=50}{size=70}{color=000000}[dice_result]{/color}{/size}{color=000000}\n[dice_modifier_formatted]{/color}" at dice_text_center with dissolve
 
         pause
 
@@ -259,20 +268,20 @@ label st_chapter_start_1:
                     "agility":shin_battler.agility,
                     "tech":shin_battler.tech,
                     "effects":[],
-                    "options":[[["selecting_target = True", "violence += 1; dmg_to_target = 3", "violence += 0.5", 10, ("Power", shin_battler.power),               # run prior to outcome, effect on success, effect on failure, DC (1d20), relevant stat (if any)
+                    "options":[[["selecting_target = True", "violence += 1; dmg_to_target = 3; noglobal QueueSFX('PUNCH_PERCUSSIVE_HEAVY_09.opus')", "noglobal QueueSFX('WHOOSH_ARM_SWING_01.opus'); violence += 0.5", 10, ("Power", shin_battler.power),               # run prior to outcome, effect on success, effect on failure, DC (1d20), relevant stat (if any)
                                     "You bring your weapon in for a swing at [party_two[chosen_target[1]]['name']]'s midriff.",                          # initial dialogue
                                     "[party_two[chosen_target[1]]['name']] stifles a pained grunt.",                                                     # post-roll success dialogue
-                                    "[party_two[chosen_target[1]]['name']] points at your weapon and sends you it flying out of your hands.\nYou manage to get ahold of it before it goes offstage.\n[party_two[chosen_target[1]]['name']]'s laugh booms from his echoing demon mask.\n[party_two[chosen_target[1]]['sayer']]:Idiot.",
+                                    "[party_two[chosen_target[1]]['name']] points at your weapon and sends it flying out of your hands.\nYou manage to get ahold of it before it goes offstage.\n[party_two[chosen_target[1]]['name']]'s laugh booms from his echoing demon mask.\n[party_two[chosen_target[1]]['sayer']]:Idiot.",
                                     "Strike"],   # post-roll failure dialogue, action text
-                                ["selecting_target = True", "violence += 1; dmg_to_target = 4", "violence += 0.5; dmg_to_self = 1 if precision == 0 else 0", 13, ("Power", shin_battler.power),
+                                ["selecting_target = True", "violence += 1; dmg_to_target = 4; noglobal QueueSFX('PUNCH_DESIGNED_HEAVY_23.opus')", "noglobal QueueSFX('WHOOSH_ARM_SWING_01.opus'); violence += 0.5; dmg_to_self = 1 if precision == 0 else 0", 13, ("Power", shin_battler.power),
                                     "You throw your weight behind your weapon, bringing it down in a wide arc.",
                                     "[party_two[chosen_target[1]]['name']] is hit squarely in the chest.\nHe backs away a step while gasping for air.",
                                     "[party_two[chosen_target[1]]['name']] sidesteps your swing and sends a prop sword flying at your face.\n{if precision == 0}You parry it as well as you can but still get a bit roughed up.\n[party_two[chosen_target[1]]['sayer']]:Iiiiiiidiot.{else}You parry the prop sword, reading [party_two[chosen_target[1]]['name']]'s rhythm.",
                                     "Hit harder"],
-                                ["selecting_target = True", "violence += 1; dmg_to_target = 5", "violence += 0.5; dmg_to_self = 3 if precision == 1 else 4; dmg_to_target = 5 if precision == 1 else 0", 16, ("Power", shin_battler.power),
+                                ["selecting_target = True", "violence += 1; dmg_to_target = 5; noglobal QueueSFX('PUNCH_INTENSE_HEAVY_03.opus')", "noglobal QueueSFX('WHOOSH_ARM_SWING_01.opus'); noglobal QueueSFX('PUNCH_DESIGNED_HEAVY_23.opus', 2); noglobal QueueSFX('PUNCH_INTENSE_HEAVY_03.opus', 4); violence += 0.5; dmg_to_self = 3 if precision == 1 else 4; dmg_to_target = 5 if precision == 1 else 0", 16, ("Power", shin_battler.power),
                                     "You swing with a little too much oomph, nearly lifting you off your feet.",
                                     "[party_two[chosen_target[1]]['name']] blocks the telegraphed attack but the sheer force sends him backpedaling, wincing.",
-                                    "[party_two[chosen_target[1]]['name']] steps into range before you complete the swing, throwing a counterpunch.\nYou eat it with your jaw and the world becomes blurry.\n{if precision == 0}You nearly lose your footing but try for a counterattack.\nBut your timing's been read and [party_two[chosen_target[1]]['name']] lays into you.\n[party_two[chosen_target[1]]['sayer']]:Dumbfuck.{else}You grit your way through the pain.\nWhile dazed, you tackle [party_two[chosen_target[1]]['name']] and land a shot to his knees that make him buckle.\n[party_two[chosen_target[1]]['sayer']]:Fuck!",
+                                    "[party_two[chosen_target[1]]['name']] steps into range before you complete the swing, throwing a counterpunch.\nYou take it on your jaw and the world becomes blurry.\n{if precision == 0}You nearly lose your footing but try for a counterattack.\nBut your timing's been read and [party_two[chosen_target[1]]['name']] lays into you.\n[party_two[chosen_target[1]]['sayer']]:Dumbfuck.{else}You grit your way through the pain.\nWhile dazed, you tackle [party_two[chosen_target[1]]['name']] and land a shot to his knees that make him buckle.\n[party_two[chosen_target[1]]['sayer']]:Fuck!",
                                     "Go for a wild swing"]],
                                 [["", "pacifism += 1", "dmg_to_self = 2", 12, ("Agility", shin_battler.agility),
                                     "You duck [party_two[chosen_target[1]]['name']]'s blows, weaving in and out of his range.\nSeeing this, [party_two[chosen_target[1]]['name']] makes a gesture and from across the street, a manhole cover goes flying in your direction.",
@@ -308,7 +317,7 @@ label st_chapter_start_1:
                     "effects":[],
                     "options":[["", "", "dmg_to_self = 3", 10, ("", 0),                                     # opponent interrupts vs player actions, ran by player context but overwrite your previous action (though that means the action is still there for you to use later instead of being used up)
                                     "You attempt to-",
-                                    "But before you can, you notice the floorboard beneath your feet about to fly off. You leap backwards out of harms way.\n[party_two[chosen_target[1]]['sayer']]:Not as dumb as you look?",
+                                    "But before you can, you notice the floorboard beneath your feet about to fly off. You leap backwards out of harms way. [party_two[chosen_target[1]]['name']] seems genuinely surprised.\n[party_two[chosen_target[1]]['sayer']]:Not as dumb as you look?",
                                     "But you fail to notice the floorboard beneath your feet fly off, likely under [party_two[chosen_target[1]]['name']]'s power.\n You fall without any ground beneath you.\nYou land under the stage with a thud before climbing out unceremoniously; a jeering [party_two[chosen_target[1]]['name']] there to greet you as you rise.\n[party_two[chosen_target[1]]['sayer']]:Had a nice trip?",
                                     ""]],
                     "boss_turn":[], # it's called a boss turn because only bosses get their own non-interrupt actions
@@ -334,13 +343,20 @@ label st_chapter_start_1:
         label battle_st_chapter_start_1_continue:
 
             python:
-                for statement in queued_statements:
+                while len(queued_statements) > 0:
+                    statement = queued_statements[0]
                     if statement[0] == "say":
                         renpy.say(statement[1][0], statement[1][1])
+                        queued_statements.pop(0)
                     elif statement[0] == "exec":
-                        renpy.log(statement[1])
-                        queued_statements = queued_statements[queued_statements.index(statement)+1:] # removes all before this statement and the statement itself, needs to be here if we jump back into this bit
+                        renpy.log("")
+                        renpy.log("exec: " + statement[0])
+                        queued_statements.pop(0)
                         exec(statement[1])
+                    else:
+                        renpy.log("")
+                        renpy.log("unknown: " + str(statement))
+                        queued_statements.pop(0)
 
                 queued_statements = [] 
 
@@ -368,13 +384,13 @@ label st_chapter_start_1:
 
         elif battle_result == "party_two win":
 
-            "The last thing you see before you collapse onto the ground is his mask. You can tell they've got the ugliest smirk behind it."
+            "The last thing you see before you collapse onto the ground is his mask. You can tell he's got the ugliest smirk behind it."
 
         elif battle_result == "stalemate":
 
             seija_costumed "Hmm. Not as talkative as your stage persona, are ya?"
 
-            shin_costumed "Shut it with the remarks, Backswitch."
+            shin_costumed "Shut it with the backtalk, Backswitch."
 
         $ FinishStorylet("st_chapter_start_1")
 

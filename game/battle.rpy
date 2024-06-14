@@ -66,18 +66,39 @@ init python:
 
         effects = effect.split(";")
         for line in effects:
-            complete_line = "global " + line.split()[0] + "; " + line.strip()
-            renpy.log(complete_line)
+            if not line.strip()[:8] == "noglobal":
+                complete_line = "global " + line.split()[0] + "; " + line.strip()
+            else:
+                complete_line = line[9:].strip()
             exec(complete_line)
 
-    def RollDice(result, dc): # visual effect
+    def RollDice(result, modifier, dc): # visual effect
         global dice_result
+        global dice_modifier_formatted
         global continue_label
         global dice_animation_counter
 
         dice_result = result
+        dice_modifier_formatted = FormatModifier(modifier)
         dice_animation_counter = 0
         queued_statements.append(("exec", "renpy.jump('dice_animation')"))
+
+    def FormatModifier(modifier):
+        if modifier == 0:
+            return ""
+        elif modifier > 0:
+            return "+" + str(abs(modifier))
+        else:
+            return "-" + str(abs(modifier))
+
+    def QueueSFX(sfx, lines_to_skip = 0):
+        if lines_to_skip == 0:
+            queued_statements.append(("exec", "renpy.play('" + sfx + "')"))
+        else:
+            queued_statements.append(("exec", "QueueSFXWithIndex('" + sfx + "', " + str(lines_to_skip) + ")"))
+
+    def QueueSFXWithIndex(sfx, index):
+        queued_statements.insert(index, ("exec", "renpy.play('" + sfx + "')")) # TODO: Gotta take into consideration that the addition of more queued SFX messes up the order
 
     def OptionDescription(member, option):
         dc = option[0][3]
@@ -89,16 +110,16 @@ init python:
         if modifier == 0:
             modifier_formatted = ""
         elif modifier > 0:
-            modifier_formatted = ": " + "+" + str(abs(modifier))
+            modifier_formatted = ": " + FormatModifier(modifier)
         else:
-            modifier_formatted = ": " + "-" + str(abs(modifier))
+            modifier_formatted = ": " + FormatModifier(modifier)
 
         if len(member['effects']) > 0:
             effects_formatted = member['effects'] # TODO: actually format this
         else:
             effects_formatted = ""
 
-        return stat_name + modifier_formatted + effects_formatted + "\n{size=70}" + str(chance) + "%{/size}\nDC: {size=*2.0}{font=Dicier-Round-Heavy.otf}" + str(dc) + "_ON_D20{/font}{/size} \nAlways loses: {size=*2.0}{font=Dicier-Round-Heavy.otf}1_ON_D20{/font}{/size}\nAlways wins: {size=*2.0}{font=Dicier-Round-Heavy.otf}20_ON_D20{/font}{/size}"
+        return stat_name + modifier_formatted + effects_formatted + "\n{size=70}" + str(chance) + "%{/size}\n{size=*1.5}DC: {/size}{size=*3.0}{font=Dicier-Round-Heavy.otf}" + str(dc) + "_ON_D20{/font}{/size}\n\nAlways loses: {size=*2.0}{font=Dicier-Round-Heavy.otf}1_ON_D20{/font}{/size}\nAlways wins: {size=*2.0}{font=Dicier-Round-Heavy.otf}20_ON_D20{/font}{/size}"
 
     def DoOption(party, member, option, interrupting_party): # maybe this should've been a dict or a custom class... eh it makes the writing part easier in trade for making the debugging a fucking ticking bomb
         # effect before outcome [0], effect on success [1], effect on failure [2], DC [3], stat [4], initial dialogue [5], post-success [6], post-failure [7], name of action [8]
@@ -133,7 +154,7 @@ init python:
 
         if current_option[3] > 0:
             renpy.log(current_option[3])
-            RollDice(dice_roll, current_option[3])
+            RollDice(dice_roll, current_option[4][1], current_option[3])
 
         auto_success = dice_roll == 20
         auto_fail = dice_roll == 1 and current_option[3] != 0
