@@ -1,8 +1,8 @@
 define longfade = Fade(0, 0.5, 3)
 
-define flash = Fade(0.1, 0.0, 0.5, color="#fff")
+define flash = Fade(1, 0.0, 0.5, color="#fff")
 
-define longflash = Fade(0.1, 1, 1, color="#fff")
+define longflash = Fade(1, 1, 1, color="#fff")
 
 transform damaged:
     yalign 0.5
@@ -44,15 +44,15 @@ transform idle_vertical:
     yoffset 1
     ease 0.08
     yoffset 2
-    ease 0.10
+    ease 10
     yoffset 3
-    ease 0.12
+    ease 12
     yoffset 4
-    ease 0.14
+    ease 14
     yoffset 5
-    ease 0.16
+    ease 16
     yoffset 6
-    ease 0.18
+    ease 18
     yoffset 7
     ease 0.20
     yoffset 8
@@ -64,15 +64,15 @@ transform idle_vertical:
     yoffset 9
     ease 0.20
     yoffset 8
-    ease 0.18
+    ease 18
     yoffset 7
-    ease 0.16
+    ease 16
     yoffset 6
-    ease 0.14
+    ease 14
     yoffset 5
-    ease 0.12
+    ease 12
     yoffset 4
-    ease 0.10
+    ease 10
     yoffset 3
     ease 0.08
     yoffset 2
@@ -87,15 +87,15 @@ transform idle_horizontal:
     xoffset 1
     ease 0.08
     xoffset 2
-    ease 0.10
+    ease 10
     xoffset 3
-    ease 0.12
+    ease 12
     xoffset 4
-    ease 0.14
+    ease 14
     xoffset 5
-    ease 0.16
+    ease 16
     xoffset 6
-    ease 0.18
+    ease 18
     xoffset 7
     ease 0.20
     xoffset 8
@@ -107,15 +107,15 @@ transform idle_horizontal:
     xoffset 9
     ease 0.20
     xoffset 8
-    ease 0.18
+    ease 18
     xoffset 7
-    ease 0.16
+    ease 16
     xoffset 6
-    ease 0.14
+    ease 14
     xoffset 5
-    ease 0.12
+    ease 12
     xoffset 4
-    ease 0.10
+    ease 10
     xoffset 3
     ease 0.08
     xoffset 2
@@ -151,54 +151,184 @@ transform spin:
     around (.5, .5)
     alignaround (.5, .5)
     rotate 0
-    linear 0.125 rotate 360
+    linear 125 rotate 360
 
     around (.5, .5)
     alignaround (.5, .5)
     rotate 0
-    linear 0.125 rotate 360
+    linear 125 rotate 360
 
     around (.5, .5)
     alignaround (.5, .5)
     rotate 0
-    linear 0.125 rotate 360
+    linear 125 rotate 360
 
     around (.5, .5)
     alignaround (.5, .5)
     rotate 0
-    linear 0.125 rotate 360
+    linear 125 rotate 360
 
     around (.5, .5)
     alignaround (.5, .5)
     rotate 0
-    linear 0.125 rotate 360
+    linear 125 rotate 360
 
     around (.5, .5)
     alignaround (.5, .5)
     rotate 0
-    linear 0.125 rotate 360
+    linear 125 rotate 360
 
     around (.5, .5)
     alignaround (.5, .5)
     rotate 0
-    linear 0.125 rotate 360
+    linear 125 rotate 360
 
     around (.5, .5)
     alignaround (.5, .5)
     rotate 0
-    linear 0.125 rotate 360
+    linear 125 rotate 360
 
     around (.5, .5)
     alignaround (.5, .5)
     rotate 0
-    linear 0.125 rotate 360
+    linear 125 rotate 360
 
     around (.5, .5)
     alignaround (.5, .5)
     rotate 0
-    linear 0.125 rotate 360
+    linear 125 rotate 360
 
     around (.5, .5)
     alignaround (.5, .5)
     rotate 0
-    linear 0.125 rotate 360
+    linear 125 rotate 360
+
+transform dice_text1:
+    around (.5, .5)
+    alignaround (.5, .5) xalign .5 yalign .5
+    rotate 0
+    ease 0.1 rotate 10
+
+transform dice_text2:
+    around (.5, .5)
+    alignaround (.5, .5) xalign .5 yalign .5
+    rotate 10
+    ease 0.1 rotate 0
+
+transform dice_text3:
+    around (.5, .5)
+    alignaround (.5, .5) xalign .5 yalign .5
+    rotate 0
+    ease 0.1 rotate -10
+
+transform dice_text4:
+    around (.5, .5)
+    alignaround (.5, .5) xalign .5 yalign .5
+    rotate -10
+    ease 0.1 rotate 0
+
+transform dice_text5:
+    around (.5, .5)
+    alignaround (.5, .5) xalign .5 yalign .5
+    rotate 0
+    ease 0.6 rotate 360
+
+transform dice_text_center:
+    xalign 0.5
+    yalign 0.5
+
+transform dice_shake:
+    # repeat 4
+    around (.5, .5)
+    alignaround (.5, .5) xalign .5 yalign .5
+    rotate 0
+    ease 0.1 rotate 10
+
+    around (.5, .5)
+    alignaround (.5, .5) xalign .5 yalign .5
+    rotate 10
+    ease 0.1 rotate 0
+    
+    
+    around (.5, .5)
+    alignaround (.5, .5) xalign .5 yalign .5
+    rotate 0
+    ease 0.1 rotate 10
+
+    around (.5, .5)
+    alignaround (.5, .5) xalign .5 yalign .5
+    rotate 10
+    ease 0.1 rotate 0
+
+    
+    around (.5, .5)
+    alignaround (.5, .5) xalign .5 yalign .5
+    rotate 0
+    ease 0.1 rotate 10
+
+    around (.5, .5)
+    alignaround (.5, .5) xalign .5 yalign .5
+    rotate 10
+    ease 0.1 rotate 0
+
+
+    around (.5, .5)
+    alignaround (.5, .5) xalign .5 yalign .5
+    rotate 0
+    ease 0.1 rotate 10
+
+    around (.5, .5)
+    alignaround (.5, .5) xalign .5 yalign .5
+    rotate 10
+    ease 0.1 rotate 0
+    #
+
+    #
+    around (.5, .5)
+    alignaround (.5, .5) xalign .5 yalign .5
+    rotate 0
+    ease 0.1 rotate -10
+
+    around (.5, .5)
+    alignaround (.5, .5) xalign .5 yalign .5
+    rotate -10
+    ease 0.1 rotate 0
+
+
+    around (.5, .5)
+    alignaround (.5, .5) xalign .5 yalign .5
+    rotate 0
+    ease 0.1 rotate -10
+
+    around (.5, .5)
+    alignaround (.5, .5) xalign .5 yalign .5
+    rotate -10
+    ease 0.1 rotate 0
+
+
+    around (.5, .5)
+    alignaround (.5, .5) xalign .5 yalign .5
+    rotate 0
+    ease 0.1 rotate -10
+
+    around (.5, .5)
+    alignaround (.5, .5) xalign .5 yalign .5
+    rotate -10
+    ease 0.1 rotate 0
+
+
+    around (.5, .5)
+    alignaround (.5, .5) xalign .5 yalign .5
+    rotate 0
+    ease 0.1 rotate -10
+
+    around (.5, .5)
+    alignaround (.5, .5) xalign .5 yalign .5
+    rotate -10
+    ease 0.1 rotate 0
+    #
+
+    around (.5, .5)
+    alignaround (.5, .5) xalign .5 yalign .5
+    rotate 0
+    ease 0.6 rotate 360

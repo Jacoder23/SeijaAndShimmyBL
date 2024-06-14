@@ -43,11 +43,13 @@ By Jacoder23, Joel, DX5536, JerryStuffRo, and BurlyBurly.
 
 This game uses assets from many different creators:
 
+- {a=https://speakthesky.itch.io/typeface-dicier}Dicier{/a} by Speak the Sky, licensed under CC BY 4.0
+
 - {a=https://siyokoy.itch.io/astrology-renpy-gui-kit}Astrology GUI{/a} by Siyokoy
 
 - {a=https://feniksdev.itch.io/outline-shader-renpy}Outline Shader{/a} and {a=https://feniksdev.itch.io/achievements-for-renpy}Achievements{/a}, and {a=https://feniksdev.itch.io/inline-conditions-for-renpy}Inline Conditions{/a} by Feniks
 
-- {a=https://dmochas-assets.itch.io/dmochas-bleeps-pack}Bleeps Pack{/a} by dmochas
+- {a=https://dmochas-assets.itch.io/dmochas-bleeps-pack}Bleeps Pack{/a} by dmochas, licensed under CC BY 4.0
 
 - {a=https://devilspider.itch.io/flowchart-plug-in}Flowchart Plugin{/a} and {a=https://devilspider.itch.io/animated-cursor-displayable}Animated Cursor{/a} by Devil Spiδεr
 

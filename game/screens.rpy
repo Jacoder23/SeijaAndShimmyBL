@@ -108,7 +108,7 @@ default cinematic = False
 screen say(who, what):
     style_prefix "say"
 
-    if renpy.get_screen("choice") and cinematic == False:
+    if renpy.get_screen("choice") and cinematic == False and who is not "":
         window:
             # id "window"
             background "gui/choicebox.png"
@@ -128,7 +128,7 @@ screen say(who, what):
                 xysize (900, 100)
                 outlines([(5, "#000000", 0, 0)])
 
-    if not renpy.get_screen("choice") and cinematic == False:
+    if not renpy.get_screen("choice") and cinematic == False and who is not "":
         window:
             id "window"
             xoffset -10
@@ -146,7 +146,7 @@ screen say(who, what):
                 xoffset 10
                 outlines([(5, "#000000", 0, 0)])
 
-    if cinematic == True:
+    if cinematic == True or who is "":
         window:
             background "gui/cinemabox.png"
             xsize 1800
