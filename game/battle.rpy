@@ -211,10 +211,14 @@ init python:
             return "{color=FF0000}{font=ITC Eras Std Bold.otf}{u}" + text + "{/u}{/font}{/color}"
         elif option_type == "pacifism":
             return "{color=2357BC}{font=ITC Eras Std Bold.otf}{u}" + text + "{/u}{/font}{/color}"
-        elif option_type == "precision":
-            return "{color=733B97}{font=ITC Eras Std Bold.otf}{u}" + text + "{/u}{/font}{/color}"
+        elif option_type == "team_player":
+            return "{color=FCED23}{font=ITC Eras Std Bold.otf}{u}" + text + "{/u}{/font}{/color}"
         elif option_type == "isolation":
             return "{color=F36621}{font=ITC Eras Std Bold.otf}{u}" + text + "{/u}{/font}{/color}"
+        elif option_type == "precision":
+            return "{color=733B97}{font=ITC Eras Std Bold.otf}{u}" + text + "{/u}{/font}{/color}"
+        elif option_type == "tenderness":
+            return "{color=2FBBB3}{font=ITC Eras Std Bold.otf}{u}" + text + "{/u}{/font}{/color}"
         else:
             return "{color=FFFFFF}{font=ITC Eras Std Bold.otf}{u}" + text + "{/u}{/font}{/color}"
 
@@ -300,17 +304,5 @@ screen battle_screen:
                                 null width 5
 
                                 text "[member['hp']] / [member['max_hp']]" size 26
-
-    $ tooltip = GetTooltip()
-
-    if tooltip:
-        timer 0.05 repeat True action Function(get_mouse)
-        $ mx = mouse_xy[0] + 50 # LR
-        $ my = mouse_xy[1] + 50 # UD
-        text tooltip:
-            pos(mx, my)
-            color "#fff"
-            size 15
-            outlines [(2, "#000005", 0, 0)]
 
     on "show" action Function(CheckIfBattleOver)

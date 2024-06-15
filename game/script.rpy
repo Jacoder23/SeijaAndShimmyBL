@@ -2,15 +2,26 @@
     import random
     import functools
     import copy
+
+    # https://lemmasoft.renai.us/forums/viewtopic.php?t=62280
+    # Check if we already initialized preferences
+    if not persistent.initialized:
+        # Mark first-time initialization done
+        persistent.initialized = True
+        # Set volume preference if this is first launch
+        preferences.set_volume("voice1", 0.7)
+
+    renpy.music.register_channel("voice1", "voice1")
+
     # from the beeps bleeps thing credited in about
     def boopy_voice(event, interact=True, boopfile="bleeps/bleep001.ogg", **kwargs):
         if not interact:
             return
 
         if event == "show_done":
-            renpy.sound.play(boopfile, loop=True)
+            renpy.sound.play(boopfile, loop=True, channel='voice1')
         elif event == "slow_done" or event == "end":
-            renpy.sound.stop(fadeout=1)
+            renpy.sound.stop(fadeout=1, channel='voice1')
 
     class Battler:
         def __init__(self, name, max_hp, power, agility, tech, upgrades, violence, pacifism, team_player, isolation, precision, tenderness):
@@ -105,7 +116,7 @@ label dice_animation:
         python:
             dice_animation_counter += 1
 
-            renpy.pause(0.1 - 0.0305, hard = True) # tiny bit of delay messes up the sync, hand adjusted the delay, hopefully consistent across platforms (oh no)
+            renpy.pause(0.1 - 0.0315, hard = True) # tiny bit of delay messes up the sync, hand adjusted the delay, hopefully consistent across platforms (oh no)
 
             if dice_animation_counter >= 23:
                 dice_animation_counter = 0
@@ -415,6 +426,8 @@ label st_chapter_start_1:
         $ renpy.hide_screen("battle_screen")
 
         scene bg black with fade
+
+        $ seija_hurt = True if party_two[0]["hp"] / party_two[0]["max_hp"] <= 0.5 else False
 
         if battle_result == "double knockout":
             shin_costumed "And... shut... your..."
