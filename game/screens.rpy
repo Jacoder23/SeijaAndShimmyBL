@@ -372,37 +372,60 @@ screen quick_menu():
             button:
                 action QuickSave()
                 xysize (70,70)
-                background "gui/button/q_save.png"
+                background "gui/DX_button/q_save.png"
+                hover_background "gui/DX_button/q_save_WhiteOutline.png"
                 at quickMenu_hover
                 yalign 0.5
+                tooltip "Quick save"
 
             button:
                 action Rollback()
                 xysize (70,70)
-                background "gui/button/q_back.png"
+                background "gui/DX_button/q_back.png"
+                hover_background "gui/DX_button/q_back_WHITE.png"
                 at quickMenu_hover
                 yalign 0.5
+                tooltip "Back"
                 
             button:
                 action ShowMenu('about')
                 xysize (191,191)
                 background "gui/button/q_about.png"
                 at quickMenu_hover
+                tooltip "About"
 
             button:
                 action Preference("auto-forward", "toggle")
                 xysize (70,70)
-                background "gui/button/q_auto.png"
+                background "gui/DX_button/q_auto.png"
+                hover_background "gui/DX_button/q_auto_White.png"
+                selected_background "gui/DX_button/q_auto_White.png"
                 at quickMenu_hover
                 yalign 0.5
+                tooltip "Auto-forward"
 
 
             button:
                 action Skip() alternate Skip(fast=True, confirm=True)
                 xysize (70,70)
-                background "gui/button/q_skip.png"
+                background "gui/DX_button/q_skip.png"
+                hover_background "gui/DX_button/q_skip_WhiteOutline.png"
+                selected_background "gui/DX_button/q_skip_WhiteOutline.png"
                 at quickMenu_hover
                 yalign 0.5
+                tooltip "Skip"
+
+    $ tooltip = GetTooltip() # only run this once
+
+    if tooltip:
+        timer 0.05 repeat True action Function(get_mouse)
+        $ mx = mouse_xy[0] + 10 # LR
+        $ my = mouse_xy[1] + 10 # UD
+        text tooltip:
+            pos(mx, my)
+            color "#fff"
+            size 15
+            outlines [(5, "#000005", 0, 0)]
 
 ## This code ensures that the quick_menu screen is displayed in-game, whenever
 ## the player has not explicitly hidden the interface.
@@ -1008,6 +1031,11 @@ screen preferences():
 
                             if config.sample_voice:
                                 textbutton _("Test") action Play("voice", config.sample_voice)
+
+                        label _("Bleeps Volume")
+
+                        hbox:
+                            bar value MixerValue("voice1")
 
                     if config.has_music or config.has_sound or config.has_voice:
                         null height gui.pref_spacing

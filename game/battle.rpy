@@ -301,16 +301,4 @@ screen battle_screen:
 
                                 text "[member['hp']] / [member['max_hp']]" size 26
 
-    $ tooltip = GetTooltip()
-
-    if tooltip:
-        timer 0.05 repeat True action Function(get_mouse)
-        $ mx = mouse_xy[0] + 50 # LR
-        $ my = mouse_xy[1] + 50 # UD
-        text tooltip:
-            pos(mx, my)
-            color "#fff"
-            size 15
-            outlines [(2, "#000005", 0, 0)]
-
     on "show" action Function(CheckIfBattleOver)
