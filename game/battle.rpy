@@ -211,10 +211,14 @@ init python:
             return "{color=FF0000}{font=ITC Eras Std Bold.otf}{u}" + text + "{/u}{/font}{/color}"
         elif option_type == "pacifism":
             return "{color=2357BC}{font=ITC Eras Std Bold.otf}{u}" + text + "{/u}{/font}{/color}"
-        elif option_type == "precision":
-            return "{color=733B97}{font=ITC Eras Std Bold.otf}{u}" + text + "{/u}{/font}{/color}"
+        elif option_type == "team_player":
+            return "{color=FCED23}{font=ITC Eras Std Bold.otf}{u}" + text + "{/u}{/font}{/color}"
         elif option_type == "isolation":
             return "{color=F36621}{font=ITC Eras Std Bold.otf}{u}" + text + "{/u}{/font}{/color}"
+        elif option_type == "precision":
+            return "{color=733B97}{font=ITC Eras Std Bold.otf}{u}" + text + "{/u}{/font}{/color}"
+        elif option_type == "tenderness":
+            return "{color=2FBBB3}{font=ITC Eras Std Bold.otf}{u}" + text + "{/u}{/font}{/color}"
         else:
             return "{color=FFFFFF}{font=ITC Eras Std Bold.otf}{u}" + text + "{/u}{/font}{/color}"
 
