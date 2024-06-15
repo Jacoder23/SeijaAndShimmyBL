@@ -27,6 +27,9 @@
             self.precision = precision
             self.tenderness = tenderness
 
+        def ListPersonalityTraits(self):
+            return [self.violence, self.pacifism, self.team_player, self.isolation, self.precision, self.tenderness]
+
 define seija = Character("Seija", callback = [name_callback, functools.partial(boopy_voice, boopfile="bleeps/bleep002.ogg")], cb_name = "Seija")
 define seija_costumed = Character("Backswitch", callback = [name_callback, functools.partial(boopy_voice, boopfile="bleeps/bleep002.ogg")], cb_name = "Backswitch")
 define seija_secret = Character("???", callback = [name_callback, functools.partial(boopy_voice, boopfile="bleeps/bleep002.ogg")], cb_name = "???")
@@ -123,9 +126,28 @@ label dice_animation:
 
         $ renpy.jump(continue_label)
 
+label character_sheet:
+    $ current_character = Battler("Seija", 12, 2, 5, 2, 0, 3, 0, 0, 1, 1, 1)
+
+    scene test bg
+
+    show screen characters_screen
+
+    $ renpy.jump(continue_label)
+
 label start:
 
     $ label_tracker = "start"
+
+    $ continue_label = "start_devtest"
+
+    jump character_sheet
+
+    label start_devtest:
+
+        pause
+
+        $ renpy.hide_screen("characters_screen")
 
     # $ cinematic = True
 

@@ -105,6 +105,9 @@ init python:
         modifier = option[0][4][1]
         stat_name = option[0][4][0] if option[0][4][0] != "" else "No modifiers"
 
+        if stat_name == "Tech":
+            stat_name = "Technique"
+
         chance = round((20 - (dc - modifier)) / 20 * 100)
         
         if modifier == 0:
