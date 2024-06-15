@@ -51,8 +51,6 @@ This game uses assets from many different creators:
 
 - {a=https://dmochas-assets.itch.io/dmochas-bleeps-pack}Bleeps Pack{/a} by dmochas, licensed under CC BY 4.0
 
-- {a=https://devilspider.itch.io/flowchart-plug-in}Flowchart Plugin{/a} and {a=https://devilspider.itch.io/animated-cursor-displayable}Animated Cursor{/a} by Devil Spiδεr
-
 - {a=https://skolaztika.itch.io/renpy-codex-screen}Ren'py Codex{/a} by Skolaztika
 
 - {a=https://kigyo.itch.io/renpy-word-counter}Lint+{/a} by KigyoDev
