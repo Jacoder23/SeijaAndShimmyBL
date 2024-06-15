@@ -211,6 +211,10 @@ init python:
             return "{color=FF0000}{font=ITC Eras Std Bold.otf}{u}" + text + "{/u}{/font}{/color}"
         elif option_type == "pacifism":
             return "{color=2357BC}{font=ITC Eras Std Bold.otf}{u}" + text + "{/u}{/font}{/color}"
+        elif option_type == "precision":
+            return "{color=733B97}{font=ITC Eras Std Bold.otf}{u}" + text + "{/u}{/font}{/color}"
+        elif option_type == "isolation":
+            return "{color=F36621}{font=ITC Eras Std Bold.otf}{u}" + text + "{/u}{/font}{/color}"
         else:
             return "{color=FFFFFF}{font=ITC Eras Std Bold.otf}{u}" + text + "{/u}{/font}{/color}"
 
@@ -260,17 +264,11 @@ screen battle_screen:
                         tooltip OptionDescription(member, option)
                         hbox:
                             text "[option[0][-1]]":
-                                size 30
-                            if option[0][-2] == "violence":
-                                add "gui/DX_button/Fist_Unselected.png":
-                                    xpos 0
-                                    ypos -8
-                                    zoom 0.075
-                            elif option[0][-2] == "pacifism":
-                                add "gui/DX_button/OpenHand_Unselected.png":
-                                    xpos 0
-                                    ypos -8
-                                    zoom 0.075
+                                size 50
+                            add "gui/DX_button/[option[0][-2]].png":
+                                xpos 0
+                                ypos -8
+                                zoom 0.125
 
     vbox:
         xalign 0.97 yalign 0.05

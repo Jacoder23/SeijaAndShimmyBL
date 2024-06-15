@@ -8995,3 +8995,251 @@ Done with initialization at label: st_shin_solo_1
 99
 100
 99
+--- Sat Jun 15 19:49:40 2024
+
+Initialized st_chapter_start_1
+Initialized st_shin_solo_1
+Initialized st_shin_solo_1
+Done with initialization at label: st_shin_solo_1
+99
+99
+100
+There's shattered glass in the stage curtain, shimmering in blue. Your enemy
+calls from the skies.
+
+???
+Come out, come out wish boy!
+
+Now... now is the time to strike!
+
+Shin
+May even your wish come true, someday.
+
+{sc}WOOOOOOOOOOOOO!{/sc}
+
+The sound of tiny applause and unenthused parents rings out from your
+audience. It's a sea of small hands pointing to you.
+
+You hear the cue to bow so you do.
+
+We love you Wishmaker!
+
+{i}The smiles, the games, the acting... it's all...{/i}
+
+???
+Kids shit.
+
+The fallen mascot suit, in upstage left, took to its feet{fast} and removed
+its oversized head to reveal Wishmaker.
+
+Minor villain, major nuisance.
+
+She's been around the block, making waves with her gravity flipping powers. As
+a relative newbie, this is your first time face-to-face with a villain.
+
+Despite the excited gasps from the audience, the staff begin ushering everyone
+out.
+
+Shin
+{i}Okay, this is fine. Drop the banter for now, focus on keeping it
+together.{/i}
+
+Backswitch
+I was wonderin' about the noise following some new hero. Looks like noise was
+all it was.
+
+Backswitch
+Don't you agree, {bt=6}wish boy?{/bt}
+
+--- Sat Jun 15 19:49:57 2024
+
+Initialized st_chapter_start_1
+Initialized st_shin_solo_1
+Initialized st_shin_solo_1
+Done with initialization at label: st_shin_solo_1
+99
+100
+99
+There's shattered glass in the stage curtain, shimmering in blue. Your enemy
+calls from the skies.
+
+???
+Come out, come out wish boy!
+
+Now... now is the time to strike!
+
+Shin
+May even your wish come true, someday.
+
+{sc}WOOOOOOOOOOOOO!{/sc}
+
+The sound of tiny applause and unenthused parents rings out from your
+audience. It's a sea of small hands pointing to you.
+
+You hear the cue to bow so you do.
+
+We love you Wishmaker!
+
+{i}The smiles, the games, the acting... it's all...{/i}
+
+???
+Kids shit.
+
+The fallen mascot suit, in upstage left, took to its feet{fast} and removed
+its oversized head to reveal Wishmaker.
+
+Minor villain, major nuisance.
+
+She's been around the block, making waves with her gravity flipping powers. As
+a relative newbie, this is your first time face-to-face with a villain.
+
+Despite the excited gasps from the audience, the staff begin ushering everyone
+out.
+
+Shin
+{i}Okay, this is fine. Drop the banter for now, focus on keeping it
+together.{/i}
+
+Backswitch
+I was wonderin' about the noise following some new hero. Looks like noise was
+all it was.
+
+Backswitch
+Don't you agree, {bt=6}wish boy?{/bt}
+
+--- Sat Jun 15 19:50:55 2024
+
+Initialized st_chapter_start_1
+Initialized st_shin_solo_1
+Initialized st_shin_solo_1
+Done with initialization at label: st_shin_solo_1
+99
+100
+99
+There's shattered glass in the stage curtain, shimmering in blue. Your enemy
+calls from the skies.
+
+???
+Come out, come out wish boy!
+
+Now... now is the time to strike!
+
+Shin
+May even your wish come true, someday.
+
+{sc}WOOOOOOOOOOOOO!{/sc}
+
+The sound of tiny applause and unenthused parents rings out from your
+audience. It's a sea of small hands pointing to you.
+
+You hear the cue to bow so you do.
+
+We love you Wishmaker!
+
+{i}The smiles, the games, the acting... it's all...{/i}
+
+???
+Kids shit.
+
+The fallen mascot suit, in upstage left, took to its feet{fast} and removed
+its oversized head to reveal Wishmaker.
+
+Minor villain, major nuisance.
+
+She's been around the block, making waves with her gravity flipping powers. As
+a relative newbie, this is your first time face-to-face with a villain.
+
+Despite the excited gasps from the audience, the staff begin ushering everyone
+out.
+
+Shin
+{i}Okay, this is fine. Drop the banter for now, focus on keeping it
+together.{/i}
+
+Backswitch
+I was wonderin' about the noise following some new hero. Looks like noise was
+all it was.
+
+Backswitch
+Don't you agree, {bt=6}wish boy?{/bt}
+
+You hold a defensive stance, keeping distance from Backswitch.
+
+After dodging one or two hits, you start to get a feel for his timing, his
+rhythm.
+
+10
+You bring your weapon in for a swing at Backswitch's midriff.
+
+
+exec: exec
+
+exec: exec
+Backswitch stifles a pained grunt.
+
+13
+You throw your weight behind your weapon, bringing it down in a wide arc.
+
+
+exec: exec
+
+exec: exec
+Backswitch sidesteps your swing and sends a prop sword flying at your face.
+
+You parry the prop sword, reading Backswitch's rhythm.
+
+16
+You swing with a little too much oomph, nearly lifting you off your feet.
+
+
+exec: exec
+
+exec: exec
+Backswitch blocks the telegraphed attack but the sheer force sends him
+backpedaling, wincing.
+
+10
+
+exec: exec
+Tutorial
+Often times, opponents will COUNTER or INTERRUPT your action and force you to
+make an unknown roll.
+
+You attempt to-
+
+
+exec: exec
+But you fail to notice the floorboard beneath your feet fly off, likely under
+Backswitch's power.
+
+ You fall without any ground beneath you.
+
+You land under the stage with a thud before climbing out unceremoniously; a
+jeering Backswitch there to greet you as you rise.
+
+Backswitch
+Had a nice trip?
+
+12
+You duck Backswitch's blows, weaving in and out of his range.
+
+Seeing this, Backswitch makes a gesture and from across the street, a manhole
+cover goes flying in your direction.
+
+
+exec: exec
+You manage to avoid it, leaping from your low position, as it flies underneath
+you and crashes into backstage.
+
+15
+You roll for cover, stage props and lighting equipment becoming temporary
+shelter for you to catch your breath.
+
+It's a balancing act to not stay in one place for too long however as your
+protections could become projectiles with just a gesture from Backswitch.
+
+
+exec: exec
+A balancing act{cps=1.5}... {/cps}gone wrong as a wardrobe full of costumes
+goes flying right as you roll, straight into your face.
+
