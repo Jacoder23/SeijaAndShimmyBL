@@ -223,6 +223,7 @@ init python:
             return "{color=FFFFFF}{font=ITC Eras Std Bold.otf}{u}" + text + "{/u}{/font}{/color}"
 
 screen battle_screen:
+    add VBox(Transform("#000000AA", ysize=110), "#000000AA", yalign=0)
     vbox:
         xalign 0.03 yalign 0.05
         spacing 5
@@ -233,7 +234,7 @@ screen battle_screen:
                 xminimum 250 xmaximum 250
                 yminimum 75
                 vbox:
-                    text "[member['name']]" size 36 xalign 0.5
+                    text "{font=[gui.name_text_font]}[member['name']]{/font}" size 36 xalign 0.5
                     null height 5
                     hbox:
                         bar:

@@ -51,6 +51,7 @@ screen category_welcome():
     #This is the "Welcome screen", the first screen the player sees when they go into the codex menu.
 
     tag menu
+    add VBox(Transform("#000000AA", ysize=110), "#000000AA", yalign=0)
     use category_nav #instead of the usual menu, we'll use the one we created above
 
     style_prefix "codex"

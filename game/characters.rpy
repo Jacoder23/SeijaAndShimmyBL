@@ -1,5 +1,6 @@
 screen characters_screen:
-    add "gui/character sheet background.png"
+    #add "gui/character sheet background.png"
+    add "gui/DX_button/CharacterSheet_BG_NoText.png"
     frame:
         xalign 0.5 yalign 0.5
         add "images/character sheets/[current_character.name].png":

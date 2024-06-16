@@ -40,6 +40,7 @@ screen people_welcome():
     ##This is the "People" category's welcome page. This is the first screen players see after they select a category.
 
     tag menu
+    add VBox(Transform("#000000AA", ysize=110), "#000000AA", yalign=0)
     use people_nav
 
     style_prefix "codex"
@@ -59,6 +60,7 @@ screen people_welcome():
 screen zack():
 
     tag menu
+    add VBox(Transform("#000000AA", ysize=110), "#000000AA", yalign=0)
     use people_nav
 
     style_prefix "codex"
@@ -108,6 +110,7 @@ screen zack():
 screen nelson():
 
     tag menu
+    add VBox(Transform("#000000AA", ysize=110), "#000000AA", yalign=0)
     use people_nav
 
     style_prefix "codex"
@@ -138,6 +141,7 @@ screen nelson():
 screen bob():
 
     tag menu
+    add VBox(Transform("#000000AA", ysize=110), "#000000AA", yalign=0)
     use people_nav
 
     style_prefix "codex"

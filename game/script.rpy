@@ -205,7 +205,7 @@ label st_shin_hospitalized:
 
     $ DeclareStorylet("st_shin_solo_1", ["time >= 0", "chapter == 1", "hospitalized == True"], ["global time; time += 1"], 99, False)
 
-    # shin ALSO has to file a report on her battle but to take her mind off things, instead of a supplies trip, sekibanki keeps her company at her bed for a while and the two have a chat about heroism, shin expresses doubts that what she's doing matters much when her first break went that poorly (or that she got knocked out even if she knocked out seija)
+    # shin ALSO has to file a report on her battle but to take her mind off things, instead of a supplies trip, sekibanki keeps her company at her bed for a while and the two have a chat about heroism, shin expresses doubts that what he's doing matters much when her first break went that poorly (or that she got knocked out even if she knocked out seija)
 
     "[label_tracker]"
 
@@ -219,7 +219,7 @@ label st_shin_not_hospitalized:
 
     # shin has to file a report on her battle but to take her mind off things, sekibanki sends her on a supplies trip to the mall to buy food
 
-    # along the way she finds a certain someone whose name rhymes with shmeija but neither know the other's identity, they become acquainted with each other; not friends nor foes yet
+    # along the way he finds a certain someone whose name rhymes with shmeija but neither know the other's identity, they become acquainted with each other; not friends nor foes yet
 
     "[label_tracker]"
 
@@ -233,9 +233,9 @@ label st_chapter_start_1:
 
     # POV: Shin
 
-    # CG: Shin hiding behind a wall with his signature weapon as a villain in a mascot suit (does not look like Seija) approaches, in search for him
+    # CG: The focus is shin hiding behind a wall with his signature weapon (gotta wait on shin hero design or at least sillouhette); a villain in a mascot suit (does not look like Seija) approaches, in search for him
 
-    scene bg black
+    #scene bg black
 
     "There's shattered glass in the stage curtain, shimmering in blue. Your enemy calls from the skies."
 
@@ -258,15 +258,15 @@ label st_chapter_start_1:
 
     seija_secret "Kids shit."
 
-    "The fallen mascot suit, in upstage left, took to its feet{nw}{done} and removed its oversized head."
+    "The fallen mascot suit, in upstage left, took to its feet{nw}{done} and removed its oversized head to reveal Backswitch."
 
-    # CG: Seija reveals herself
+    # Seija reveals herself by the sprite moving up, no need for a CG
 
-    "The fallen mascot suit, in upstage left, took to its feet{fast} and removed its oversized head to reveal Wishmaker."
+    "The fallen mascot suit, in upstage left, took to its feet{fast} and removed its oversized head to reveal Backswitch."
 
     "Minor villain, major nuisance."
     
-    "She's been around the block, making waves with her gravity flipping powers. As a relative newbie, this is your first time face-to-face with a villain."
+    "He's been around the block, making waves with her gravity flipping powers. As a relative newbie, this is your first time face-to-face with a villain."
 
     "Despite the excited gasps from the audience, the staff begin ushering everyone out."
 
@@ -274,7 +274,7 @@ label st_chapter_start_1:
 
     seija_costumed "I was wonderin' about the noise following some new hero. Looks like noise was all it was."
 
-    seija_costumed "Don't you agree, {bt=6}wish boy?{/bt}"
+    seija_costumed "Don't you agree, {bt=6}{color=000000}wish boy?{/color}{/bt}"
 
     # BATTLE STUFF START #
 

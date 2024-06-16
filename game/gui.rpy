@@ -21,7 +21,7 @@ define gold = "#b49920"
 define darkgold = "#927115"
 
 ## Images
-image border = "gui/border.png"
+image border = "gui/DX_button/border_1920x1080.png"
 image constellations = "gui/s.png"
 
 init:
@@ -70,16 +70,16 @@ define gui.interface_text_color = white
 ## Fonts and Font Sizes ########################################################
 
 ## The font used for in-game text.
-define gui.text_font = "fonts/DejaVuSans.ttf"
+define gui.text_font = "fonts/times.ttf"
 
 ## The font used for character names.
-define gui.name_text_font = "fonts/DejaVuSans.ttf"
+define gui.name_text_font = "fonts/AlegreyaSC-Bold.ttf"
 
 ## The font used for out-of-game text.
-define gui.interface_text_font = "fonts/DejaVuSans.ttf" # Times.ttf
+define gui.interface_text_font = "fonts/times.ttf" # times.ttf
 
 ## The font used in labels in the game's user interface.
-define gui.label_text_font = "fonts/DejaVuSans.ttf" # cinzel-medium.ttf
+define gui.label_text_font = "fonts/times.ttf" # cinzel-medium.ttf
 
 ## The size of normal dialogue text.
 define gui.text_size = 25
@@ -113,8 +113,8 @@ define gui.title_text_size = 75
 ## time.
 
 ## The height of the textbox containing dialogue.
-define gui.textbox_height = 278
-define gui.textbox_width = 463
+define gui.textbox_height = 250
+define gui.textbox_width = 500
 
 ## The placement of the textbox vertically on the screen. 0.0 is the top, 0.5 is
 ## center, and 1.0 is the bottom.
@@ -123,7 +123,7 @@ define gui.textbox_yalign = 0.75
 
 ## The placement of the speaking character's name, relative to the textbox.
 ## These can be a whole number of pixels from the left or top, or 0.5 to center.
-define gui.name_xpos = 0.5
+define gui.name_xpos = -10
 define gui.name_ypos = -50
 
 ## The horizontal alignment of the character's name. This can be 0.0 for left-
@@ -132,12 +132,12 @@ define gui.name_xalign = 0.5
 
 ## The width, height, and borders of the box containing the character's name, or
 ## None to automatically size it.
-define gui.namebox_width = 346
-define gui.namebox_height = 88
+define gui.namebox_width = 500
+define gui.namebox_height = 250
 
 ## The borders of the box containing the character's name, in left, top, right,
 ## bottom order.
-define gui.namebox_borders = Borders(5, 5, 5, 5)
+define gui.namebox_borders = Borders(0, 0, 0, 0)
 
 ## If True, the background of the namebox will be tiled, if False, the
 ## background of the namebox will be scaled.

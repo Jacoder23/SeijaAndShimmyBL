@@ -70,13 +70,13 @@ style vscrollbar:
 
 style slider:
     ysize gui.slider_size
-    base_bar Frame("gui/slider/horizontal_[prefix_]bar.png", gui.slider_borders, tile=gui.slider_tile)
-    thumb "gui/slider/horizontal_[prefix_]thumb.png"
+    base_bar Frame("gui/DX_button/slider/horizontal_[prefix_]bar.png", gui.slider_borders, tile=gui.slider_tile)
+    thumb "gui/DX_button/slider/horizontal_[prefix_]thumb.png"
 
 style vslider:
     xsize gui.slider_size
-    base_bar Frame("gui/slider/vertical_[prefix_]bar.png", gui.vslider_borders, tile=gui.slider_tile)
-    thumb "gui/slider/vertical_[prefix_]thumb.png"
+    base_bar Frame("gui/DX_button/slider/vertical_[prefix_]bar.png", gui.vslider_borders, tile=gui.slider_tile)
+    thumb "gui/DX_button/slider//vertical_[prefix_]thumb.png"
 
 
 style frame:
@@ -126,7 +126,8 @@ screen say(who, what):
 
             text what id "what":
                 xysize (900, 100)
-                outlines([(5, "#000000", 0, 0)])
+                color "#000"
+                #outlines([(5, "#000000", 0, 0)])
 
     if not renpy.get_screen("choice") and cinematic == False and who is not "":
         window:
@@ -144,7 +145,8 @@ screen say(who, what):
 
             text what id "what":
                 xoffset 10
-                outlines([(5, "#000000", 0, 0)])
+                color "#000"
+                #outlines([(5, "#000000", 0, 0)])
 
     if cinematic == True or who is "":
         window:
@@ -169,7 +171,7 @@ screen say(who, what):
                             color "#ffffff"
                             size 40
                             xoffset -20
-                            outlines([(2, "#5e510acb", 0, 2)])
+                            #outlines([(2, "#5e510acb", 0, 2)])
                         
 
                     text what id "what":
@@ -178,7 +180,7 @@ screen say(who, what):
                         yoffset 7
                         color "#ffffff"
                         size 30
-                        outlines([(2, "#5e510acb", 0, 2)])
+                        #outlines([(2, "#5e510acb", 0, 2)])
 
             else:
 
@@ -195,7 +197,7 @@ screen say(who, what):
                             color "#ffffff"
                             size 40
                             xoffset -20
-                            outlines([(2, "#5e510acb", 0, 2)])
+                            #outlines([(2, "#5e510acb", 0, 2)])
                         
 
                     text what id "what":
@@ -204,7 +206,7 @@ screen say(who, what):
                         yoffset 7
                         color "#ffffff"
                         size 30
-                        outlines([(2, "#5e510acb", 0, 2)])
+                        #outlines([(2, "#5e510acb", 0, 2)])
 
     ## If there's a side image, display it above the text. Do not display on the
     ## phone variant - there's no room.
@@ -231,22 +233,26 @@ style window:
     yalign gui.textbox_yalign
     ysize gui.textbox_height
 
-    background Image("gui/textbox.png", xalign=0.5, yalign=1.0)
+    background Image("gui/DX_button/TextBox.png", xalign=0.5, yalign=1.0)
 
 style namebox:
     xpos gui.name_xpos
-    xanchor gui.name_xalign
-    xsize gui.namebox_width
-    ypos gui.name_ypos
-    ysize gui.namebox_height
-
-    background Frame("gui/namebox.png", gui.namebox_borders, tile=gui.namebox_tile, xalign=gui.name_xalign)
-    padding gui.namebox_borders.padding
+    #xanchor gui.name_xalign
+    #xsize gui.namebox_width
+    #ypos gui.name_ypos
+    #ysize gui.namebox_height
+    xsize gui.textbox_width
+    yalign gui.textbox_yalign
+    ysize gui.textbox_height
+    
+    background Frame("gui/DX_button/NameBox.png", gui.namebox_borders, tile=gui.namebox_tile)
+    #padding gui.namebox_borders.padding
 
 style say_label:
     properties gui.text_properties("name", accent=True)
-    xalign gui.name_xalign
-    yalign 0.5
+    xalign 0.5
+    ypos 15
+    yalign 0
 
 style say_dialogue:
     properties gui.text_properties("dialogue")
@@ -254,7 +260,7 @@ style say_dialogue:
     xalign gui.dialogue_xalign 
     xsize gui.dialogue_width
     yalign gui.dialogue_yalign
-    justify True
+    justify False
 
     adjust_spacing False
 
@@ -390,7 +396,8 @@ screen quick_menu():
             button:
                 action ShowMenu('about')
                 xysize (191,191)
-                background "gui/button/q_about.png"
+                background "gui/DX_button/q_about.png"
+                hover_background "gui/DX_button/q_about_WhiteOutline.png"
                 at quickMenu_hover
                 tooltip "About"
 
@@ -644,7 +651,7 @@ screen game_menu(title, scroll=None, yinitial=0.0):
     frame:
         style "game_menu_outer_frame"
 
-        add "gui/border.png":
+        add "gui/DX_button/border_1920x1080.png":
             yoffset -180.75
 
         # hbox:
@@ -710,7 +717,8 @@ screen game_menu(title, scroll=None, yinitial=0.0):
             action Return()
             xysize (191,191)
 
-            background "gui/button/q_about.png"
+            background "gui/DX_button/q_about.png"
+            hover_background "gui/DX_button/q_about_WhiteOutline.png"
             at return_hover
 
 style game_menu_outer_frame is empty
@@ -778,6 +786,7 @@ style return_button:
 screen about():
 
     tag menu
+    add VBox(Transform("#000000AA", ysize=110), "#000000AA", yalign=0)
 
     ## This use statement includes the game_menu screen inside this one. The
     ## vbox child is then included inside the viewport inside the game_menu
@@ -816,6 +825,7 @@ style about_label_text:
 screen save():
 
     tag menu
+    add VBox(Transform("#000000AA", ysize=110), "#000000AA", yalign=0)
 
     use file_slots(_("Save"))
 
@@ -823,6 +833,7 @@ screen save():
 screen load():
 
     tag menu
+    add VBox(Transform("#000000AA", ysize=110), "#000000AA", yalign=0)
 
     use file_slots(_("Load"))
 
@@ -962,6 +973,8 @@ style slot_button_text:
 screen preferences():
 
     tag menu
+
+    add VBox(Transform("#000000AA", ysize=110), "#000000AA", yalign=0)
 
     use game_menu(_("Settings"), scroll="viewport"):
 
@@ -1127,6 +1140,7 @@ style slider_vbox:
 screen history():
 
     tag menu
+    add VBox(Transform("#000000AA", ysize=110), "#000000AA", yalign=0)
 
     ## Avoid predicting this screen, as it can be very large.
     predict False
@@ -1215,6 +1229,7 @@ style history_label_text:
 screen help():
 
     tag menu
+    add VBox(Transform("#000000AA", ysize=110), "#000000AA", yalign=0)
 
     default device = "keyboard"
 
@@ -1392,8 +1407,9 @@ screen confirm(message, yes_action, no_action):
 
     add "gui/overlay/confirm.png" at confirmDissolve
     add "gui/confirm.png" align (0.5,0.5) at confirmDissolve
-    add "gui/button/q_about.png" align (0.25, 0.5) at confirmLeft
-    add "gui/button/q_about.png" align (0.75, 0.5) at confirmRight
+    # TODO: Use a logo here?
+    # add "gui/button/q_about.png" align (0.25, 0.5) at confirmLeft
+    # add "gui/button/q_about.png" align (0.75, 0.5) at confirmRight
 
     frame:
         at confirmDissolve
@@ -1776,7 +1792,7 @@ screen quick_menu():
 
 style window:
     variant "small"
-    background "gui/phone/textbox.png"
+    background "gui/phone/DX_button/TextBox.png"
 
 style radio_button:
     variant "small"

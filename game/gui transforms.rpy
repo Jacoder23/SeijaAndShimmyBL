@@ -109,8 +109,8 @@ transform confirmLeft:
 transform confirmDissolve:
     on show:
         alpha 0.0
-        ease 1.0 alpha 1.0
+        ease 0.5 alpha 1.0
     on hide:
         alpha 1.0
-        ease 1.0 alpha 0.0
+        ease 0.5 alpha 0.0
         
