@@ -1,6 +1,10 @@
 screen characters_screen:
     #add "gui/character sheet background.png"
     add "gui/DX_button/CharacterSheet_BG_NoText.png"
+    label "[current_character.name]":
+        text_size 100
+        xalign 0.5
+        ypos 20
     frame:
         xalign 0.5 yalign 0.5
         add "images/character sheets/[current_character.name].png":
@@ -12,12 +16,7 @@ screen characters_screen:
             frame:
                 xalign 0.5 yalign 0.5
                 vbox:
-                    label "NAME" text_size 40
-                    frame:
-                        xpos 50
-                        ypos -5
-                        vbox:
-                            label "[current_character.name]"
+                    spacing -9
                     label "ROLE" text_size 40
                     frame:
                         xpos 50
@@ -52,7 +51,7 @@ screen characters_screen:
                         ypos -5
                         vbox:
                             hbox:
-                                label "{space=93}VIOLENT "
+                                label "{space=85}VIOLENT "
                                 bar value StaticValue(current_character.violence, 7):
                                     unscrollable "insensitive"
                                     xmaximum 150
@@ -76,7 +75,7 @@ screen characters_screen:
                                         xzoom -1
                                 label " ISOLATED"
                             hbox:
-                                label "{space=99}PRECISE "
+                                label "{space=93}PRECISE "
                                 bar value StaticValue(current_character.precision, 7):
                                     unscrollable "insensitive"
                                     xmaximum 150

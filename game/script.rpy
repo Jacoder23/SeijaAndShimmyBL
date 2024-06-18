@@ -116,7 +116,7 @@ label dice_animation:
         python:
             dice_animation_counter += 1
 
-            renpy.pause(0.1 - 0.0315, hard = True) # tiny bit of delay messes up the sync, hand adjusted the delay, hopefully consistent across platforms (oh no)
+            renpy.pause(0.1 - 0.0315, hard = True, ) # tiny bit of delay messes up the sync, hand adjusted the delay, hopefully consistent across platforms (oh no)
 
             if dice_animation_counter >= 23:
                 dice_animation_counter = 0
@@ -128,7 +128,7 @@ label dice_animation:
         if dice_modifier_formatted != "" and dice_result != 1 and dice_result != 20:
             $ renpy.pause(0.4, hard=True)
 
-            show text "{vspace=50}{size=70}{color=000000}[dice_result]{/color}{/size}{color=000000}\n[dice_modifier_formatted]{/color}" at dice_text_center with dissolve
+            show text "{vspace=58}{size=70}{color=000000}[dice_result]{/color}{/size}{color=000000}\n{size=25}[dice_modifier_formatted]{/size}{/color}" at dice_text_center with dissolve
 
         pause
 
@@ -201,21 +201,21 @@ label storylets:
 
 label st_shin_hospitalized:
 
-    $ label_tracker = "st_shin_solo_1"
+    $ label_tracker = "st_shin_hospitalized"
 
-    $ DeclareStorylet("st_shin_solo_1", ["time >= 0", "chapter == 1", "hospitalized == True"], ["global time; time += 1"], 99, False)
+    $ DeclareStorylet("st_shin_hospitalized", ["time >= 0", "chapter == 1", "hospitalized == True"], ["global time; time += 1"], 99, False)
 
     # shin ALSO has to file a report on her battle but to take her mind off things, instead of a supplies trip, sekibanki keeps her company at her bed for a while and the two have a chat about heroism, shin expresses doubts that what he's doing matters much when her first break went that poorly (or that she got knocked out even if she knocked out seija)
 
     "[label_tracker]"
 
-    $ FinishStorylet("st_shin_solo_1")
+    $ FinishStorylet("st_shin_hospitalized")
 
 label st_shin_not_hospitalized:
 
-    $ label_tracker = "st_shin_solo_1"
+    $ label_tracker = "st_shin_not_hospitalized"
 
-    $ DeclareStorylet("st_shin_solo_1", ["time >= 0", "chapter == 1", "hospitalized == False"], ["global time; time += 1"], 99, False)
+    $ DeclareStorylet("st_shin_not_hospitalized", ["time >= 0", "chapter == 1", "hospitalized == False"], ["global time; time += 1"], 99, False)
 
     # shin has to file a report on her battle but to take her mind off things, sekibanki sends her on a supplies trip to the mall to buy food
 
@@ -223,7 +223,7 @@ label st_shin_not_hospitalized:
 
     "[label_tracker]"
 
-    $ FinishStorylet("st_shin_solo_1")
+    $ FinishStorylet("st_shin_not_hospitalized")
 
 label st_chapter_start_1:
 
@@ -273,6 +273,8 @@ label st_chapter_start_1:
     shin "{i}Okay, this is fine. Drop the banter for now, focus on keeping it together.{/i}"
 
     seija_costumed "I was wonderin' about the noise following some new hero. Looks like noise was all it was."
+
+    play music "Battle_Enemy_Grounds.ogg"
 
     seija_costumed "Don't you agree, {bt=6}{color=000000}wish boy?{/color}{/bt}"
 

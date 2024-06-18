@@ -51,6 +51,8 @@ This game uses assets from many different creators:
 
 - {a=https://dmochas-assets.itch.io/dmochas-bleeps-pack}Bleeps Pack{/a} by dmochas, licensed under CC BY 4.0
 
+- {a=https://game-icons.net/1x1/delapouite/dice-twenty-faces-twenty.html}D20 Dice{/a} by Delapouite under CC BY 3.0
+
 - {a=https://skolaztika.itch.io/renpy-codex-screen}Ren'py Codex{/a} by Skolaztika
 
 - {a=https://kigyo.itch.io/renpy-word-counter}Lint+{/a} by KigyoDev
@@ -261,3 +263,8 @@ init python:
 # define build.itch_project = "jacoder23/doujins-and-dragons-2"
 
 define config.log = "PrideJam6_log.txt"
+
+# volumes
+
+define config.default_music_volume = 0.6
+define config.default_sfx_volume = 1

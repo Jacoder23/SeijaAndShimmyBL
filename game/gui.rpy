@@ -69,17 +69,24 @@ define gui.interface_text_color = white
 
 ## Fonts and Font Sizes ########################################################
 
+# https://lemmasoft.renai.us/forums/viewtopic.php?t=32770
+init -2:
+    style nvl_dialogue:
+        line_spacing -5
+    style say_dialogue:
+        line_spacing -5 
+
 ## The font used for in-game text.
-define gui.text_font = "fonts/times.ttf"
+define gui.text_font = "fonts/Kanit-Regular.ttf"
 
 ## The font used for character names.
 define gui.name_text_font = "fonts/AlegreyaSC-Bold.ttf"
 
 ## The font used for out-of-game text.
-define gui.interface_text_font = "fonts/times.ttf" # times.ttf
+define gui.interface_text_font = "fonts/Kanit-Regular.ttf" # times.ttf
 
 ## The font used in labels in the game's user interface.
-define gui.label_text_font = "fonts/times.ttf" # cinzel-medium.ttf
+define gui.label_text_font = "fonts/Kanit-Regular.ttf" # cinzel-medium.ttf
 
 ## The size of normal dialogue text.
 define gui.text_size = 25
