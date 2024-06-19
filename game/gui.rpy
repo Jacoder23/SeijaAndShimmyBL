@@ -237,8 +237,8 @@ define gui.choice_button_borders = Borders(10, 10, 10, 10)
 define gui.choice_button_text_font = gui.text_font
 define gui.choice_button_text_size = gui.text_size
 define gui.choice_button_text_xalign = 0.5
-define gui.choice_button_text_idle_color = '#b6b6b6'
-define gui.choice_button_text_hover_color = white
+define gui.choice_button_text_idle_color = '#000'
+define gui.choice_button_text_hover_color = '#e03939'
 define gui.choice_button_text_insensitive_color = '#888888'
 
 
@@ -295,7 +295,7 @@ define gui.pref_spacing = 10
 define gui.pref_button_spacing = 0
 
 ## The spacing between file page buttons.
-define gui.page_spacing = 0
+define gui.page_spacing = -15
 
 ## The spacing between file slots.
 define gui.slot_spacing = 0
@@ -313,7 +313,7 @@ define gui.main_menu_text_xalign = 1.0
 define gui.frame_borders = Borders(6, 6, 6, 6)
 
 ## The frame that is used as part of the confirm screen.
-define gui.confirm_frame_borders = Borders(60, 60, 60, 60)
+define gui.confirm_frame_borders = Borders(60, 20, 60, 20)
 
 ## The frame that is used as part of the skip screen.
 define gui.skip_frame_borders = Borders(24, 8, 75, 8)

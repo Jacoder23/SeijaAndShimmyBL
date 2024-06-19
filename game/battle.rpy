@@ -290,7 +290,7 @@ screen battle_screen:
                         xminimum 250 xmaximum 250
                         yminimum 75
                         vbox:
-                            text "[member['name']]" size 36 xalign 0.5
+                            text "{font=[gui.name_text_font]}[member['name']]{/font}" size 36 xalign 0.5
                             null height 5
                             hbox:
                                 bar:

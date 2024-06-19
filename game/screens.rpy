@@ -111,7 +111,7 @@ screen say(who, what):
     if renpy.get_screen("choice") and cinematic == False and who is not "":
         window:
             # id "window"
-            background "gui/choicebox.png"
+            background "gui/DX_button/choicebox.png"
             xysize (900,126)
             yalign 0.2
 
@@ -150,7 +150,7 @@ screen say(who, what):
 
     if cinematic == True or who is "":
         window:
-            background "gui/cinemabox.png"
+            background "gui/DX_button/TextBox_Cinematic.png"
             xsize 1800
             ysize 90
             xalign 0.5
@@ -419,6 +419,7 @@ screen quick_menu():
                 hover_background "gui/DX_button/q_skip_WhiteOutline.png"
                 selected_background "gui/DX_button/q_skip_WhiteOutline.png"
                 at quickMenu_hover
+
                 yalign 0.5
                 tooltip "Skip"
 
@@ -721,6 +722,12 @@ screen game_menu(title, scroll=None, yinitial=0.0):
             hover_background "gui/DX_button/q_about_WhiteOutline.png"
             at return_hover
 
+            at transform:
+                    on idle:
+                        outline_transform(5, "#fff", 8.0, num_passes=4)
+                    on hover:
+                        outline_transform(-1, "#fff", 8.0, num_passes=4)
+
 style game_menu_outer_frame is empty
 style game_menu_navigation_frame is empty
 style game_menu_content_frame is empty
@@ -982,6 +989,11 @@ screen preferences():
 
             hbox:
                 box_wrap True
+
+                vbox:
+                    style_prefix "check"
+                    label _("Event Spoilers")
+                    textbutton _("Show Previews") action  ToggleVariable("persistent.showStoryletPreviews")
 
                 if renpy.variant("pc") or renpy.variant("web"):
 
@@ -1405,8 +1417,8 @@ screen confirm(message, yes_action, no_action):
 
     style_prefix "confirm"
 
-    add "gui/overlay/confirm.png" at confirmDissolve
-    add "gui/confirm.png" align (0.5,0.5) at confirmDissolve
+    #add "gui/DX_button/choicebox.png" at confirmDissolve
+    add "gui/DX_button/choicebox.png" align (0.5,0.5) at confirmDissolve
     # TODO: Use a logo here?
     # add "gui/button/q_about.png" align (0.25, 0.5) at confirmLeft
     # add "gui/button/q_about.png" align (0.75, 0.5) at confirmRight
@@ -1417,7 +1429,7 @@ screen confirm(message, yes_action, no_action):
         vbox:
             xalign .5
             yalign .5
-            spacing 5
+            spacing -15
 
             label _(message):
                 style "confirm_prompt"
@@ -1449,6 +1461,9 @@ style confirm_frame:
 style confirm_prompt_text:
     textalign 0.5
     layout "subtitle"
+    line_spacing -15
+    size 30
+    color black
 
 style confirm_button:
     properties gui.button_properties("confirm_button")
