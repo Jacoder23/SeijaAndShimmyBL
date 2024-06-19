@@ -49,6 +49,8 @@ define shin_costumed = Character("Wishmaker", callback = [name_callback, functoo
 define sekibanki = Character("Sekibanki", callback = [name_callback, functools.partial(boopy_voice, boopfile="bleeps/bleep011.ogg")], cb_name = "Sekibanki") # TODO: add sekibanki's cape name
 define sekibanki_costumed = Character("Sekibanki", callback = [name_callback, functools.partial(boopy_voice, boopfile="bleeps/bleep011.ogg")], cb_name = "Sekibanki")
 define sekibanki_secret = Character("???", callback = [name_callback, functools.partial(boopy_voice, boopfile="bleeps/bleep011.ogg")], cb_name = "???")
+define kogasa = Character("Kogasa", callback = [name_callback, functools.partial(boopy_voice, boopfile="bleeps/bleep014.ogg")], cb_name = "Kogasa")
+define kogasa_secret = Character("Kogasa", callback = [name_callback, functools.partial(boopy_voice, boopfile="bleeps/bleep018.ogg")], cb_name = "Kogasa")
 define narrator = Character("", callback = [name_callback], cb_name = "")
 
 # TODO: sprite highlights
@@ -164,7 +166,7 @@ label start:
 
     # ------------------------------------------------------------------------------------------------------------------- #
 
-    ## NARRATIVE STATE VARIABLES ##
+    ## STORY STATE VARIABLES ##
 
     $ time = 0 # move on to end of chapter/next chapter once we hit 7
             # (with a theoretical 13 storylets per chapter, meaning we can only see half in each playthrough)
@@ -183,6 +185,8 @@ label start:
 
     $ seija_battler = Battler("Seija", 12, 2, 5, 2, 0, 3, 0, 0, 1, 1, 1)
 
+    $ at_the_mall = False
+
     ## TUTORIAL VARIABLES ##
 
     $ first_time_countered = True
@@ -195,9 +199,172 @@ label storylets:
 
     $ label_tracker = "storylets"
 
+    scene bg black with fade
+
     # TODO: add in a whole board game theme to this part
 
     $ NextStorylet()
+
+label st_kogasa_first_time:
+
+    $ label_tracker = "st_kogasa_first_time"
+
+    $ DeclareStorylet("st_kogasa_first_time", ["time >= 0", "chapter == 1"], ["global time; time += 1"], 95, False)
+        
+    "One wrong turn on the streets on your day off and you find yourself lost."
+
+    "The everpresence of the Hero HQ over the city would make for a good landmark, but despite yourself you feel like you're heading farther rather than closer to it."
+
+    shin "{i}Ah crap.{/i}"
+
+    $ left_turns = 0
+
+    $ right_turns = 0
+
+    $ got_directions = False
+
+    $ following_going_right = False
+
+    label lost_st_kogasa_first_time:
+
+        $ label_tracker = "lost_st_kogasa_first_time"
+
+        menu:
+            "Which way do you go?"
+
+            "Left" if not following_going_right:
+                if left_turns == 0:
+
+                    "You pass by a series of shanties, haphazardly constructed."
+
+                    "They're built so close to each other you wonder if they support each others load: the other shanties-- the only reason they haven't all collapsed."
+
+                    "Like dominos."
+
+                    "You leave, hoping no one knocks them over."
+
+                elif left_turns == 1:
+                    
+                    "You see a storefront with pages on pages but it isn't a bookstore."
+
+                    "There's a black flag with the first letter of the alphabet on it. A circle adorns the symbol like a crown."
+
+                    "You don't really know what the flag means or what its called but you know how you feel about it, the imagery, the visual imagination."
+
+                    "It's not founded in anything concrete. You never really sat down and looked into it."
+
+                    "But you're a superhero. You bring order. Your job is the opposite of it. Don't think so hard."
+
+                elif got_directions:
+                    "You keep going left, and then left again, and then again, and again."
+
+                    "Eventually, you come to a dead end."
+
+                    "You follow Kogasa's instructions to turn around and start heading right."
+
+                    $ following_going_right = True
+
+                $ left_turns += 1
+
+            "Right" if not got_directions or following_going_right:
+                if right_turns == 0:
+
+                    "You pass by a tall, concrete apartment. Cracks form not only at its base but all throughout, giving the feeling that it hasn't been well maintained in a long time."
+
+                    "Your family once lived somewhere like this, subsidized, paid in part by the government. DIfferent cities, same idea."
+
+                    "Now you're a world away from who you were then."
+
+                    "Familiar as it is, it's not the familiar you're looking for so you move on."
+
+                elif right_turns == 1:
+
+                    "You pass by a series of posters, slashed at until you're unable to tell what the ink was advocating. You knew only its demise."
+
+                    "In its place, the beginnings of a mural are being painted in luscious strokes of aerosol. You think you can make out some words but it's clearly at a reading level above your age."
+
+                    "Like \"DVCK\" sprawled out in some kind of cursive. You think it might resemble another word, mispelled on purpose."
+
+                    "Of course, you mean duck."
+
+                elif following_going_right:
+
+                    "Eventually, you make your way back to Hero HQ."
+
+                    shin "{i}Home, just the sweetest, of homes.{/i}"
+
+                    $ FinishStorylet("st_kogasa_first_time")
+
+                $ right_turns += 1
+
+        if left_turns + right_turns < 2 or got_directions:
+            jump lost_st_kogasa_first_time
+
+    "Eventually, your eye is caught by a splash of color. A doorway with…"
+
+    shin "{i}Shower curtains?{/i}"
+
+    "You stop and stare for a second at the colorful little storefront, an anachronism, something fit for the backside of a community center from last decade."
+
+    "Your better sense tells you to move on before you get scammed."
+
+    "But you decide you've been lost long enough to ask for directions."
+
+    shin "Hello?"
+
+    "The sound of boxes on boxes being dug through comes from behind the counter."
+
+    kogasa_secret "Oh, a customer? I'll be right there!"
+
+    "A man with bright blue hair and striking blue and red eyes stands up a bit too fast, accidentally taking a mouthful of wind chimes."
+
+    kogasa_secret "WhIgjs-{nw}"
+
+    "He spits the chimes out."
+
+    kogasa "Welcome to the Witch Stitch, I'm Kogasa! What can I do you for? I mean, do for you?"
+
+    shin "Uh, hi? I just needed directions, I'm headed to the Hero HQ."
+
+    "Kogasa deflates."
+
+    kogasa "Oh, just exit then go left until you can't anymore and then turn around and start going right."
+
+    shin "Wouldn't that just="
+
+    kogasa "I know it sounds like you'll end up back here but trust me. It just works out."
+
+    shin "Okay... thanks?"
+
+    "You move to leave but…"
+
+    shin "{i}I am off-duty, wouldn't it be fine to stick around a little?{/i}"
+
+    shin "{i}And plus, it'd be nice to do a good thing even outside of work hours.{/i}"
+
+    shin "Also, you sell stuff here?"
+
+    "Kogasa seems to perk up."
+
+    kogasa "Yeah, we do! You wanna see?"
+
+    # TODO: shop menu
+
+    kogasa "Thanks for stopping by!"
+
+    shin "And thank you, Kogasa. I'm Shin by the way."
+
+    kogasa "I see. It's nice to meet you, Shin!"
+
+    shin "I'll be seeing you around. Goodbye."
+
+    kogasa "Buh-bye!"
+
+    $ got_directions = True
+
+    jump lost_st_kogasa_first_time
+
+    $ FinishStorylet("st_kogasa_first_time")
 
 label st_shin_hospitalized:
 
@@ -220,10 +387,114 @@ label st_shin_not_hospitalized:
     # shin has to file a report on her battle but to take her mind off things, sekibanki sends her on a supplies trip to the mall to buy food
 
     # along the way he finds a certain someone whose name rhymes with shmeija but neither know the other's identity, they become acquainted with each other; not friends nor foes yet
+    # handling the second half in another storylet
+    $ at_the_mall = True
 
     "[label_tracker]"
 
     $ FinishStorylet("st_shin_not_hospitalized")
+
+label st_shin_and_seija_first_encounter:
+
+    $ label_tracker = "st_shin_and_seija_first_encounter"
+
+    $ DeclareStorylet("st_shin_and_seija_first_encounter", ["time >= 0", "chapter == 1", "at_the_mall == True"], ["global time; time += 1"], 99, False)
+
+    # characters use slightly wrong versions of common aphorisms, will call into attention the AU feel of the universe since superheroes are a relatively recent development (since the 70s)
+
+    # i think its funny too
+
+    "As you walked with your head buried in the list, you ran into a previous acquaintance: head first actually, you bounced off of them. Nearly fell too."
+
+    if seija_hurt:
+        seija_secret "Shit."
+
+        "They groaned in pain before glaring at you. But the spark of recognition flashed across their face and it softened."
+    else:
+        seija_secret "Idiot."
+
+    "They glared at you before the spark of recognition flashed across their face and it softened."
+
+    seija_secret "It's Shin, right? Sorry ‘bout that."
+
+    shin "No need. I wasn’t looking where I was going."
+
+    shin "You know my name, miss…?" # the like one misgendering in the entire story, I’d rather not bring the topic of misgendering up again but it should help reinforce Seija’s gender to the player
+
+    seija_secret "It’d be mister, actually. I used to get my coffee from you?"
+
+    shin "Oh, uh, you’re…"
+
+    "You paused, hoping that they would fill in the details but they just stood there with a smile. If you didn’t know better, you’d think they were eating up the awkward atmosphere."
+
+    seija_secret "Starts with an S, dude."
+
+    menu:
+        "His name was…"
+
+        "Coleslaw":
+            seija "Hah, close but no quarter. It’s Seija."
+
+        "Say ya?":
+            seija "Hah, close but no quarter. It’s Seija."
+
+        "Bonesaw?": # worm reference (could also be a sam raimi’s spider man reference)
+            seija "Hah, close but no quarter. It’s Seija."
+
+        "ajieS":
+            seija "Hah, close but no quarter. It’s Seija."
+
+    shin "{i}I recognize the name. He usually ordered a long black, late at night before my shift ended.{/i}"
+
+    shin "{i}Did we ever talk? Even if we did, I’d think I’d remember him being this friendly…{/i}"
+
+    seija "I don’t mind. Anyways, how’ve you been? You move or something?"
+
+    shin "Oh, well…"
+
+    "You glanced at the list you were given."
+
+    shin "…you could say something like that. New job, new place."
+
+    seija "Makes sense, makes sense."
+
+    # seija gets shin’s number in trade for a secret that seija knows something without revealing that seija is a villain; that or just a trade for a phone number but with a subtle implication that shin picks up on; shin tries to excuse himself
+
+    shin "Sorry about the name thing, by the way."
+
+    seija "Eh, it's no skin. But if you're giving out apologies I'd rather trade something with you."
+
+    "Seija pulled out his phone."
+
+    seija "Your number for mine?"
+
+    # shin either blushes slightly then shakes off the thought
+
+    shin "{i}Ah.{/i}"
+
+    shin "{i}Hold on, better not to make anymore assumptions and get caught with my foot in my mouth again.{/i}"
+
+    shin "Sure!{nw}{done}I mean, sure."
+
+    # change of expression as he reins in his expression
+
+    shin "Sure!{fast}I mean, sure."
+
+    "The two of you exchange numbers."
+
+    shin "Gotta go. Hope to hear from you, Seija."
+
+    seija "Same here!"
+
+    "You walk off, back to your supply run."
+
+    # a tiny sneak peak of seija bullying
+
+    seija "Same here{cps=1.5}… {/cps}wish boy."
+
+    $ at_the_mall = False
+
+    $ FinishStorylet("st_shin_and_seija_first_encounter")
 
 label st_chapter_start_1:
 
@@ -309,7 +580,8 @@ label st_chapter_start_1:
     $ end_of_battle_conditions = [("double knockout", "all(x['hp'] == 0 for x in party_two) and all(x['hp'] == 0 for x in party_one)"),
                                 ("party_one win", "all(x['hp'] == 0 for x in party_two)"),
                                 ("party_two win", "all(x['hp'] == 0 for x in party_one)"),
-                                ("stalemate", "all(len(x['options']) == 0 for x in party_one)")]
+                                ("stalemate", "all(len(x['options']) == 0 for x in party_one)"),
+                                ("stalemate", "turn > 6")]
 
     $ party_one = [{"name":"Wishmaker",
                     "max_hp":shin_battler.max_hp, 
@@ -333,7 +605,7 @@ label st_chapter_start_1:
                                 ["selecting_target = True", "violence += 1; dmg_to_target = 5; noglobal QueueSFX('PUNCH_INTENSE_HEAVY_03.opus')", "noglobal QueueSFX('WHOOSH_ARM_SWING_01.opus'); noglobal QueueSFX('PUNCH_DESIGNED_HEAVY_23.opus', 2); noglobal QueueSFX('PUNCH_INTENSE_HEAVY_03.opus', 4); violence += 0.5; dmg_to_self = 3 if precision == 1 else 4; dmg_to_target = 5 if precision == 1 else 0", 16, ("Power", shin_battler.power),
                                     "You swing with a little too much oomph, nearly lifting you off your feet.",
                                     "[party_two[chosen_target[1]]['name']] blocks the telegraphed attack but the sheer force sends him backpedaling, wincing.",
-                                    "[party_two[chosen_target[1]]['name']] steps into range before you complete the swing, throwing a counterpunch.\nYou take it on your jaw and the world becomes blurry.\n{if precision == 0}You nearly lose your footing but try for a counterattack.\nBut your timing's been read and [party_two[chosen_target[1]]['name']] lays into you.\n[party_two[chosen_target[1]]['sayer']]:Dumbfuck.{else}You grit your way through the pain.\nWhile dazed, you tackle [party_two[chosen_target[1]]['name']] and land a shot to his knees that make him buckle.\n[party_two[chosen_target[1]]['sayer']]:Fuck!",
+                                    "[party_two[chosen_target[1]]['name']] steps into range before you complete the swing, throwing a counterpunch.\nYou take it on your jaw and the world becomes blurry.\n{if precision == 0}You nearly lose your footing but try for a counterattack.\nBut your timing's been read and [party_two[chosen_target[1]]['name']] lays into you.\n[party_two[chosen_target[1]]['sayer']]:Dumbfuck.{else}You grit your way through the pain.\nWhile dazed, you tackle [party_two[chosen_target[1]]['name']] and land a shot to his knees that make him buckle.\n[party_two[chosen_target[1]]['sayer']]:{sc}{color=000}FUCK!{/color}{/sc}",
                                     "violence",
                                     FormatOption("THROW WILD SWING", "violence")]],
                                 [["", "pacifism += 1", "dmg_to_self = 2", 12, ("Agility", shin_battler.agility),
@@ -427,6 +699,8 @@ label st_chapter_start_1:
 
         $ renpy.hide_screen("battle_screen")
 
+        stop music
+
         scene bg black with fade
 
         $ seija_hurt = True if party_two[0]["hp"] / party_two[0]["max_hp"] <= 0.5 else False
@@ -446,7 +720,15 @@ label st_chapter_start_1:
 
             shin_costumed "And shut it!"
 
-            # TODO: Write the outcome of this
+            "Seija lies at your feet in a collapsed heap of exhaust and hacking coughs."
+
+            seija_costumed "H-heh. You're better than expected, for a kids show hero."
+
+            seija_costumed "Don't you think you could achieve more if they-"
+
+            "You give her a light kick to the ribs to shut her up. Very light."
+
+            shin_costumed "Nice of you to choose an ambush right outside of Hero HQ. The commute to jail's going to be a lot faster."
 
             $ seija_got_away = False
 
@@ -468,22 +750,48 @@ label st_chapter_start_1:
 
             seija_costumed "uhhh author note: write something here witty that sekibanki can counter but that also confuses shin"
 
-            if team_player > 0: # called for backup
-                sekibanki_secret "sekibanki's counter"
-            else:
-                shin_costumed "What does that-"
+            shin_costumed "What does that-"
 
-                "But Backswitch was already running away."
+            "But Backswitch was already running away."
 
-                "Shin began to run after him but not before incoming traffic became INCOMING traffic with Backswitch sent a truck, its tires squealing, toppling sidewards towards Shin."
+            "You began to run after him but not before incoming traffic became INCOMING traffic with Backswitch sent a truck, its tires squealing, toppling sidewards towards you."
 
-            # TODO: Write the outcome of this
+            shin_costumed "What does that-"
+
+            "But Backswitch was already running away."
+
+            "You began to run after him but not before incoming traffic became INCOMING traffic with Backswitch sent a truck, its tires squealing, toppling sidewards towards you."
+            
+            python:
+                dice_result = 20
+                dice_modifier_formatted = FormatModifier(0)
+                dice_animation_counter = 0
+                continue_label = "exit_battle_st_chapter_start_1_stalemate_continue"
+                renpy.jump('dice_animation')
+
+            label exit_battle_st_chapter_start_1_stalemate_continue:
+                # TODO: make asking for backup matter here
+                "Everyone's thought about it once."
+
+                "Being the hero."
+
+                shin "{i}But despite getting superpowers...{/i}"
+
+                "You dive out of the way of the truck as its thrown into a nearby freeway, crashing into traffic. You see smoke. You hear screaming."
+
+                shin "{i}...and I HATE admitting this...{/i}"
+
+                "You run over to one of the nearby pedestrians, picking the one who looks the most physically capable; the most likely choice."
+
+                shin "{i}...I never get to be the hero.{/i}"
+
+                "You clasp his hands and ask."
+
+                shin "Do you {gradient2=6-E40303-FF8C00-2-FF8C00-FFED00-2-FFED00-008026-2-008026-004CFF-2-004CFF-732982-2-732982-E40303-2}WISH{/gradient2} to be a hero?"
 
             $ seija_got_away = True
 
             $ hospitalized = False
-
-        scene bg black with fade
 
         $ FinishStorylet("st_chapter_start_1")
 
