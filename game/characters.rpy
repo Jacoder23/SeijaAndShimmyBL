@@ -1,7 +1,34 @@
+init python:
+    def UpgradeAttribute(character, upgrade_type):
+
+        global upgrade_points;
+        global can_upgrade;
+
+        can_upgrade = can_upgrade and upgrade_points > 0
+
+        if not can_upgrade:
+            return NullAction()
+
+        if upgrade_type == "HP":
+            character.max_hp += 2
+            upgrade_points -= 1
+        elif upgrade_type == "Power":
+            character.power += 1
+            upgrade_points -= 1
+        elif upgrade_type == "Agility":
+            character.agility += 1
+            upgrade_points -= 1
+        elif upgrade_type == "Tech":
+            character.tech += 1
+            upgrade_points -= 1
+
+        return NullAction()
+
+
 screen characters_screen(character = None):
     #add "gui/character sheet background.png"
     if character is not None:
-        $ current_character = character['source']
+        $ current_character = character
     add "gui/DX_button/CharacterSheet_BG_NoText.png"
     label "[current_character.name]":
         text_size 100
@@ -45,16 +72,16 @@ screen characters_screen(character = None):
                         ypos -5
                         vbox:
                             textbutton "HP: [current_character.max_hp]":
-                                action NullAction()
+                                action Function(UpgradeAttribute, current_character, "HP")
                                 tooltip "Your health."
                             textbutton "Power: [current_character.power]":
-                                action NullAction()
+                                action Function(UpgradeAttribute, current_character, "Power")
                                 tooltip "Your raw ability to inflict pain."
                             textbutton "Agility: [current_character.agility]":
-                                action NullAction()
+                                action Function(UpgradeAttribute, current_character, "Agility")
                                 tooltip "Your raw ability to avoid pain."
                             textbutton "Technique: [current_character.tech]":
-                                action NullAction()
+                                action Function(UpgradeAttribute, current_character, "Tech")
                                 tooltip "Your ability to be crafty."
                     label "PERSONALITY" text_size 40
                     frame:
@@ -109,3 +136,9 @@ screen characters_screen(character = None):
                                 textbutton " TENDER":
                                     action NullAction()
                                     tooltip "Your solutions are emotional, considerate, and empathetic."
+    
+    vbox:
+        xalign 0.65
+        yalign 0.85
+        textbutton "Return":
+            action Hide("characters_screen", transition=Dissolve)

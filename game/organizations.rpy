@@ -16,7 +16,7 @@ screen organizations_nav():
         vbox:
             spacing 10
             xoffset 350
-            textbutton "Hero HQ" action ShowMenu("herohq") # the more commonly used name over **** City OATH Mobile Intervention for Crises or *-COMIC
+            textbutton "Hero HQ" action ShowMenu("herohq") # the more commonly used name over City OATH Mobile Intervention for Crises or COMIC
             textbutton "Local Gangs" action ShowMenu("gangs")
             textbutton "OATH" action ShowMenu("origins") # Office for the Accomodation and Training of Heroes
             textbutton "CAPES" action ShowMenu("capes") # Central Agency for the Profiling of Supers

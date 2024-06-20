@@ -489,6 +489,8 @@ label st_chapter_start_1:
 
     $ DeclareStorylet("st_chapter_start_1",["chapter == 1"], [""], 100, "Start", False)
 
+    $ upgrade_points += 3
+
     # POV: Shin
 
     # CG: The focus is shin hiding behind a wall with his signature weapon (gotta wait on shin hero design or at least sillouhette); a villain in a mascot suit (does not look like Seija) approaches, in search for him

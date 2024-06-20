@@ -238,7 +238,7 @@ screen battle_screen:
                         text_size 36
                         xalign 0.5
                         action NullAction()
-                        hovered Show("characters_screen", transition=Dissolve, character=member)
+                        hovered Show("characters_screen", transition=Dissolve, character=member['source'])
                         unhovered Hide("characters_screen", transition=Dissolve)
                     null height 5
                     hbox:

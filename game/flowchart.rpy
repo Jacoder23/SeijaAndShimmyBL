@@ -1,5 +1,33 @@
 screen flowchart:
-    label "Progress"
+    vbox:
+        xalign 0.05
+        yalign 0.95
+        label "Upgrade Points: [upgrade_points]"
+    vbox:
+        xalign 0.95
+        yalign 0.95
+        textbutton "Continue":
+            action Function(renpy.call_in_new_context, "continue_storylets")
+    vbox:
+        # label "Progress"
+        # label " "
+        label "Party"
+        frame:
+            size_group "party"
+            xminimum 250 xmaximum 250
+            yminimum 75
+            vbox:
+                textbutton "{font=[gui.name_text_font]}[shin_battler.name]{/font}":
+                    text_size 36
+                    xalign 0.5
+                    action ToggleScreen("characters_screen", transition=Dissolve, character=shin_battler)
+                    tooltip "Open character sheet"
+                if chapter == 2:
+                    textbutton "{font=[gui.name_text_font]}[seija_battler.name]{/font}":
+                        text_size 36
+                        xalign 0.5
+                        action ToggleScreen("characters_screen", transition=Dissolve, character=seija_battler)
+                        tooltip "Open character sheet"
     hbox:
         viewport:
             xalign 0.5

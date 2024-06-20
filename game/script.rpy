@@ -211,6 +211,10 @@ label start:
 
     $ shin_suspicion = 0
 
+    $ upgrade_points = 0
+
+    $ first_time_at_start = True
+
     ## TUTORIAL VARIABLES ##
 
     $ first_time_countered = True
@@ -219,18 +223,45 @@ label start:
 
     $ InitializeStorylets()
 
+label continue_storylets:
+    if upgrade_points > 0:
+
+        "You have unspent upgrade points. Click on a character to spend them."
+
+        jump between_storylets
+
+    else:
+
+        hide screen flowchart
+
+        hide screen characters_screen
+
+        $ can_upgrade = False
+
+        $ NextStorylet()
+
+    return
+
 label storylets:
 
     $ label_tracker = "storylets"
 
-    scene bg black with fade
+    if not first_time_at_start:
 
-    show screen flowchart
+        label between_storylets:
 
-    pause
+            $ can_upgrade = True
 
-    hide screen flowchart
+            scene bg black with fade
 
-    # TODO: add in a whole board game theme to this part
+            show screen flowchart
 
-    $ NextStorylet()
+            pause
+
+            jump between_storylets
+
+    else:
+
+        $ first_time_at_start = False
+        
+        $ NextStorylet()
