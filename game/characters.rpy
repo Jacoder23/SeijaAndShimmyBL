@@ -71,18 +71,36 @@ screen characters_screen(character = None):
                         xpos 50
                         ypos -5
                         vbox:
-                            textbutton "HP: [current_character.max_hp]":
-                                action Function(UpgradeAttribute, current_character, "HP")
-                                tooltip "Your health."
-                            textbutton "Power: [current_character.power]":
-                                action Function(UpgradeAttribute, current_character, "Power")
-                                tooltip "Your raw ability to inflict pain."
-                            textbutton "Agility: [current_character.agility]":
-                                action Function(UpgradeAttribute, current_character, "Agility")
-                                tooltip "Your raw ability to avoid pain."
-                            textbutton "Technique: [current_character.tech]":
-                                action Function(UpgradeAttribute, current_character, "Tech")
-                                tooltip "Your ability to be crafty."
+                            if can_upgrade and upgrade_points > 0:
+                                textbutton "HP: [current_character.max_hp] (+ 2)":
+                                    action Function(UpgradeAttribute, current_character, "HP")
+                                    tooltip "Your health. CLICK TO UPGRADE."
+                                    at glowing_interactable
+                                textbutton "Power: [current_character.power] (+ 1)":
+                                    action Function(UpgradeAttribute, current_character, "Power")
+                                    tooltip "Your raw ability to inflict pain. CLICK TO UPGRADE."
+                                    at glowing_interactable
+                                textbutton "Agility: [current_character.agility] (+ 1)":
+                                    action Function(UpgradeAttribute, current_character, "Agility")
+                                    tooltip "Your raw ability to avoid pain. CLICK TO UPGRADE."
+                                    at glowing_interactable
+                                textbutton "Technique: [current_character.tech] (+ 1)":
+                                    action Function(UpgradeAttribute, current_character, "Tech")
+                                    tooltip "Your ability to be crafty. CLICK TO UPGRADE."
+                                    at glowing_interactable
+                            else:
+                                textbutton "HP: [current_character.max_hp]":
+                                    action Function(UpgradeAttribute, current_character, "HP")
+                                    tooltip "Your health."
+                                textbutton "Power: [current_character.power]":
+                                    action Function(UpgradeAttribute, current_character, "Power")
+                                    tooltip "Your raw ability to inflict pain."
+                                textbutton "Agility: [current_character.agility]":
+                                    action Function(UpgradeAttribute, current_character, "Agility")
+                                    tooltip "Your raw ability to avoid pain."
+                                textbutton "Technique: [current_character.tech]":
+                                    action Function(UpgradeAttribute, current_character, "Tech")
+                                    tooltip "Your ability to be crafty."
                     label "PERSONALITY" text_size 40
                     frame:
                         xpos 50
@@ -95,12 +113,16 @@ screen characters_screen(character = None):
                                 bar value StaticValue(current_character.violence, 7):
                                     unscrollable "insensitive"
                                     xmaximum 150
+                                    left_bar Frame("gui/DX_button/stats_bar/bar_Violent_Fill.png", 10, 0)
+                                    right_bar Frame("gui/DX_button/stats_bar/bar_Violent_BG.png", 10, 0)
                                 label " "
                                 bar value StaticValue(current_character.pacifism, 7):
                                     unscrollable "insensitive"
                                     xmaximum 150
                                     at transform:
                                         xzoom -1
+                                    left_bar Frame("gui/DX_button/stats_bar/bar_Pacifist_Fill.png", 10, 0)
+                                    right_bar Frame("gui/DX_button/stats_bar/bar_Pacifist_BG.png", 10, 0)
                                 textbutton " PACIFIST":
                                     action NullAction()
                                     tooltip "You solve problems without physical force."
@@ -111,12 +133,16 @@ screen characters_screen(character = None):
                                 bar value StaticValue(current_character.team_player, 7):
                                     unscrollable "insensitive"
                                     xmaximum 150
+                                    left_bar Frame("gui/DX_button/stats_bar/bar_TeamPlayer_Fill.png", 10, 0)
+                                    right_bar Frame("gui/DX_button/stats_bar/bar_TeamPlayer_BG.png", 10, 0)
                                 label " "
                                 bar value StaticValue(current_character.isolation, 7):
                                     unscrollable "insensitive"
                                     xmaximum 150
                                     at transform:
                                         xzoom -1
+                                    left_bar Frame("gui/DX_button/stats_bar/bar_Isolation_Fill.png", 10, 0)
+                                    right_bar Frame("gui/DX_button/stats_bar/bar_Isolation_BG.png", 10, 0)
                                 textbutton " ISOLATED":
                                     action NullAction()
                                     tooltip "You work better alone in solving problems."
@@ -127,12 +153,16 @@ screen characters_screen(character = None):
                                 bar value StaticValue(current_character.precision, 7):
                                     unscrollable "insensitive"
                                     xmaximum 150
+                                    left_bar Frame("gui/DX_button/stats_bar/bar_Precise_Fill.png", 10, 0)
+                                    right_bar Frame("gui/DX_button/stats_bar/bar_Precise_BG.png", 10, 0)
                                 label " "
                                 bar value StaticValue(current_character.tenderness, 7):
                                     unscrollable "insensitive"
                                     xmaximum 150
                                     at transform:
                                         xzoom -1
+                                    left_bar Frame("gui/DX_button/stats_bar/bar_Tender_Fill.png", 10, 0)
+                                    right_bar Frame("gui/DX_button/stats_bar/bar_Tender_BG.png", 10, 0)
                                 textbutton " TENDER":
                                     action NullAction()
                                     tooltip "Your solutions are emotional, considerate, and empathetic."

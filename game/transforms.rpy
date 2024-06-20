@@ -4,6 +4,17 @@ define flash = Fade(1, 0.0, 0.5, color="#fff")
 
 define longflash = Fade(1, 1, 1, color="#fff")
 
+transform glowing_interactable:
+    outline_transform(1, "#bdbdbd", 3.0)
+    on idle:
+        ## This animates the outline increasing/decreasing in size,
+        ## but you can omit the `ease 0.1` part also for no animation.
+        ease 0.4 outline_transform(1, "#bdbdbd", 3.0, end_color="#00859c")
+        ease 0.4 outline_transform(2, "#bdbdbd", 3.0, end_color="#00859c")
+        repeat
+    on hover:
+        ease 0.05 outline_transform(-1, "#00ff55", 3.0)
+
 transform damaged:
     yalign 0.5
     xalign 0.5

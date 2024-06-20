@@ -44,6 +44,8 @@ init python:
         def ListPersonalityTraits(self):
             return [self.violence, self.pacifism, self.team_player, self.isolation, self.precision, self.tenderness]
 
+    can_upgrade = False
+
 define seija = Character("Seija", callback = [name_callback, functools.partial(boopy_voice, boopfile="bleeps/bleep002.ogg")], cb_name = "Seija")
 define seija_costumed = Character("Backswitch", callback = [name_callback, functools.partial(boopy_voice, boopfile="bleeps/bleep002.ogg")], cb_name = "Backswitch")
 define seija_secret = Character("???", callback = [name_callback, functools.partial(boopy_voice, boopfile="bleeps/bleep002.ogg")], cb_name = "???")
@@ -238,7 +240,15 @@ label continue_storylets:
 
         $ can_upgrade = False
 
-        $ NextStorylet()
+        $ possible_storylets = GetAllPossibleNextStorylets()
+
+        if len(possible_storylets) > 0:
+
+            call screen storylet_choice_menu(possible_storylets)
+
+        else:
+
+            "No storylets found. Report this issue."
 
     return
 

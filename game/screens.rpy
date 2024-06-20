@@ -499,7 +499,10 @@ screen navigation():
             ypos 115
             xalign 0.5
 
-            spacing gui.navigation_spacing
+            if main_menu:
+                spacing gui.navigation_spacing
+            else:
+                spacing -20
 
             textbutton _("History") action ShowMenu("history")
 
@@ -509,8 +512,12 @@ screen navigation():
             textbutton _("Load") action ShowMenu("load")
 
             textbutton _("Codex") action ShowMenu('category_welcome')
+            
+            null width 50
 
             textbutton _("Achievements") action ShowMenu("achievement_gallery")
+
+            null width 70
 
             textbutton _("Settings") action ShowMenu("preferences")
 
