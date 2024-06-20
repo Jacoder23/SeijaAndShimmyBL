@@ -61,6 +61,10 @@ This game uses assets from many different creators:
 
 A large amount of SFX came from {a=https://www.shapeforms.com/}Shapeforms Audio{/a}. Their license doesn't require mention but so much was used that I feel the need to credit them. They are very good at what they do.
 
+-------------------------------------------------------------
+
+Any fans of the Parahumans series by Wildbow will note major similarities in this game, most specifically with Worm. If given time, I'd make this a true Touhou x Worm crossover but alas. As it is, I can't call this a Worm fangame without any Worm characters and divergences from the setting due to some details being irrelevant or distractions to this specific story.
+
 """)
 
 ## A short name for the game used for executables and directories in the built

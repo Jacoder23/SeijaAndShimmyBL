@@ -159,7 +159,6 @@ label dice_animation:
         $ renpy.jump(continue_label)
 
 label character_sheet:
-    $ current_character = Battler("Seija", 12, 2, 5, 2, 0, 3, 0, 0, 1, 1, 1)
 
     scene test bg
 
@@ -171,15 +170,19 @@ label start:
 
     $ label_tracker = "start"
 
-    $ continue_label = "start_devtest"
+    if config.developer:
 
-    jump character_sheet
+        $ continue_label = "start_devtest"
 
-    label start_devtest:
+        $ current_character = Battler("Seija", 12, 2, 5, 2, 0, 3, 0, 0, 1, 1, 1)
 
-        pause
+        jump character_sheet
 
-        $ renpy.hide_screen("characters_screen")
+        label start_devtest:
+
+            pause
+
+            $ renpy.hide_screen("characters_screen")
 
     # $ cinematic = True
 

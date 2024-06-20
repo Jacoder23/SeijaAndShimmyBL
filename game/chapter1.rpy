@@ -119,7 +119,7 @@ label st_kogasa_first_time:
 
     "He spits the chimes out."
 
-    kogasa "Welcome to the Witch Stitch, I'm Kogasa! What can I do you for? I mean, do for you?"
+    kogasa "Welcome to the Rainshade, I'm Kogasa! What can I do you for? I mean, do for you?"
 
     shin "Uh, hi? I just needed directions, I'm headed to the Hero HQ. Well, thereabouts."
 
@@ -570,6 +570,8 @@ label st_chapter_start_1:
 
     # TODO: reformat all this into a dict
 
+    # Battle Word Estimate: 808 words
+
     $ party_one = [{"name":"Wishmaker",
                     "max_hp":shin_battler.max_hp, 
                     "hp":shin_battler.max_hp,
@@ -607,19 +609,20 @@ label st_chapter_start_1:
                                     "A balancing act{cps=1.5}... {/cps}gone wrong as a wardrobe full of costumes goes flying right as you roll, straight into your face.",
                                     "pacifism",
                                     FormatOption("ROLL FOR COVER", "pacifism")],
-                                ["", "team_player += 1", "", 0, ("", 0),
+                                ["", "team_player += 1", "", 0, ("Tech", shin_battler.tech),
                                     "In a brief respite you get as you dodge [party_two[chosen_target[1]]['name']]'s onslaught, leaving him panting for a moment, you tap your communicator and send out backup signal.\nLet's hope your fellow heroes get here in time.",
                                     "",
                                     "",
                                     "team_player",
                                     FormatOption("CALL FOR BACKUP", "team_player")]],
-                                [["", "precision += 1", "", 0, ("", 0),
+                                [["", "precision += 1", "", 0, ("Tech", shin_battler.tech),
                                     "You hold a defensive stance, keeping distance from [party_two[chosen_target[1]]['name']].\nAfter dodging one or two hits, you start to get a feel for his timing, his rhythm.",
                                     "",
                                     "",
                                     "precision",
                                     FormatOption("WAIT AND SEE", "precision")]]],
                     "dialogue":[("battle_started == False and battle_dialogue == 0", "Really? Don't you villains have better things to do than show up to kids' shows?")],
+                    "source": shin_battler,
                     "sayer": "shin_costumed"}]
 
     # every two actions of Wishmaker we get one action from Backswitch
@@ -638,6 +641,7 @@ label st_chapter_start_1:
                                     ""]],
                     "boss_turn":[], # it's called a boss turn because only bosses get their own non-interrupt actions
                     "dialogue":[("battle_started == False and battle_dialogue == 1", "Maybe if you heroes did something other than kids shows, I'd have something else to crash!")],
+                    "source": seija_battler,
                     "sayer": "seija_costumed"}]
 
     label battle_st_chapter_start_1:

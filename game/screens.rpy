@@ -508,6 +508,10 @@ screen navigation():
 
             textbutton _("Load") action ShowMenu("load")
 
+            textbutton _("Codex") action ShowMenu('category_welcome')
+
+            textbutton _("Achievements") action ShowMenu("achievement_gallery")
+
             textbutton _("Settings") action ShowMenu("preferences")
 
             # if _in_replay:

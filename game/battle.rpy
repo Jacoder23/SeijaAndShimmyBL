@@ -125,7 +125,7 @@ init python:
         return stat_name + modifier_formatted + effects_formatted + "\n{size=70}" + str(chance) + "%{/size}\n{size=*1.5}DC: {/size}{size=*3.0}{font=Dicier-Round-Heavy.otf}" + str(dc) + "_ON_D20{/font}{/size}\n\nAlways loses: {size=*2.0}{font=Dicier-Round-Heavy.otf}1_ON_D20{/font}{/size}\nAlways wins: {size=*2.0}{font=Dicier-Round-Heavy.otf}20_ON_D20{/font}{/size}"
 
     def DoOption(party, member, option, interrupting_party): # maybe this should've been a dict or a custom class... eh it makes the writing part easier in trade for making the debugging a fucking ticking bomb
-        # effect before outcome [0], effect on success [1], effect on failure [2], DC [3], stat [4], initial dialogue [5], post-success [6], post-failure [7], formatting [8] or [-2], name of action [-1]
+        # effect before outcome [0], effect on success [1], effect on failure [2], DC [3], stat [4], initial dialogue [5], post-success [6], post-failure [7], formatting [8], source [9], name of action [-1]
 
         # TODO: assign each of these to its own variable instead of being part of an array; like just some variable declarations to make it clearer what is what
 
@@ -234,7 +234,12 @@ screen battle_screen:
                 xminimum 250 xmaximum 250
                 yminimum 75
                 vbox:
-                    text "{font=[gui.name_text_font]}[member['name']]{/font}" size 36 xalign 0.5
+                    textbutton "{font=[gui.name_text_font]}[member['name']]{/font}":
+                        text_size 36
+                        xalign 0.5
+                        action NullAction()
+                        hovered Show("characters_screen", transition=Dissolve, character=member)
+                        unhovered Hide("characters_screen", transition=Dissolve)
                     null height 5
                     hbox:
                         bar:

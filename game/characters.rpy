@@ -1,5 +1,7 @@
-screen characters_screen:
+screen characters_screen(character = None):
     #add "gui/character sheet background.png"
+    if character is not None:
+        $ current_character = character['source']
     add "gui/DX_button/CharacterSheet_BG_NoText.png"
     label "[current_character.name]":
         text_size 100
@@ -7,10 +9,11 @@ screen characters_screen:
         ypos 20
     frame:
         xalign 0.5 yalign 0.5
-        add "images/character sheets/[current_character.name].png":
-            zoom 0.5
-            xpos 1000
-            ypos 250
+        if renpy.exists("images/character sheets/" + current_character.name + ".png"):
+            add "images/character sheets/[current_character.name].png":
+                zoom 0.5
+                xpos 1000
+                ypos 250
         hbox:
             xalign 0.5 yalign 0.5
             frame:
@@ -41,17 +44,27 @@ screen characters_screen:
                         xpos 50
                         ypos -5
                         vbox:
-                            label "HP: [current_character.max_hp]"
-                            label "Power: [current_character.power]"
-                            label "Agility: [current_character.agility]"
-                            label "Technique: [current_character.tech]"
+                            textbutton "HP: [current_character.max_hp]":
+                                action NullAction()
+                                tooltip "Your health."
+                            textbutton "Power: [current_character.power]":
+                                action NullAction()
+                                tooltip "Your raw ability to inflict pain."
+                            textbutton "Agility: [current_character.agility]":
+                                action NullAction()
+                                tooltip "Your raw ability to avoid pain."
+                            textbutton "Technique: [current_character.tech]":
+                                action NullAction()
+                                tooltip "Your ability to be crafty."
                     label "PERSONALITY" text_size 40
                     frame:
                         xpos 50
                         ypos -5
                         vbox:
                             hbox:
-                                label "{space=85}VIOLENT "
+                                textbutton "{space=85}VIOLENT ":
+                                    action NullAction()
+                                    tooltip "You solve problems with physical force."
                                 bar value StaticValue(current_character.violence, 7):
                                     unscrollable "insensitive"
                                     xmaximum 150
@@ -61,9 +74,13 @@ screen characters_screen:
                                     xmaximum 150
                                     at transform:
                                         xzoom -1
-                                label " PACIFIST"
+                                textbutton " PACIFIST":
+                                    action NullAction()
+                                    tooltip "You solve problems without physical force."
                             hbox:
-                                label "TEAM PLAYER "
+                                textbutton "TEAM PLAYER ":
+                                    action NullAction()
+                                    tooltip "You work better with others in solving problems."
                                 bar value StaticValue(current_character.team_player, 7):
                                     unscrollable "insensitive"
                                     xmaximum 150
@@ -73,9 +90,13 @@ screen characters_screen:
                                     xmaximum 150
                                     at transform:
                                         xzoom -1
-                                label " ISOLATED"
+                                textbutton " ISOLATED":
+                                    action NullAction()
+                                    tooltip "You work better alone in solving problems."
                             hbox:
-                                label "{space=93}PRECISE "
+                                textbutton "{space=93}PRECISE ":
+                                    action NullAction()
+                                    tooltip "Your solutions are precise, measured, and rational."
                                 bar value StaticValue(current_character.precision, 7):
                                     unscrollable "insensitive"
                                     xmaximum 150
@@ -85,4 +106,6 @@ screen characters_screen:
                                     xmaximum 150
                                     at transform:
                                         xzoom -1
-                                label " TENDER"
+                                textbutton " TENDER":
+                                    action NullAction()
+                                    tooltip "Your solutions are emotional, considerate, and empathetic."

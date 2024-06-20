@@ -2,7 +2,7 @@
 ##-----------------------------------------------
 ##-------CODEX ENTRY NAVIGATION------------------
 ##-----------------------------------------------
-screen people_nav():
+screen organizations_nav():
     add "gui/overlay/game_menu.png"
 
     viewport:
@@ -16,11 +16,10 @@ screen people_nav():
         vbox:
             spacing 10
             xoffset 350
-            textbutton "Hollow" action ShowMenu("hollow")
-            textbutton "Backswitch" action ShowMenu("backswitch")
-            textbutton "Rainshade" action ShowMenu("rainshade")
-            textbutton "Wishmaker" action ShowMenu("wishmaker")
-            textbutton "Victory" action ShowMenu("victory")
+            textbutton "Hero HQ" action ShowMenu("herohq") # the more commonly used name over **** City OATH Mobile Intervention for Crises or *-COMIC
+            textbutton "Local Gangs" action ShowMenu("gangs")
+            textbutton "OATH" action ShowMenu("origins") # Office for the Accomodation and Training of Heroes
+            textbutton "CAPES" action ShowMenu("capes") # Central Agency for the Profiling of Supers
 
     textbutton "Return to categories" action ShowMenu("category_welcome") yoffset 950 xoffset 25
     textbutton "Return" action Return() yoffset 1000 xoffset 25
@@ -28,12 +27,12 @@ screen people_nav():
 ##-----------------------------------------------
 ##-------------CODEX WELCOME---------------------
 ##-----------------------------------------------
-screen people_welcome():
+screen organizations_welcome():
     ##This is the "People" category's welcome page. This is the first screen players see after they select a category.
 
     tag menu
     add VBox(Transform("#000000AA", ysize=110), "#000000AA", yalign=0)
-    use people_nav
+    use organizations_nav
 
     style_prefix "codex"
     vbox:

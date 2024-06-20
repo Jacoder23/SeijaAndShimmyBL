@@ -28,19 +28,19 @@ screen category_nav():
             xoffset 350
 
             ##Here you list the categories
-            textbutton "People" action ShowMenu("people_welcome")
+            textbutton "Supers" action ShowMenu("people_welcome")
             ##people_welcome is the main screen/welcome screen of the "People" category, defined in people.rpy. I suggest you create seperate files
             # for all categories so it's easier to edit.
 
             ##The buttons below don't do anything. Set up your category as seen in people.rpy then
             ## switch "NullAction" with the "ShowMenu("screen name")" command like above.
 
-            textbutton "Locations" action NullAction()
-            textbutton "Historical events" action NullAction()
-            textbutton "Books and tales" action NullAction()
-            textbutton "Rumors" action NullAction()
-            textbutton "Culture and Religion" action NullAction()
-            textbutton "Miscellaneous" action NullAction()
+            textbutton "Organizations" action ShowMenu("organizations_welcome")
+            #textbutton "Historical events" action ShowMenu("history_welcome")
+            # textbutton "Books and tales" action NullAction()
+            # textbutton "Rumors" action NullAction()
+            # textbutton "Culture and Religion" action NullAction()
+            # textbutton "Miscellaneous" action NullAction()
 
     textbutton "Return" action Return() yoffset 1000 xoffset 25
 
@@ -61,11 +61,8 @@ screen category_welcome():
             xalign 0.5 yalign 0.5
             xoffset 200
             #xoffset 400
-            text _p("""Welcome to the codex!{p}If you click on any of the buttons besides 'People' and nothing happens, don't worry!
-                    It is because setting those up would involve a lot of unnecessary copy-paste work. Same goes for some entries in the
-                    'People' category. Start the game to unlock the hidden entries.""")
+            text _p("""You are logged in, GUEST.{p}Welcome to CAPES.{p}Your location has been set to **** city and has access to any relevant files. Select a category to peruse.""") # Central Agency for the Profiling of Supers
             #text _p("""Welcome to the codex!""")
-
 
             #Really short text might not be centered correctly, you have to adjust the xoffset.
 
