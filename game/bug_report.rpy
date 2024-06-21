@@ -50,6 +50,8 @@ label bug_reporter_label:
         bug_reporting = True
 
         GetScreenshot()
+        
+        token = renpy.input("", screen=u'token_insert')
 
         bug_report_text = renpy.input("", screen=u'bug_reporter')
 
@@ -75,61 +77,6 @@ label bug_reporter_label:
             current_platforms.append("Mobile")
 
         current_platforms = ", ".join(current_platforms)
-
-        # post_data = bytearray(str.encode(f'''
-        # --boundary
-        # Content-Disposition: form-data; name="payload_json"
-        # Content-Type: application/json
-
-        # {{"content" : "Got a report for ya!",
-        # "username" : "Wriggle Nightbug",
-        # "embeds": [
-        #     {{
-        #     "title": "Bug Report",
-        #     "description": "From: \\n{contact_point}",
-        #     "color": 16711680,
-        #     "footer": {{
-        #         "text": "From {", ".join(current_platforms)}"
-        #     }},
-        #     "author": {{
-        #         "name": "Wriggle Nightbug"
-        #     }},
-        #     "fields": [
-        #         {{
-        #         "name": "Description",
-        #         "value": "{bug_report_text}",
-        #         "inline": true
-        #         }}
-        #     ],
-        #     "thumbnail": {{
-        #         "url": "https://i.imgur.com/Ke7NX56.png"
-        #     }}
-        #     }}
-        # ],
-        # }}
-
-        # --boundary
-        # Content-Disposition: form-data; name="files[0]"; filename="screenshot.png"
-        # Content-Type: image/png
-        # '''))
-
-        # post_data.extend(bytearray(screenshot))
-
-        # post_data.extend(bytearray(str.encode(f'''
-        # --boundary
-        # Content-Disposition: form-data; name="files[1]"; filename="dev_log.txt"
-        # Content-Type: text/plain
-
-        # {export_log()}
-        # --boundary
-        # Content-Disposition: form-data; name="files[2]"; filename="history.txt"
-        # Content-Type: text/plain
-
-        # {export_history()}
-        # --boundary--
-        # ''')))
-
-        # post_data = bytes(post_data)
 
         post_data = {"avatar_url": "https://i.imgur.com/Ke7NX56.png",
         "content" : f"Got a report for ya! They were on the \"{label_tracker}\" label.",
@@ -162,15 +109,9 @@ label bug_reporter_label:
 
     python:
 
-        webhook = "https://discord.com/api/webhooks/1253394169318342718/eBvNVaoRkUDpj38Ea75fjqc-7bMAKr2XzIK5YKuiR2vzY-tsVDS-maCHtgdJBGgbJViF"
-
-        # https://stackoverflow.com/questions/12385179/how-to-send-a-multipart-form-data-with-requests-in-python?rq=4
+        webhook = "https://discord.com/api/webhooks/1253630046778822719/" + token.strip()
 
         web_result = renpy.fetch(webhook, method="POST", timeout=15, json=post_data, result="text")
-
-        renpy.fetch(webhook, method="POST", timeout=30, json={"avatar_url": "https://i.imgur.com/Ke7NX56.png","content" : f"```{screenshot_1}```","username" : "Wriggle Nightbug"}, result="text")
-
-        renpy.fetch(webhook, method="POST", timeout=30, json={"avatar_url": "https://i.imgur.com/Ke7NX56.png","content" : f"```{screenshot_2}```","username" : "Wriggle Nightbug"}, result="text")
 
         if renpy.emscripten:
 
@@ -223,7 +164,7 @@ screen bug_reporter:
         xpos 100
         ypos 150
         xysize (660,700)
-        input length 1000 pos (5,5) color "#fff" xmaximum 900 ymaximum 700 caret_blink True multiline True
+        input length 1000 pos (5,5) color "#fff" xmaximum 900 ymaximum 700 caret_blink True multiline True copypaste True
 
     vbox:
         xalign 0.95
@@ -254,3 +195,27 @@ screen email_getter:
         yalign 0.85
         textbutton "Return":
             action [Hide("email_getter", transition=Dissolve), Return()]
+
+screen token_insert:
+    modal True
+    add "gui/overlay/game_menu.png"
+
+    vbox:
+        xalign 0.05
+        yalign 0.05
+        label "Bug Report":
+            text_size 36
+        label "Paste a valid token to access the bug reporter.":
+            text_size 22
+
+    viewport:
+        xpos 100
+        ypos 150
+        xysize (660,700)
+        input length 320 pos (5,5) color "#fff" xmaximum 900 ymaximum 700 caret_blink True multiline False copypaste True mask "*" default ""
+
+    vbox:
+        xalign 0.95
+        yalign 0.85
+        textbutton "Return":
+            action [Hide("token_insert", transition=Dissolve), Return()]
