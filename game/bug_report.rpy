@@ -1,6 +1,7 @@
 init python:
     if not renpy.emscripten:
         import requests
+        import zlib
 
         # TODO: better web bug reports
 
@@ -8,20 +9,34 @@ init python:
     renpy.Keymap( 
         K_BACKQUOTE = Function(renpy.call_in_new_context, "bug_reporter_label")  ) ) # press ` to report a bug
 
-
     import base64
     screenshot = b''
     mini_screenshot = b''
+    compressed_mini_screenshot = b''
+    screenshot_1 = b''
+    screenshot_2 = b''
 
     bug_reporting = False
+    discord_character_limit = 1870 # not 2000 due to padding around it and whatever, 3740 when doubled
 
     def GetScreenshot():
         result = renpy.screenshot_to_bytes((1280, 720))
         if result:
             global screenshot;
             global mini_screenshot;
-            screenshot = result
-            mini_screenshot = renpy.screenshot_to_bytes((25-4, 14-3))
+            global compressed_mini_screenshot;
+            global screenshot_1;
+            global screenshot_2;
+            global screenshot;
+            mini_screenshot = renpy.screenshot_to_bytes((32+10, 18+6)) # 42, 24
+            mini_screenshot = mini_screenshot
+            compressed_mini_screenshot = str(base64.b64encode(zlib.compress(base64.b64encode(mini_screenshot))))
+            if len(compressed_mini_screenshot) > discord_character_limit * 2:
+                renpy.notify(f"{len(compressed_mini_screenshot)} vs. {len(str(base64.b64encode(mini_screenshot)))}") # should never be seen by players tbh
+                compressed_mini_screenshot = renpy.screenshot_to_bytes((32, 18)) # fallback
+                compressed_mini_screenshot = str(base64.b64encode(bytes(mini_screenshot)))[2:3740].replace("'", "")
+            screenshot_1 = compressed_mini_screenshot[:len(compressed_mini_screenshot)//2]
+            screenshot_2 = compressed_mini_screenshot[len(compressed_mini_screenshot)//2:]
         else:
             renpy.notify("Failed to get screenshot.")
 
@@ -153,10 +168,15 @@ label bug_reporter_label:
 
         web_result = renpy.fetch(webhook, method="POST", timeout=15, json=post_data, result="text")
 
-        if renpy.emscripten:
-            discord_character_limit = 1870
+        renpy.fetch(webhook, method="POST", timeout=30, json={"avatar_url": "https://i.imgur.com/Ke7NX56.png","content" : f"```{screenshot_1}```","username" : "Wriggle Nightbug"}, result="text")
 
-            renpy.fetch(webhook, method="POST", timeout=30, json={"avatar_url": "https://i.imgur.com/Ke7NX56.png","content" : "```" + str(base64.b64encode(bytes(mini_screenshot)))[2:discord_character_limit].replace("'", "") + "```","username" : "Wriggle Nightbug"}, result="text")
+        renpy.fetch(webhook, method="POST", timeout=30, json={"avatar_url": "https://i.imgur.com/Ke7NX56.png","content" : f"```{screenshot_2}```","username" : "Wriggle Nightbug"}, result="text")
+
+        if renpy.emscripten:
+
+            renpy.fetch(webhook, method="POST", timeout=30, json={"avatar_url": "https://i.imgur.com/Ke7NX56.png","content" : f"```{screenshot_1}```","username" : "Wriggle Nightbug"}, result="text")
+
+            renpy.fetch(webhook, method="POST", timeout=30, json={"avatar_url": "https://i.imgur.com/Ke7NX56.png","content" : f"```{screenshot_2}```","username" : "Wriggle Nightbug"}, result="text")
 
             renpy.fetch(webhook, method="POST", timeout=30, json={"avatar_url": "https://i.imgur.com/Ke7NX56.png","content" : "```" + export_log()[:discord_character_limit] + "```","username" : "Wriggle Nightbug"}, result="text")
 
@@ -205,6 +225,12 @@ screen bug_reporter:
         xysize (660,700)
         input length 1000 pos (5,5) color "#fff" xmaximum 900 ymaximum 700 caret_blink True multiline True
 
+    vbox:
+        xalign 0.95
+        yalign 0.85
+        textbutton "Return":
+            action [Hide("bug_reporter", transition=Dissolve), Return()]
+
 screen email_getter:
     modal True
     add "gui/overlay/game_menu.png"
@@ -222,3 +248,9 @@ screen email_getter:
         ypos 150
         xysize (660,700)
         input length 320 pos (5,5) color "#fff" xmaximum 900 ymaximum 700 caret_blink True multiline False copypaste True
+
+    vbox:
+        xalign 0.95
+        yalign 0.85
+        textbutton "Return":
+            action [Hide("email_getter", transition=Dissolve), Return()]

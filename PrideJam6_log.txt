@@ -5462,3 +5462,495 @@ Don't you agree, {bt=6}{color=000000}wish boy?{/color}{/bt}
 
 --- Fri Jun 21 06:13:49 2024
 
+--- Fri Jun 21 08:16:45 2024
+
+--- Fri Jun 21 08:17:01 2024
+
+--- Fri Jun 21 08:17:48 2024
+
+Initialized st_chapter_start_1
+Initialized st_kogasa_first_time
+Initialized st_shin_and_seija_first_encounter
+Initialized st_shin_meets_sekibanki
+Initialized st_supply_run
+100
+99
+95
+95
+95
+There's shattered glass in the stage curtain, shimmering in blue. Your enemy
+calls from the skies.
+
+???
+Come out, come out wish boy!
+
+Now... now is the time to strike!
+
+Shin
+May even your wish come true, someday.
+
+{sc}WOOOOOOOOOOOOO!{/sc}
+
+The sound of tiny applause and unenthused parents rings out from your
+audience. It's a sea of small hands pointing to you.
+
+You hear the cue to bow so you do.
+
+We love you Wishmaker!
+
+{i}The smiles, the games, the acting... it's all...{/i}
+
+???
+Kids shit.
+
+The fallen mascot suit, in upstage left, took to its feet{fast} and removed
+its oversized head to reveal Backswitch.
+
+Minor villain, major nuisance.
+
+He's been around the block, making waves with her gravity flipping powers. As
+a relative newbie, this is your first time face-to-face with a villain.
+
+Despite the excited gasps from the audience, the staff begin ushering everyone
+out.
+
+Shin
+{i}Okay, this is fine. Drop the banter for now, focus on keeping it
+together.{/i}
+
+Backswitch
+I was wonderin' about the noise following some new hero. Looks like noise was
+all it was.
+
+Backswitch
+Don't you agree, {bt=6}{color=000000}wish boy?{/color}{/bt}
+
+Initialized st_chapter_start_1
+Initialized st_kogasa_first_time
+Initialized st_shin_and_seija_first_encounter
+Initialized st_shin_meets_sekibanki
+Initialized st_supply_run
+100
+99
+95
+95
+95
+--- Fri Jun 21 08:26:20 2024
+
+Initialized st_chapter_start_1
+Initialized st_kogasa_first_time
+Initialized st_shin_and_seija_first_encounter
+Initialized st_shin_meets_sekibanki
+Initialized st_supply_run
+95
+100
+95
+99
+95
+There's shattered glass in the stage curtain, shimmering in blue. Your enemy
+calls from the skies.
+
+???
+Come out, come out wish boy!
+
+Now... now is the time to strike!
+
+Shin
+May even your wish come true, someday.
+
+{sc}WOOOOOOOOOOOOO!{/sc}
+
+The sound of tiny applause and unenthused parents rings out from your
+audience. It's a sea of small hands pointing to you.
+
+You hear the cue to bow so you do.
+
+We love you Wishmaker!
+
+{i}The smiles, the games, the acting... it's all...{/i}
+
+???
+Kids shit.
+
+The fallen mascot suit, in upstage left, took to its feet{fast} and removed
+its oversized head to reveal Backswitch.
+
+Minor villain, major nuisance.
+
+He's been around the block, making waves with her gravity flipping powers. As
+a relative newbie, this is your first time face-to-face with a villain.
+
+Despite the excited gasps from the audience, the staff begin ushering everyone
+out.
+
+Shin
+{i}Okay, this is fine. Drop the banter for now, focus on keeping it
+together.{/i}
+
+Backswitch
+I was wonderin' about the noise following some new hero. Looks like noise was
+all it was.
+
+Backswitch
+Don't you agree, {bt=6}{color=000000}wish boy?{/color}{/bt}
+
+--- Fri Jun 21 08:26:36 2024
+
+--- Fri Jun 21 08:27:06 2024
+
+--- Fri Jun 21 08:27:32 2024
+
+--- Fri Jun 21 08:37:55 2024
+
+--- Fri Jun 21 08:38:26 2024
+
+--- Fri Jun 21 08:41:19 2024
+
+Initialized st_chapter_start_1
+Initialized st_kogasa_first_time
+Initialized st_shin_and_seija_first_encounter
+Initialized st_shin_meets_sekibanki
+Initialized st_supply_run
+95
+95
+100
+95
+99
+There's shattered glass in the stage curtain, shimmering in blue. Your enemy
+calls from the skies.
+
+???
+Come out, come out wish boy!
+
+Now... now is the time to strike!
+
+Shin
+May even your wish come true, someday.
+
+{sc}WOOOOOOOOOOOOO!{/sc}
+
+The sound of tiny applause and unenthused parents rings out from your
+audience. It's a sea of small hands pointing to you.
+
+You hear the cue to bow so you do.
+
+We love you Wishmaker!
+
+{i}The smiles, the games, the acting... it's all...{/i}
+
+???
+Kids shit.
+
+The fallen mascot suit, in upstage left, took to its feet{fast} and removed
+its oversized head to reveal Backswitch.
+
+Minor villain, major nuisance.
+
+He's been around the block, making waves with her gravity flipping powers. As
+a relative newbie, this is your first time face-to-face with a villain.
+
+Despite the excited gasps from the audience, the staff begin ushering everyone
+out.
+
+Shin
+{i}Okay, this is fine. Drop the banter for now, focus on keeping it
+together.{/i}
+
+Backswitch
+I was wonderin' about the noise following some new hero. Looks like noise was
+all it was.
+
+Backswitch
+Don't you agree, {bt=6}{color=000000}wish boy?{/color}{/bt}
+
+<Response [200]>
+
+Successfully submitted.
+
+--- Fri Jun 21 08:46:59 2024
+
+Initialized st_chapter_start_1
+Initialized st_kogasa_first_time
+Initialized st_shin_and_seija_first_encounter
+Initialized st_shin_meets_sekibanki
+Initialized st_supply_run
+95
+100
+95
+95
+99
+There's shattered glass in the stage curtain, shimmering in blue. Your enemy
+calls from the skies.
+
+???
+Come out, come out wish boy!
+
+Now... now is the time to strike!
+
+Shin
+May even your wish come true, someday.
+
+{sc}WOOOOOOOOOOOOO!{/sc}
+
+The sound of tiny applause and unenthused parents rings out from your
+audience. It's a sea of small hands pointing to you.
+
+You hear the cue to bow so you do.
+
+We love you Wishmaker!
+
+{i}The smiles, the games, the acting... it's all...{/i}
+
+???
+Kids shit.
+
+The fallen mascot suit, in upstage left, took to its feet{fast} and removed
+its oversized head to reveal Backswitch.
+
+Minor villain, major nuisance.
+
+He's been around the block, making waves with her gravity flipping powers. As
+a relative newbie, this is your first time face-to-face with a villain.
+
+Despite the excited gasps from the audience, the staff begin ushering everyone
+out.
+
+Shin
+{i}Okay, this is fine. Drop the banter for now, focus on keeping it
+together.{/i}
+
+Backswitch
+I was wonderin' about the noise following some new hero. Looks like noise was
+all it was.
+
+Backswitch
+Don't you agree, {bt=6}{color=000000}wish boy?{/color}{/bt}
+
+--- Fri Jun 21 08:47:21 2024
+
+Initialized st_chapter_start_1
+Initialized st_kogasa_first_time
+Initialized st_shin_and_seija_first_encounter
+Initialized st_shin_meets_sekibanki
+Initialized st_supply_run
+99
+95
+100
+95
+95
+There's shattered glass in the stage curtain, shimmering in blue. Your enemy
+calls from the skies.
+
+???
+Come out, come out wish boy!
+
+Now... now is the time to strike!
+
+Shin
+May even your wish come true, someday.
+
+{sc}WOOOOOOOOOOOOO!{/sc}
+
+The sound of tiny applause and unenthused parents rings out from your
+audience. It's a sea of small hands pointing to you.
+
+You hear the cue to bow so you do.
+
+We love you Wishmaker!
+
+{i}The smiles, the games, the acting... it's all...{/i}
+
+???
+Kids shit.
+
+The fallen mascot suit, in upstage left, took to its feet{fast} and removed
+its oversized head to reveal Backswitch.
+
+Minor villain, major nuisance.
+
+He's been around the block, making waves with her gravity flipping powers. As
+a relative newbie, this is your first time face-to-face with a villain.
+
+Despite the excited gasps from the audience, the staff begin ushering everyone
+out.
+
+Shin
+{i}Okay, this is fine. Drop the banter for now, focus on keeping it
+together.{/i}
+
+Backswitch
+I was wonderin' about the noise following some new hero. Looks like noise was
+all it was.
+
+Backswitch
+Don't you agree, {bt=6}{color=000000}wish boy?{/color}{/bt}
+
+<Response [200]>
+
+Successfully submitted.
+
+--- Fri Jun 21 08:56:48 2024
+
+--- Fri Jun 21 08:57:06 2024
+
+--- Fri Jun 21 08:57:32 2024
+
+--- Fri Jun 21 08:58:01 2024
+
+--- Fri Jun 21 08:59:29 2024
+
+--- Fri Jun 21 09:04:32 2024
+
+--- Fri Jun 21 09:04:56 2024
+
+--- Fri Jun 21 09:12:32 2024
+
+--- Fri Jun 21 09:13:01 2024
+
+--- Fri Jun 21 09:13:08 2024
+
+--- Fri Jun 21 09:13:21 2024
+
+--- Fri Jun 21 09:13:55 2024
+
+--- Fri Jun 21 09:14:04 2024
+
+--- Fri Jun 21 09:14:26 2024
+
+--- Fri Jun 21 09:14:54 2024
+
+--- Fri Jun 21 09:16:28 2024
+
+--- Fri Jun 21 09:17:29 2024
+
+--- Fri Jun 21 09:17:46 2024
+
+--- Fri Jun 21 09:18:03 2024
+
+--- Fri Jun 21 09:18:12 2024
+
+--- Fri Jun 21 09:19:25 2024
+
+--- Fri Jun 21 09:20:17 2024
+
+--- Fri Jun 21 09:21:10 2024
+
+--- Fri Jun 21 09:21:35 2024
+
+--- Fri Jun 21 09:21:56 2024
+
+--- Fri Jun 21 09:22:12 2024
+
+--- Fri Jun 21 09:22:29 2024
+
+--- Fri Jun 21 09:22:35 2024
+
+--- Fri Jun 21 09:22:50 2024
+
+--- Fri Jun 21 09:23:08 2024
+
+--- Fri Jun 21 09:26:16 2024
+
+--- Fri Jun 21 09:27:35 2024
+
+Initialized st_chapter_start_1
+Initialized st_kogasa_first_time
+Initialized st_shin_and_seija_first_encounter
+Initialized st_shin_meets_sekibanki
+Initialized st_supply_run
+95
+100
+99
+95
+95
+--- Fri Jun 21 09:28:09 2024
+
+--- Fri Jun 21 09:29:47 2024
+
+--- Fri Jun 21 09:30:38 2024
+
+--- Fri Jun 21 09:31:24 2024
+
+--- Fri Jun 21 09:32:19 2024
+
+--- Fri Jun 21 09:32:51 2024
+
+--- Fri Jun 21 09:33:22 2024
+
+--- Fri Jun 21 09:36:01 2024
+
+Initialized st_chapter_start_1
+Initialized st_kogasa_first_time
+Initialized st_shin_and_seija_first_encounter
+Initialized st_shin_meets_sekibanki
+Initialized st_supply_run
+99
+95
+95
+100
+95
+There's shattered glass in the stage curtain, shimmering in blue. Your enemy
+calls from the skies.
+
+???
+Come out, come out wish boy!
+
+Now... now is the time to strike!
+
+Shin
+May even your wish come true, someday.
+
+{sc}WOOOOOOOOOOOOO!{/sc}
+
+The sound of tiny applause and unenthused parents rings out from your
+audience. It's a sea of small hands pointing to you.
+
+You hear the cue to bow so you do.
+
+We love you Wishmaker!
+
+{i}The smiles, the games, the acting... it's all...{/i}
+
+???
+Kids shit.
+
+The fallen mascot suit, in upstage left, took to its feet{fast} and removed
+its oversized head to reveal Backswitch.
+
+Minor villain, major nuisance.
+
+He's been around the block, making waves with her gravity flipping powers. As
+a relative newbie, this is your first time face-to-face with a villain.
+
+Despite the excited gasps from the audience, the staff begin ushering everyone
+out.
+
+Shin
+{i}Okay, this is fine. Drop the banter for now, focus on keeping it
+together.{/i}
+
+Backswitch
+I was wonderin' about the noise following some new hero. Looks like noise was
+all it was.
+
+Backswitch
+Don't you agree, {bt=6}{color=000000}wish boy?{/color}{/bt}
+
+--- Fri Jun 21 09:37:57 2024
+
+--- Fri Jun 21 09:39:04 2024
+
+--- Fri Jun 21 09:41:09 2024
+
+--- Fri Jun 21 09:41:40 2024
+
+--- Fri Jun 21 09:44:40 2024
+
+--- Fri Jun 21 09:47:48 2024
+
+<Response [200]>
+
+Successfully submitted.
+
+--- Fri Jun 21 09:52:14 2024
+
