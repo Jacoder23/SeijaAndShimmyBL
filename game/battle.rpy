@@ -58,7 +58,7 @@ init python:
             else:
                 queued_statements.append(("say", (globals()[eval(sections[0][1:-1])], sections[1])))
 
-    def ApplyEffect(effect): # TODO: add vfx support to this 
+    def ApplyEffect(effect, battler_source):
                             # Just gonna have to assume everything in here is a variable change for now so I can add in the global keyword
                             # TODO: Figure out a smarter way than what I just described
         if effect == "":
@@ -156,17 +156,17 @@ init python:
         SayDialogueData(current_option[5])
 
         if current_option[3] > 0:
-            renpy.log(current_option[3])
+            dev_log(current_option[3])
             RollDice(dice_roll, current_option[4][1], current_option[3])
 
         auto_success = dice_roll == 20
         auto_fail = dice_roll == 1 and current_option[3] != 0
 
         if (max(dice_roll + current_option[4][1], 1) >= current_option[3] or auto_success) and not auto_fail:
-            ApplyEffect(current_option[1])
+            ApplyEffect(current_option[1], member['source'])
             SayDialogueData(current_option[6])
         else:
-            ApplyEffect(current_option[2])
+            ApplyEffect(current_option[2], member['source'])
             SayDialogueData(current_option[7])
 
         global dmg_to_target
@@ -195,6 +195,23 @@ init python:
                 member["options"].remove(option)
 
         return False
+
+    def RunQueuedStatements():
+        global queued_statements;
+        while len(queued_statements) > 0:
+            statement = queued_statements[0]
+            if statement[0] == "say":
+                renpy.say(statement[1][0], statement[1][1])
+                queued_statements.pop(0)
+            elif statement[0] == "exec":
+                dev_log("")
+                dev_log("exec: " + statement[0])
+                queued_statements.pop(0)
+                exec(statement[1])
+            else:
+                dev_log("")
+                dev_log("unknown: " + str(statement))
+                queued_statements.pop(0)
 
     def ApplyFilter(function, text):
         return function(text)
@@ -248,6 +265,8 @@ screen battle_screen:
                             range member["max_hp"]
                             left_gutter 0
                             right_gutter 0
+                            left_bar Frame("gui/DX_button/stats_bar/bar_Violent_Fill.png", 10, 0)
+                            right_bar Frame("gui/DX_button/stats_bar/bar_Violent_BG.png", 10, 0)
                             thumb None
                             thumb_shadow None
 
@@ -298,17 +317,17 @@ screen battle_screen:
                             text "{font=[gui.name_text_font]}[member['name']]{/font}" size 36 xalign 0.5
                             null height 5
                             hbox:
+                                text "[member['hp']] / [member['max_hp']]" size 26
+                                null width 5
                                 bar:
                                     xmaximum 130
                                     value member["hp"]
                                     range member["max_hp"]
                                     left_gutter 0
                                     right_gutter 0
+                                    left_bar Frame("gui/DX_button/stats_bar/bar_Violent_Fill.png", 10, 0)
+                                    right_bar Frame("gui/DX_button/stats_bar/bar_Violent_BG.png", 10, 0)
                                     thumb None
                                     thumb_shadow None
-
-                                null width 5
-
-                                text "[member['hp']] / [member['max_hp']]" size 26
 
     on "show" action Function(CheckIfBattleOver)

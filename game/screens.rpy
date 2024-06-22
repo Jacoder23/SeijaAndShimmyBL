@@ -499,7 +499,10 @@ screen navigation():
             ypos 115
             xalign 0.5
 
-            spacing gui.navigation_spacing
+            if main_menu:
+                spacing gui.navigation_spacing
+            else:
+                spacing -20
 
             textbutton _("History") action ShowMenu("history")
 
@@ -509,8 +512,12 @@ screen navigation():
             textbutton _("Load") action ShowMenu("load")
 
             textbutton _("Codex") action ShowMenu('category_welcome')
+            
+            null width 50
 
             textbutton _("Achievements") action ShowMenu("achievement_gallery")
+
+            null width 70
 
             textbutton _("Settings") action ShowMenu("preferences")
 
@@ -572,14 +579,6 @@ style main_navigation_button_text:
 ## Replace this with your background image, if you like
 image main_menu_background = "mainmenu.png"
 
-# image main_menu_foreground_pc = HBox(
-#     Solid("#292835AA", xsize=325, ysize=580)
-# )
-
-# image main_menu_foreground_web = HBox(
-#     Solid("#292835AA", xsize=325, ysize=500)
-# )
-
 screen main_menu():
 
     ## This ensures that any other menu screen is replaced.
@@ -588,6 +587,13 @@ screen main_menu():
     add "main_menu_background":
         ypos 0
         xpos 0
+
+    add "images/shin fullbody.png":
+        xanchor 0.5
+        yanchor 0.5
+        rotate -35
+        ypos 700
+        xpos 500
 
     # if renpy.emscripten:
     #     add "main_menu_foreground_web":

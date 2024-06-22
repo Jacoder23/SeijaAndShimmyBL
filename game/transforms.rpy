@@ -4,6 +4,62 @@ define flash = Fade(1, 0.0, 0.5, color="#fff")
 
 define longflash = Fade(1, 1, 1, color="#fff")
 
+transform glowing_interactable:
+    outline_transform(1, "#bdbdbd", 3.0)
+    on idle:
+        ## This animates the outline increasing/decreasing in size,
+        ## but you can omit the `ease 0.1` part also for no animation.
+        ease 0.4 outline_transform(1, "#bdbdbd", 3.0, end_color="#00859c")
+        ease 0.4 outline_transform(2, "#bdbdbd", 3.0, end_color="#00859c")
+        repeat
+    on hover:
+        ease 0.05 outline_transform(-1, "#00ff55", 3.0)
+
+define x_pos_stack_spacing = 200
+
+init python:
+
+    # TODO: track character/images disappearing (including on scene changes) and when a character already shown in the stack is shown again
+
+    n_in_left_stack = 0
+
+    n_in_right_stack = 0
+
+    # TODO: check if this is frame rate dependent
+    # uh yeah it is, lets not make a renpy game with a locked fps
+
+    def left_stack_inc(*arg):
+        global n_in_left_stack
+        n_in_left_stack += 1
+
+    def right_stack_inc(*arg):
+        global n_in_right_stack
+        n_in_right_stack += 1
+
+    def reset_stacks():
+        global n_in_left_stack
+        global n_in_right_stack
+        n_in_left_stack = 0
+        n_in_right_stack = 0
+
+transform left_stack:
+    xpos 340 - n_in_left_stack * x_pos_stack_spacing
+    yalign 1 - n_in_left_stack**2/25
+    zoom 0.95 + n_in_left_stack**2/25
+    function left_stack_inc
+
+transform right_stack:
+    xpos 740 + n_in_right_stack * x_pos_stack_spacing
+    yalign 1 - n_in_right_stack/25
+    zoom 0.95 + n_in_right_stack/25
+    function right_stack_inc
+
+transform face_left:
+    xzoom 1.0
+
+transform face_right:
+    xzoom -1.0
+
 transform damaged:
     yalign 0.5
     xalign 0.5

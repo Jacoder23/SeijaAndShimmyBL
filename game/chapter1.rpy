@@ -2,7 +2,7 @@ label st_kogasa_first_time:
 
     $ label_tracker = "st_kogasa_first_time"
 
-    $ DeclareStorylet("st_kogasa_first_time", ["time >= 0", "chapter == 1"], ["global time; time += 1"], 95, "Event with Kogasa", False)
+    $ DeclareStorylet("st_kogasa_first_time", ["time >= 0", "chapter == 1"], ["global time; time += 1"], 95, "Event with Kogasa", "One wrong turn on the streets...", False)
         
     "One wrong turn on the streets on your day off and you find yourself lost."
 
@@ -44,10 +44,8 @@ label st_kogasa_first_time:
 
                     "You see a storefront with pages on pages but it isn't a bookstore."
 
-                    "Hanging by its doorstep is a black flag with two arrows wrapping around each other like a yin-yang in its center. One is going up, one is going down."
-
-                    "You don't really know what the flag supposed to mean other than marking territory."
-
+                    "Hanging by its doorstep is a black flag with two arrows, blue and red, wrapping around each other like a yin-yang in its center. One is going up, one is going down."
+                    
                     "That someone would put this on their store is utterly confounding to you."
 
                     "You walk on by with a bad taste in your mouth."
@@ -167,12 +165,16 @@ label st_shin_meets_sekibanki:
 
     $ label_tracker = "st_shin_meets_sekibanki"
 
-    $ DeclareStorylet("st_shin_meets_sekibanki", ["time >= 0", "chapter == 1"], ["global time; time += 1"], 99, "Event with Sekibanki", False)
+    $ DeclareStorylet("st_shin_meets_sekibanki", ["time >= 0", "chapter == 1"], ["global time; time += 1"], 99, "Event with Sekibanki", "It's the day after your fight.", False)
 
     # shin has to file a report on her battle but to take her mind off things, sekibanki sends her on a supplies trip to the mall to buy food
 
     # along the way he finds a certain someone whose name rhymes with shmeija but neither know the other's identity, they become acquainted with each other; not friends nor foes yet
     # handling the second half in another storylet
+
+    # TODO: add a it's been a day stuff and an acknowledgement of what happened before like later in the sekibanki part
+
+    "It's the day after your fight."
 
     "You're in the lounge of Hero HQ, chicken pecking at your keyboard."
 
@@ -301,7 +303,7 @@ label st_supply_run:
 
     $ label_tracker = "st_supply_run"
 
-    $ DeclareStorylet("st_supply_run", ["time >= 0", "chapter == 1"], ["global time; time += 1"], 95, "Event with Sekibanki", False)
+    $ DeclareStorylet("st_supply_run", ["time >= 0", "chapter == 1"], ["global time; time += 1"], 95, "Event with Sekibanki", "After training's over at Hero HQ...", False)
 
     "After training's over at Hero HQ, you head out when Sekibanki catches up to you."
 
@@ -383,7 +385,7 @@ label st_shin_and_seija_first_encounter:
 
     $ label_tracker = "st_shin_and_seija_first_encounter"
 
-    $ DeclareStorylet("st_shin_and_seija_first_encounter", ["time >= 0", "chapter == 1", "at_the_mall == True"], ["global time; time += 1"], 95, "Event with Seija", False)
+    $ DeclareStorylet("st_shin_and_seija_first_encounter", ["time >= 0", "chapter == 1", "at_the_mall == True"], ["global time; time += 1"], 95, "Event with Seija",  "You ran into a previous acquaintance: head first actually.",False)
 
     # characters use slightly wrong versions of common aphorisms, will call into attention the AU feel of the universe since superheroes are a relatively recent development (since the 70s)
 
@@ -487,7 +489,7 @@ label st_chapter_start_1:
 
     $ label_tracker = "st_chapter_start_1"
 
-    $ DeclareStorylet("st_chapter_start_1",["chapter == 1"], [""], 100, "Start", False)
+    $ DeclareStorylet("st_chapter_start_1",["chapter == 1"], [""], 100, "Start", "Where it all began.", False)
 
     $ upgrade_points += 3
 
@@ -568,7 +570,7 @@ label st_chapter_start_1:
                                 ("party_one win", "all(x['hp'] == 0 for x in party_two)"),
                                 ("party_two win", "all(x['hp'] == 0 for x in party_one)"),
                                 ("stalemate", "all(len(x['options']) == 0 for x in party_one)"),
-                                ("stalemate", "turn > 6")]
+                                ("stalemate", "turn > 5")]
 
     # TODO: reformat all this into a dict
 
@@ -623,7 +625,6 @@ label st_chapter_start_1:
                                     "",
                                     "precision",
                                     FormatOption("WAIT AND SEE", "precision")]]],
-                    "dialogue":[("battle_started == False and battle_dialogue == 0", "Really? Don't you villains have better things to do than show up to kids' shows?")],
                     "source": shin_battler,
                     "sayer": "shin_costumed"}]
 
@@ -641,8 +642,6 @@ label st_chapter_start_1:
                                     "But before you can, you notice the floorboard beneath your feet about to fly off. You leap backwards out of harms way. [party_two[chosen_target[1]]['name']] seems genuinely surprised.\n[party_two[chosen_target[1]]['sayer']]:Not as dumb as you look?",
                                     "But you fail to notice the floorboard beneath your feet fly off, likely under [party_two[chosen_target[1]]['name']]'s power.\n You fall without any ground beneath you.\nYou land under the stage with a thud before climbing out unceremoniously; a jeering [party_two[chosen_target[1]]['name']] there to greet you as you rise.\n[party_two[chosen_target[1]]['sayer']]:Had a nice trip?",
                                     ""]],
-                    "boss_turn":[], # it's called a boss turn because only bosses get their own non-interrupt actions
-                    "dialogue":[("battle_started == False and battle_dialogue == 1", "Maybe if you heroes did something other than kids shows, I'd have something else to crash!")],
                     "source": seija_battler,
                     "sayer": "seija_costumed"}]
 
@@ -664,21 +663,15 @@ label st_chapter_start_1:
 
         label battle_st_chapter_start_1_continue:
 
+            if turn == 0:
+                shin "Really? Shouldn't villains have better things to do?"
+
+                seija "Maybe! But you're the one performing for kids."
+                
+                seija "I'm crashing kids shows that's 'cause those're all you heroes are good for."
+
             python:
-                while len(queued_statements) > 0:
-                    statement = queued_statements[0]
-                    if statement[0] == "say":
-                        renpy.say(statement[1][0], statement[1][1])
-                        queued_statements.pop(0)
-                    elif statement[0] == "exec":
-                        renpy.log("")
-                        renpy.log("exec: " + statement[0])
-                        queued_statements.pop(0)
-                        exec(statement[1])
-                    else:
-                        renpy.log("")
-                        renpy.log("unknown: " + str(statement))
-                        queued_statements.pop(0)
+                RunQueuedStatements()
 
                 queued_statements = [] 
 
@@ -745,7 +738,7 @@ label st_chapter_start_1:
 
             seija_costumed "You know who you really need to watch out for? Truck drivers."
 
-            shin_costumed "Wait, what does that m-{nw}"
+            shin_costumed "Huh? What does that m-{nw}"
 
             "But Backswitch was already running away."
 

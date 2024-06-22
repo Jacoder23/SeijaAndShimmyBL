@@ -9,6 +9,8 @@ screen flowchart:
         textbutton "Continue":
             action Function(renpy.call_in_new_context, "continue_storylets")
     vbox:
+        xalign 0.05
+        yalign 0.05
         # label "Progress"
         # label " "
         label "Party"

@@ -12,13 +12,13 @@
 ##
 ## The _() surrounding the string marks it as eligible for translation.
 
-define config.name = _("TouhouVillains")
+define config.name = _("Double Dealing Heroes")
 
 ## A short name for the game used for executables and directories in the built
 ## distribution. This must be ASCII-only, and must not contain spaces, colons,
 ## or semicolons.
 
-define build.name = "TouhouVillains"
+define build.name = "DoubleDealingHeroes"
 
 
 ## Determines if the title given above is shown on the main menu screen. Set
@@ -59,11 +59,15 @@ This game uses assets from many different creators:
 
 - {a=https://wattson.itch.io/renpy-auto-highlight}Renpy Auto Highlight{/a} and {a=https://wattson.itch.io/kinetic-text-tags}Kinetic Text Tags{/a} by Wattson
 
+- {a=https://remort-studios.itch.io/make-visual-novels-sep}Staging Enhancement Pack{/a} and {a=https://remort-studios.itch.io/make-visual-novels-rspv1}Shader Pack{/a} by Nai @ MakeVisualNovels
+
 A large amount of SFX came from {a=https://www.shapeforms.com/}Shapeforms Audio{/a}. Their license doesn't require mention but so much was used that I feel the need to credit them. They are very good at what they do.
 
 -------------------------------------------------------------
 
-Any fans of the Parahumans series by Wildbow will note major similarities in this game, most specifically with Worm. If given time, I'd make this a true Touhou x Worm crossover but alas. As it is, I can't call this a Worm fangame without any Worm characters and divergences from the setting due to some details being irrelevant or distractions to this specific story.
+Any fans of the Parahumans series by Wildbow will note major similarities in this game, most specifically with Worm. If given time, I'd make this a true Touhou x Worm crossover.
+
+As it is, I can't call this a Worm fangame without any Worm characters and divergences from the setting due to many details being irrelevant to this specific story.
 
 """)
 
@@ -179,7 +183,7 @@ default preferences.afm_time = 15
 ## This generally should not be changed, and if it is, should always be a
 ## literal string, not an expression.
 
-define config.save_directory = "TouhouVillains-9943655072"
+define config.save_directory = "DoubleDealingHeroes-9943655072"
 
 
 ## Icon ########################################################################
