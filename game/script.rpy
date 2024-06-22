@@ -186,7 +186,23 @@ label start:
 
             $ renpy.hide_screen("characters_screen")
 
-    # $ cinematic = True
+    show yumemi neutral at right_stack
+
+    pause
+
+    show marisa neutral at right_stack
+
+    pause
+
+    show reimu neutral at right_stack
+
+    pause
+
+    show alice neutral at right_stack
+
+    pause
+
+    $ reset_stacks()
 
     # ------------------------------------------------------------------------------------------------------------------- #
 

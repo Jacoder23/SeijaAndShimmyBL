@@ -579,14 +579,6 @@ style main_navigation_button_text:
 ## Replace this with your background image, if you like
 image main_menu_background = "mainmenu.png"
 
-# image main_menu_foreground_pc = HBox(
-#     Solid("#292835AA", xsize=325, ysize=580)
-# )
-
-# image main_menu_foreground_web = HBox(
-#     Solid("#292835AA", xsize=325, ysize=500)
-# )
-
 screen main_menu():
 
     ## This ensures that any other menu screen is replaced.
@@ -595,6 +587,13 @@ screen main_menu():
     add "main_menu_background":
         ypos 0
         xpos 0
+
+    add "images/shin fullbody.png":
+        xanchor 0.5
+        yanchor 0.5
+        rotate -35
+        ypos 700
+        xpos 500
 
     # if renpy.emscripten:
     #     add "main_menu_foreground_web":

@@ -30,17 +30,28 @@ screen characters_screen(character = None):
     if character is not None:
         $ current_character = character
     add "gui/DX_button/CharacterSheet_BG_NoText.png"
-    label "[current_character.name]":
+    label f"{current_character.name.upper()}":
         text_size 100
+        text_font "fonts/ITC Eras Std Bold.otf"
         xalign 0.5
-        ypos 20
+        ypos 65
     frame:
         xalign 0.5 yalign 0.5
-        if renpy.exists("images/character sheets/" + current_character.name + ".png"):
-            add "images/character sheets/[current_character.name].png":
-                zoom 0.5
-                xpos 1000
+        add f"images/{current_character.name.lower()}.png":
+                xpos 720
                 ypos 250
+                at TakeOnMe
+                at transform:
+                    outline_transform(2, "#fff", 12.0, num_passes=4)
+                    alpha 0.1
+        if renpy.exists(f"images/{current_character.name.lower()}.png"):
+            imagebutton idle f"images/{current_character.name.lower()}.png" hover f"images/{current_character.name.lower()} talk happy.png":
+                action NullAction()
+                xpos 950
+                ypos 220
+                at transform:
+                    outline_transform(2, "#fff", 12.0, num_passes=4)
+                    zoom 0.5
         hbox:
             xalign 0.5 yalign 0.5
             frame:

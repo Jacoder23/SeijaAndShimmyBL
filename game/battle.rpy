@@ -196,6 +196,23 @@ init python:
 
         return False
 
+    def RunQueuedStatements():
+        global queued_statements;
+        while len(queued_statements) > 0:
+            statement = queued_statements[0]
+            if statement[0] == "say":
+                renpy.say(statement[1][0], statement[1][1])
+                queued_statements.pop(0)
+            elif statement[0] == "exec":
+                dev_log("")
+                dev_log("exec: " + statement[0])
+                queued_statements.pop(0)
+                exec(statement[1])
+            else:
+                dev_log("")
+                dev_log("unknown: " + str(statement))
+                queued_statements.pop(0)
+
     def ApplyFilter(function, text):
         return function(text)
 

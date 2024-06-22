@@ -44,10 +44,8 @@ label st_kogasa_first_time:
 
                     "You see a storefront with pages on pages but it isn't a bookstore."
 
-                    "Hanging by its doorstep is a black flag with two arrows wrapping around each other like a yin-yang in its center. One is going up, one is going down."
-
-                    "You don't really know what the flag supposed to mean other than marking territory."
-
+                    "Hanging by its doorstep is a black flag with two arrows, blue and red, wrapping around each other like a yin-yang in its center. One is going up, one is going down."
+                    
                     "That someone would put this on their store is utterly confounding to you."
 
                     "You walk on by with a bad taste in your mouth."
@@ -627,7 +625,6 @@ label st_chapter_start_1:
                                     "",
                                     "precision",
                                     FormatOption("WAIT AND SEE", "precision")]]],
-                    "dialogue":[("battle_started == False and battle_dialogue == 0", "Really? Don't you villains have better things to do than show up to kids' shows?")],
                     "source": shin_battler,
                     "sayer": "shin_costumed"}]
 
@@ -645,7 +642,6 @@ label st_chapter_start_1:
                                     "But before you can, you notice the floorboard beneath your feet about to fly off. You leap backwards out of harms way. [party_two[chosen_target[1]]['name']] seems genuinely surprised.\n[party_two[chosen_target[1]]['sayer']]:Not as dumb as you look?",
                                     "But you fail to notice the floorboard beneath your feet fly off, likely under [party_two[chosen_target[1]]['name']]'s power.\n You fall without any ground beneath you.\nYou land under the stage with a thud before climbing out unceremoniously; a jeering [party_two[chosen_target[1]]['name']] there to greet you as you rise.\n[party_two[chosen_target[1]]['sayer']]:Had a nice trip?",
                                     ""]],
-                    "dialogue":[("battle_started == False and battle_dialogue == 1", "Maybe if you heroes did something other than kids shows, I'd have something else to crash!")],
                     "source": seija_battler,
                     "sayer": "seija_costumed"}]
 
@@ -667,21 +663,15 @@ label st_chapter_start_1:
 
         label battle_st_chapter_start_1_continue:
 
+            if turn == 0:
+                shin "Really? Shouldn't villains have better things to do?"
+
+                seija "Maybe! But you're the one performing for kids."
+                
+                seija "I'm crashing kids shows that's 'cause those're all you heroes are good for."
+
             python:
-                while len(queued_statements) > 0:
-                    statement = queued_statements[0]
-                    if statement[0] == "say":
-                        renpy.say(statement[1][0], statement[1][1])
-                        queued_statements.pop(0)
-                    elif statement[0] == "exec":
-                        dev_log("")
-                        dev_log("exec: " + statement[0])
-                        queued_statements.pop(0)
-                        exec(statement[1])
-                    else:
-                        dev_log("")
-                        dev_log("unknown: " + str(statement))
-                        queued_statements.pop(0)
+                RunQueuedStatements()
 
                 queued_statements = [] 
 
@@ -748,7 +738,7 @@ label st_chapter_start_1:
 
             seija_costumed "You know who you really need to watch out for? Truck drivers."
 
-            shin_costumed "Wait, what does that m-{nw}"
+            shin_costumed "Huh? What does that m-{nw}"
 
             "But Backswitch was already running away."
 

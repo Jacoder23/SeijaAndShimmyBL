@@ -5966,3 +5966,535 @@ Successfully submitted.
 
 --- Fri Jun 21 16:46:00 2024
 
+--- Fri Jun 21 18:37:36 2024
+
+--- Sat Jun 22 02:58:23 2024
+
+Initialized st_chapter_start_1
+Initialized st_kogasa_first_time
+Initialized st_shin_and_seija_first_encounter
+Initialized st_shin_meets_sekibanki
+Initialized st_supply_run
+100
+99
+95
+95
+95
+There's shattered glass in the stage curtain, shimmering in blue. Your enemy
+calls from the skies.
+
+???
+Come out, come out wish boy!
+
+Now... now is the time to strike!
+
+Shin
+May even your wish come true, someday.
+
+{sc}WOOOOOOOOOOOOO!{/sc}
+
+The sound of tiny applause and unenthused parents rings out from your
+audience. It's a sea of small hands pointing to you.
+
+You hear the cue to bow so you do.
+
+We love you Wishmaker!
+
+{i}The smiles, the games, the acting... it's all...{/i}
+
+???
+Kids shit.
+
+The fallen mascot suit, in upstage left, took to its feet{fast} and removed
+its oversized head to reveal Backswitch.
+
+Minor villain, major nuisance.
+
+He's been around the block, making waves with her gravity flipping powers. As
+a relative newbie, this is your first time face-to-face with a villain.
+
+Despite the excited gasps from the audience, the staff begin ushering everyone
+out.
+
+Shin
+{i}Okay, this is fine. Drop the banter for now, focus on keeping it
+together.{/i}
+
+Backswitch
+I was wonderin' about the noise following some new hero. Looks like noise was
+all it was.
+
+Backswitch
+Don't you agree, {bt=6}{color=000000}wish boy?{/color}{/bt}
+
+--- Sat Jun 22 16:19:16 2024
+
+--- Sat Jun 22 16:20:42 2024
+
+--- Sat Jun 22 16:20:53 2024
+
+--- Sat Jun 22 16:21:01 2024
+
+--- Sat Jun 22 16:21:11 2024
+
+--- Sat Jun 22 16:21:13 2024
+
+--- Sat Jun 22 16:21:23 2024
+
+--- Sat Jun 22 16:21:32 2024
+
+--- Sat Jun 22 16:21:49 2024
+
+--- Sat Jun 22 16:22:04 2024
+
+--- Sat Jun 22 16:22:57 2024
+
+--- Sat Jun 22 16:23:06 2024
+
+--- Sat Jun 22 16:23:39 2024
+
+--- Sat Jun 22 16:24:11 2024
+
+--- Sat Jun 22 16:25:06 2024
+
+--- Sat Jun 22 16:25:34 2024
+
+--- Sat Jun 22 16:25:54 2024
+
+--- Sat Jun 22 16:26:03 2024
+
+--- Sat Jun 22 16:26:11 2024
+
+--- Sat Jun 22 16:26:16 2024
+
+--- Sat Jun 22 16:26:44 2024
+
+Initialized st_chapter_start_1
+Initialized st_kogasa_first_time
+Initialized st_shin_and_seija_first_encounter
+Initialized st_shin_meets_sekibanki
+Initialized st_supply_run
+95
+100
+95
+99
+95
+Initialized st_chapter_start_1
+Initialized st_kogasa_first_time
+Initialized st_shin_and_seija_first_encounter
+Initialized st_shin_meets_sekibanki
+Initialized st_supply_run
+95
+95
+99
+100
+95
+--- Sat Jun 22 16:28:53 2024
+
+--- Sat Jun 22 16:31:50 2024
+
+--- Sat Jun 22 16:32:13 2024
+
+--- Sat Jun 22 16:32:24 2024
+
+--- Sat Jun 22 16:32:47 2024
+
+--- Sat Jun 22 16:32:59 2024
+
+--- Sat Jun 22 16:33:24 2024
+
+--- Sat Jun 22 16:33:33 2024
+
+--- Sat Jun 22 16:33:53 2024
+
+--- Sat Jun 22 16:34:43 2024
+
+--- Sat Jun 22 16:35:34 2024
+
+--- Sat Jun 22 16:35:38 2024
+
+--- Sat Jun 22 16:36:15 2024
+
+--- Sat Jun 22 16:36:38 2024
+
+--- Sat Jun 22 16:36:50 2024
+
+--- Sat Jun 22 16:37:15 2024
+
+--- Sat Jun 22 16:37:41 2024
+
+--- Sat Jun 22 16:38:11 2024
+
+--- Sat Jun 22 16:38:44 2024
+
+--- Sat Jun 22 16:40:01 2024
+
+--- Sat Jun 22 16:40:09 2024
+
+--- Sat Jun 22 16:40:17 2024
+
+--- Sat Jun 22 16:41:10 2024
+
+--- Sat Jun 22 16:41:21 2024
+
+--- Sat Jun 22 16:42:00 2024
+
+Initialized st_chapter_start_1
+Initialized st_kogasa_first_time
+Initialized st_shin_and_seija_first_encounter
+Initialized st_shin_meets_sekibanki
+Initialized st_supply_run
+95
+95
+95
+100
+99
+Initialized st_chapter_start_1
+Initialized st_kogasa_first_time
+Initialized st_shin_and_seija_first_encounter
+Initialized st_shin_meets_sekibanki
+Initialized st_supply_run
+99
+95
+100
+95
+95
+There's shattered glass in the stage curtain, shimmering in blue. Your enemy
+calls from the skies.
+
+???
+Come out, come out wish boy!
+
+Now... now is the time to strike!
+
+Shin
+May even your wish come true, someday.
+
+{sc}WOOOOOOOOOOOOO!{/sc}
+
+The sound of tiny applause and unenthused parents rings out from your
+audience. It's a sea of small hands pointing to you.
+
+You hear the cue to bow so you do.
+
+We love you Wishmaker!
+
+{i}The smiles, the games, the acting... it's all...{/i}
+
+???
+Kids shit.
+
+The fallen mascot suit, in upstage left, took to its feet{fast} and removed
+its oversized head to reveal Backswitch.
+
+Minor villain, major nuisance.
+
+He's been around the block, making waves with her gravity flipping powers. As
+a relative newbie, this is your first time face-to-face with a villain.
+
+Despite the excited gasps from the audience, the staff begin ushering everyone
+out.
+
+Shin
+{i}Okay, this is fine. Drop the banter for now, focus on keeping it
+together.{/i}
+
+Backswitch
+I was wonderin' about the noise following some new hero. Looks like noise was
+all it was.
+
+Backswitch
+Don't you agree, {bt=6}{color=000000}wish boy?{/color}{/bt}
+
+Initialized st_chapter_start_1
+Initialized st_kogasa_first_time
+Initialized st_shin_and_seija_first_encounter
+Initialized st_shin_meets_sekibanki
+Initialized st_supply_run
+95
+99
+95
+100
+95
+Initialized st_chapter_start_1
+Initialized st_kogasa_first_time
+Initialized st_shin_and_seija_first_encounter
+Initialized st_shin_meets_sekibanki
+Initialized st_supply_run
+100
+95
+95
+95
+99
+Initialized st_chapter_start_1
+Initialized st_kogasa_first_time
+Initialized st_shin_and_seija_first_encounter
+Initialized st_shin_meets_sekibanki
+Initialized st_supply_run
+95
+100
+95
+95
+99
+--- Sat Jun 22 16:44:02 2024
+
+--- Sat Jun 22 16:47:41 2024
+
+--- Sat Jun 22 16:47:48 2024
+
+Initialized st_chapter_start_1
+Initialized st_kogasa_first_time
+Initialized st_shin_and_seija_first_encounter
+Initialized st_shin_meets_sekibanki
+Initialized st_supply_run
+95
+99
+100
+95
+95
+--- Sat Jun 22 16:48:36 2024
+
+Initialized st_chapter_start_1
+Initialized st_kogasa_first_time
+Initialized st_shin_and_seija_first_encounter
+Initialized st_shin_meets_sekibanki
+Initialized st_supply_run
+95
+95
+100
+95
+99
+There's shattered glass in the stage curtain, shimmering in blue. Your enemy
+calls from the skies.
+
+--- Sat Jun 22 16:49:08 2024
+
+Initialized st_chapter_start_1
+Initialized st_kogasa_first_time
+Initialized st_shin_and_seija_first_encounter
+Initialized st_shin_meets_sekibanki
+Initialized st_supply_run
+95
+99
+95
+100
+95
+There's shattered glass in the stage curtain, shimmering in blue. Your enemy
+calls from the skies.
+
+???
+Come out, come out wish boy!
+
+Now... now is the time to strike!
+
+Initialized st_chapter_start_1
+Initialized st_kogasa_first_time
+Initialized st_shin_and_seija_first_encounter
+Initialized st_shin_meets_sekibanki
+Initialized st_supply_run
+99
+95
+95
+95
+100
+Initialized st_chapter_start_1
+Initialized st_kogasa_first_time
+Initialized st_shin_and_seija_first_encounter
+Initialized st_shin_meets_sekibanki
+Initialized st_supply_run
+100
+99
+95
+95
+95
+There's shattered glass in the stage curtain, shimmering in blue. Your enemy
+calls from the skies.
+
+--- Sat Jun 22 16:49:32 2024
+
+Initialized st_chapter_start_1
+Initialized st_kogasa_first_time
+Initialized st_shin_and_seija_first_encounter
+Initialized st_shin_meets_sekibanki
+Initialized st_supply_run
+95
+95
+100
+99
+95
+--- Sat Jun 22 16:49:50 2024
+
+--- Sat Jun 22 16:49:57 2024
+
+--- Sat Jun 22 16:49:58 2024
+
+--- Sat Jun 22 16:50:06 2024
+
+--- Sat Jun 22 16:50:44 2024
+
+--- Sat Jun 22 16:50:48 2024
+
+--- Sat Jun 22 16:51:37 2024
+
+--- Sat Jun 22 16:51:53 2024
+
+--- Sat Jun 22 16:52:01 2024
+
+--- Sat Jun 22 16:52:07 2024
+
+--- Sat Jun 22 16:52:53 2024
+
+Initialized st_chapter_start_1
+Initialized st_kogasa_first_time
+Initialized st_shin_and_seija_first_encounter
+Initialized st_shin_meets_sekibanki
+Initialized st_supply_run
+95
+95
+95
+99
+100
+--- Sat Jun 22 16:53:51 2024
+
+--- Sat Jun 22 16:54:20 2024
+
+--- Sat Jun 22 16:54:26 2024
+
+--- Sat Jun 22 16:54:31 2024
+
+--- Sat Jun 22 16:54:46 2024
+
+--- Sat Jun 22 17:04:49 2024
+
+--- Sat Jun 22 17:07:17 2024
+
+--- Sat Jun 22 17:08:21 2024
+
+--- Sat Jun 22 17:08:59 2024
+
+--- Sat Jun 22 17:09:39 2024
+
+--- Sat Jun 22 17:09:46 2024
+
+Initialized st_chapter_start_1
+Initialized st_kogasa_first_time
+Initialized st_shin_and_seija_first_encounter
+Initialized st_shin_meets_sekibanki
+Initialized st_supply_run
+95
+99
+100
+95
+95
+Initialized st_chapter_start_1
+Initialized st_kogasa_first_time
+Initialized st_shin_and_seija_first_encounter
+Initialized st_shin_meets_sekibanki
+Initialized st_supply_run
+95
+100
+95
+95
+99
+--- Sat Jun 22 17:10:02 2024
+
+--- Sat Jun 22 17:10:19 2024
+
+--- Sat Jun 22 17:10:45 2024
+
+--- Sat Jun 22 17:10:59 2024
+
+--- Sat Jun 22 17:11:12 2024
+
+--- Sat Jun 22 17:11:15 2024
+
+Initialized st_chapter_start_1
+Initialized st_kogasa_first_time
+Initialized st_shin_and_seija_first_encounter
+Initialized st_shin_meets_sekibanki
+Initialized st_supply_run
+100
+99
+95
+95
+95
+--- Sat Jun 22 17:11:21 2024
+
+--- Sat Jun 22 17:12:02 2024
+
+--- Sat Jun 22 17:12:05 2024
+
+--- Sat Jun 22 17:13:40 2024
+
+--- Sat Jun 22 17:14:30 2024
+
+--- Sat Jun 22 17:15:02 2024
+
+--- Sat Jun 22 17:15:23 2024
+
+--- Sat Jun 22 17:15:31 2024
+
+--- Sat Jun 22 17:15:51 2024
+
+--- Sat Jun 22 17:18:16 2024
+
+--- Sat Jun 22 17:18:36 2024
+
+--- Sat Jun 22 17:22:13 2024
+
+--- Sat Jun 22 17:24:11 2024
+
+--- Sat Jun 22 17:24:20 2024
+
+--- Sat Jun 22 17:25:05 2024
+
+--- Sat Jun 22 17:25:41 2024
+
+--- Sat Jun 22 17:26:09 2024
+
+--- Sat Jun 22 17:26:42 2024
+
+--- Sat Jun 22 17:27:11 2024
+
+--- Sat Jun 22 17:27:32 2024
+
+--- Sat Jun 22 17:28:33 2024
+
+--- Sat Jun 22 17:29:08 2024
+
+--- Sat Jun 22 17:29:33 2024
+
+--- Sat Jun 22 17:31:31 2024
+
+--- Sat Jun 22 17:32:03 2024
+
+--- Sat Jun 22 17:32:49 2024
+
+--- Sat Jun 22 17:33:01 2024
+
+--- Sat Jun 22 17:33:21 2024
+
+--- Sat Jun 22 17:33:48 2024
+
+--- Sat Jun 22 17:34:06 2024
+
+--- Sat Jun 22 17:34:26 2024
+
+--- Sat Jun 22 17:34:55 2024
+
+--- Sat Jun 22 17:35:11 2024
+
+Initialized st_chapter_start_1
+Initialized st_kogasa_first_time
+Initialized st_shin_and_seija_first_encounter
+Initialized st_shin_meets_sekibanki
+Initialized st_supply_run
+99
+95
+100
+95
+95
+--- Sat Jun 22 17:35:37 2024
+
+--- Sat Jun 22 17:36:09 2024
+
