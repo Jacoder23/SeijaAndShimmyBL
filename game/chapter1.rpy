@@ -1,8 +1,24 @@
+label st_help_stranger:
+
+    $ label_tracker = "st_help_stranger"
+
+    $ DeclareStorylet("st_help_stranger", ["time >= 1", "chapter == 1"], ["global time; time += 1"], 85, "Event with Raiko", "You found a stranger in need, or did they find you?", rotatable=True)
+    
+    $ FinishStorylet("st_help_stranger")
+
+label st_trigger_event:
+
+    $ label_tracker = "st_trigger_event"
+
+    $ DeclareStorylet("st_trigger_event", ["time >= 6", "chapter == 1"], ["global time; time += 1"], 85, "Solo Event", "Your last conversation reminded you that...")
+    
+    $ FinishStorylet("st_trigger_event")
+
 label st_kogasa_first_time:
 
     $ label_tracker = "st_kogasa_first_time"
 
-    $ DeclareStorylet("st_kogasa_first_time", ["time >= 0", "chapter == 1"], ["global time; time += 1"], 95, "Event with Kogasa", "One wrong turn on the streets...", False)
+    $ DeclareStorylet("st_kogasa_first_time", ["time >= 0", "chapter == 1"], ["global time; time += 1"], 95, "Event with Kogasa", "One wrong turn on the streets...")
         
     "One wrong turn on the streets on your day off and you find yourself lost."
 
@@ -46,7 +62,7 @@ label st_kogasa_first_time:
 
                     "Hanging by its doorstep is a black flag with two arrows, blue and red, wrapping around each other like a yin-yang in its center. One is going up, one is going down."
                     
-                    "That someone would put this on their store is utterly confounding to you."
+                    "Marking territory. You were briefed on some supervillains involved in racketeering."
 
                     "You walk on by with a bad taste in your mouth."
 
@@ -84,9 +100,13 @@ label st_kogasa_first_time:
 
                 elif following_going_right:
 
-                    "Eventually, you make your way back to Hero HQ."
+                    "Eventually, you make your way back to Hero HQ and then to your apartment."
 
-                    shin "{i}Home, just the sweetest, of homes.{/i}"
+                    # TODO: Revise this ending to be more interesting
+
+                    shin "{i}Home, sweet home.{/i}"
+
+                    shin "{i}Plus a few extras to hopefully help out.{/i}"
 
                     $ FinishStorylet("st_kogasa_first_time")
 
@@ -165,7 +185,7 @@ label st_shin_meets_sekibanki:
 
     $ label_tracker = "st_shin_meets_sekibanki"
 
-    $ DeclareStorylet("st_shin_meets_sekibanki", ["time >= 0", "chapter == 1"], ["global time; time += 1"], 99, "Event with Sekibanki", "It's the day after your fight.", False)
+    $ DeclareStorylet("st_shin_meets_sekibanki", ["time >= 0", "chapter == 1"], ["global time; time += 1"], 99, "Event with Sekibanki", "It's the day after your fight.")
 
     # shin has to file a report on her battle but to take her mind off things, sekibanki sends her on a supplies trip to the mall to buy food
 
@@ -303,7 +323,7 @@ label st_supply_run:
 
     $ label_tracker = "st_supply_run"
 
-    $ DeclareStorylet("st_supply_run", ["time >= 0", "chapter == 1"], ["global time; time += 1"], 95, "Event with Sekibanki", "After training's over at Hero HQ...", False)
+    $ DeclareStorylet("st_supply_run", ["time >= 0", "chapter == 1"], ["global time; time += 1"], 95, "Event with Sekibanki", "After training's over at Hero HQ...")
 
     "After training's over at Hero HQ, you head out when Sekibanki catches up to you."
 
@@ -385,7 +405,7 @@ label st_shin_and_seija_first_encounter:
 
     $ label_tracker = "st_shin_and_seija_first_encounter"
 
-    $ DeclareStorylet("st_shin_and_seija_first_encounter", ["time >= 0", "chapter == 1", "at_the_mall == True"], ["global time; time += 1"], 95, "Event with Seija",  "You ran into a previous acquaintance: head first actually.",False)
+    $ DeclareStorylet("st_shin_and_seija_first_encounter", ["time >= 0", "chapter == 1", "at_the_mall == True"], ["global time; time += 1"], 95, "Event with Seija",  "You run into a previous acquaintance: head first actually.")
 
     # characters use slightly wrong versions of common aphorisms, will call into attention the AU feel of the universe since superheroes are a relatively recent development (since the 70s)
 
@@ -489,7 +509,7 @@ label st_chapter_start_1:
 
     $ label_tracker = "st_chapter_start_1"
 
-    $ DeclareStorylet("st_chapter_start_1",["chapter == 1"], [""], 100, "Start", "Where it all began.", False)
+    $ DeclareStorylet("st_chapter_start_1",["chapter == 1"], [""], 100, "Start", "Where it all began.")
 
     $ upgrade_points += 3
 

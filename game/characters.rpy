@@ -37,13 +37,14 @@ screen characters_screen(character = None):
         ypos 65
     frame:
         xalign 0.5 yalign 0.5
-        add f"images/{current_character.name.lower()}.png":
-                xpos 720
-                ypos 250
-                at TakeOnMe
-                at transform:
-                    outline_transform(2, "#fff", 12.0, num_passes=4)
-                    alpha 0.1
+        if renpy.exists(f"images/{current_character.name.lower()}.png"):
+            add f"images/{current_character.name.lower()}.png":
+                    xpos 720
+                    ypos 250
+                    at TakeOnMe
+                    at transform:
+                        outline_transform(2, "#fff", 12.0, num_passes=4)
+                        alpha 0.1
         if renpy.exists(f"images/{current_character.name.lower()}.png"):
             imagebutton idle f"images/{current_character.name.lower()}.png" hover f"images/{current_character.name.lower()} talk happy.png":
                 action NullAction()
@@ -86,18 +87,22 @@ screen characters_screen(character = None):
                                 textbutton "HP: [current_character.max_hp] (+ 2)":
                                     action Function(UpgradeAttribute, current_character, "HP")
                                     tooltip "Your health. CLICK TO UPGRADE."
+                                    text_color "#000000"
                                     at glowing_interactable
                                 textbutton "Power: [current_character.power] (+ 1)":
                                     action Function(UpgradeAttribute, current_character, "Power")
                                     tooltip "Your raw ability to inflict pain. CLICK TO UPGRADE."
+                                    text_color "#000000"
                                     at glowing_interactable
                                 textbutton "Agility: [current_character.agility] (+ 1)":
                                     action Function(UpgradeAttribute, current_character, "Agility")
                                     tooltip "Your raw ability to avoid pain. CLICK TO UPGRADE."
+                                    text_color "#000000"
                                     at glowing_interactable
                                 textbutton "Technique: [current_character.tech] (+ 1)":
                                     action Function(UpgradeAttribute, current_character, "Tech")
                                     tooltip "Your ability to be crafty. CLICK TO UPGRADE."
+                                    text_color "#000000"
                                     at glowing_interactable
                             else:
                                 textbutton "HP: [current_character.max_hp]":

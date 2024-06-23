@@ -13,7 +13,7 @@ transform glowing_interactable:
         ease 0.4 outline_transform(2, "#bdbdbd", 3.0, end_color="#00859c")
         repeat
     on hover:
-        ease 0.05 outline_transform(-1, "#00ff55", 3.0)
+        ease 0.05 outline_transform(1, "#00ff55", 3.0)
 
 define x_pos_stack_spacing = 200
 
