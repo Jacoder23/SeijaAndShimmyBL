@@ -260,13 +260,11 @@ label continue_storylets:
 
         if len(possible_storylets) > 0:
 
-            show screen storylet_choice_menu(possible_storylets)
+            call screen storylet_choice_menu(possible_storylets)
 
         else:
 
             "No storylets found. Report this issue."
-
-    jump between_storylets
 
 label storylets:
 
@@ -279,9 +277,7 @@ label storylets:
         label between_storylets:
 
             $ can_upgrade = True
-
-            scene bg black with fade
-
+            
             show screen flowchart
 
             pause

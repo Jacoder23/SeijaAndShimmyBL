@@ -1,7 +1,7 @@
 init python:
     import functools
     class Storylet:
-        def __init__(self, label, prerequisites, results, urgency, preview, choice_preview, completed, skipped, rotatable):
+        def __init__(self, label, prerequisites, results, urgency, preview, choice_preview, completed, skipped, can_be_skipped, rotatable):
             self.label = label                      # which label to jump to; the content of the storylet
             self.prerequisites = prerequisites      # what has to be fulfilled in order for the storylet to be drawn
             self.results = results                  # what completing the storylet does to the game's variables/qualities; does not take into account choices made in the storylet, if any
@@ -10,6 +10,7 @@ init python:
             self.choice_preview = choice_preview    # a more specific, detailed but still non-spoier preview given when amongst a few choices
             self.completed = completed              # whether or not the storylet has been completed and thus can be ignored in the future; removed from the "draw pile" so to say
             self.skipped = skipped                  # whether to remove from the draw pile without having completed it
+            self.can_be_skipped = can_be_skipped        # whether or not to exclude it from the skipping selection
             self.rotatable = rotatable              # can be rotated into to fill in the spot for a skipped storylet, as in the order of when it happens doesn't really matter
 
         def __str__(self):
@@ -26,8 +27,8 @@ init python:
                 prerequisitesMet = prerequisitesMet and eval(x)
             return prerequisitesMet
 
-    def DeclareStorylet(label, prerequisites, results, urgency, preview, choice_preview, completed=False, skipped=False, rotatable=False):
-        storylet = Storylet(label, prerequisites, results, urgency, preview, choice_preview, completed, skipped, rotatable)
+    def DeclareStorylet(label, prerequisites, results, urgency, preview, choice_preview, completed=False, skipped=False, can_be_skipped=True, rotatable=False):
+        storylet = Storylet(label, prerequisites, results, urgency, preview, choice_preview, completed, skipped, can_be_skipped, rotatable)
 
         if(len(label_traversal_list) > 0):
             storylets.append(storylet)
@@ -43,6 +44,8 @@ init python:
                     exec(x)
                 break
         dev_log("Jumping back to storylets...")
+        renpy.scene()
+        renpy.show("bg black")
         renpy.jump("storylets")
 
     def CheckStoryletCompletion(label):
@@ -129,7 +132,7 @@ init python:
         choices = GetAllPossibleNextStorylets()
 
         if len(choices) > 2:
-            remaining_choices = [l for l in choices if l.label != storylet.label]
+            remaining_choices = [l for l in choices if l.label != storylet.label and l.can_be_skipped]
             storylet_to_exclude = renpy.random.choice(remaining_choices)
             skipped_storylet = [x for x in storylets if x.label == storylet_to_exclude.label][0]
             if skipped_storylet is not None:

@@ -22,13 +22,13 @@ screen flowchart:
                 textbutton "{font=[gui.name_text_font]}[shin_battler.name]{/font}":
                     text_size 36
                     xalign 0.5
-                    action ToggleScreen("characters_screen", transition=Dissolve, character=shin_battler)
+                    action ToggleScreen("characters_screen", transition=dissolve, character=shin_battler)
                     tooltip "Open character sheet"
                 if chapter == 2:
                     textbutton "{font=[gui.name_text_font]}[seija_battler.name]{/font}":
                         text_size 36
                         xalign 0.5
-                        action ToggleScreen("characters_screen", transition=Dissolve, character=seija_battler)
+                        action ToggleScreen("characters_screen", transition=dissolve, character=seija_battler)
                         tooltip "Open character sheet"
     viewport:
         xalign 0.5

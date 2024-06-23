@@ -108,7 +108,6 @@ init python:
         dc = option[0][3]
         modifier = option[0][4][1]
         stat_name = option[0][4][0]
-        dev_log(stat_name)
         if type(stat_name) != type(""):
             stat_name = stat_name()
         else:
@@ -248,6 +247,28 @@ init python:
         else:
             return "{color=FFFFFF}{font=ITC Eras Std Bold.otf}{u}" + text + "{/u}{/font}{/color}"
 
+    locked_screens = []
+
+    def ToggleLockScreen(screen, transition, **kwargs):
+        global locked_screens
+        if screen not in locked_screens:
+            renpy.show_screen(screen, kwargs)
+            locked_screens.append(screen)
+        else:
+            renpy.hide_screen(screen)
+            locked_screens.remove(screen)
+
+    def HideIfNotLocked(screen, _layer=None):
+        global locked_screens
+        if screen not in locked_screens:
+            renpy.hide_screen(screen, _layer)
+
+    def HideAllLockedScreens():
+        global locked_screens
+        for x in locked_screens:
+            renpy.hide_screen(x)
+        locked_screens = []
+
 screen battle_screen:
     add VBox(Transform("#000000AA", ysize=110), "#000000AA", yalign=0)
     vbox:
@@ -263,9 +284,13 @@ screen battle_screen:
                     textbutton "{font=[gui.name_text_font]}[member['name']]{/font}":
                         text_size 36
                         xalign 0.5
-                        action NullAction()
-                        hovered Show("characters_screen", transition=Dissolve, character=member['source'])
-                        unhovered Hide("characters_screen", transition=Dissolve)
+                        action Function(ToggleLockScreen, "characters_screen", dissolve, character=member['source'])
+                        if "characters_screen" in locked_screens:
+                            tooltip "Click to unlock character sheet"
+                        else:
+                            tooltip "Click to lock character sheet"
+                        hovered Show("characters_screen", transition=dissolve, character=member['source'])
+                        unhovered Function(HideIfNotLocked, "characters_screen")
                     null height 5
                     hbox:
                         bar:
@@ -290,7 +315,7 @@ screen battle_screen:
                 for option in member["options"]:
                     # TODO: match the logos and colors up properly
                     button:
-                        action Function(DoOption, party_one, member, option, party_two)
+                        action [Function(DoOption, party_one, member, option, party_two), Function(HideAllLockedScreens)]
                         sensitive whose_turn == "party_one"
 
                         at transform:
@@ -316,7 +341,7 @@ screen battle_screen:
             for i, member in enumerate(party_two):
                 hbox:
                     if selecting_target and member["hp"] > 0:
-                        textbutton "Choose ->" action Function(ChooseTarget, i) yminimum 75
+                        textbutton "Choose ->" action [Function(ChooseTarget, i), Function(HideAllLockedScreens)] yminimum 75
 
                     frame:
                         size_group "enemies"

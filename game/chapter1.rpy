@@ -10,7 +10,7 @@ label st_trigger_event:
 
     $ label_tracker = "st_trigger_event"
 
-    $ DeclareStorylet("st_trigger_event", ["time >= 6", "chapter == 1"], ["global time; time += 1"], 85, "Solo Event", "Your last conversation reminded you that...")
+    $ DeclareStorylet("st_trigger_event", ["time >= 6", "chapter == 1"], ["global time; time += 1"], 85, "Solo Event", "Your last conversation reminded you that...", can_be_skipped=False)
     
     $ FinishStorylet("st_trigger_event")
 
@@ -405,7 +405,7 @@ label st_shin_and_seija_first_encounter:
 
     $ label_tracker = "st_shin_and_seija_first_encounter"
 
-    $ DeclareStorylet("st_shin_and_seija_first_encounter", ["time >= 0", "chapter == 1", "at_the_mall == True"], ["global time; time += 1"], 95, "Event with Seija",  "You run into a previous acquaintance: head first actually.")
+    $ DeclareStorylet("st_shin_and_seija_first_encounter", ["time >= 0", "chapter == 1", "at_the_mall == True"], ["global time; time += 1"], 95, "Event with Seija",  "You run into a previous acquaintance: head first actually.", can_be_skipped=False)
 
     # characters use slightly wrong versions of common aphorisms, will call into attention the AU feel of the universe since superheroes are a relatively recent development (since the 70s)
 
@@ -634,13 +634,13 @@ label st_chapter_start_1:
                                     "[party_two[chosen_target[1]]['name']] points at your weapon and sends it flying out of your hands.\nYou manage to get ahold of it before it goes offstage.\n[party_two[chosen_target[1]]['name']]'s laugh booms from his echoing demon mask.\n[party_two[chosen_target[1]]['sayer']]:Idiot.",
                                     "violence",
                                     FormatOption("STRIKE", "violence")],   # post-roll failure dialogue, action text
-                                ["selecting_target = True", "violence += 1; dmg_to_target = 4; noglobal QueueSFX('PUNCH_DESIGNED_HEAVY_23.opus')", "noglobal QueueSFX('WHOOSH_ARM_SWING_01.opus'); violence += 0.5; dmg_to_self = 1 if precision == 0 else 0", 13, (f"Power{', Observed Backswitch' if precision > 0 else ''}", shin_battler.power),
+                                ["selecting_target = True", "violence += 1; dmg_to_target = 4; noglobal QueueSFX('PUNCH_DESIGNED_HEAVY_23.opus')", "noglobal QueueSFX('WHOOSH_ARM_SWING_01.opus'); violence += 0.5; dmg_to_self = 1 if precision == 0 else 0", 13, (functools.partial(fstr, "Power{', Observed Backswitch' if precision > 0 else ''}"), shin_battler.power),
                                     "You throw your weight behind your weapon, bringing it down in a wide arc.",
                                     "[party_two[chosen_target[1]]['name']] is hit squarely in the chest.\nHe backs away a step while gasping for air.",
                                     "[party_two[chosen_target[1]]['name']] sidesteps your swing and sends a prop sword flying at your face.\n{if precision == 0}You parry it as well as you can but still get a bit roughed up.\n[party_two[chosen_target[1]]['sayer']]:Iiiiiiidiot.{else}You parry the prop sword, reading [party_two[chosen_target[1]]['name']]'s rhythm.",
                                     "violence",
                                     FormatOption("HIT HARDER", "violence")],
-                                ["selecting_target = True", "violence += 1; dmg_to_target = 5; noglobal QueueSFX('PUNCH_INTENSE_HEAVY_03.opus')", "noglobal QueueSFX('WHOOSH_ARM_SWING_01.opus'); noglobal QueueSFX('PUNCH_DESIGNED_HEAVY_23.opus', 2); noglobal QueueSFX('PUNCH_INTENSE_HEAVY_03.opus', 4); violence += 0.5; dmg_to_self = 3 if precision == 1 else 4; dmg_to_target = 5 if precision == 1 else 0", 16, (f"Power{', Observed Backswitch' if precision > 0 else ''}", shin_battler.power),
+                                ["selecting_target = True", "violence += 1; dmg_to_target = 5; noglobal QueueSFX('PUNCH_INTENSE_HEAVY_03.opus')", "noglobal QueueSFX('WHOOSH_ARM_SWING_01.opus'); noglobal QueueSFX('PUNCH_DESIGNED_HEAVY_23.opus', 2); noglobal QueueSFX('PUNCH_INTENSE_HEAVY_03.opus', 4); violence += 0.5; dmg_to_self = 3 if precision == 1 else 4; dmg_to_target = 5 if precision == 1 else 0", 16, (functools.partial(fstr, "Power{', Observed Backswitch' if precision > 0 else ''}"), shin_battler.power),
                                     "You swing with a little too much oomph, nearly lifting you off your feet.",
                                     "[party_two[chosen_target[1]]['name']] blocks the telegraphed attack but the sheer force sends him backpedaling, wincing.",
                                     "[party_two[chosen_target[1]]['name']] steps into range before you complete the swing, throwing a counterpunch.\nYou take it on your jaw and the world becomes blurry.\n{if precision == 0}You nearly lose your footing but try for a counterattack.\nBut your timing's been read and [party_two[chosen_target[1]]['name']] lays into you.\n[party_two[chosen_target[1]]['sayer']]:Dumbfuck.{else}You grit your way through the pain.\nWhile dazed, you tackle [party_two[chosen_target[1]]['name']] and land a shot to his knees that make him buckle.\n[party_two[chosen_target[1]]['sayer']]:{sc}{color=000}FUCK!{/color}{/sc}",

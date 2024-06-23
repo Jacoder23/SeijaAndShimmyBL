@@ -29,6 +29,8 @@ screen characters_screen(character = None):
     #add "gui/character sheet background.png"
     if character is not None:
         $ current_character = character
+        if isinstance(current_character, collections.Mapping): # somehow it changes from a custom object to a dict; happens if you show without using the action Show but the show_screen statement; I do not know why
+            $ current_character = current_character['character']
     add "gui/DX_button/CharacterSheet_BG_NoText.png"
     label f"{current_character.name.upper()}":
         text_size 100
@@ -187,4 +189,4 @@ screen characters_screen(character = None):
         xalign 0.65
         yalign 0.85
         textbutton "Return":
-            action Hide("characters_screen", transition=Dissolve)
+            action Hide("characters_screen", transition=dissolve)

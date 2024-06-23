@@ -170,7 +170,7 @@ screen bug_reporter:
         xalign 0.95
         yalign 0.85
         textbutton "Return":
-            action [Hide("bug_reporter", transition=Dissolve), Return()]
+            action [Hide("bug_reporter", transition=dissolve), Return()]
 
 screen email_getter:
     modal True
@@ -194,7 +194,7 @@ screen email_getter:
         xalign 0.95
         yalign 0.85
         textbutton "Return":
-            action [Hide("email_getter", transition=Dissolve), Return()]
+            action [Hide("email_getter", transition=dissolve), Return()]
 
 screen token_insert:
     modal True
@@ -218,4 +218,4 @@ screen token_insert:
         xalign 0.95
         yalign 0.85
         textbutton "Return":
-            action [Hide("token_insert", transition=Dissolve), Return()]
+            action [Hide("token_insert", transition=dissolve), Return()]

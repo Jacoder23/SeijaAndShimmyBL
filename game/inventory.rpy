@@ -7,8 +7,11 @@ screen inventory_display_toggle:
         xalign 0.98
         yalign 0.98
 
-        textbutton "INV":
+        imagebutton idle "gui/DX_button/Inventory.png":
             action ToggleScreen("inventory")
+            at choice_hover
+            at transform:
+                zoom 0.15
 
     on "hide" action Hide("inventory")
 
