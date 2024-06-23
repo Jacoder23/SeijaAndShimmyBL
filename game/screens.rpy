@@ -662,7 +662,7 @@ screen game_menu(title, scroll=None, yinitial=0.0):
     frame:
         style "game_menu_outer_frame"
 
-        add "gui/DX_button/border_1920x1080.png":
+        add "gui/DX_button/border_1920x1080_v2.png":
             yoffset -180.75
 
         # hbox:
@@ -709,13 +709,16 @@ screen game_menu(title, scroll=None, yinitial=0.0):
 
     use navigation
     
-    # textbutton _("Return"):
-        # style "return_button"
+    # textbutton _("RETURN"):
+    #     style "return_button"
+    #     text_color gold
 
-        # action Return()
+    #     action Return()
 
-    label title:
-        xalign 0.5 ypos -40
+    label f"{title.upper()}":
+        xalign 0.045 yalign 1.0 yoffset 27
+        text_size 55
+        text_font "fonts/AlegreyaSC-Bold.ttf"
 
     if main_menu:
         key "game_menu" action ShowMenu("main_menu")
@@ -747,9 +750,6 @@ style game_menu_scrollbar is gui_vscrollbar
 
 style game_menu_label is gui_label
 style game_menu_label_text is gui_label_text
-
-style return_button is navigation_button
-style return_button_text is navigation_button_text
 
 style game_menu_outer_frame:
     bottom_padding 45
@@ -790,7 +790,12 @@ style game_menu_label_text:
 style return_button:
     xpos gui.navigation_xpos
     yalign 1.0
-    yoffset -45
+    yoffset -30
+    xoffset 10
+    font gui.name_text_font
+    color gold
+    hover_color black
+    idle_color gold
 
 
 ## About screen ################################################################

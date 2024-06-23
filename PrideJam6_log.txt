@@ -12435,3 +12435,107 @@ Initialized st_shin_and_seija_first_encounter
 Initialized st_shin_meets_sekibanki
 Initialized st_supply_run
 Initialized st_trigger_event
+There's shattered glass in the stage curtain, shimmering in blue. Your enemy
+calls from the skies.
+
+???
+Come out, come out wish boy!
+
+Now... now is the time to strike!
+
+Shin
+May even your wish come true, someday.
+
+Initialized st_chapter_start_1
+Initialized st_help_stranger
+Initialized st_kogasa_first_time
+Initialized st_shin_and_seija_first_encounter
+Initialized st_shin_meets_sekibanki
+Initialized st_supply_run
+Initialized st_trigger_event
+Initialized st_chapter_start_1
+Initialized st_help_stranger
+Initialized st_kogasa_first_time
+Initialized st_shin_and_seija_first_encounter
+Initialized st_shin_meets_sekibanki
+Initialized st_supply_run
+Initialized st_trigger_event
+There's shattered glass in the stage curtain, shimmering in blue. Your enemy
+calls from the skies.
+
+???
+Come out, come out wish boy!
+
+Now... now is the time to strike!
+
+Shin
+May even your wish come true, someday.
+
+Initialized st_chapter_start_1
+Initialized st_help_stranger
+Initialized st_kogasa_first_time
+Initialized st_shin_and_seija_first_encounter
+Initialized st_shin_meets_sekibanki
+Initialized st_supply_run
+Initialized st_trigger_event
+Initialized st_chapter_start_1
+Initialized st_help_stranger
+Initialized st_kogasa_first_time
+Initialized st_shin_and_seija_first_encounter
+Initialized st_shin_meets_sekibanki
+Initialized st_supply_run
+Initialized st_trigger_event
+--- Sun Jun 23 19:50:53 2024
+
+--- Sun Jun 23 19:51:40 2024
+
+--- Sun Jun 23 19:52:20 2024
+
+--- Sun Jun 23 19:52:40 2024
+
+--- Sun Jun 23 19:53:04 2024
+
+--- Sun Jun 23 19:53:25 2024
+
+--- Sun Jun 23 19:53:47 2024
+
+--- Sun Jun 23 19:54:10 2024
+
+--- Sun Jun 23 19:54:27 2024
+
+--- Sun Jun 23 19:54:54 2024
+
+--- Sun Jun 23 19:55:24 2024
+
+--- Sun Jun 23 19:55:34 2024
+
+--- Sun Jun 23 19:56:00 2024
+
+--- Sun Jun 23 19:56:29 2024
+
+--- Sun Jun 23 19:56:31 2024
+
+--- Sun Jun 23 19:56:51 2024
+
+--- Sun Jun 23 19:58:28 2024
+
+--- Sun Jun 23 19:58:40 2024
+
+--- Sun Jun 23 19:58:43 2024
+
+--- Sun Jun 23 19:58:57 2024
+
+--- Sun Jun 23 19:59:10 2024
+
+--- Sun Jun 23 19:59:28 2024
+
+--- Sun Jun 23 19:59:39 2024
+
+--- Sun Jun 23 19:59:52 2024
+
+--- Sun Jun 23 20:00:14 2024
+
+--- Sun Jun 23 20:00:59 2024
+
+--- Sun Jun 23 20:01:27 2024
+
