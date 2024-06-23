@@ -186,21 +186,21 @@ label start:
 
             $ renpy.hide_screen("characters_screen")
 
-    show yumemi neutral at right_stack
+    # show yumemi neutral at right_stack
 
-    pause
+    # pause
 
-    show marisa neutral at right_stack
+    # show marisa neutral at right_stack
 
-    pause
+    # pause
 
-    show reimu neutral at right_stack
+    # show reimu neutral at right_stack
 
-    pause
+    # pause
 
-    show alice neutral at right_stack
+    # show alice neutral at right_stack
 
-    pause
+    # pause
 
     $ reset_stacks()
 
@@ -260,17 +260,19 @@ label continue_storylets:
 
         if len(possible_storylets) > 0:
 
-            call screen storylet_choice_menu(possible_storylets)
+            show screen storylet_choice_menu(possible_storylets)
 
         else:
 
             "No storylets found. Report this issue."
 
-    return
+    jump between_storylets
 
 label storylets:
 
     $ label_tracker = "storylets"
+
+    show screen inventory_display_toggle
 
     if not first_time_at_start:
 

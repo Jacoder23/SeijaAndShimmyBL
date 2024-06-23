@@ -6498,3 +6498,6044 @@ Initialized st_supply_run
 
 --- Sat Jun 22 17:36:09 2024
 
+--- Sun Jun 23 01:48:29 2024
+
+--- Sun Jun 23 02:26:40 2024
+
+Initialized st_chapter_start_1
+Initialized st_kogasa_first_time
+Initialized st_shin_and_seija_first_encounter
+Initialized st_shin_meets_sekibanki
+Initialized st_supply_run
+95
+100
+95
+99
+95
+There's shattered glass in the stage curtain, shimmering in blue. Your enemy
+calls from the skies.
+
+???
+Come out, come out wish boy!
+
+Now... now is the time to strike!
+
+Shin
+May even your wish come true, someday.
+
+{sc}WOOOOOOOOOOOOO!{/sc}
+
+The sound of tiny applause and unenthused parents rings out from your
+audience. It's a sea of small hands pointing to you.
+
+You hear the cue to bow so you do.
+
+We love you Wishmaker!
+
+{i}The smiles, the games, the acting... it's all...{/i}
+
+???
+Kids shit.
+
+The fallen mascot suit, in upstage left, took to its feet{fast} and removed
+its oversized head to reveal Backswitch.
+
+Minor villain, major nuisance.
+
+He's been around the block, making waves with her gravity flipping powers. As
+a relative newbie, this is your first time face-to-face with a villain.
+
+Despite the excited gasps from the audience, the staff begin ushering everyone
+out.
+
+Shin
+{i}Okay, this is fine. Drop the banter for now, focus on keeping it
+together.{/i}
+
+Backswitch
+I was wonderin' about the noise following some new hero. Looks like noise was
+all it was.
+
+Backswitch
+Don't you agree, {bt=6}{color=000000}wish boy?{/color}{/bt}
+
+10
+
+exec: exec
+Tutorial
+Often times, opponents will COUNTER or INTERRUPT your action and force you to
+make an unknown roll.
+
+You attempt to-
+
+
+exec: exec
+But before you can, you notice the floorboard beneath your feet about to fly
+off. You leap backwards out of harms way. Backswitch seems genuinely
+surprised.
+
+Backswitch
+Not as dumb as you look?
+
+12
+You duck Backswitch's blows, weaving in and out of his range.
+
+Seeing this, Backswitch makes a gesture and from across the street, a manhole
+cover goes flying in your direction.
+
+
+exec: exec
+You manage to avoid it, leaping from your low position, as it flies underneath
+you and crashes into backstage.
+
+10
+You bring your weapon in for a swing at Backswitch's midriff.
+
+
+exec: exec
+
+exec: exec
+Backswitch stifles a pained grunt.
+
+13
+You throw your weight behind your weapon, bringing it down in a wide arc.
+
+
+exec: exec
+
+exec: exec
+Backswitch is hit squarely in the chest.
+
+He backs away a step while gasping for air.
+
+16
+You swing with a little too much oomph, nearly lifting you off your feet.
+
+
+exec: exec
+
+exec: exec
+
+exec: exec
+
+exec: exec
+Backswitch steps into range before you complete the swing, throwing a
+counterpunch.
+
+
+exec: exec
+You take it on your jaw and the world becomes blurry.
+
+You nearly lose your footing but try for a counterattack.
+
+
+exec: exec
+But your timing's been read and Backswitch lays into you.
+
+Backswitch
+Dumbfuck.
+
+Backswitch
+Hmm. Not as talkative as your stage persona, are ya?
+
+Wishmaker
+Shut it with the backtalk, Backswitch.
+
+Backswitch
+Backtalk, smacktalk.
+
+Backswitch
+You know who you really need to watch out for? Truck drivers.
+
+Wishmaker
+Huh? What does that m-{nw}
+
+But Backswitch was already running away.
+
+You began to run after him but not before incoming traffic became INCOMING
+traffic with Backswitch sent a truck, its tires squealing, toppling sidewards
+towards you.
+
+Wishmaker
+What does that-
+
+But Backswitch was already running away.
+
+You began to run after him but not before incoming traffic became INCOMING
+traffic with Backswitch sent a truck, its tires squealing, toppling sidewards
+towards you.
+
+Everyone's thought about it once.
+
+Being the hero.
+
+Shin
+{i}But despite getting superpowers...{/i}
+
+You dive out of the way of the truck as its thrown into a nearby freeway,
+crashing into traffic. You see smoke. You hear screaming.
+
+Shin
+{i}...and I HATE admitting this...{/i}
+
+You run over to one of the nearby pedestrians, picking the one who looks the
+most physically capable; the most likely choice.
+
+Shin
+{i}...I never get to be the hero.{/i}
+
+You clasp his hands and ask.
+
+Shin
+Do you {gradient2=6-E40303-FF8C00-2-FF8C00-FFED00-2-FFED00-008026-2-008026-004
+CFF-2-004CFF-732982-2-732982-E40303-2}WISH{/gradient2} to be a hero?
+
+Jumping back to storylets...
+--- Sun Jun 23 02:27:24 2024
+
+Initialized st_chapter_start_1
+Initialized st_kogasa_first_time
+Initialized st_shin_and_seija_first_encounter
+Initialized st_shin_meets_sekibanki
+Initialized st_supply_run
+95
+99
+100
+95
+95
+There's shattered glass in the stage curtain, shimmering in blue. Your enemy
+calls from the skies.
+
+???
+Come out, come out wish boy!
+
+Now... now is the time to strike!
+
+Shin
+May even your wish come true, someday.
+
+{sc}WOOOOOOOOOOOOO!{/sc}
+
+The sound of tiny applause and unenthused parents rings out from your
+audience. It's a sea of small hands pointing to you.
+
+You hear the cue to bow so you do.
+
+We love you Wishmaker!
+
+{i}The smiles, the games, the acting... it's all...{/i}
+
+???
+Kids shit.
+
+The fallen mascot suit, in upstage left, took to its feet{fast} and removed
+its oversized head to reveal Backswitch.
+
+Minor villain, major nuisance.
+
+He's been around the block, making waves with her gravity flipping powers. As
+a relative newbie, this is your first time face-to-face with a villain.
+
+Despite the excited gasps from the audience, the staff begin ushering everyone
+out.
+
+Shin
+{i}Okay, this is fine. Drop the banter for now, focus on keeping it
+together.{/i}
+
+Backswitch
+I was wonderin' about the noise following some new hero. Looks like noise was
+all it was.
+
+Backswitch
+Don't you agree, {bt=6}{color=000000}wish boy?{/color}{/bt}
+
+10
+
+exec: exec
+Tutorial
+Often times, opponents will COUNTER or INTERRUPT your action and force you to
+make an unknown roll.
+
+You attempt to-
+
+
+exec: exec
+But you fail to notice the floorboard beneath your feet fly off, likely under
+Backswitch's power.
+
+ You fall without any ground beneath you.
+
+You land under the stage with a thud before climbing out unceremoniously; a
+jeering Backswitch there to greet you as you rise.
+
+Backswitch
+Had a nice trip?
+
+10
+You bring your weapon in for a swing at Backswitch's midriff.
+
+
+exec: exec
+
+exec: exec
+Backswitch stifles a pained grunt.
+
+13
+You throw your weight behind your weapon, bringing it down in a wide arc.
+
+
+exec: exec
+
+exec: exec
+Backswitch sidesteps your swing and sends a prop sword flying at your face.
+
+You parry it as well as you can but still get a bit roughed up.
+
+Backswitch
+Iiiiiiidiot.
+
+16
+You swing with a little too much oomph, nearly lifting you off your feet.
+
+
+exec: exec
+
+exec: exec
+
+exec: exec
+
+exec: exec
+Backswitch steps into range before you complete the swing, throwing a
+counterpunch.
+
+
+exec: exec
+You take it on your jaw and the world becomes blurry.
+
+You nearly lose your footing but try for a counterattack.
+
+
+exec: exec
+But your timing's been read and Backswitch lays into you.
+
+Backswitch
+Dumbfuck.
+
+The last thing you see before you collapse onto the ground is his mask. You
+can tell he's got the ugliest smirk behind it.
+
+Jumping back to storylets...
+--- Sun Jun 23 02:28:30 2024
+
+--- Sun Jun 23 02:28:54 2024
+
+95
+100
+95
+99
+95
+It's the day after your fight.
+
+You're in the lounge of Hero HQ, chicken pecking at your keyboard.
+
+Shin
+And as I finished… my… signature… line…
+
+Shin
+...
+
+Shin
+This report's going nowhere.
+
+You got up and left the building. On your way out, somebody taps you on the
+shoulder.
+
+???
+Hey.
+
+You turn around, only to get a cold drink to the face as you do.
+
+Sekibanki
+Want a drink?
+
+You take the can of carbonated sweet sickness from his hands before placing it
+and your laptop off to the side.
+
+Shin
+Good guess, but water's my preference.
+
+Shin
+So how was it? The training exercises.
+
+Sekibanki
+Usual. The other city's team leader kept arguing with Reimu and we didn't get
+anything done.
+
+Shin
+Ah.
+
+You went back to typing to try and keep your thought off the fact they didn't
+bother bring you.
+
+Sekibanki
+Not trying to exaggerate for your sake by the way. It was truly awful.
+
+Sekibanki
+What about you? You finish the report?
+
+Shin
+Yeah, well, part of it at least.
+
+Sekibanki
+Run me through it then. Maybe I can help jog your memory.
+
+Shin
+Well at first. it went about as normal as usual.
+
+Shin
+A normal kids event, you know, cause-
+
+You glanced at his reaction, squirming a sliver, knowing your next words.
+
+Sekibanki
+I'm not allowed {fast}to actually patrol.
+
+Sekibanki
+I know, we all know.
+
+Sekibanki
+Let's put the aside though. Where're you headed?
+
+Jumping back to storylets...
+95
+100
+95
+95
+99
+One wrong turn on the streets on your day off and you find yourself lost.
+
+The everpresence of the Hero HQ over the city would make for a good landmark,
+especially given how close you live to it...
+
+But you feel like you're heading farther from it rather than closer.
+
+Shin
+{i}Ah crap.{/i}
+
+Which way do you go?
+
+Choice: Left
+Choice: Right
+
+--- Sun Jun 23 03:21:27 2024
+
+--- Sun Jun 23 16:16:03 2024
+
+--- Sun Jun 23 16:17:05 2024
+
+--- Sun Jun 23 16:17:36 2024
+
+--- Sun Jun 23 16:18:02 2024
+
+--- Sun Jun 23 16:18:45 2024
+
+--- Sun Jun 23 16:23:53 2024
+
+Initialized st_chapter_start_1
+Initialized st_kogasa_first_time
+Initialized st_shin_and_seija_first_encounter
+Initialized st_shin_meets_sekibanki
+Initialized st_supply_run
+99
+95
+95
+100
+95
+There's shattered glass in the stage curtain, shimmering in blue. Your enemy
+calls from the skies.
+
+???
+Come out, come out wish boy!
+
+Now... now is the time to strike!
+
+Shin
+May even your wish come true, someday.
+
+{sc}WOOOOOOOOOOOOO!{/sc}
+
+The sound of tiny applause and unenthused parents rings out from your
+audience. It's a sea of small hands pointing to you.
+
+You hear the cue to bow so you do.
+
+We love you Wishmaker!
+
+{i}The smiles, the games, the acting... it's all...{/i}
+
+???
+Kids shit.
+
+The fallen mascot suit, in upstage left, took to its feet{fast} and removed
+its oversized head to reveal Backswitch.
+
+Minor villain, major nuisance.
+
+He's been around the block, making waves with her gravity flipping powers. As
+a relative newbie, this is your first time face-to-face with a villain.
+
+Despite the excited gasps from the audience, the staff begin ushering everyone
+out.
+
+Shin
+{i}Okay, this is fine. Drop the banter for now, focus on keeping it
+together.{/i}
+
+Backswitch
+I was wonderin' about the noise following some new hero. Looks like noise was
+all it was.
+
+Backswitch
+Don't you agree, {bt=6}{color=000000}wish boy?{/color}{/bt}
+
+10
+You bring your weapon in for a swing at Backswitch's midriff.
+
+
+exec: exec
+
+exec: exec
+Backswitch points at your weapon and sends it flying out of your hands.
+
+You manage to get ahold of it before it goes offstage.
+
+Backswitch's laugh booms from his echoing demon mask.
+
+Backswitch
+Idiot.
+
+13
+You throw your weight behind your weapon, bringing it down in a wide arc.
+
+
+exec: exec
+
+exec: exec
+Backswitch is hit squarely in the chest.
+
+He backs away a step while gasping for air.
+
+10
+
+exec: exec
+Tutorial
+Often times, opponents will COUNTER or INTERRUPT your action and force you to
+make an unknown roll.
+
+You attempt to-
+
+
+exec: exec
+But you fail to notice the floorboard beneath your feet fly off, likely under
+Backswitch's power.
+
+ You fall without any ground beneath you.
+
+You land under the stage with a thud before climbing out unceremoniously; a
+jeering Backswitch there to greet you as you rise.
+
+Backswitch
+Had a nice trip?
+
+16
+You swing with a little too much oomph, nearly lifting you off your feet.
+
+
+exec: exec
+
+exec: exec
+Backswitch blocks the telegraphed attack but the sheer force sends him
+backpedaling, wincing.
+
+12
+You duck Backswitch's blows, weaving in and out of his range.
+
+Seeing this, Backswitch makes a gesture and from across the street, a manhole
+cover goes flying in your direction.
+
+
+exec: exec
+You manage to avoid it, leaping from your low position, as it flies underneath
+you and crashes into backstage.
+
+Backswitch
+Hmm. Not as talkative as your stage persona, are ya?
+
+Wishmaker
+Shut it with the backtalk, Backswitch.
+
+Backswitch
+Backtalk, smacktalk.
+
+Backswitch
+You know who you really need to watch out for? Truck drivers.
+
+Wishmaker
+Huh? What does that m-{nw}
+
+But Backswitch was already running away.
+
+You began to run after him but not before incoming traffic became INCOMING
+traffic with Backswitch sent a truck, its tires squealing, toppling sidewards
+towards you.
+
+Wishmaker
+What does that-
+
+But Backswitch was already running away.
+
+You began to run after him but not before incoming traffic became INCOMING
+traffic with Backswitch sent a truck, its tires squealing, toppling sidewards
+towards you.
+
+Everyone's thought about it once.
+
+Being the hero.
+
+Shin
+{i}But despite getting superpowers...{/i}
+
+You dive out of the way of the truck as its thrown into a nearby freeway,
+crashing into traffic. You see smoke. You hear screaming.
+
+Shin
+{i}...and I HATE admitting this...{/i}
+
+You run over to one of the nearby pedestrians, picking the one who looks the
+most physically capable; the most likely choice.
+
+Shin
+{i}...I never get to be the hero.{/i}
+
+You clasp his hands and ask.
+
+Shin
+Do you {gradient2=6-E40303-FF8C00-2-FF8C00-FFED00-2-FFED00-008026-2-008026-004
+CFF-2-004CFF-732982-2-732982-E40303-2}WISH{/gradient2} to be a hero?
+
+Jumping back to storylets...
+95
+95
+100
+95
+99
+--- Sun Jun 23 16:25:25 2024
+
+100
+99
+95
+95
+95
+--- Sun Jun 23 16:25:49 2024
+
+--- Sun Jun 23 16:26:05 2024
+
+Initialized st_chapter_start_1
+Initialized st_kogasa_first_time
+Initialized st_shin_and_seija_first_encounter
+Initialized st_shin_meets_sekibanki
+Initialized st_supply_run
+100
+95
+95
+95
+99
+There's shattered glass in the stage curtain, shimmering in blue. Your enemy
+calls from the skies.
+
+???
+Come out, come out wish boy!
+
+Now... now is the time to strike!
+
+Shin
+May even your wish come true, someday.
+
+{sc}WOOOOOOOOOOOOO!{/sc}
+
+The sound of tiny applause and unenthused parents rings out from your
+audience. It's a sea of small hands pointing to you.
+
+You hear the cue to bow so you do.
+
+We love you Wishmaker!
+
+{i}The smiles, the games, the acting... it's all...{/i}
+
+???
+Kids shit.
+
+The fallen mascot suit, in upstage left, took to its feet{fast} and removed
+its oversized head to reveal Backswitch.
+
+Minor villain, major nuisance.
+
+He's been around the block, making waves with her gravity flipping powers. As
+a relative newbie, this is your first time face-to-face with a villain.
+
+Despite the excited gasps from the audience, the staff begin ushering everyone
+out.
+
+Shin
+{i}Okay, this is fine. Drop the banter for now, focus on keeping it
+together.{/i}
+
+Backswitch
+I was wonderin' about the noise following some new hero. Looks like noise was
+all it was.
+
+Backswitch
+Don't you agree, {bt=6}{color=000000}wish boy?{/color}{/bt}
+
+10
+
+exec: exec
+Tutorial
+Often times, opponents will COUNTER or INTERRUPT your action and force you to
+make an unknown roll.
+
+You attempt to-
+
+
+exec: exec
+But you fail to notice the floorboard beneath your feet fly off, likely under
+Backswitch's power.
+
+ You fall without any ground beneath you.
+
+You land under the stage with a thud before climbing out unceremoniously; a
+jeering Backswitch there to greet you as you rise.
+
+Backswitch
+Had a nice trip?
+
+10
+You bring your weapon in for a swing at Backswitch's midriff.
+
+
+exec: exec
+
+exec: exec
+Backswitch stifles a pained grunt.
+
+13
+You throw your weight behind your weapon, bringing it down in a wide arc.
+
+
+exec: exec
+
+exec: exec
+Backswitch sidesteps your swing and sends a prop sword flying at your face.
+
+You parry it as well as you can but still get a bit roughed up.
+
+Backswitch
+Iiiiiiidiot.
+
+16
+You swing with a little too much oomph, nearly lifting you off your feet.
+
+
+exec: exec
+
+exec: exec
+
+exec: exec
+
+exec: exec
+Backswitch steps into range before you complete the swing, throwing a
+counterpunch.
+
+
+exec: exec
+You take it on your jaw and the world becomes blurry.
+
+You nearly lose your footing but try for a counterattack.
+
+
+exec: exec
+But your timing's been read and Backswitch lays into you.
+
+Backswitch
+Dumbfuck.
+
+The last thing you see before you collapse onto the ground is his mask. You
+can tell he's got the ugliest smirk behind it.
+
+Jumping back to storylets...
+95
+100
+95
+99
+95
+95
+95
+99
+100
+95
+--- Sun Jun 23 16:26:55 2024
+
+95
+99
+95
+100
+95
+95
+100
+95
+99
+95
+--- Sun Jun 23 16:27:51 2024
+
+95
+95
+99
+95
+100
+99
+95
+100
+95
+95
+--- Sun Jun 23 16:28:44 2024
+
+--- Sun Jun 23 16:29:04 2024
+
+99
+100
+95
+95
+95
+95
+95
+100
+95
+99
+[<store.Storylet object at 0x00000000071aed30>, <store.Storylet object at
+0x00000000067c7ee0>]
+95
+95
+100
+99
+95
+95
+95
+100
+99
+95
+[<store.Storylet object at 0x0000000006e272b0>, <store.Storylet object at
+0x0000000003a2a700>]
+--- Sun Jun 23 17:53:41 2024
+
+--- Sun Jun 23 17:53:52 2024
+
+95
+95
+95
+99
+100
+99
+95
+95
+100
+95
+[<store.Storylet object at 0x000000001cdc3760>, <store.Storylet object at
+0x000000000703b730>]
+--- Sun Jun 23 17:54:18 2024
+
+Initialized st_chapter_start_1
+Initialized st_kogasa_first_time
+Initialized st_shin_and_seija_first_encounter
+Initialized st_shin_meets_sekibanki
+Initialized st_supply_run
+95
+95
+99
+95
+100
+There's shattered glass in the stage curtain, shimmering in blue. Your enemy
+calls from the skies.
+
+???
+Come out, come out wish boy!
+
+Now... now is the time to strike!
+
+Shin
+May even your wish come true, someday.
+
+{sc}WOOOOOOOOOOOOO!{/sc}
+
+The sound of tiny applause and unenthused parents rings out from your
+audience. It's a sea of small hands pointing to you.
+
+You hear the cue to bow so you do.
+
+We love you Wishmaker!
+
+{i}The smiles, the games, the acting... it's all...{/i}
+
+???
+Kids shit.
+
+The fallen mascot suit, in upstage left, took to its feet{fast} and removed
+its oversized head to reveal Backswitch.
+
+Minor villain, major nuisance.
+
+He's been around the block, making waves with her gravity flipping powers. As
+a relative newbie, this is your first time face-to-face with a villain.
+
+Despite the excited gasps from the audience, the staff begin ushering everyone
+out.
+
+Shin
+{i}Okay, this is fine. Drop the banter for now, focus on keeping it
+together.{/i}
+
+Backswitch
+I was wonderin' about the noise following some new hero. Looks like noise was
+all it was.
+
+Backswitch
+Don't you agree, {bt=6}{color=000000}wish boy?{/color}{/bt}
+
+10
+You bring your weapon in for a swing at Backswitch's midriff.
+
+
+exec: exec
+
+exec: exec
+Backswitch points at your weapon and sends it flying out of your hands.
+
+You manage to get ahold of it before it goes offstage.
+
+Backswitch's laugh booms from his echoing demon mask.
+
+Backswitch
+Idiot.
+
+13
+You throw your weight behind your weapon, bringing it down in a wide arc.
+
+
+exec: exec
+
+exec: exec
+Backswitch sidesteps your swing and sends a prop sword flying at your face.
+
+You parry it as well as you can but still get a bit roughed up.
+
+Backswitch
+Iiiiiiidiot.
+
+10
+
+exec: exec
+Tutorial
+Often times, opponents will COUNTER or INTERRUPT your action and force you to
+make an unknown roll.
+
+You attempt to-
+
+
+exec: exec
+But before you can, you notice the floorboard beneath your feet about to fly
+off. You leap backwards out of harms way. Backswitch seems genuinely
+surprised.
+
+Backswitch
+Not as dumb as you look?
+
+16
+You swing with a little too much oomph, nearly lifting you off your feet.
+
+
+exec: exec
+
+exec: exec
+Backswitch blocks the telegraphed attack but the sheer force sends him
+backpedaling, wincing.
+
+12
+You duck Backswitch's blows, weaving in and out of his range.
+
+Seeing this, Backswitch makes a gesture and from across the street, a manhole
+cover goes flying in your direction.
+
+
+exec: exec
+You manage to avoid it, leaping from your low position, as it flies underneath
+you and crashes into backstage.
+
+Backswitch
+Hmm. Not as talkative as your stage persona, are ya?
+
+Wishmaker
+Shut it with the backtalk, Backswitch.
+
+Backswitch
+Backtalk, smacktalk.
+
+Backswitch
+You know who you really need to watch out for? Truck drivers.
+
+Wishmaker
+Huh? What does that m-{nw}
+
+But Backswitch was already running away.
+
+You began to run after him but not before incoming traffic became INCOMING
+traffic with Backswitch sent a truck, its tires squealing, toppling sidewards
+towards you.
+
+Wishmaker
+What does that-
+
+But Backswitch was already running away.
+
+You began to run after him but not before incoming traffic became INCOMING
+traffic with Backswitch sent a truck, its tires squealing, toppling sidewards
+towards you.
+
+Everyone's thought about it once.
+
+Being the hero.
+
+Shin
+{i}But despite getting superpowers...{/i}
+
+You dive out of the way of the truck as its thrown into a nearby freeway,
+crashing into traffic. You see smoke. You hear screaming.
+
+Shin
+{i}...and I HATE admitting this...{/i}
+
+You run over to one of the nearby pedestrians, picking the one who looks the
+most physically capable; the most likely choice.
+
+Shin
+{i}...I never get to be the hero.{/i}
+
+You clasp his hands and ask.
+
+Shin
+Do you {gradient2=6-E40303-FF8C00-2-FF8C00-FFED00-2-FFED00-008026-2-008026-004
+CFF-2-004CFF-732982-2-732982-E40303-2}WISH{/gradient2} to be a hero?
+
+Jumping back to storylets...
+100
+95
+95
+99
+95
+95
+99
+95
+95
+100
+[<store.Storylet object at 0x000000000683dbb0>, <store.Storylet object at
+0x000000000683db80>]
+One wrong turn on the streets on your day off and you find yourself lost.
+
+The everpresence of the Hero HQ over the city would make for a good landmark,
+especially given how close you live to it...
+
+But you feel like you're heading farther from it rather than closer.
+
+Shin
+{i}Ah crap.{/i}
+
+Which way do you go?
+
+Choice: Left
+Choice: Right
+
+Player chose: Left
+
+You pass by a series of shanties, haphazardly constructed.
+
+They're built so close to each other you wonder if they support each others
+load: the other shanties-- the only reason they haven't all collapsed.
+
+Like dominos.
+
+You leave, hoping no one knocks them over.
+
+Which way do you go?
+
+Choice: Left
+Choice: Right
+
+Player chose: Left
+
+You see a storefront with pages on pages but it isn't a bookstore.
+
+Hanging by its doorstep is a black flag with two arrows, blue and red,
+wrapping around each other like a yin-yang in its center. One is going up, one
+is going down.
+
+Marking territory. You were briefed on some supervillains involved in
+racketeering.
+
+You walk on by with a bad taste in your mouth.
+
+Eventually, your eye is caught by a splash of color. A doorway with…
+
+Shin
+{i}Shower curtains?{/i}
+
+You stop and stare for a second at the colorful little storefront, an
+anachronism, something fit for the backside of a community center from last
+decade.
+
+Your better sense tells you to move on before you get scammed.
+
+But you decide you've been lost long enough to ask for directions.
+
+Shin
+Hello?
+
+The sound of boxes on boxes being dug through comes from behind the counter.
+
+Kogasa
+Oh, a customer? I'll be right there!
+
+A man with bright blue hair and striking blue and red eyes stands up a bit too
+fast, accidentally taking a mouthful of wind chimes.
+
+Kogasa
+WhIgjs-{nw}
+
+He spits the chimes out.
+
+Kogasa
+Welcome to the Rainshade, I'm Kogasa! What can I do you for? I mean, do for
+you?
+
+Shin
+Uh, hi? I just needed directions, I'm headed to the Hero HQ. Well,
+thereabouts.
+
+Kogasa deflates.
+
+Kogasa
+Oh, just exit then go left until you can't anymore and then turn around and
+start going right.
+
+Shin
+Wouldn't that just=
+
+Kogasa
+I know it sounds like you'll end up back here but trust me. It just works out.
+
+Shin
+Okay... thanks?
+
+You move to leave but…
+
+Shin
+{i}I am off-duty, wouldn't it be fine to stick around a little?{/i}
+
+Shin
+{i}And plus, it'd be nice to do a good thing even outside of work hours.{/i}
+
+Shin
+Also, you sell stuff here?
+
+Kogasa seems to perk up.
+
+Kogasa
+Yeah, we do! You wanna see?
+
+Kogasa
+Thanks for stopping by!
+
+Shin
+And thank you, Kogasa. I'm Shin by the way.
+
+Kogasa
+I see. It's nice to meet you, Shin!
+
+Shin
+I'll be seeing you around. Goodbye.
+
+Kogasa
+Buh-bye!
+
+Which way do you go?
+
+Choice: Left
+
+Player chose: Left
+
+You keep going left, and then left again, and then again, and again.
+
+Eventually, you come to a dead end.
+
+You follow Kogasa's instructions to turn around and start heading right.
+
+Which way do you go?
+
+Choice: Right
+
+Player chose: Right
+
+You pass by a tall, concrete apartment. Cracks form not only at its base but
+all throughout, giving the feeling that it hasn't been well maintained in a
+long time.
+
+Your family once lived somewhere like this, subsidized, paid in part by the
+government. DIfferent cities, same idea.
+
+Now you're a world away from who you were then.
+
+Familiar as it is, it's not the familiar you're looking for so you move on.
+
+Which way do you go?
+
+Choice: Right
+
+Player chose: Right
+
+You pass by a series of posters, slashed at until you're unable to tell what
+the ink was advocating. You knew only its demise.
+
+In its place, the beginnings of a mural are being painted in luscious strokes
+of aerosol. You think you can make out some words but it's clearly at a
+reading level above your age.
+
+Like "DVCK" sprawled out in some kind of cursive. You think it might resemble
+another word, mispelled on purpose.
+
+Of course, you mean duck.
+
+Which way do you go?
+
+Choice: Right
+
+Player chose: Right
+
+Eventually, you make your way back to Hero HQ.
+
+Shin
+{i}Home, just the sweetest, of homes.{/i}
+
+Jumping back to storylets...
+99
+95
+100
+95
+95
+--- Sun Jun 23 18:04:08 2024
+
+Initialized st_chapter_start_1
+Initialized st_help_stranger
+Initialized st_kogasa_first_time
+Initialized st_shin_and_seija_first_encounter
+Initialized st_shin_meets_sekibanki
+Initialized st_supply_run
+Initialized st_trigger_event
+85
+99
+95
+100
+85
+95
+95
+100
+95
+99
+95
+95
+100
+95
+95
+95
+99
+[<store.Storylet object at 0x0000000006adcfa0>, <store.Storylet object at
+0x0000000006a23eb0>]
+It's the day after your fight.
+
+You're in the lounge of Hero HQ, chicken pecking at your keyboard.
+
+Shin
+And as I finished… my… signature… line…
+
+Shin
+...
+
+Shin
+This report's going nowhere.
+
+You got up and left the building. On your way out, somebody taps you on the
+shoulder.
+
+???
+Hey.
+
+You turn around, only to get a cold drink to the face as you do.
+
+Sekibanki
+Want a drink?
+
+You take the can of carbonated sweet sickness from his hands before placing it
+and your laptop off to the side.
+
+Shin
+Good guess, but water's my preference.
+
+Shin
+So how was it? The training exercises.
+
+Sekibanki
+Usual. The other city's team leader kept arguing with Reimu and we didn't get
+anything done.
+
+Shin
+Ah.
+
+You went back to typing to try and keep your thought off the fact they didn't
+bother bring you.
+
+Sekibanki
+Not trying to exaggerate for your sake by the way. It was truly awful.
+
+Sekibanki
+What about you? You finish the report?
+
+Shin
+Yeah, well, part of it at least.
+
+Sekibanki
+Run me through it then. Maybe I can help jog your memory.
+
+Shin
+Well at first. it went about as normal as usual.
+
+Shin
+A normal kids event, you know, cause-
+
+You glanced at his reaction, squirming a sliver, knowing your next words.
+
+Sekibanki
+I'm not allowed {fast}to actually patrol.
+
+Sekibanki
+I know, we all know.
+
+Sekibanki
+Let's put the aside though. Where're you headed?
+
+Jumping back to storylets...
+100
+99
+95
+95
+95
+--- Sun Jun 23 18:04:42 2024
+
+--- Sun Jun 23 18:04:45 2024
+
+Initialized st_chapter_start_1
+Initialized st_help_stranger
+Initialized st_kogasa_first_time
+Initialized st_shin_and_seija_first_encounter
+Initialized st_shin_meets_sekibanki
+Initialized st_supply_run
+Initialized st_trigger_event
+95
+95
+85
+85
+100
+95
+99
+There's shattered glass in the stage curtain, shimmering in blue. Your enemy
+calls from the skies.
+
+???
+Come out, come out wish boy!
+
+Now... now is the time to strike!
+
+Shin
+May even your wish come true, someday.
+
+{sc}WOOOOOOOOOOOOO!{/sc}
+
+The sound of tiny applause and unenthused parents rings out from your
+audience. It's a sea of small hands pointing to you.
+
+You hear the cue to bow so you do.
+
+We love you Wishmaker!
+
+{i}The smiles, the games, the acting... it's all...{/i}
+
+???
+Kids shit.
+
+The fallen mascot suit, in upstage left, took to its feet{fast} and removed
+its oversized head to reveal Backswitch.
+
+Minor villain, major nuisance.
+
+He's been around the block, making waves with her gravity flipping powers. As
+a relative newbie, this is your first time face-to-face with a villain.
+
+Despite the excited gasps from the audience, the staff begin ushering everyone
+out.
+
+Shin
+{i}Okay, this is fine. Drop the banter for now, focus on keeping it
+together.{/i}
+
+Backswitch
+I was wonderin' about the noise following some new hero. Looks like noise was
+all it was.
+
+Backswitch
+Don't you agree, {bt=6}{color=000000}wish boy?{/color}{/bt}
+
+10
+
+exec: exec
+Tutorial
+Often times, opponents will COUNTER or INTERRUPT your action and force you to
+make an unknown roll.
+
+You attempt to-
+
+
+exec: exec
+But before you can, you notice the floorboard beneath your feet about to fly
+off. You leap backwards out of harms way. Backswitch seems genuinely
+surprised.
+
+Backswitch
+Not as dumb as you look?
+
+10
+You bring your weapon in for a swing at Backswitch's midriff.
+
+
+exec: exec
+
+exec: exec
+Backswitch stifles a pained grunt.
+
+13
+You throw your weight behind your weapon, bringing it down in a wide arc.
+
+
+exec: exec
+
+exec: exec
+Backswitch sidesteps your swing and sends a prop sword flying at your face.
+
+You parry it as well as you can but still get a bit roughed up.
+
+Backswitch
+Iiiiiiidiot.
+
+16
+You swing with a little too much oomph, nearly lifting you off your feet.
+
+
+exec: exec
+
+exec: exec
+
+exec: exec
+
+exec: exec
+Backswitch steps into range before you complete the swing, throwing a
+counterpunch.
+
+
+exec: exec
+You take it on your jaw and the world becomes blurry.
+
+You nearly lose your footing but try for a counterattack.
+
+
+exec: exec
+But your timing's been read and Backswitch lays into you.
+
+Backswitch
+Dumbfuck.
+
+12
+You duck Backswitch's blows, weaving in and out of his range.
+
+Seeing this, Backswitch makes a gesture and from across the street, a manhole
+cover goes flying in your direction.
+
+
+exec: exec
+You manage to avoid it, leaping from your low position, as it flies underneath
+you and crashes into backstage.
+
+Backswitch
+Hmm. Not as talkative as your stage persona, are ya?
+
+Wishmaker
+Shut it with the backtalk, Backswitch.
+
+Backswitch
+Backtalk, smacktalk.
+
+Backswitch
+You know who you really need to watch out for? Truck drivers.
+
+Wishmaker
+Huh? What does that m-{nw}
+
+But Backswitch was already running away.
+
+You began to run after him but not before incoming traffic became INCOMING
+traffic with Backswitch sent a truck, its tires squealing, toppling sidewards
+towards you.
+
+Wishmaker
+What does that-
+
+But Backswitch was already running away.
+
+You began to run after him but not before incoming traffic became INCOMING
+traffic with Backswitch sent a truck, its tires squealing, toppling sidewards
+towards you.
+
+Everyone's thought about it once.
+
+Being the hero.
+
+Shin
+{i}But despite getting superpowers...{/i}
+
+You dive out of the way of the truck as its thrown into a nearby freeway,
+crashing into traffic. You see smoke. You hear screaming.
+
+Shin
+{i}...and I HATE admitting this...{/i}
+
+You run over to one of the nearby pedestrians, picking the one who looks the
+most physically capable; the most likely choice.
+
+Shin
+{i}...I never get to be the hero.{/i}
+
+You clasp his hands and ask.
+
+Shin
+Do you {gradient2=6-E40303-FF8C00-2-FF8C00-FFED00-2-FFED00-008026-2-008026-004
+CFF-2-004CFF-732982-2-732982-E40303-2}WISH{/gradient2} to be a hero?
+
+Jumping back to storylets...
+--- Sun Jun 23 18:05:28 2024
+
+--- Sun Jun 23 18:05:46 2024
+
+85
+100
+95
+85
+95
+95
+99
+99
+95
+100
+95
+85
+85
+95
+[<store.Storylet object at 0x0000000004b78fd0>, <store.Storylet object at
+0x0000000004b78f70>]
+One wrong turn on the streets on your day off and you find yourself lost.
+
+The everpresence of the Hero HQ over the city would make for a good landmark,
+especially given how close you live to it...
+
+But you feel like you're heading farther from it rather than closer.
+
+Shin
+{i}Ah crap.{/i}
+
+Which way do you go?
+
+Choice: Left
+Choice: Right
+
+Player chose: Left
+
+You pass by a series of shanties, haphazardly constructed.
+
+They're built so close to each other you wonder if they support each others
+load: the other shanties-- the only reason they haven't all collapsed.
+
+Like dominos.
+
+You leave, hoping no one knocks them over.
+
+Which way do you go?
+
+Choice: Left
+Choice: Right
+
+Player chose: Left
+
+You see a storefront with pages on pages but it isn't a bookstore.
+
+Hanging by its doorstep is a black flag with two arrows, blue and red,
+wrapping around each other like a yin-yang in its center. One is going up, one
+is going down.
+
+Marking territory. You were briefed on some supervillains involved in
+racketeering.
+
+You walk on by with a bad taste in your mouth.
+
+Eventually, your eye is caught by a splash of color. A doorway with…
+
+Shin
+{i}Shower curtains?{/i}
+
+You stop and stare for a second at the colorful little storefront, an
+anachronism, something fit for the backside of a community center from last
+decade.
+
+Your better sense tells you to move on before you get scammed.
+
+But you decide you've been lost long enough to ask for directions.
+
+Shin
+Hello?
+
+The sound of boxes on boxes being dug through comes from behind the counter.
+
+Kogasa
+Oh, a customer? I'll be right there!
+
+A man with bright blue hair and striking blue and red eyes stands up a bit too
+fast, accidentally taking a mouthful of wind chimes.
+
+Kogasa
+WhIgjs-{nw}
+
+He spits the chimes out.
+
+Kogasa
+Welcome to the Rainshade, I'm Kogasa! What can I do you for? I mean, do for
+you?
+
+Shin
+Uh, hi? I just needed directions, I'm headed to the Hero HQ. Well,
+thereabouts.
+
+Kogasa deflates.
+
+Kogasa
+Oh, just exit then go left until you can't anymore and then turn around and
+start going right.
+
+Shin
+Wouldn't that just=
+
+Kogasa
+I know it sounds like you'll end up back here but trust me. It just works out.
+
+Shin
+Okay... thanks?
+
+You move to leave but…
+
+Shin
+{i}I am off-duty, wouldn't it be fine to stick around a little?{/i}
+
+Shin
+{i}And plus, it'd be nice to do a good thing even outside of work hours.{/i}
+
+Shin
+Also, you sell stuff here?
+
+Kogasa seems to perk up.
+
+Kogasa
+Yeah, we do! You wanna see?
+
+Kogasa
+Thanks for stopping by!
+
+Shin
+And thank you, Kogasa. I'm Shin by the way.
+
+Kogasa
+I see. It's nice to meet you, Shin!
+
+Shin
+I'll be seeing you around. Goodbye.
+
+Kogasa
+Buh-bye!
+
+Which way do you go?
+
+Choice: Left
+
+Player chose: Left
+
+You keep going left, and then left again, and then again, and again.
+
+Eventually, you come to a dead end.
+
+You follow Kogasa's instructions to turn around and start heading right.
+
+Which way do you go?
+
+Choice: Right
+
+Player chose: Right
+
+You pass by a tall, concrete apartment. Cracks form not only at its base but
+all throughout, giving the feeling that it hasn't been well maintained in a
+long time.
+
+Your family once lived somewhere like this, subsidized, paid in part by the
+government. DIfferent cities, same idea.
+
+Now you're a world away from who you were then.
+
+Familiar as it is, it's not the familiar you're looking for so you move on.
+
+Which way do you go?
+
+Choice: Right
+
+Player chose: Right
+
+You pass by a series of posters, slashed at until you're unable to tell what
+the ink was advocating. You knew only its demise.
+
+In its place, the beginnings of a mural are being painted in luscious strokes
+of aerosol. You think you can make out some words but it's clearly at a
+reading level above your age.
+
+Like "DVCK" sprawled out in some kind of cursive. You think it might resemble
+another word, mispelled on purpose.
+
+Of course, you mean duck.
+
+Which way do you go?
+
+Choice: Right
+
+Player chose: Right
+
+Eventually, you make your way back to Hero HQ.
+
+Shin
+{i}Home, just the sweetest, of homes.{/i}
+
+Jumping back to storylets...
+85
+95
+95
+99
+95
+85
+100
+95
+95
+85
+100
+85
+95
+99
+95
+85
+95
+85
+99
+100
+95
+[<store.Storylet object at 0x0000000006af76a0>, <store.Storylet object at
+0x00000000072d3b20>]
+After training's over at Hero HQ, you head out when Sekibanki catches up to
+you.
+
+Sekibanki
+Good work today, got another order of supplies for tomorrow. Energy drinks and
+the like.
+
+Shin
+Another supply run? Is there no one else available?
+
+Sekibanki
+You and I both know the others are just giving you things to do around here.
+
+Sekibanki
+They're trying to make you feel a part of the team, yknow?
+
+Shin
+But what about you?
+
+It would be an understatement to say it was bit of a shock for you when you
+got your powers a month ago.
+
+It would be another understatement to say it was surprising to find out that
+the heroes of the city lived in...
+
+...something less like the sci-fi movie military headquarters and more like a
+recreation room that got stretched out to fill an entire floor.
+
+And it would be an even bigger understatement to say that Aegaeon wasn't the
+team player everyone made him out to be: chatty in public, shy behind doors.
+
+He was less the glue holding everyone together and more so the introvert who
+could put in the effort to reach out from time to time.
+
+Even so, the lion's share of your interactions with heroes have been with
+Sekibanki.
+
+Sekibanki
+That's just who I am. I don't hate people, I just like being alone sometimes.
+
+Shin
+But that's not really the case for me.
+
+Sekibanki
+No it's not.
+
+Sekibanki turns towards you.
+
+Sekibanki
+I can't force the others to warm up to you but honestly?
+
+Sekibanki
+I think I just plain old like you.
+
+Shin
+{i}I- uh? Did I hear that right?{/i}
+
+Sekibanki
+You're a good person. That's more than most of us can say.
+
+Shin
+{i}Oh. He meant that.{/i}
+
+Shin
+Wait, "most of us"?
+
+There was something a little solemn about his expression when he answered me.
+
+Sekibanki
+Yeah.
+
+You could see him bite his lip, maybe thinking what to say.
+
+Sekibanki
+Make sure you always walk the high road, Shin.
+
+You weren't sure how to respond to that. You just kept walking.
+
+Shin
+I... I will.
+
+Sekibanki
+Good.
+
+You shook off any further thoughts.
+
+Shin
+I'll get going so I can get a head start on these supplies tomorrow.
+
+Sekibanki
+ALright, then see you later!
+
+Shin
+See you!
+
+Shin
+...
+
+Shin
+How odd...
+
+Jumping back to storylets...
+95
+85
+95
+99
+85
+95
+100
+--- Sun Jun 23 18:12:16 2024
+
+Initialized st_chapter_start_1
+Initialized st_help_stranger
+Initialized st_kogasa_first_time
+Initialized st_shin_and_seija_first_encounter
+Initialized st_shin_meets_sekibanki
+Initialized st_supply_run
+Initialized st_trigger_event
+95
+85
+95
+99
+85
+95
+100
+There's shattered glass in the stage curtain, shimmering in blue. Your enemy
+calls from the skies.
+
+???
+Come out, come out wish boy!
+
+Now... now is the time to strike!
+
+Shin
+May even your wish come true, someday.
+
+{sc}WOOOOOOOOOOOOO!{/sc}
+
+The sound of tiny applause and unenthused parents rings out from your
+audience. It's a sea of small hands pointing to you.
+
+You hear the cue to bow so you do.
+
+We love you Wishmaker!
+
+{i}The smiles, the games, the acting... it's all...{/i}
+
+???
+Kids shit.
+
+The fallen mascot suit, in upstage left, took to its feet{fast} and removed
+its oversized head to reveal Backswitch.
+
+Minor villain, major nuisance.
+
+He's been around the block, making waves with her gravity flipping powers. As
+a relative newbie, this is your first time face-to-face with a villain.
+
+Despite the excited gasps from the audience, the staff begin ushering everyone
+out.
+
+Shin
+{i}Okay, this is fine. Drop the banter for now, focus on keeping it
+together.{/i}
+
+Backswitch
+I was wonderin' about the noise following some new hero. Looks like noise was
+all it was.
+
+Backswitch
+Don't you agree, {bt=6}{color=000000}wish boy?{/color}{/bt}
+
+10
+
+exec: exec
+Tutorial
+Often times, opponents will COUNTER or INTERRUPT your action and force you to
+make an unknown roll.
+
+You attempt to-
+
+
+exec: exec
+But before you can, you notice the floorboard beneath your feet about to fly
+off. You leap backwards out of harms way. Backswitch seems genuinely
+surprised.
+
+Backswitch
+Not as dumb as you look?
+
+10
+You bring your weapon in for a swing at Backswitch's midriff.
+
+
+exec: exec
+
+exec: exec
+Backswitch stifles a pained grunt.
+
+13
+You throw your weight behind your weapon, bringing it down in a wide arc.
+
+
+exec: exec
+
+exec: exec
+Backswitch sidesteps your swing and sends a prop sword flying at your face.
+
+You parry it as well as you can but still get a bit roughed up.
+
+Backswitch
+Iiiiiiidiot.
+
+16
+You swing with a little too much oomph, nearly lifting you off your feet.
+
+
+exec: exec
+
+exec: exec
+
+exec: exec
+
+exec: exec
+Backswitch steps into range before you complete the swing, throwing a
+counterpunch.
+
+
+exec: exec
+You take it on your jaw and the world becomes blurry.
+
+You nearly lose your footing but try for a counterattack.
+
+
+exec: exec
+But your timing's been read and Backswitch lays into you.
+
+Backswitch
+Dumbfuck.
+
+12
+You duck Backswitch's blows, weaving in and out of his range.
+
+Seeing this, Backswitch makes a gesture and from across the street, a manhole
+cover goes flying in your direction.
+
+
+exec: exec
+You manage to avoid it, leaping from your low position, as it flies underneath
+you and crashes into backstage.
+
+Backswitch
+Hmm. Not as talkative as your stage persona, are ya?
+
+Wishmaker
+Shut it with the backtalk, Backswitch.
+
+Backswitch
+Backtalk, smacktalk.
+
+Backswitch
+You know who you really need to watch out for? Truck drivers.
+
+Wishmaker
+Huh? What does that m-{nw}
+
+But Backswitch was already running away.
+
+You began to run after him but not before incoming traffic became INCOMING
+traffic with Backswitch sent a truck, its tires squealing, toppling sidewards
+towards you.
+
+Wishmaker
+What does that-
+
+But Backswitch was already running away.
+
+You began to run after him but not before incoming traffic became INCOMING
+traffic with Backswitch sent a truck, its tires squealing, toppling sidewards
+towards you.
+
+Everyone's thought about it once.
+
+Being the hero.
+
+Shin
+{i}But despite getting superpowers...{/i}
+
+You dive out of the way of the truck as its thrown into a nearby freeway,
+crashing into traffic. You see smoke. You hear screaming.
+
+Shin
+{i}...and I HATE admitting this...{/i}
+
+You run over to one of the nearby pedestrians, picking the one who looks the
+most physically capable; the most likely choice.
+
+Shin
+{i}...I never get to be the hero.{/i}
+
+You clasp his hands and ask.
+
+Shin
+Do you {gradient2=6-E40303-FF8C00-2-FF8C00-FFED00-2-FFED00-008026-2-008026-004
+CFF-2-004CFF-732982-2-732982-E40303-2}WISH{/gradient2} to be a hero?
+
+Jumping back to storylets...
+--- Sun Jun 23 18:13:45 2024
+
+--- Sun Jun 23 18:14:02 2024
+
+--- Sun Jun 23 18:14:09 2024
+
+--- Sun Jun 23 18:14:45 2024
+
+--- Sun Jun 23 18:14:52 2024
+
+--- Sun Jun 23 18:15:08 2024
+
+--- Sun Jun 23 18:15:20 2024
+
+--- Sun Jun 23 18:15:31 2024
+
+--- Sun Jun 23 18:15:45 2024
+
+--- Sun Jun 23 18:16:05 2024
+
+--- Sun Jun 23 18:16:24 2024
+
+--- Sun Jun 23 18:16:35 2024
+
+--- Sun Jun 23 18:16:43 2024
+
+--- Sun Jun 23 18:16:48 2024
+
+--- Sun Jun 23 18:16:56 2024
+
+--- Sun Jun 23 18:17:52 2024
+
+--- Sun Jun 23 18:18:00 2024
+
+--- Sun Jun 23 18:18:06 2024
+
+--- Sun Jun 23 18:18:12 2024
+
+--- Sun Jun 23 18:18:22 2024
+
+--- Sun Jun 23 18:18:27 2024
+
+--- Sun Jun 23 18:18:35 2024
+
+--- Sun Jun 23 18:18:40 2024
+
+Initialized st_chapter_start_1
+Initialized st_help_stranger
+Initialized st_kogasa_first_time
+Initialized st_shin_and_seija_first_encounter
+Initialized st_shin_meets_sekibanki
+Initialized st_supply_run
+Initialized st_trigger_event
+85
+80
+100
+95
+99
+95
+95
+There's shattered glass in the stage curtain, shimmering in blue. Your enemy
+calls from the skies.
+
+???
+Come out, come out wish boy!
+
+Now... now is the time to strike!
+
+Shin
+May even your wish come true, someday.
+
+{sc}WOOOOOOOOOOOOO!{/sc}
+
+The sound of tiny applause and unenthused parents rings out from your
+audience. It's a sea of small hands pointing to you.
+
+You hear the cue to bow so you do.
+
+We love you Wishmaker!
+
+{i}The smiles, the games, the acting... it's all...{/i}
+
+???
+Kids shit.
+
+The fallen mascot suit, in upstage left, took to its feet{fast} and removed
+its oversized head to reveal Backswitch.
+
+Minor villain, major nuisance.
+
+He's been around the block, making waves with her gravity flipping powers. As
+a relative newbie, this is your first time face-to-face with a villain.
+
+Despite the excited gasps from the audience, the staff begin ushering everyone
+out.
+
+Shin
+{i}Okay, this is fine. Drop the banter for now, focus on keeping it
+together.{/i}
+
+Backswitch
+I was wonderin' about the noise following some new hero. Looks like noise was
+all it was.
+
+Backswitch
+Don't you agree, {bt=6}{color=000000}wish boy?{/color}{/bt}
+
+10
+
+exec: exec
+Tutorial
+Often times, opponents will COUNTER or INTERRUPT your action and force you to
+make an unknown roll.
+
+You attempt to-
+
+
+exec: exec
+But before you can, you notice the floorboard beneath your feet about to fly
+off. You leap backwards out of harms way. Backswitch seems genuinely
+surprised.
+
+Backswitch
+Not as dumb as you look?
+
+10
+You bring your weapon in for a swing at Backswitch's midriff.
+
+
+exec: exec
+
+exec: exec
+Backswitch stifles a pained grunt.
+
+13
+You throw your weight behind your weapon, bringing it down in a wide arc.
+
+
+exec: exec
+
+exec: exec
+Backswitch sidesteps your swing and sends a prop sword flying at your face.
+
+You parry it as well as you can but still get a bit roughed up.
+
+Backswitch
+Iiiiiiidiot.
+
+16
+You swing with a little too much oomph, nearly lifting you off your feet.
+
+
+exec: exec
+
+exec: exec
+
+exec: exec
+
+exec: exec
+Backswitch steps into range before you complete the swing, throwing a
+counterpunch.
+
+
+exec: exec
+You take it on your jaw and the world becomes blurry.
+
+You nearly lose your footing but try for a counterattack.
+
+
+exec: exec
+But your timing's been read and Backswitch lays into you.
+
+Backswitch
+Dumbfuck.
+
+12
+You duck Backswitch's blows, weaving in and out of his range.
+
+Seeing this, Backswitch makes a gesture and from across the street, a manhole
+cover goes flying in your direction.
+
+
+exec: exec
+You manage to avoid it, leaping from your low position, as it flies underneath
+you and crashes into backstage.
+
+Backswitch
+Hmm. Not as talkative as your stage persona, are ya?
+
+Wishmaker
+Shut it with the backtalk, Backswitch.
+
+Backswitch
+Backtalk, smacktalk.
+
+Backswitch
+You know who you really need to watch out for? Truck drivers.
+
+Wishmaker
+Huh? What does that m-{nw}
+
+But Backswitch was already running away.
+
+You began to run after him but not before incoming traffic became INCOMING
+traffic with Backswitch sent a truck, its tires squealing, toppling sidewards
+towards you.
+
+Wishmaker
+What does that-
+
+But Backswitch was already running away.
+
+You began to run after him but not before incoming traffic became INCOMING
+traffic with Backswitch sent a truck, its tires squealing, toppling sidewards
+towards you.
+
+Everyone's thought about it once.
+
+Being the hero.
+
+Shin
+{i}But despite getting superpowers...{/i}
+
+You dive out of the way of the truck as its thrown into a nearby freeway,
+crashing into traffic. You see smoke. You hear screaming.
+
+Shin
+{i}...and I HATE admitting this...{/i}
+
+You run over to one of the nearby pedestrians, picking the one who looks the
+most physically capable; the most likely choice.
+
+Shin
+{i}...I never get to be the hero.{/i}
+
+You clasp his hands and ask.
+
+Shin
+Do you {gradient2=6-E40303-FF8C00-2-FF8C00-FFED00-2-FFED00-008026-2-008026-004
+CFF-2-004CFF-732982-2-732982-E40303-2}WISH{/gradient2} to be a hero?
+
+Jumping back to storylets...
+--- Sun Jun 23 18:19:01 2024
+
+You have unspent upgrade points. Click on a character to spend them.
+
+95
+85
+95
+99
+80
+100
+95
+100
+85
+95
+95
+80
+95
+99
+After training's over at Hero HQ, you head out when Sekibanki catches up to
+you.
+
+Sekibanki
+Good work today, got another order of supplies for tomorrow. Energy drinks and
+the like.
+
+Shin
+Another supply run? Is there no one else available?
+
+Sekibanki
+You and I both know the others are just giving you things to do around here.
+
+Sekibanki
+They're trying to make you feel a part of the team, yknow?
+
+Shin
+But what about you?
+
+It would be an understatement to say it was bit of a shock for you when you
+got your powers a month ago.
+
+It would be another understatement to say it was surprising to find out that
+the heroes of the city lived in...
+
+...something less like the sci-fi movie military headquarters and more like a
+recreation room that got stretched out to fill an entire floor.
+
+And it would be an even bigger understatement to say that Aegaeon wasn't the
+team player everyone made him out to be: chatty in public, shy behind doors.
+
+He was less the glue holding everyone together and more so the introvert who
+could put in the effort to reach out from time to time.
+
+Even so, the lion's share of your interactions with heroes have been with
+Sekibanki.
+
+Sekibanki
+That's just who I am. I don't hate people, I just like being alone sometimes.
+
+Shin
+But that's not really the case for me.
+
+Sekibanki
+No it's not.
+
+Sekibanki turns towards you.
+
+Sekibanki
+I can't force the others to warm up to you but honestly?
+
+Sekibanki
+I think I just plain old like you.
+
+Shin
+{i}I- uh? Did I hear that right?{/i}
+
+Sekibanki
+You're a good person. That's more than most of us can say.
+
+Shin
+{i}Oh. He meant that.{/i}
+
+Shin
+Wait, "most of us"?
+
+There was something a little solemn about his expression when he answered me.
+
+Sekibanki
+Yeah.
+
+You could see him bite his lip, maybe thinking what to say.
+
+Sekibanki
+Make sure you always walk the high road, Shin.
+
+You weren't sure how to respond to that. You just kept walking.
+
+Shin
+I... I will.
+
+Sekibanki
+Good.
+
+You shook off any further thoughts.
+
+Shin
+I'll get going so I can get a head start on these supplies tomorrow.
+
+Sekibanki
+ALright, then see you later!
+
+Shin
+See you!
+
+Shin
+...
+
+Shin
+How odd...
+
+Jumping back to storylets...
+--- Sun Jun 23 18:19:51 2024
+
+Initialized st_chapter_start_1
+Initialized st_help_stranger
+Initialized st_kogasa_first_time
+Initialized st_shin_and_seija_first_encounter
+Initialized st_shin_meets_sekibanki
+Initialized st_supply_run
+Initialized st_trigger_event
+95
+95
+85
+99
+85
+100
+95
+There's shattered glass in the stage curtain, shimmering in blue. Your enemy
+calls from the skies.
+
+???
+Come out, come out wish boy!
+
+Now... now is the time to strike!
+
+Shin
+May even your wish come true, someday.
+
+{sc}WOOOOOOOOOOOOO!{/sc}
+
+The sound of tiny applause and unenthused parents rings out from your
+audience. It's a sea of small hands pointing to you.
+
+You hear the cue to bow so you do.
+
+We love you Wishmaker!
+
+{i}The smiles, the games, the acting... it's all...{/i}
+
+???
+Kids shit.
+
+The fallen mascot suit, in upstage left, took to its feet{fast} and removed
+its oversized head to reveal Backswitch.
+
+Minor villain, major nuisance.
+
+He's been around the block, making waves with her gravity flipping powers. As
+a relative newbie, this is your first time face-to-face with a villain.
+
+Despite the excited gasps from the audience, the staff begin ushering everyone
+out.
+
+Shin
+{i}Okay, this is fine. Drop the banter for now, focus on keeping it
+together.{/i}
+
+Backswitch
+I was wonderin' about the noise following some new hero. Looks like noise was
+all it was.
+
+Backswitch
+Don't you agree, {bt=6}{color=000000}wish boy?{/color}{/bt}
+
+10
+
+exec: exec
+Tutorial
+Often times, opponents will COUNTER or INTERRUPT your action and force you to
+make an unknown roll.
+
+You attempt to-
+
+
+exec: exec
+But before you can, you notice the floorboard beneath your feet about to fly
+off. You leap backwards out of harms way. Backswitch seems genuinely
+surprised.
+
+Backswitch
+Not as dumb as you look?
+
+10
+You bring your weapon in for a swing at Backswitch's midriff.
+
+
+exec: exec
+
+exec: exec
+Backswitch points at your weapon and sends it flying out of your hands.
+
+You manage to get ahold of it before it goes offstage.
+
+Backswitch's laugh booms from his echoing demon mask.
+
+Backswitch
+Idiot.
+
+13
+You throw your weight behind your weapon, bringing it down in a wide arc.
+
+
+exec: exec
+
+exec: exec
+Backswitch is hit squarely in the chest.
+
+He backs away a step while gasping for air.
+
+16
+You swing with a little too much oomph, nearly lifting you off your feet.
+
+
+exec: exec
+
+exec: exec
+Backswitch blocks the telegraphed attack but the sheer force sends him
+backpedaling, wincing.
+
+12
+You duck Backswitch's blows, weaving in and out of his range.
+
+Seeing this, Backswitch makes a gesture and from across the street, a manhole
+cover goes flying in your direction.
+
+
+exec: exec
+You manage to avoid it, leaping from your low position, as it flies underneath
+you and crashes into backstage.
+
+Backswitch
+Hmm. Not as talkative as your stage persona, are ya?
+
+Wishmaker
+Shut it with the backtalk, Backswitch.
+
+Backswitch
+Backtalk, smacktalk.
+
+Backswitch
+You know who you really need to watch out for? Truck drivers.
+
+Wishmaker
+Huh? What does that m-{nw}
+
+But Backswitch was already running away.
+
+You began to run after him but not before incoming traffic became INCOMING
+traffic with Backswitch sent a truck, its tires squealing, toppling sidewards
+towards you.
+
+Wishmaker
+What does that-
+
+But Backswitch was already running away.
+
+You began to run after him but not before incoming traffic became INCOMING
+traffic with Backswitch sent a truck, its tires squealing, toppling sidewards
+towards you.
+
+Everyone's thought about it once.
+
+Being the hero.
+
+Shin
+{i}But despite getting superpowers...{/i}
+
+You dive out of the way of the truck as its thrown into a nearby freeway,
+crashing into traffic. You see smoke. You hear screaming.
+
+Shin
+{i}...and I HATE admitting this...{/i}
+
+You run over to one of the nearby pedestrians, picking the one who looks the
+most physically capable; the most likely choice.
+
+Shin
+{i}...I never get to be the hero.{/i}
+
+You clasp his hands and ask.
+
+Shin
+Do you {gradient2=6-E40303-FF8C00-2-FF8C00-FFED00-2-FFED00-008026-2-008026-004
+CFF-2-004CFF-732982-2-732982-E40303-2}WISH{/gradient2} to be a hero?
+
+Jumping back to storylets...
+99
+85
+95
+85
+95
+100
+95
+85
+85
+99
+95
+100
+95
+95
+It's the day after your fight.
+
+You're in the lounge of Hero HQ, chicken pecking at your keyboard.
+
+Shin
+And as I finished… my… signature… line…
+
+Shin
+...
+
+Shin
+This report's going nowhere.
+
+You got up and left the building. On your way out, somebody taps you on the
+shoulder.
+
+???
+Hey.
+
+You turn around, only to get a cold drink to the face as you do.
+
+Sekibanki
+Want a drink?
+
+You take the can of carbonated sweet sickness from his hands before placing it
+and your laptop off to the side.
+
+Shin
+Good guess, but water's my preference.
+
+Shin
+So how was it? The training exercises.
+
+Sekibanki
+Usual. The other city's team leader kept arguing with Reimu and we didn't get
+anything done.
+
+Shin
+Ah.
+
+You went back to typing to try and keep your thought off the fact they didn't
+bother bring you.
+
+Sekibanki
+Not trying to exaggerate for your sake by the way. It was truly awful.
+
+Sekibanki
+What about you? You finish the report?
+
+Shin
+Yeah, well, part of it at least.
+
+Sekibanki
+Run me through it then. Maybe I can help jog your memory.
+
+Shin
+Well at first. it went about as normal as usual.
+
+Shin
+A normal kids event, you know, cause-
+
+You glanced at his reaction, squirming a sliver, knowing your next words.
+
+Sekibanki
+I'm not allowed {fast}to actually patrol.
+
+Sekibanki
+I know, we all know.
+
+
+
+Sekibanki
+Let's put the aside though. Where're you headed?
+
+Jumping back to storylets...
+85
+95
+100
+95
+95
+99
+85
+--- Sun Jun 23 18:20:43 2024
+
+--- Sun Jun 23 18:20:45 2024
+
+Initialized st_chapter_start_1
+Initialized st_help_stranger
+Initialized st_kogasa_first_time
+Initialized st_shin_and_seija_first_encounter
+Initialized st_shin_meets_sekibanki
+Initialized st_supply_run
+Initialized st_trigger_event
+85
+95
+95
+100
+95
+99
+85
+There's shattered glass in the stage curtain, shimmering in blue. Your enemy
+calls from the skies.
+
+???
+Come out, come out wish boy!
+
+Now... now is the time to strike!
+
+Shin
+May even your wish come true, someday.
+
+{sc}WOOOOOOOOOOOOO!{/sc}
+
+The sound of tiny applause and unenthused parents rings out from your
+audience. It's a sea of small hands pointing to you.
+
+You hear the cue to bow so you do.
+
+We love you Wishmaker!
+
+{i}The smiles, the games, the acting... it's all...{/i}
+
+???
+Kids shit.
+
+The fallen mascot suit, in upstage left, took to its feet{fast} and removed
+its oversized head to reveal Backswitch.
+
+Minor villain, major nuisance.
+
+He's been around the block, making waves with her gravity flipping powers. As
+a relative newbie, this is your first time face-to-face with a villain.
+
+Despite the excited gasps from the audience, the staff begin ushering everyone
+out.
+
+Shin
+{i}Okay, this is fine. Drop the banter for now, focus on keeping it
+together.{/i}
+
+Backswitch
+I was wonderin' about the noise following some new hero. Looks like noise was
+all it was.
+
+Backswitch
+Don't you agree, {bt=6}{color=000000}wish boy?{/color}{/bt}
+
+10
+
+exec: exec
+Tutorial
+Often times, opponents will COUNTER or INTERRUPT your action and force you to
+make an unknown roll.
+
+You attempt to-
+
+
+exec: exec
+But before you can, you notice the floorboard beneath your feet about to fly
+off. You leap backwards out of harms way. Backswitch seems genuinely
+surprised.
+
+Backswitch
+Not as dumb as you look?
+
+10
+You bring your weapon in for a swing at Backswitch's midriff.
+
+
+exec: exec
+
+exec: exec
+Backswitch points at your weapon and sends it flying out of your hands.
+
+You manage to get ahold of it before it goes offstage.
+
+Backswitch's laugh booms from his echoing demon mask.
+
+Backswitch
+Idiot.
+
+13
+You throw your weight behind your weapon, bringing it down in a wide arc.
+
+
+exec: exec
+
+exec: exec
+Backswitch is hit squarely in the chest.
+
+He backs away a step while gasping for air.
+
+16
+You swing with a little too much oomph, nearly lifting you off your feet.
+
+
+exec: exec
+
+exec: exec
+Backswitch blocks the telegraphed attack but the sheer force sends him
+backpedaling, wincing.
+
+12
+You duck Backswitch's blows, weaving in and out of his range.
+
+Seeing this, Backswitch makes a gesture and from across the street, a manhole
+cover goes flying in your direction.
+
+
+exec: exec
+You manage to avoid it, leaping from your low position, as it flies underneath
+you and crashes into backstage.
+
+Backswitch
+Hmm. Not as talkative as your stage persona, are ya?
+
+Wishmaker
+Shut it with the backtalk, Backswitch.
+
+Backswitch
+Backtalk, smacktalk.
+
+Backswitch
+You know who you really need to watch out for? Truck drivers.
+
+Wishmaker
+Huh? What does that m-{nw}
+
+But Backswitch was already running away.
+
+You began to run after him but not before incoming traffic became INCOMING
+traffic with Backswitch sent a truck, its tires squealing, toppling sidewards
+towards you.
+
+Wishmaker
+What does that-
+
+But Backswitch was already running away.
+
+You began to run after him but not before incoming traffic became INCOMING
+traffic with Backswitch sent a truck, its tires squealing, toppling sidewards
+towards you.
+
+Everyone's thought about it once.
+
+Being the hero.
+
+Shin
+{i}But despite getting superpowers...{/i}
+
+You dive out of the way of the truck as its thrown into a nearby freeway,
+crashing into traffic. You see smoke. You hear screaming.
+
+Shin
+{i}...and I HATE admitting this...{/i}
+
+You run over to one of the nearby pedestrians, picking the one who looks the
+most physically capable; the most likely choice.
+
+Shin
+{i}...I never get to be the hero.{/i}
+
+You clasp his hands and ask.
+
+Shin
+Do you {gradient2=6-E40303-FF8C00-2-FF8C00-FFED00-2-FFED00-008026-2-008026-004
+CFF-2-004CFF-732982-2-732982-E40303-2}WISH{/gradient2} to be a hero?
+
+Jumping back to storylets...
+95
+85
+100
+95
+95
+85
+99
+99
+100
+85
+85
+95
+95
+95
+It's the day after your fight.
+
+You're in the lounge of Hero HQ, chicken pecking at your keyboard.
+
+Shin
+And as I finished… my… signature… line…
+
+Shin
+...
+
+Shin
+This report's going nowhere.
+
+You got up and left the building. On your way out, somebody taps you on the
+shoulder.
+
+???
+Hey.
+
+You turn around, only to get a cold drink to the face as you do.
+
+Sekibanki
+Want a drink?
+
+You take the can of carbonated sweet sickness from his hands before placing it
+and your laptop off to the side.
+
+Shin
+Good guess, but water's my preference.
+
+Shin
+So how was it? The training exercises.
+
+Sekibanki
+Usual. The other city's team leader kept arguing with Reimu and we didn't get
+anything done.
+
+Shin
+Ah.
+
+You went back to typing to try and keep your thought off the fact they didn't
+bother bring you.
+
+Sekibanki
+Not trying to exaggerate for your sake by the way. It was truly awful.
+
+Sekibanki
+What about you? You finish the report?
+
+Shin
+Yeah, well, part of it at least.
+
+Sekibanki
+Run me through it then. Maybe I can help jog your memory.
+
+Shin
+Well at first. it went about as normal as usual.
+
+Shin
+A normal kids event, you know, cause-
+
+You glanced at his reaction, squirming a sliver, knowing your next words.
+
+Sekibanki
+I'm not allowed {fast}to actually patrol.
+
+Sekibanki
+I know, we all know.
+
+
+
+Sekibanki
+Let's put the aside though. Where're you headed?
+
+Jumping back to storylets...
+100
+95
+95
+85
+99
+85
+95
+85
+95
+95
+100
+99
+95
+85
+85
+95
+99
+95
+85
+95
+100
+It's the day after your fight.
+
+You're in the lounge of Hero HQ, chicken pecking at your keyboard.
+
+Shin
+And as I finished… my… signature… line…
+
+Shin
+...
+
+Shin
+This report's going nowhere.
+
+You got up and left the building. On your way out, somebody taps you on the
+shoulder.
+
+???
+Hey.
+
+You turn around, only to get a cold drink to the face as you do.
+
+Sekibanki
+Want a drink?
+
+You take the can of carbonated sweet sickness from his hands before placing it
+and your laptop off to the side.
+
+Shin
+Good guess, but water's my preference.
+
+Shin
+So how was it? The training exercises.
+
+Sekibanki
+Usual. The other city's team leader kept arguing with Reimu and we didn't get
+anything done.
+
+Shin
+Ah.
+
+You went back to typing to try and keep your thought off the fact they didn't
+bother bring you.
+
+Sekibanki
+Not trying to exaggerate for your sake by the way. It was truly awful.
+
+Sekibanki
+What about you? You finish the report?
+
+Shin
+Yeah, well, part of it at least.
+
+Sekibanki
+Run me through it then. Maybe I can help jog your memory.
+
+Shin
+Well at first. it went about as normal as usual.
+
+Shin
+A normal kids event, you know, cause-
+
+You glanced at his reaction, squirming a sliver, knowing your next words.
+
+Sekibanki
+I'm not allowed {fast}to actually patrol.
+
+Sekibanki
+I know, we all know.
+
+
+
+Sekibanki
+Let's put the aside though. Where're you headed?
+
+Jumping back to storylets...
+--- Sun Jun 23 18:22:44 2024
+
+Initialized st_chapter_start_1
+Initialized st_help_stranger
+Initialized st_kogasa_first_time
+Initialized st_shin_and_seija_first_encounter
+Initialized st_shin_meets_sekibanki
+Initialized st_supply_run
+Initialized st_trigger_event
+85
+95
+95
+95
+99
+85
+100
+There's shattered glass in the stage curtain, shimmering in blue. Your enemy
+calls from the skies.
+
+???
+Come out, come out wish boy!
+
+Now... now is the time to strike!
+
+Shin
+May even your wish come true, someday.
+
+{sc}WOOOOOOOOOOOOO!{/sc}
+
+The sound of tiny applause and unenthused parents rings out from your
+audience. It's a sea of small hands pointing to you.
+
+You hear the cue to bow so you do.
+
+We love you Wishmaker!
+
+{i}The smiles, the games, the acting... it's all...{/i}
+
+???
+Kids shit.
+
+The fallen mascot suit, in upstage left, took to its feet{fast} and removed
+its oversized head to reveal Backswitch.
+
+Minor villain, major nuisance.
+
+He's been around the block, making waves with her gravity flipping powers. As
+a relative newbie, this is your first time face-to-face with a villain.
+
+Despite the excited gasps from the audience, the staff begin ushering everyone
+out.
+
+Shin
+{i}Okay, this is fine. Drop the banter for now, focus on keeping it
+together.{/i}
+
+Backswitch
+I was wonderin' about the noise following some new hero. Looks like noise was
+all it was.
+
+Backswitch
+Don't you agree, {bt=6}{color=000000}wish boy?{/color}{/bt}
+
+10
+You bring your weapon in for a swing at Backswitch's midriff.
+
+
+exec: exec
+
+exec: exec
+Backswitch stifles a pained grunt.
+
+13
+You throw your weight behind your weapon, bringing it down in a wide arc.
+
+
+exec: exec
+
+exec: exec
+Backswitch is hit squarely in the chest.
+
+He backs away a step while gasping for air.
+
+10
+
+exec: exec
+Tutorial
+Often times, opponents will COUNTER or INTERRUPT your action and force you to
+make an unknown roll.
+
+You attempt to-
+
+
+exec: exec
+But you fail to notice the floorboard beneath your feet fly off, likely under
+Backswitch's power.
+
+ You fall without any ground beneath you.
+
+You land under the stage with a thud before climbing out unceremoniously; a
+jeering Backswitch there to greet you as you rise.
+
+Backswitch
+Had a nice trip?
+
+16
+You swing with a little too much oomph, nearly lifting you off your feet.
+
+
+exec: exec
+
+exec: exec
+
+exec: exec
+
+exec: exec
+Backswitch steps into range before you complete the swing, throwing a
+counterpunch.
+
+
+exec: exec
+You take it on your jaw and the world becomes blurry.
+
+You nearly lose your footing but try for a counterattack.
+
+
+exec: exec
+But your timing's been read and Backswitch lays into you.
+
+Backswitch
+Dumbfuck.
+
+12
+You duck Backswitch's blows, weaving in and out of his range.
+
+Seeing this, Backswitch makes a gesture and from across the street, a manhole
+cover goes flying in your direction.
+
+
+exec: exec
+You manage to avoid it, leaping from your low position, as it flies underneath
+you and crashes into backstage.
+
+Backswitch
+Hmm. Not as talkative as your stage persona, are ya?
+
+Wishmaker
+Shut it with the backtalk, Backswitch.
+
+Backswitch
+Backtalk, smacktalk.
+
+Backswitch
+You know who you really need to watch out for? Truck drivers.
+
+Wishmaker
+Huh? What does that m-{nw}
+
+But Backswitch was already running away.
+
+You began to run after him but not before incoming traffic became INCOMING
+traffic with Backswitch sent a truck, its tires squealing, toppling sidewards
+towards you.
+
+Wishmaker
+What does that-
+
+But Backswitch was already running away.
+
+You began to run after him but not before incoming traffic became INCOMING
+traffic with Backswitch sent a truck, its tires squealing, toppling sidewards
+towards you.
+
+Everyone's thought about it once.
+
+Being the hero.
+
+Shin
+{i}But despite getting superpowers...{/i}
+
+You dive out of the way of the truck as its thrown into a nearby freeway,
+crashing into traffic. You see smoke. You hear screaming.
+
+Shin
+{i}...and I HATE admitting this...{/i}
+
+You run over to one of the nearby pedestrians, picking the one who looks the
+most physically capable; the most likely choice.
+
+Shin
+{i}...I never get to be the hero.{/i}
+
+You clasp his hands and ask.
+
+Shin
+Do you {gradient2=6-E40303-FF8C00-2-FF8C00-FFED00-2-FFED00-008026-2-008026-004
+CFF-2-004CFF-732982-2-732982-E40303-2}WISH{/gradient2} to be a hero?
+
+Jumping back to storylets...
+99
+95
+85
+100
+95
+95
+85
+100
+99
+95
+85
+95
+95
+85
+It's the day after your fight.
+
+You're in the lounge of Hero HQ, chicken pecking at your keyboard.
+
+Shin
+And as I finished… my… signature… line…
+
+Shin
+...
+
+Shin
+This report's going nowhere.
+
+You got up and left the building. On your way out, somebody taps you on the
+shoulder.
+
+???
+Hey.
+
+You turn around, only to get a cold drink to the face as you do.
+
+Sekibanki
+Want a drink?
+
+You take the can of carbonated sweet sickness from his hands before placing it
+and your laptop off to the side.
+
+Shin
+Good guess, but water's my preference.
+
+Shin
+So how was it? The training exercises.
+
+Sekibanki
+Usual. The other city's team leader kept arguing with Reimu and we didn't get
+anything done.
+
+Shin
+Ah.
+
+You went back to typing to try and keep your thought off the fact they didn't
+bother bring you.
+
+Sekibanki
+Not trying to exaggerate for your sake by the way. It was truly awful.
+
+Sekibanki
+What about you? You finish the report?
+
+Shin
+Yeah, well, part of it at least.
+
+Sekibanki
+Run me through it then. Maybe I can help jog your memory.
+
+Shin
+Well at first. it went about as normal as usual.
+
+Shin
+A normal kids event, you know, cause-
+
+You glanced at his reaction, squirming a sliver, knowing your next words.
+
+Sekibanki
+I'm not allowed {fast}to actually patrol.
+
+Sekibanki
+I know, we all know.
+
+
+
+Sekibanki
+Let's put the aside though. Where're you headed?
+
+Jumping back to storylets...
+95
+95
+99
+95
+85
+85
+100
+--- Sun Jun 23 18:23:35 2024
+
+Initialized st_chapter_start_1
+Initialized st_help_stranger
+Initialized st_kogasa_first_time
+Initialized st_shin_and_seija_first_encounter
+Initialized st_shin_meets_sekibanki
+Initialized st_supply_run
+Initialized st_trigger_event
+99
+95
+100
+85
+95
+85
+95
+There's shattered glass in the stage curtain, shimmering in blue. Your enemy
+calls from the skies.
+
+???
+Come out, come out wish boy!
+
+Now... now is the time to strike!
+
+Shin
+May even your wish come true, someday.
+
+{sc}WOOOOOOOOOOOOO!{/sc}
+
+The sound of tiny applause and unenthused parents rings out from your
+audience. It's a sea of small hands pointing to you.
+
+You hear the cue to bow so you do.
+
+We love you Wishmaker!
+
+{i}The smiles, the games, the acting... it's all...{/i}
+
+???
+Kids shit.
+
+The fallen mascot suit, in upstage left, took to its feet{fast} and removed
+its oversized head to reveal Backswitch.
+
+Minor villain, major nuisance.
+
+He's been around the block, making waves with her gravity flipping powers. As
+a relative newbie, this is your first time face-to-face with a villain.
+
+Despite the excited gasps from the audience, the staff begin ushering everyone
+out.
+
+Shin
+{i}Okay, this is fine. Drop the banter for now, focus on keeping it
+together.{/i}
+
+Backswitch
+I was wonderin' about the noise following some new hero. Looks like noise was
+all it was.
+
+Backswitch
+Don't you agree, {bt=6}{color=000000}wish boy?{/color}{/bt}
+
+10
+
+exec: exec
+Tutorial
+Often times, opponents will COUNTER or INTERRUPT your action and force you to
+make an unknown roll.
+
+You attempt to-
+
+
+exec: exec
+But before you can, you notice the floorboard beneath your feet about to fly
+off. You leap backwards out of harms way. Backswitch seems genuinely
+surprised.
+
+Backswitch
+Not as dumb as you look?
+
+10
+You bring your weapon in for a swing at Backswitch's midriff.
+
+
+exec: exec
+
+exec: exec
+Backswitch stifles a pained grunt.
+
+13
+You throw your weight behind your weapon, bringing it down in a wide arc.
+
+
+exec: exec
+
+exec: exec
+Backswitch is hit squarely in the chest.
+
+He backs away a step while gasping for air.
+
+16
+You swing with a little too much oomph, nearly lifting you off your feet.
+
+
+exec: exec
+
+exec: exec
+
+exec: exec
+
+exec: exec
+Backswitch steps into range before you complete the swing, throwing a
+counterpunch.
+
+
+exec: exec
+You take it on your jaw and the world becomes blurry.
+
+You nearly lose your footing but try for a counterattack.
+
+
+exec: exec
+But your timing's been read and Backswitch lays into you.
+
+Backswitch
+Dumbfuck.
+
+12
+You duck Backswitch's blows, weaving in and out of his range.
+
+Seeing this, Backswitch makes a gesture and from across the street, a manhole
+cover goes flying in your direction.
+
+
+exec: exec
+You move even lower, a poor move, as the manhole cover sweeps your legs and
+you land with your back against the ground.
+
+The scramble afterwards to get back into a fighting stance is less graceful
+than you'd hoped.
+
+Backswitch
+Hmm. Not as talkative as your stage persona, are ya?
+
+Wishmaker
+Shut it with the backtalk, Backswitch.
+
+Backswitch
+Backtalk, smacktalk.
+
+Backswitch
+You know who you really need to watch out for? Truck drivers.
+
+Wishmaker
+Huh? What does that m-{nw}
+
+But Backswitch was already running away.
+
+You began to run after him but not before incoming traffic became INCOMING
+traffic with Backswitch sent a truck, its tires squealing, toppling sidewards
+towards you.
+
+Wishmaker
+What does that-
+
+But Backswitch was already running away.
+
+You began to run after him but not before incoming traffic became INCOMING
+traffic with Backswitch sent a truck, its tires squealing, toppling sidewards
+towards you.
+
+Everyone's thought about it once.
+
+Being the hero.
+
+Shin
+{i}But despite getting superpowers...{/i}
+
+You dive out of the way of the truck as its thrown into a nearby freeway,
+crashing into traffic. You see smoke. You hear screaming.
+
+Shin
+{i}...and I HATE admitting this...{/i}
+
+You run over to one of the nearby pedestrians, picking the one who looks the
+most physically capable; the most likely choice.
+
+Shin
+{i}...I never get to be the hero.{/i}
+
+You clasp his hands and ask.
+
+Shin
+Do you {gradient2=6-E40303-FF8C00-2-FF8C00-FFED00-2-FFED00-008026-2-008026-004
+CFF-2-004CFF-732982-2-732982-E40303-2}WISH{/gradient2} to be a hero?
+
+Jumping back to storylets...
+95
+85
+85
+95
+95
+99
+100
+85
+95
+85
+95
+99
+100
+95
+Skipped: [<store.Storylet object at 0x00000000072ed730>]
+It's the day after your fight.
+
+You're in the lounge of Hero HQ, chicken pecking at your keyboard.
+
+Shin
+And as I finished… my… signature… line…
+
+Shin
+...
+
+Shin
+This report's going nowhere.
+
+You got up and left the building. On your way out, somebody taps you on the
+shoulder.
+
+???
+Hey.
+
+You turn around, only to get a cold drink to the face as you do.
+
+Sekibanki
+Want a drink?
+
+You take the can of carbonated sweet sickness from his hands before placing it
+and your laptop off to the side.
+
+Shin
+Good guess, but water's my preference.
+
+Shin
+So how was it? The training exercises.
+
+Sekibanki
+Usual. The other city's team leader kept arguing with Reimu and we didn't get
+anything done.
+
+Shin
+Ah.
+
+You went back to typing to try and keep your thought off the fact they didn't
+bother bring you.
+
+Sekibanki
+Not trying to exaggerate for your sake by the way. It was truly awful.
+
+Sekibanki
+What about you? You finish the report?
+
+Shin
+Yeah, well, part of it at least.
+
+Sekibanki
+Run me through it then. Maybe I can help jog your memory.
+
+Shin
+Well at first. it went about as normal as usual.
+
+Shin
+A normal kids event, you know, cause-
+
+You glanced at his reaction, squirming a sliver, knowing your next words.
+
+Sekibanki
+I'm not allowed {fast}to actually patrol.
+
+Sekibanki
+I know, we all know.
+
+
+
+Sekibanki
+Let's put the aside though. Where're you headed?
+
+Jumping back to storylets...
+--- Sun Jun 23 18:24:53 2024
+
+--- Sun Jun 23 18:24:59 2024
+
+Initialized st_chapter_start_1
+Initialized st_help_stranger
+Initialized st_kogasa_first_time
+Initialized st_shin_and_seija_first_encounter
+Initialized st_shin_meets_sekibanki
+Initialized st_supply_run
+Initialized st_trigger_event
+95
+100
+85
+99
+95
+85
+95
+There's shattered glass in the stage curtain, shimmering in blue. Your enemy
+calls from the skies.
+
+???
+Come out, come out wish boy!
+
+Now... now is the time to strike!
+
+Shin
+May even your wish come true, someday.
+
+{sc}WOOOOOOOOOOOOO!{/sc}
+
+The sound of tiny applause and unenthused parents rings out from your
+audience. It's a sea of small hands pointing to you.
+
+You hear the cue to bow so you do.
+
+We love you Wishmaker!
+
+{i}The smiles, the games, the acting... it's all...{/i}
+
+???
+Kids shit.
+
+The fallen mascot suit, in upstage left, took to its feet{fast} and removed
+its oversized head to reveal Backswitch.
+
+Minor villain, major nuisance.
+
+He's been around the block, making waves with her gravity flipping powers. As
+a relative newbie, this is your first time face-to-face with a villain.
+
+Despite the excited gasps from the audience, the staff begin ushering everyone
+out.
+
+Shin
+{i}Okay, this is fine. Drop the banter for now, focus on keeping it
+together.{/i}
+
+Backswitch
+I was wonderin' about the noise following some new hero. Looks like noise was
+all it was.
+
+Backswitch
+Don't you agree, {bt=6}{color=000000}wish boy?{/color}{/bt}
+
+10
+You bring your weapon in for a swing at Backswitch's midriff.
+
+
+exec: exec
+
+exec: exec
+Backswitch points at your weapon and sends it flying out of your hands.
+
+You manage to get ahold of it before it goes offstage.
+
+Backswitch's laugh booms from his echoing demon mask.
+
+Backswitch
+Idiot.
+
+13
+You throw your weight behind your weapon, bringing it down in a wide arc.
+
+
+exec: exec
+
+exec: exec
+Backswitch is hit squarely in the chest.
+
+He backs away a step while gasping for air.
+
+16
+You swing with a little too much oomph, nearly lifting you off your feet.
+
+
+exec: exec
+
+exec: exec
+
+exec: exec
+
+exec: exec
+Backswitch steps into range before you complete the swing, throwing a
+counterpunch.
+
+
+exec: exec
+You take it on your jaw and the world becomes blurry.
+
+You nearly lose your footing but try for a counterattack.
+
+
+exec: exec
+But your timing's been read and Backswitch lays into you.
+
+Backswitch
+Dumbfuck.
+
+12
+You duck Backswitch's blows, weaving in and out of his range.
+
+Seeing this, Backswitch makes a gesture and from across the street, a manhole
+cover goes flying in your direction.
+
+
+exec: exec
+You manage to avoid it, leaping from your low position, as it flies underneath
+you and crashes into backstage.
+
+10
+
+exec: exec
+Tutorial
+Often times, opponents will COUNTER or INTERRUPT your action and force you to
+make an unknown roll.
+
+You attempt to-
+
+
+exec: exec
+But you fail to notice the floorboard beneath your feet fly off, likely under
+Backswitch's power.
+
+ You fall without any ground beneath you.
+
+You land under the stage with a thud before climbing out unceremoniously; a
+jeering Backswitch there to greet you as you rise.
+
+Backswitch
+Had a nice trip?
+
+Backswitch
+Hmm. Not as talkative as your stage persona, are ya?
+
+Wishmaker
+Shut it with the backtalk, Backswitch.
+
+Backswitch
+Backtalk, smacktalk.
+
+Backswitch
+You know who you really need to watch out for? Truck drivers.
+
+Wishmaker
+Huh? What does that m-{nw}
+
+But Backswitch was already running away.
+
+You began to run after him but not before incoming traffic became INCOMING
+traffic with Backswitch sent a truck, its tires squealing, toppling sidewards
+towards you.
+
+Wishmaker
+What does that-
+
+But Backswitch was already running away.
+
+You began to run after him but not before incoming traffic became INCOMING
+traffic with Backswitch sent a truck, its tires squealing, toppling sidewards
+towards you.
+
+Everyone's thought about it once.
+
+Being the hero.
+
+Shin
+{i}But despite getting superpowers...{/i}
+
+You dive out of the way of the truck as its thrown into a nearby freeway,
+crashing into traffic. You see smoke. You hear screaming.
+
+Shin
+{i}...and I HATE admitting this...{/i}
+
+You run over to one of the nearby pedestrians, picking the one who looks the
+most physically capable; the most likely choice.
+
+Shin
+{i}...I never get to be the hero.{/i}
+
+You clasp his hands and ask.
+
+Shin
+Do you {gradient2=6-E40303-FF8C00-2-FF8C00-FFED00-2-FFED00-008026-2-008026-004
+CFF-2-004CFF-732982-2-732982-E40303-2}WISH{/gradient2} to be a hero?
+
+Jumping back to storylets...
+100
+85
+95
+95
+99
+95
+85
+95
+95
+99
+85
+85
+95
+100
+Skipped: Label: st_kogasa_first_time, Prereq: ['time >= 0', 'chapter == 1'],
+Results: ['global time; time += 1'], Urgency: 95, Completed: False, Skipped:
+False
+It's the day after your fight.
+
+You're in the lounge of Hero HQ, chicken pecking at your keyboard.
+
+Shin
+And as I finished… my… signature… line…
+
+Shin
+...
+
+Shin
+This report's going nowhere.
+
+You got up and left the building. On your way out, somebody taps you on the
+shoulder.
+
+???
+Hey.
+
+You turn around, only to get a cold drink to the face as you do.
+
+Sekibanki
+Want a drink?
+
+You take the can of carbonated sweet sickness from his hands before placing it
+and your laptop off to the side.
+
+Shin
+Good guess, but water's my preference.
+
+Shin
+So how was it? The training exercises.
+
+Sekibanki
+Usual. The other city's team leader kept arguing with Reimu and we didn't get
+anything done.
+
+Shin
+Ah.
+
+You went back to typing to try and keep your thought off the fact they didn't
+bother bring you.
+
+Sekibanki
+Not trying to exaggerate for your sake by the way. It was truly awful.
+
+Sekibanki
+What about you? You finish the report?
+
+Shin
+Yeah, well, part of it at least.
+
+Sekibanki
+Run me through it then. Maybe I can help jog your memory.
+
+Shin
+Well at first. it went about as normal as usual.
+
+Shin
+A normal kids event, you know, cause-
+
+You glanced at his reaction, squirming a sliver, knowing your next words.
+
+Sekibanki
+I'm not allowed {fast}to actually patrol.
+
+Sekibanki
+I know, we all know.
+
+
+
+Sekibanki
+Let's put the aside though. Where're you headed?
+
+Jumping back to storylets...
+99
+95
+95
+85
+95
+85
+100
+85
+100
+95
+85
+99
+95
+95
+After training's over at Hero HQ, you head out when Sekibanki catches up to
+you.
+
+Sekibanki
+Good work today, got another order of supplies for tomorrow. Energy drinks and
+the like.
+
+Shin
+Another supply run? Is there no one else available?
+
+Sekibanki
+You and I both know the others are just giving you things to do around here.
+
+Sekibanki
+They're trying to make you feel a part of the team, yknow?
+
+Shin
+But what about you?
+
+It would be an understatement to say it was bit of a shock for you when you
+got your powers a month ago.
+
+It would be another understatement to say it was surprising to find out that
+the heroes of the city lived in...
+
+...something less like the sci-fi movie military headquarters and more like a
+recreation room that got stretched out to fill an entire floor.
+
+And it would be an even bigger understatement to say that Aegaeon wasn't the
+team player everyone made him out to be: chatty in public, shy behind doors.
+
+He was less the glue holding everyone together and more so the introvert who
+could put in the effort to reach out from time to time.
+
+Even so, the lion's share of your interactions with heroes have been with
+Sekibanki.
+
+Sekibanki
+That's just who I am. I don't hate people, I just like being alone sometimes.
+
+Shin
+But that's not really the case for me.
+
+Sekibanki
+No it's not.
+
+Sekibanki turns towards you.
+
+Sekibanki
+I can't force the others to warm up to you but honestly?
+
+Sekibanki
+I think I just plain old like you.
+
+Shin
+{i}I- uh? Did I hear that right?{/i}
+
+Sekibanki
+You're a good person. That's more than most of us can say.
+
+Shin
+{i}Oh. He meant that.{/i}
+
+Shin
+Wait, "most of us"?
+
+There was something a little solemn about his expression when he answered me.
+
+Sekibanki
+Yeah.
+
+You could see him bite his lip, maybe thinking what to say.
+
+Sekibanki
+Make sure you always walk the high road, Shin.
+
+You weren't sure how to respond to that. You just kept walking.
+
+Shin
+I... I will.
+
+Sekibanki
+Good.
+
+You shook off any further thoughts.
+
+Shin
+I'll get going so I can get a head start on these supplies tomorrow.
+
+Sekibanki
+ALright, then see you later!
+
+Shin
+See you!
+
+Shin
+...
+
+Shin
+How odd...
+
+Jumping back to storylets...
+--- Sun Jun 23 18:25:50 2024
+
+Initialized st_chapter_start_1
+Initialized st_help_stranger
+Initialized st_kogasa_first_time
+Initialized st_shin_and_seija_first_encounter
+Initialized st_shin_meets_sekibanki
+Initialized st_supply_run
+Initialized st_trigger_event
+95
+85
+95
+85
+95
+99
+100
+There's shattered glass in the stage curtain, shimmering in blue. Your enemy
+calls from the skies.
+
+???
+Come out, come out wish boy!
+
+Now... now is the time to strike!
+
+Shin
+May even your wish come true, someday.
+
+{sc}WOOOOOOOOOOOOO!{/sc}
+
+The sound of tiny applause and unenthused parents rings out from your
+audience. It's a sea of small hands pointing to you.
+
+You hear the cue to bow so you do.
+
+We love you Wishmaker!
+
+--- Sun Jun 23 18:27:48 2024
+
+Initialized st_chapter_start_1
+Initialized st_help_stranger
+Initialized st_kogasa_first_time
+Initialized st_shin_and_seija_first_encounter
+Initialized st_shin_meets_sekibanki
+Initialized st_supply_run
+Initialized st_trigger_event
+85
+95
+95
+95
+100
+99
+85
+There's shattered glass in the stage curtain, shimmering in blue. Your enemy
+calls from the skies.
+
+???
+Come out, come out wish boy!
+
+Now... now is the time to strike!
+
+Shin
+May even your wish come true, someday.
+
+{sc}WOOOOOOOOOOOOO!{/sc}
+
+The sound of tiny applause and unenthused parents rings out from your
+audience. It's a sea of small hands pointing to you.
+
+You hear the cue to bow so you do.
+
+We love you Wishmaker!
+
+{i}The smiles, the games, the acting... it's all...{/i}
+
+???
+Kids shit.
+
+The fallen mascot suit, in upstage left, took to its feet{fast} and removed
+its oversized head to reveal Backswitch.
+
+Minor villain, major nuisance.
+
+He's been around the block, making waves with her gravity flipping powers. As
+a relative newbie, this is your first time face-to-face with a villain.
+
+Despite the excited gasps from the audience, the staff begin ushering everyone
+out.
+
+Shin
+{i}Okay, this is fine. Drop the banter for now, focus on keeping it
+together.{/i}
+
+Backswitch
+I was wonderin' about the noise following some new hero. Looks like noise was
+all it was.
+
+Backswitch
+Don't you agree, {bt=6}{color=000000}wish boy?{/color}{/bt}
+
+10
+
+exec: exec
+Tutorial
+Often times, opponents will COUNTER or INTERRUPT your action and force you to
+make an unknown roll.
+
+You attempt to-
+
+
+exec: exec
+But you fail to notice the floorboard beneath your feet fly off, likely under
+Backswitch's power.
+
+ You fall without any ground beneath you.
+
+You land under the stage with a thud before climbing out unceremoniously; a
+jeering Backswitch there to greet you as you rise.
+
+Backswitch
+Had a nice trip?
+
+10
+You bring your weapon in for a swing at Backswitch's midriff.
+
+
+exec: exec
+
+exec: exec
+Backswitch points at your weapon and sends it flying out of your hands.
+
+You manage to get ahold of it before it goes offstage.
+
+Backswitch's laugh booms from his echoing demon mask.
+
+Backswitch
+Idiot.
+
+13
+You throw your weight behind your weapon, bringing it down in a wide arc.
+
+
+exec: exec
+
+exec: exec
+Backswitch sidesteps your swing and sends a prop sword flying at your face.
+
+You parry it as well as you can but still get a bit roughed up.
+
+Backswitch
+Iiiiiiidiot.
+
+16
+You swing with a little too much oomph, nearly lifting you off your feet.
+
+
+exec: exec
+
+exec: exec
+Backswitch blocks the telegraphed attack but the sheer force sends him
+backpedaling, wincing.
+
+12
+You duck Backswitch's blows, weaving in and out of his range.
+
+Seeing this, Backswitch makes a gesture and from across the street, a manhole
+cover goes flying in your direction.
+
+
+exec: exec
+You manage to avoid it, leaping from your low position, as it flies underneath
+you and crashes into backstage.
+
+Backswitch
+Hmm. Not as talkative as your stage persona, are ya?
+
+Wishmaker
+Shut it with the backtalk, Backswitch.
+
+Backswitch
+Backtalk, smacktalk.
+
+Backswitch
+You know who you really need to watch out for? Truck drivers.
+
+Wishmaker
+Huh? What does that m-{nw}
+
+But Backswitch was already running away.
+
+You began to run after him but not before incoming traffic became INCOMING
+traffic with Backswitch sent a truck, its tires squealing, toppling sidewards
+towards you.
+
+Wishmaker
+What does that-
+
+But Backswitch was already running away.
+
+You began to run after him but not before incoming traffic became INCOMING
+traffic with Backswitch sent a truck, its tires squealing, toppling sidewards
+towards you.
+
+Everyone's thought about it once.
+
+Being the hero.
+
+Shin
+{i}But despite getting superpowers...{/i}
+
+You dive out of the way of the truck as its thrown into a nearby freeway,
+crashing into traffic. You see smoke. You hear screaming.
+
+Shin
+{i}...and I HATE admitting this...{/i}
+
+You run over to one of the nearby pedestrians, picking the one who looks the
+most physically capable; the most likely choice.
+
+Shin
+{i}...I never get to be the hero.{/i}
+
+You clasp his hands and ask.
+
+Shin
+Do you {gradient2=6-E40303-FF8C00-2-FF8C00-FFED00-2-FFED00-008026-2-008026-004
+CFF-2-004CFF-732982-2-732982-E40303-2}WISH{/gradient2} to be a hero?
+
+Jumping back to storylets...
+You have unspent upgrade points. Click on a character to spend them.
+
+95
+85
+85
+100
+99
+95
+95
+Highest urgency: 99
+95
+100
+95
+99
+95
+85
+85
+Highest urgency: 99
+Skipped: Label: st_shin_meets_sekibanki, Prereq: ['time >= 0', 'chapter ==
+1'], Results: ['global time; time += 1'], Urgency: 99, Completed: False,
+Skipped: False
+After training's over at Hero HQ, you head out when Sekibanki catches up to
+you.
+
+--- Sun Jun 23 18:31:01 2024
+
+Initialized st_chapter_start_1
+Initialized st_help_stranger
+Initialized st_kogasa_first_time
+Initialized st_shin_and_seija_first_encounter
+Initialized st_shin_meets_sekibanki
+Initialized st_supply_run
+Initialized st_trigger_event
+There's shattered glass in the stage curtain, shimmering in blue. Your enemy
+calls from the skies.
+
+???
+Come out, come out wish boy!
+
+Now... now is the time to strike!
+
+Shin
+May even your wish come true, someday.
+
+{sc}WOOOOOOOOOOOOO!{/sc}
+
+The sound of tiny applause and unenthused parents rings out from your
+audience. It's a sea of small hands pointing to you.
+
+You hear the cue to bow so you do.
+
+We love you Wishmaker!
+
+{i}The smiles, the games, the acting... it's all...{/i}
+
+???
+Kids shit.
+
+The fallen mascot suit, in upstage left, took to its feet{fast} and removed
+its oversized head to reveal Backswitch.
+
+Minor villain, major nuisance.
+
+He's been around the block, making waves with her gravity flipping powers. As
+a relative newbie, this is your first time face-to-face with a villain.
+
+Despite the excited gasps from the audience, the staff begin ushering everyone
+out.
+
+Shin
+{i}Okay, this is fine. Drop the banter for now, focus on keeping it
+together.{/i}
+
+Backswitch
+I was wonderin' about the noise following some new hero. Looks like noise was
+all it was.
+
+Backswitch
+Don't you agree, {bt=6}{color=000000}wish boy?{/color}{/bt}
+
+10
+
+exec: exec
+Tutorial
+Often times, opponents will COUNTER or INTERRUPT your action and force you to
+make an unknown roll.
+
+You attempt to-
+
+
+exec: exec
+But you fail to notice the floorboard beneath your feet fly off, likely under
+Backswitch's power.
+
+ You fall without any ground beneath you.
+
+You land under the stage with a thud before climbing out unceremoniously; a
+jeering Backswitch there to greet you as you rise.
+
+Backswitch
+Had a nice trip?
+
+10
+You bring your weapon in for a swing at Backswitch's midriff.
+
+
+exec: exec
+
+exec: exec
+Backswitch stifles a pained grunt.
+
+13
+You throw your weight behind your weapon, bringing it down in a wide arc.
+
+
+exec: exec
+
+exec: exec
+Backswitch sidesteps your swing and sends a prop sword flying at your face.
+
+You parry it as well as you can but still get a bit roughed up.
+
+Backswitch
+Iiiiiiidiot.
+
+16
+You swing with a little too much oomph, nearly lifting you off your feet.
+
+
+exec: exec
+
+exec: exec
+
+exec: exec
+
+exec: exec
+Backswitch steps into range before you complete the swing, throwing a
+counterpunch.
+
+
+exec: exec
+You take it on your jaw and the world becomes blurry.
+
+You nearly lose your footing but try for a counterattack.
+
+
+exec: exec
+But your timing's been read and Backswitch lays into you.
+
+Backswitch
+Dumbfuck.
+
+The last thing you see before you collapse onto the ground is his mask. You
+can tell he's got the ugliest smirk behind it.
+
+Jumping back to storylets...
+Highest urgency: 99
+99
+Highest urgency: 99
+99
+Skipped: Label: st_supply_run, Prereq: ['time >= 0', 'chapter == 1'], Results:
+['global time; time += 1'], Urgency: 95, Completed: False, Skipped: True
+--- Sun Jun 23 18:32:16 2024
+
+--- Sun Jun 23 18:32:49 2024
+
+Initialized st_chapter_start_1
+Initialized st_help_stranger
+Initialized st_kogasa_first_time
+Initialized st_shin_and_seija_first_encounter
+Initialized st_shin_meets_sekibanki
+Initialized st_supply_run
+Initialized st_trigger_event
+There's shattered glass in the stage curtain, shimmering in blue. Your enemy
+calls from the skies.
+
+???
+Come out, come out wish boy!
+
+Now... now is the time to strike!
+
+Shin
+May even your wish come true, someday.
+
+{sc}WOOOOOOOOOOOOO!{/sc}
+
+The sound of tiny applause and unenthused parents rings out from your
+audience. It's a sea of small hands pointing to you.
+
+You hear the cue to bow so you do.
+
+We love you Wishmaker!
+
+{i}The smiles, the games, the acting... it's all...{/i}
+
+???
+Kids shit.
+
+The fallen mascot suit, in upstage left, took to its feet{fast} and removed
+its oversized head to reveal Backswitch.
+
+Minor villain, major nuisance.
+
+He's been around the block, making waves with her gravity flipping powers. As
+a relative newbie, this is your first time face-to-face with a villain.
+
+Despite the excited gasps from the audience, the staff begin ushering everyone
+out.
+
+Shin
+{i}Okay, this is fine. Drop the banter for now, focus on keeping it
+together.{/i}
+
+Backswitch
+I was wonderin' about the noise following some new hero. Looks like noise was
+all it was.
+
+Backswitch
+Don't you agree, {bt=6}{color=000000}wish boy?{/color}{/bt}
+
+--- Sun Jun 23 18:33:48 2024
+
+Initialized st_chapter_start_1
+Initialized st_help_stranger
+Initialized st_kogasa_first_time
+Initialized st_shin_and_seija_first_encounter
+Initialized st_shin_meets_sekibanki
+Initialized st_supply_run
+Initialized st_trigger_event
+--- Sun Jun 23 18:34:32 2024
+
+Initialized st_chapter_start_1
+Initialized st_help_stranger
+Initialized st_kogasa_first_time
+Initialized st_shin_and_seija_first_encounter
+Initialized st_shin_meets_sekibanki
+Initialized st_supply_run
+Initialized st_trigger_event
+There's shattered glass in the stage curtain, shimmering in blue. Your enemy
+calls from the skies.
+
+???
+Come out, come out wish boy!
+
+Now... now is the time to strike!
+
+Shin
+May even your wish come true, someday.
+
+{sc}WOOOOOOOOOOOOO!{/sc}
+
+The sound of tiny applause and unenthused parents rings out from your
+audience. It's a sea of small hands pointing to you.
+
+You hear the cue to bow so you do.
+
+We love you Wishmaker!
+
+{i}The smiles, the games, the acting... it's all...{/i}
+
+???
+Kids shit.
+
+The fallen mascot suit, in upstage left, took to its feet{fast} and removed
+its oversized head to reveal Backswitch.
+
+Minor villain, major nuisance.
+
+He's been around the block, making waves with her gravity flipping powers. As
+a relative newbie, this is your first time face-to-face with a villain.
+
+Despite the excited gasps from the audience, the staff begin ushering everyone
+out.
+
+Shin
+{i}Okay, this is fine. Drop the banter for now, focus on keeping it
+together.{/i}
+
+Backswitch
+I was wonderin' about the noise following some new hero. Looks like noise was
+all it was.
+
+Backswitch
+Don't you agree, {bt=6}{color=000000}wish boy?{/color}{/bt}
+
+--- Sun Jun 23 18:35:24 2024
+
+Initialized st_chapter_start_1
+Initialized st_help_stranger
+Initialized st_kogasa_first_time
+Initialized st_shin_and_seija_first_encounter
+Initialized st_shin_meets_sekibanki
+Initialized st_supply_run
+Initialized st_trigger_event
+There's shattered glass in the stage curtain, shimmering in blue. Your enemy
+calls from the skies.
+
+???
+Come out, come out wish boy!
+
+Now... now is the time to strike!
+
+Shin
+May even your wish come true, someday.
+
+{sc}WOOOOOOOOOOOOO!{/sc}
+
+The sound of tiny applause and unenthused parents rings out from your
+audience. It's a sea of small hands pointing to you.
+
+You hear the cue to bow so you do.
+
+We love you Wishmaker!
+
+{i}The smiles, the games, the acting... it's all...{/i}
+
+???
+Kids shit.
+
+The fallen mascot suit, in upstage left, took to its feet{fast} and removed
+its oversized head to reveal Backswitch.
+
+Minor villain, major nuisance.
+
+He's been around the block, making waves with her gravity flipping powers. As
+a relative newbie, this is your first time face-to-face with a villain.
+
+Despite the excited gasps from the audience, the staff begin ushering everyone
+out.
+
+Shin
+{i}Okay, this is fine. Drop the banter for now, focus on keeping it
+together.{/i}
+
+Backswitch
+I was wonderin' about the noise following some new hero. Looks like noise was
+all it was.
+
+Backswitch
+Don't you agree, {bt=6}{color=000000}wish boy?{/color}{/bt}
+
+10
+
+exec: exec
+Tutorial
+Often times, opponents will COUNTER or INTERRUPT your action and force you to
+make an unknown roll.
+
+You attempt to-
+
+
+exec: exec
+But before you can, you notice the floorboard beneath your feet about to fly
+off. You leap backwards out of harms way. Backswitch seems genuinely
+surprised.
+
+Backswitch
+Not as dumb as you look?
+
+--- Sun Jun 23 18:36:59 2024
+
+Initialized st_chapter_start_1
+Initialized st_help_stranger
+Initialized st_kogasa_first_time
+Initialized st_shin_and_seija_first_encounter
+Initialized st_shin_meets_sekibanki
+Initialized st_supply_run
+Initialized st_trigger_event
+There's shattered glass in the stage curtain, shimmering in blue. Your enemy
+calls from the skies.
+
+???
+Come out, come out wish boy!
+
+Now... now is the time to strike!
+
+Shin
+May even your wish come true, someday.
+
+{sc}WOOOOOOOOOOOOO!{/sc}
+
+The sound of tiny applause and unenthused parents rings out from your
+audience. It's a sea of small hands pointing to you.
+
+You hear the cue to bow so you do.
+
+We love you Wishmaker!
+
+{i}The smiles, the games, the acting... it's all...{/i}
+
+???
+Kids shit.
+
+The fallen mascot suit, in upstage left, took to its feet{fast} and removed
+its oversized head to reveal Backswitch.
+
+Minor villain, major nuisance.
+
+He's been around the block, making waves with her gravity flipping powers. As
+a relative newbie, this is your first time face-to-face with a villain.
+
+Despite the excited gasps from the audience, the staff begin ushering everyone
+out.
+
+Shin
+{i}Okay, this is fine. Drop the banter for now, focus on keeping it
+together.{/i}
+
+Backswitch
+I was wonderin' about the noise following some new hero. Looks like noise was
+all it was.
+
+Backswitch
+Don't you agree, {bt=6}{color=000000}wish boy?{/color}{/bt}
+
+Initialized st_chapter_start_1
+Initialized st_help_stranger
+Initialized st_kogasa_first_time
+Initialized st_shin_and_seija_first_encounter
+Initialized st_shin_meets_sekibanki
+Initialized st_supply_run
+Initialized st_trigger_event
+--- Sun Jun 23 18:37:27 2024
+
+Initialized st_chapter_start_1
+Initialized st_help_stranger
+Initialized st_kogasa_first_time
+Initialized st_shin_and_seija_first_encounter
+Initialized st_shin_meets_sekibanki
+Initialized st_supply_run
+Initialized st_trigger_event
+There's shattered glass in the stage curtain, shimmering in blue. Your enemy
+calls from the skies.
+
+???
+Come out, come out wish boy!
+
+Now... now is the time to strike!
+
+Shin
+May even your wish come true, someday.
+
+{sc}WOOOOOOOOOOOOO!{/sc}
+
+The sound of tiny applause and unenthused parents rings out from your
+audience. It's a sea of small hands pointing to you.
+
+You hear the cue to bow so you do.
+
+We love you Wishmaker!
+
+{i}The smiles, the games, the acting... it's all...{/i}
+
+???
+Kids shit.
+
+The fallen mascot suit, in upstage left, took to its feet{fast} and removed
+its oversized head to reveal Backswitch.
+
+Minor villain, major nuisance.
+
+He's been around the block, making waves with her gravity flipping powers. As
+a relative newbie, this is your first time face-to-face with a villain.
+
+Despite the excited gasps from the audience, the staff begin ushering everyone
+out.
+
+Shin
+{i}Okay, this is fine. Drop the banter for now, focus on keeping it
+together.{/i}
+
+Backswitch
+I was wonderin' about the noise following some new hero. Looks like noise was
+all it was.
+
+Backswitch
+Don't you agree, {bt=6}{color=000000}wish boy?{/color}{/bt}
+
+Initialized st_chapter_start_1
+Initialized st_help_stranger
+Initialized st_kogasa_first_time
+Initialized st_shin_and_seija_first_encounter
+Initialized st_shin_meets_sekibanki
+Initialized st_supply_run
+Initialized st_trigger_event
+--- Sun Jun 23 18:38:17 2024
+
+Initialized st_chapter_start_1
+Initialized st_help_stranger
+Initialized st_kogasa_first_time
+Initialized st_shin_and_seija_first_encounter
+Initialized st_shin_meets_sekibanki
+Initialized st_supply_run
+Initialized st_trigger_event
+There's shattered glass in the stage curtain, shimmering in blue. Your enemy
+calls from the skies.
+
+???
+Come out, come out wish boy!
+
+Now... now is the time to strike!
+
+Shin
+May even your wish come true, someday.
+
+{sc}WOOOOOOOOOOOOO!{/sc}
+
+The sound of tiny applause and unenthused parents rings out from your
+audience. It's a sea of small hands pointing to you.
+
+You hear the cue to bow so you do.
+
+We love you Wishmaker!
+
+{i}The smiles, the games, the acting... it's all...{/i}
+
+???
+Kids shit.
+
+The fallen mascot suit, in upstage left, took to its feet{fast} and removed
+its oversized head to reveal Backswitch.
+
+Minor villain, major nuisance.
+
+He's been around the block, making waves with her gravity flipping powers. As
+a relative newbie, this is your first time face-to-face with a villain.
+
+Despite the excited gasps from the audience, the staff begin ushering everyone
+out.
+
+Shin
+{i}Okay, this is fine. Drop the banter for now, focus on keeping it
+together.{/i}
+
+Backswitch
+I was wonderin' about the noise following some new hero. Looks like noise was
+all it was.
+
+Backswitch
+Don't you agree, {bt=6}{color=000000}wish boy?{/color}{/bt}
+
+Initialized st_chapter_start_1
+Initialized st_help_stranger
+Initialized st_kogasa_first_time
+Initialized st_shin_and_seija_first_encounter
+Initialized st_shin_meets_sekibanki
+Initialized st_supply_run
+Initialized st_trigger_event
+--- Sun Jun 23 18:38:33 2024
+
+Initialized st_chapter_start_1
+Initialized st_help_stranger
+Initialized st_kogasa_first_time
+Initialized st_shin_and_seija_first_encounter
+Initialized st_shin_meets_sekibanki
+Initialized st_supply_run
+Initialized st_trigger_event
+There's shattered glass in the stage curtain, shimmering in blue. Your enemy
+calls from the skies.
+
+???
+Come out, come out wish boy!
+
+Now... now is the time to strike!
+
+Shin
+May even your wish come true, someday.
+
+{sc}WOOOOOOOOOOOOO!{/sc}
+
+The sound of tiny applause and unenthused parents rings out from your
+audience. It's a sea of small hands pointing to you.
+
+You hear the cue to bow so you do.
+
+We love you Wishmaker!
+
+{i}The smiles, the games, the acting... it's all...{/i}
+
+???
+Kids shit.
+
+The fallen mascot suit, in upstage left, took to its feet{fast} and removed
+its oversized head to reveal Backswitch.
+
+Minor villain, major nuisance.
+
+He's been around the block, making waves with her gravity flipping powers. As
+a relative newbie, this is your first time face-to-face with a villain.
+
+Despite the excited gasps from the audience, the staff begin ushering everyone
+out.
+
+Shin
+{i}Okay, this is fine. Drop the banter for now, focus on keeping it
+together.{/i}
+
+Backswitch
+I was wonderin' about the noise following some new hero. Looks like noise was
+all it was.
+
+Backswitch
+Don't you agree, {bt=6}{color=000000}wish boy?{/color}{/bt}
+
+Initialized st_chapter_start_1
+Initialized st_help_stranger
+Initialized st_kogasa_first_time
+Initialized st_shin_and_seija_first_encounter
+Initialized st_shin_meets_sekibanki
+Initialized st_supply_run
+Initialized st_trigger_event
+--- Sun Jun 23 18:39:06 2024
+
+Initialized st_chapter_start_1
+Initialized st_help_stranger
+Initialized st_kogasa_first_time
+Initialized st_shin_and_seija_first_encounter
+Initialized st_shin_meets_sekibanki
+Initialized st_supply_run
+Initialized st_trigger_event
+There's shattered glass in the stage curtain, shimmering in blue. Your enemy
+calls from the skies.
+
+???
+Come out, come out wish boy!
+
+Now... now is the time to strike!
+
+Shin
+May even your wish come true, someday.
+
+{sc}WOOOOOOOOOOOOO!{/sc}
+
+The sound of tiny applause and unenthused parents rings out from your
+audience. It's a sea of small hands pointing to you.
+
+You hear the cue to bow so you do.
+
+We love you Wishmaker!
+
+{i}The smiles, the games, the acting... it's all...{/i}
+
+???
+Kids shit.
+
+Initialized st_chapter_start_1
+Initialized st_help_stranger
+Initialized st_kogasa_first_time
+Initialized st_shin_and_seija_first_encounter
+Initialized st_shin_meets_sekibanki
+Initialized st_supply_run
+Initialized st_trigger_event
+--- Sun Jun 23 18:39:35 2024
+
+Initialized st_chapter_start_1
+Initialized st_help_stranger
+Initialized st_kogasa_first_time
+Initialized st_shin_and_seija_first_encounter
+Initialized st_shin_meets_sekibanki
+Initialized st_supply_run
+Initialized st_trigger_event
+There's shattered glass in the stage curtain, shimmering in blue. Your enemy
+calls from the skies.
+
+???
+Come out, come out wish boy!
+
+Now... now is the time to strike!
+
+Shin
+May even your wish come true, someday.
+
+{sc}WOOOOOOOOOOOOO!{/sc}
+
+The sound of tiny applause and unenthused parents rings out from your
+audience. It's a sea of small hands pointing to you.
+
+You hear the cue to bow so you do.
+
+We love you Wishmaker!
+
+{i}The smiles, the games, the acting... it's all...{/i}
+
+???
+Kids shit.
+
+The fallen mascot suit, in upstage left, took to its feet{fast} and removed
+its oversized head to reveal Backswitch.
+
+Initialized st_chapter_start_1
+Initialized st_help_stranger
+Initialized st_kogasa_first_time
+Initialized st_shin_and_seija_first_encounter
+Initialized st_shin_meets_sekibanki
+Initialized st_supply_run
+Initialized st_trigger_event
+--- Sun Jun 23 18:41:08 2024
+
+Initialized st_chapter_start_1
+Initialized st_help_stranger
+Initialized st_kogasa_first_time
+Initialized st_shin_and_seija_first_encounter
+Initialized st_shin_meets_sekibanki
+Initialized st_supply_run
+Initialized st_trigger_event
+There's shattered glass in the stage curtain, shimmering in blue. Your enemy
+calls from the skies.
+
+???
+Come out, come out wish boy!
+
+Now... now is the time to strike!
+
+Shin
+May even your wish come true, someday.
+
+{sc}WOOOOOOOOOOOOO!{/sc}
+
+The sound of tiny applause and unenthused parents rings out from your
+audience. It's a sea of small hands pointing to you.
+
+You hear the cue to bow so you do.
+
+Initialized st_chapter_start_1
+Initialized st_help_stranger
+Initialized st_kogasa_first_time
+Initialized st_shin_and_seija_first_encounter
+Initialized st_shin_meets_sekibanki
+Initialized st_supply_run
+Initialized st_trigger_event
+--- Sun Jun 23 18:42:01 2024
+
+Initialized st_chapter_start_1
+Initialized st_help_stranger
+Initialized st_kogasa_first_time
+Initialized st_shin_and_seija_first_encounter
+Initialized st_shin_meets_sekibanki
+Initialized st_supply_run
+Initialized st_trigger_event
+--- Sun Jun 23 18:42:14 2024
+
+Initialized st_chapter_start_1
+Initialized st_help_stranger
+Initialized st_kogasa_first_time
+Initialized st_shin_and_seija_first_encounter
+Initialized st_shin_meets_sekibanki
+Initialized st_supply_run
+Initialized st_trigger_event
+--- Sun Jun 23 18:42:33 2024
+
+Initialized st_chapter_start_1
+Initialized st_help_stranger
+Initialized st_kogasa_first_time
+Initialized st_shin_and_seija_first_encounter
+Initialized st_shin_meets_sekibanki
+Initialized st_supply_run
+Initialized st_trigger_event
+There's shattered glass in the stage curtain, shimmering in blue. Your enemy
+calls from the skies.
+
+???
+Come out, come out wish boy!
+
+Now... now is the time to strike!
+
+Shin
+May even your wish come true, someday.
+
+{sc}WOOOOOOOOOOOOO!{/sc}
+
+The sound of tiny applause and unenthused parents rings out from your
+audience. It's a sea of small hands pointing to you.
+
+You hear the cue to bow so you do.
+
+We love you Wishmaker!
+
+{i}The smiles, the games, the acting... it's all...{/i}
+
+???
+Kids shit.
+
+The fallen mascot suit, in upstage left, took to its feet{fast} and removed
+its oversized head to reveal Backswitch.
+
+Minor villain, major nuisance.
+
+He's been around the block, making waves with her gravity flipping powers. As
+a relative newbie, this is your first time face-to-face with a villain.
+
+--- Sun Jun 23 18:42:52 2024
+
+Initialized st_chapter_start_1
+Initialized st_help_stranger
+Initialized st_kogasa_first_time
+Initialized st_shin_and_seija_first_encounter
+Initialized st_shin_meets_sekibanki
+Initialized st_supply_run
+Initialized st_trigger_event
+There's shattered glass in the stage curtain, shimmering in blue. Your enemy
+calls from the skies.
+
+???
+Come out, come out wish boy!
+
+Now... now is the time to strike!
+
+Shin
+May even your wish come true, someday.
+
+{sc}WOOOOOOOOOOOOO!{/sc}
+
+The sound of tiny applause and unenthused parents rings out from your
+audience. It's a sea of small hands pointing to you.
+
+You hear the cue to bow so you do.
+
+We love you Wishmaker!
+
+{i}The smiles, the games, the acting... it's all...{/i}
+
+???
+Kids shit.
+
+The fallen mascot suit, in upstage left, took to its feet{fast} and removed
+its oversized head to reveal Backswitch.
+
+Minor villain, major nuisance.
+
+He's been around the block, making waves with her gravity flipping powers. As
+a relative newbie, this is your first time face-to-face with a villain.
+
+Despite the excited gasps from the audience, the staff begin ushering everyone
+out.
+
+Shin
+{i}Okay, this is fine. Drop the banter for now, focus on keeping it
+together.{/i}
+
+Backswitch
+I was wonderin' about the noise following some new hero. Looks like noise was
+all it was.
+
+Backswitch
+Don't you agree, {bt=6}{color=000000}wish boy?{/color}{/bt}
+
+10
+You bring your weapon in for a swing at Backswitch's midriff.
+
+
+exec: exec
+
+exec: exec
+Backswitch points at your weapon and sends it flying out of your hands.
+
+You manage to get ahold of it before it goes offstage.
+
+Backswitch's laugh booms from his echoing demon mask.
+
+Backswitch
+Idiot.
+
+13
+You throw your weight behind your weapon, bringing it down in a wide arc.
+
+
+exec: exec
+
+exec: exec
+Backswitch sidesteps your swing and sends a prop sword flying at your face.
+
+You parry it as well as you can but still get a bit roughed up.
+
+Backswitch
+Iiiiiiidiot.
+
+16
+You swing with a little too much oomph, nearly lifting you off your feet.
+
+
+exec: exec
+
+exec: exec
+
+exec: exec
+
+exec: exec
+Backswitch steps into range before you complete the swing, throwing a
+counterpunch.
+
+
+exec: exec
+You take it on your jaw and the world becomes blurry.
+
+You nearly lose your footing but try for a counterattack.
+
+
+exec: exec
+But your timing's been read and Backswitch lays into you.
+
+Backswitch
+Dumbfuck.
+
+12
+You duck Backswitch's blows, weaving in and out of his range.
+
+Seeing this, Backswitch makes a gesture and from across the street, a manhole
+cover goes flying in your direction.
+
+
+exec: exec
+You manage to avoid it, leaping from your low position, as it flies underneath
+you and crashes into backstage.
+
+15
+You roll for cover, stage props and lighting equipment becoming temporary
+shelter for you to catch your breath.
+
+It's a balancing act to not stay in one place for too long however as your
+protections could become projectiles with just a gesture from Backswitch.
+
+
+exec: exec
+A balancing act{cps=1.5}... {/cps}gone wrong as a wardrobe full of costumes
+goes flying right as you roll, straight into your face.
+
+The last thing you see before you collapse onto the ground is his mask. You
+can tell he's got the ugliest smirk behind it.
+
+Jumping back to storylets...
+--- Sun Jun 23 18:45:31 2024
+
+--- Sun Jun 23 18:50:53 2024
+
+--- Sun Jun 23 18:54:05 2024
+
+--- Sun Jun 23 18:54:22 2024
+
+--- Sun Jun 23 18:54:28 2024
+
+--- Sun Jun 23 18:54:31 2024
+
+Initialized st_chapter_start_1
+Initialized st_help_stranger
+Initialized st_kogasa_first_time
+Initialized st_shin_and_seija_first_encounter
+Initialized st_shin_meets_sekibanki
+Initialized st_supply_run
+Initialized st_trigger_event
+Initialized st_chapter_start_1
+Initialized st_help_stranger
+Initialized st_kogasa_first_time
+Initialized st_shin_and_seija_first_encounter
+Initialized st_shin_meets_sekibanki
+Initialized st_supply_run
+Initialized st_trigger_event
+Initialized st_chapter_start_1
+Initialized st_help_stranger
+Initialized st_kogasa_first_time
+Initialized st_shin_and_seija_first_encounter
+Initialized st_shin_meets_sekibanki
+Initialized st_supply_run
+Initialized st_trigger_event
+--- Sun Jun 23 18:55:51 2024
+
+Initialized st_chapter_start_1
+Initialized st_help_stranger
+Initialized st_kogasa_first_time
+Initialized st_shin_and_seija_first_encounter
+Initialized st_shin_meets_sekibanki
+Initialized st_supply_run
+Initialized st_trigger_event
+--- Sun Jun 23 18:56:03 2024
+
+Initialized st_chapter_start_1
+Initialized st_help_stranger
+Initialized st_kogasa_first_time
+Initialized st_shin_and_seija_first_encounter
+Initialized st_shin_meets_sekibanki
+Initialized st_supply_run
+Initialized st_trigger_event
+--- Sun Jun 23 18:56:31 2024
+
+Initialized st_chapter_start_1
+Initialized st_help_stranger
+Initialized st_kogasa_first_time
+Initialized st_shin_and_seija_first_encounter
+Initialized st_shin_meets_sekibanki
+Initialized st_supply_run
+Initialized st_trigger_event
+--- Sun Jun 23 18:56:42 2024
+
+Initialized st_chapter_start_1
+Initialized st_help_stranger
+Initialized st_kogasa_first_time
+Initialized st_shin_and_seija_first_encounter
+Initialized st_shin_meets_sekibanki
+Initialized st_supply_run
+Initialized st_trigger_event
+--- Sun Jun 23 18:57:06 2024
+
+Initialized st_chapter_start_1
+Initialized st_help_stranger
+Initialized st_kogasa_first_time
+Initialized st_shin_and_seija_first_encounter
+Initialized st_shin_meets_sekibanki
+Initialized st_supply_run
+Initialized st_trigger_event
+--- Sun Jun 23 18:57:17 2024
+
+Initialized st_chapter_start_1
+Initialized st_help_stranger
+Initialized st_kogasa_first_time
+Initialized st_shin_and_seija_first_encounter
+Initialized st_shin_meets_sekibanki
+Initialized st_supply_run
+Initialized st_trigger_event
+--- Sun Jun 23 18:57:33 2024
+
+Initialized st_chapter_start_1
+Initialized st_help_stranger
+Initialized st_kogasa_first_time
+Initialized st_shin_and_seija_first_encounter
+Initialized st_shin_meets_sekibanki
+Initialized st_supply_run
+Initialized st_trigger_event
+--- Sun Jun 23 18:57:59 2024
+
+Initialized st_chapter_start_1
+Initialized st_help_stranger
+Initialized st_kogasa_first_time
+Initialized st_shin_and_seija_first_encounter
+Initialized st_shin_meets_sekibanki
+Initialized st_supply_run
+Initialized st_trigger_event
+--- Sun Jun 23 18:58:16 2024
+
+Initialized st_chapter_start_1
+Initialized st_help_stranger
+Initialized st_kogasa_first_time
+Initialized st_shin_and_seija_first_encounter
+Initialized st_shin_meets_sekibanki
+Initialized st_supply_run
+Initialized st_trigger_event
+--- Sun Jun 23 18:58:45 2024
+
+Initialized st_chapter_start_1
+Initialized st_help_stranger
+Initialized st_kogasa_first_time
+Initialized st_shin_and_seija_first_encounter
+Initialized st_shin_meets_sekibanki
+Initialized st_supply_run
+Initialized st_trigger_event
+--- Sun Jun 23 18:59:00 2024
+
+Initialized st_chapter_start_1
+Initialized st_help_stranger
+Initialized st_kogasa_first_time
+Initialized st_shin_and_seija_first_encounter
+Initialized st_shin_meets_sekibanki
+Initialized st_supply_run
+Initialized st_trigger_event
+Initialized st_chapter_start_1
+Initialized st_help_stranger
+Initialized st_kogasa_first_time
+Initialized st_shin_and_seija_first_encounter
+Initialized st_shin_meets_sekibanki
+Initialized st_supply_run
+Initialized st_trigger_event
+--- Sun Jun 23 19:00:13 2024
+
+Initialized st_chapter_start_1
+Initialized st_help_stranger
+Initialized st_kogasa_first_time
+Initialized st_shin_and_seija_first_encounter
+Initialized st_shin_meets_sekibanki
+Initialized st_supply_run
+Initialized st_trigger_event
+--- Sun Jun 23 19:00:48 2024
+
+Initialized st_chapter_start_1
+Initialized st_help_stranger
+Initialized st_kogasa_first_time
+Initialized st_shin_and_seija_first_encounter
+Initialized st_shin_meets_sekibanki
+Initialized st_supply_run
+Initialized st_trigger_event
+Initialized st_chapter_start_1
+Initialized st_help_stranger
+Initialized st_kogasa_first_time
+Initialized st_shin_and_seija_first_encounter
+Initialized st_shin_meets_sekibanki
+Initialized st_supply_run
+Initialized st_trigger_event
+--- Sun Jun 23 19:01:40 2024
+
+Initialized st_chapter_start_1
+Initialized st_help_stranger
+Initialized st_kogasa_first_time
+Initialized st_shin_and_seija_first_encounter
+Initialized st_shin_meets_sekibanki
+Initialized st_supply_run
+Initialized st_trigger_event
+Initialized st_chapter_start_1
+Initialized st_help_stranger
+Initialized st_kogasa_first_time
+Initialized st_shin_and_seija_first_encounter
+Initialized st_shin_meets_sekibanki
+Initialized st_supply_run
+Initialized st_trigger_event
+--- Sun Jun 23 19:02:00 2024
+
+Initialized st_chapter_start_1
+Initialized st_help_stranger
+Initialized st_kogasa_first_time
+Initialized st_shin_and_seija_first_encounter
+Initialized st_shin_meets_sekibanki
+Initialized st_supply_run
+Initialized st_trigger_event
+Initialized st_chapter_start_1
+Initialized st_help_stranger
+Initialized st_kogasa_first_time
+Initialized st_shin_and_seija_first_encounter
+Initialized st_shin_meets_sekibanki
+Initialized st_supply_run
+Initialized st_trigger_event
+--- Sun Jun 23 19:02:35 2024
+
+--- Sun Jun 23 19:02:37 2024
+
+Initialized st_chapter_start_1
+Initialized st_help_stranger
+Initialized st_kogasa_first_time
+Initialized st_shin_and_seija_first_encounter
+Initialized st_shin_meets_sekibanki
+Initialized st_supply_run
+Initialized st_trigger_event
+--- Sun Jun 23 19:02:59 2024
+
+--- Sun Jun 23 19:03:00 2024
+
+Initialized st_chapter_start_1
+Initialized st_help_stranger
+Initialized st_kogasa_first_time
+Initialized st_shin_and_seija_first_encounter
+Initialized st_shin_meets_sekibanki
+Initialized st_supply_run
+Initialized st_trigger_event
+Initialized st_chapter_start_1
+Initialized st_help_stranger
+Initialized st_kogasa_first_time
+Initialized st_shin_and_seija_first_encounter
+Initialized st_shin_meets_sekibanki
+Initialized st_supply_run
+Initialized st_trigger_event
+Initialized st_chapter_start_1
+Initialized st_help_stranger
+Initialized st_kogasa_first_time
+Initialized st_shin_and_seija_first_encounter
+Initialized st_shin_meets_sekibanki
+Initialized st_supply_run
+Initialized st_trigger_event
+--- Sun Jun 23 19:03:19 2024
+
+Initialized st_chapter_start_1
+Initialized st_help_stranger
+Initialized st_kogasa_first_time
+Initialized st_shin_and_seija_first_encounter
+Initialized st_shin_meets_sekibanki
+Initialized st_supply_run
+Initialized st_trigger_event
+--- Sun Jun 23 19:05:15 2024
+
+--- Sun Jun 23 19:05:17 2024
+
+Initialized st_chapter_start_1
+Initialized st_help_stranger
+Initialized st_kogasa_first_time
+Initialized st_shin_and_seija_first_encounter
+Initialized st_shin_meets_sekibanki
+Initialized st_supply_run
+Initialized st_trigger_event
+--- Sun Jun 23 19:05:49 2024
+
+--- Sun Jun 23 19:05:52 2024
+
+Initialized st_chapter_start_1
+Initialized st_help_stranger
+Initialized st_kogasa_first_time
+Initialized st_shin_and_seija_first_encounter
+Initialized st_shin_meets_sekibanki
+Initialized st_supply_run
+Initialized st_trigger_event
+Initialized st_chapter_start_1
+Initialized st_help_stranger
+Initialized st_kogasa_first_time
+Initialized st_shin_and_seija_first_encounter
+Initialized st_shin_meets_sekibanki
+Initialized st_supply_run
+Initialized st_trigger_event
+--- Sun Jun 23 19:10:00 2024
+
+Initialized st_chapter_start_1
+Initialized st_help_stranger
+Initialized st_kogasa_first_time
+Initialized st_shin_and_seija_first_encounter
+Initialized st_shin_meets_sekibanki
+Initialized st_supply_run
+Initialized st_trigger_event
+Initialized st_chapter_start_1
+Initialized st_help_stranger
+Initialized st_kogasa_first_time
+Initialized st_shin_and_seija_first_encounter
+Initialized st_shin_meets_sekibanki
+Initialized st_supply_run
+Initialized st_trigger_event
+--- Sun Jun 23 19:11:09 2024
+
+Initialized st_chapter_start_1
+Initialized st_help_stranger
+Initialized st_kogasa_first_time
+Initialized st_shin_and_seija_first_encounter
+Initialized st_shin_meets_sekibanki
+Initialized st_supply_run
+Initialized st_trigger_event
+Initialized st_chapter_start_1
+Initialized st_help_stranger
+Initialized st_kogasa_first_time
+Initialized st_shin_and_seija_first_encounter
+Initialized st_shin_meets_sekibanki
+Initialized st_supply_run
+Initialized st_trigger_event
+Initialized st_chapter_start_1
+Initialized st_help_stranger
+Initialized st_kogasa_first_time
+Initialized st_shin_and_seija_first_encounter
+Initialized st_shin_meets_sekibanki
+Initialized st_supply_run
+Initialized st_trigger_event
+--- Sun Jun 23 19:11:38 2024
+
+Initialized st_chapter_start_1
+Initialized st_help_stranger
+Initialized st_kogasa_first_time
+Initialized st_shin_and_seija_first_encounter
+Initialized st_shin_meets_sekibanki
+Initialized st_supply_run
+Initialized st_trigger_event
+Initialized st_chapter_start_1
+Initialized st_help_stranger
+Initialized st_kogasa_first_time
+Initialized st_shin_and_seija_first_encounter
+Initialized st_shin_meets_sekibanki
+Initialized st_supply_run
+Initialized st_trigger_event
+--- Sun Jun 23 19:11:56 2024
+
+Initialized st_chapter_start_1
+Initialized st_help_stranger
+Initialized st_kogasa_first_time
+Initialized st_shin_and_seija_first_encounter
+Initialized st_shin_meets_sekibanki
+Initialized st_supply_run
+Initialized st_trigger_event
+Initialized st_chapter_start_1
+Initialized st_help_stranger
+Initialized st_kogasa_first_time
+Initialized st_shin_and_seija_first_encounter
+Initialized st_shin_meets_sekibanki
+Initialized st_supply_run
+Initialized st_trigger_event
+--- Sun Jun 23 19:17:22 2024
+
+Initialized st_chapter_start_1
+Initialized st_help_stranger
+Initialized st_kogasa_first_time
+Initialized st_shin_and_seija_first_encounter
+Initialized st_shin_meets_sekibanki
+Initialized st_supply_run
+Initialized st_trigger_event
+Initialized st_chapter_start_1
+Initialized st_help_stranger
+Initialized st_kogasa_first_time
+Initialized st_shin_and_seija_first_encounter
+Initialized st_shin_meets_sekibanki
+Initialized st_supply_run
+Initialized st_trigger_event
+--- Sun Jun 23 19:17:49 2024
+
+Initialized st_chapter_start_1
+Initialized st_help_stranger
+Initialized st_kogasa_first_time
+Initialized st_shin_and_seija_first_encounter
+Initialized st_shin_meets_sekibanki
+Initialized st_supply_run
+Initialized st_trigger_event
+Initialized st_chapter_start_1
+Initialized st_help_stranger
+Initialized st_kogasa_first_time
+Initialized st_shin_and_seija_first_encounter
+Initialized st_shin_meets_sekibanki
+Initialized st_supply_run
+Initialized st_trigger_event
+--- Sun Jun 23 19:18:25 2024
+
+Initialized st_chapter_start_1
+Initialized st_help_stranger
+Initialized st_kogasa_first_time
+Initialized st_shin_and_seija_first_encounter
+Initialized st_shin_meets_sekibanki
+Initialized st_supply_run
+Initialized st_trigger_event
+Initialized st_chapter_start_1
+Initialized st_help_stranger
+Initialized st_kogasa_first_time
+Initialized st_shin_and_seija_first_encounter
+Initialized st_shin_meets_sekibanki
+Initialized st_supply_run
+Initialized st_trigger_event
+--- Sun Jun 23 19:18:40 2024
+
+Initialized st_chapter_start_1
+Initialized st_help_stranger
+Initialized st_kogasa_first_time
+Initialized st_shin_and_seija_first_encounter
+Initialized st_shin_meets_sekibanki
+Initialized st_supply_run
+Initialized st_trigger_event
+Initialized st_chapter_start_1
+Initialized st_help_stranger
+Initialized st_kogasa_first_time
+Initialized st_shin_and_seija_first_encounter
+Initialized st_shin_meets_sekibanki
+Initialized st_supply_run
+Initialized st_trigger_event
+--- Sun Jun 23 19:18:56 2024
+
+Initialized st_chapter_start_1
+Initialized st_help_stranger
+Initialized st_kogasa_first_time
+Initialized st_shin_and_seija_first_encounter
+Initialized st_shin_meets_sekibanki
+Initialized st_supply_run
+Initialized st_trigger_event
+Initialized st_chapter_start_1
+Initialized st_help_stranger
+Initialized st_kogasa_first_time
+Initialized st_shin_and_seija_first_encounter
+Initialized st_shin_meets_sekibanki
+Initialized st_supply_run
+Initialized st_trigger_event
+--- Sun Jun 23 19:19:19 2024
+
+Initialized st_chapter_start_1
+Initialized st_help_stranger
+Initialized st_kogasa_first_time
+Initialized st_shin_and_seija_first_encounter
+Initialized st_shin_meets_sekibanki
+Initialized st_supply_run
+Initialized st_trigger_event
+Initialized st_chapter_start_1
+Initialized st_help_stranger
+Initialized st_kogasa_first_time
+Initialized st_shin_and_seija_first_encounter
+Initialized st_shin_meets_sekibanki
+Initialized st_supply_run
+Initialized st_trigger_event
+--- Sun Jun 23 19:19:54 2024
+
+Initialized st_chapter_start_1
+Initialized st_help_stranger
+Initialized st_kogasa_first_time
+Initialized st_shin_and_seija_first_encounter
+Initialized st_shin_meets_sekibanki
+Initialized st_supply_run
+Initialized st_trigger_event
+Initialized st_chapter_start_1
+Initialized st_help_stranger
+Initialized st_kogasa_first_time
+Initialized st_shin_and_seija_first_encounter
+Initialized st_shin_meets_sekibanki
+Initialized st_supply_run
+Initialized st_trigger_event
+--- Sun Jun 23 19:20:11 2024
+
+Initialized st_chapter_start_1
+Initialized st_help_stranger
+Initialized st_kogasa_first_time
+Initialized st_shin_and_seija_first_encounter
+Initialized st_shin_meets_sekibanki
+Initialized st_supply_run
+Initialized st_trigger_event
+Initialized st_chapter_start_1
+Initialized st_help_stranger
+Initialized st_kogasa_first_time
+Initialized st_shin_and_seija_first_encounter
+Initialized st_shin_meets_sekibanki
+Initialized st_supply_run
+Initialized st_trigger_event
+--- Sun Jun 23 19:20:26 2024
+
+Initialized st_chapter_start_1
+Initialized st_help_stranger
+Initialized st_kogasa_first_time
+Initialized st_shin_and_seija_first_encounter
+Initialized st_shin_meets_sekibanki
+Initialized st_supply_run
+Initialized st_trigger_event
+Initialized st_chapter_start_1
+Initialized st_help_stranger
+Initialized st_kogasa_first_time
+Initialized st_shin_and_seija_first_encounter
+Initialized st_shin_meets_sekibanki
+Initialized st_supply_run
+Initialized st_trigger_event
+--- Sun Jun 23 19:20:50 2024
+
+Initialized st_chapter_start_1
+Initialized st_help_stranger
+Initialized st_kogasa_first_time
+Initialized st_shin_and_seija_first_encounter
+Initialized st_shin_meets_sekibanki
+Initialized st_supply_run
+Initialized st_trigger_event
+Initialized st_chapter_start_1
+Initialized st_help_stranger
+Initialized st_kogasa_first_time
+Initialized st_shin_and_seija_first_encounter
+Initialized st_shin_meets_sekibanki
+Initialized st_supply_run
+Initialized st_trigger_event
+--- Sun Jun 23 19:21:04 2024
+
+Initialized st_chapter_start_1
+Initialized st_help_stranger
+Initialized st_kogasa_first_time
+Initialized st_shin_and_seija_first_encounter
+Initialized st_shin_meets_sekibanki
+Initialized st_supply_run
+Initialized st_trigger_event
+Initialized st_chapter_start_1
+Initialized st_help_stranger
+Initialized st_kogasa_first_time
+Initialized st_shin_and_seija_first_encounter
+Initialized st_shin_meets_sekibanki
+Initialized st_supply_run
+Initialized st_trigger_event
+--- Sun Jun 23 19:21:24 2024
+
+Initialized st_chapter_start_1
+Initialized st_help_stranger
+Initialized st_kogasa_first_time
+Initialized st_shin_and_seija_first_encounter
+Initialized st_shin_meets_sekibanki
+Initialized st_supply_run
+Initialized st_trigger_event
+Initialized st_chapter_start_1
+Initialized st_help_stranger
+Initialized st_kogasa_first_time
+Initialized st_shin_and_seija_first_encounter
+Initialized st_shin_meets_sekibanki
+Initialized st_supply_run
+Initialized st_trigger_event
+--- Sun Jun 23 19:21:41 2024
+
+Initialized st_chapter_start_1
+Initialized st_help_stranger
+Initialized st_kogasa_first_time
+Initialized st_shin_and_seija_first_encounter
+Initialized st_shin_meets_sekibanki
+Initialized st_supply_run
+Initialized st_trigger_event
+Initialized st_chapter_start_1
+Initialized st_help_stranger
+Initialized st_kogasa_first_time
+Initialized st_shin_and_seija_first_encounter
+Initialized st_shin_meets_sekibanki
+Initialized st_supply_run
+Initialized st_trigger_event
+--- Sun Jun 23 19:22:34 2024
+
+Initialized st_chapter_start_1
+Initialized st_help_stranger
+Initialized st_kogasa_first_time
+Initialized st_shin_and_seija_first_encounter
+Initialized st_shin_meets_sekibanki
+Initialized st_supply_run
+Initialized st_trigger_event
+Initialized st_chapter_start_1
+Initialized st_help_stranger
+Initialized st_kogasa_first_time
+Initialized st_shin_and_seija_first_encounter
+Initialized st_shin_meets_sekibanki
+Initialized st_supply_run
+Initialized st_trigger_event
+--- Sun Jun 23 19:23:53 2024
+
+Initialized st_chapter_start_1
+Initialized st_help_stranger
+Initialized st_kogasa_first_time
+Initialized st_shin_and_seija_first_encounter
+Initialized st_shin_meets_sekibanki
+Initialized st_supply_run
+Initialized st_trigger_event
+Initialized st_chapter_start_1
+Initialized st_help_stranger
+Initialized st_kogasa_first_time
+Initialized st_shin_and_seija_first_encounter
+Initialized st_shin_meets_sekibanki
+Initialized st_supply_run
+Initialized st_trigger_event
+--- Sun Jun 23 19:25:24 2024
+
+Initialized st_chapter_start_1
+Initialized st_help_stranger
+Initialized st_kogasa_first_time
+Initialized st_shin_and_seija_first_encounter
+Initialized st_shin_meets_sekibanki
+Initialized st_supply_run
+Initialized st_trigger_event
+Initialized st_chapter_start_1
+Initialized st_help_stranger
+Initialized st_kogasa_first_time
+Initialized st_shin_and_seija_first_encounter
+Initialized st_shin_meets_sekibanki
+Initialized st_supply_run
+Initialized st_trigger_event
+--- Sun Jun 23 19:25:37 2024
+
+Initialized st_chapter_start_1
+Initialized st_help_stranger
+Initialized st_kogasa_first_time
+Initialized st_shin_and_seija_first_encounter
+Initialized st_shin_meets_sekibanki
+Initialized st_supply_run
+Initialized st_trigger_event
+Initialized st_chapter_start_1
+Initialized st_help_stranger
+Initialized st_kogasa_first_time
+Initialized st_shin_and_seija_first_encounter
+Initialized st_shin_meets_sekibanki
+Initialized st_supply_run
+Initialized st_trigger_event
+--- Sun Jun 23 19:26:50 2024
+
+Initialized st_chapter_start_1
+Initialized st_help_stranger
+Initialized st_kogasa_first_time
+Initialized st_shin_and_seija_first_encounter
+Initialized st_shin_meets_sekibanki
+Initialized st_supply_run
+Initialized st_trigger_event
+Initialized st_chapter_start_1
+Initialized st_help_stranger
+Initialized st_kogasa_first_time
+Initialized st_shin_and_seija_first_encounter
+Initialized st_shin_meets_sekibanki
+Initialized st_supply_run
+Initialized st_trigger_event
+Initialized st_chapter_start_1
+Initialized st_help_stranger
+Initialized st_kogasa_first_time
+Initialized st_shin_and_seija_first_encounter
+Initialized st_shin_meets_sekibanki
+Initialized st_supply_run
+Initialized st_trigger_event
+Initialized st_chapter_start_1
+Initialized st_help_stranger
+Initialized st_kogasa_first_time
+Initialized st_shin_and_seija_first_encounter
+Initialized st_shin_meets_sekibanki
+Initialized st_supply_run
+Initialized st_trigger_event
+--- Sun Jun 23 19:30:00 2024
+
+Initialized st_chapter_start_1
+Initialized st_help_stranger
+Initialized st_kogasa_first_time
+Initialized st_shin_and_seija_first_encounter
+Initialized st_shin_meets_sekibanki
+Initialized st_supply_run
+Initialized st_trigger_event
+Initialized st_chapter_start_1
+Initialized st_help_stranger
+Initialized st_kogasa_first_time
+Initialized st_shin_and_seija_first_encounter
+Initialized st_shin_meets_sekibanki
+Initialized st_supply_run
+Initialized st_trigger_event
+--- Sun Jun 23 19:31:34 2024
+
+Initialized st_chapter_start_1
+Initialized st_help_stranger
+Initialized st_kogasa_first_time
+Initialized st_shin_and_seija_first_encounter
+Initialized st_shin_meets_sekibanki
+Initialized st_supply_run
+Initialized st_trigger_event
+Initialized st_chapter_start_1
+Initialized st_help_stranger
+Initialized st_kogasa_first_time
+Initialized st_shin_and_seija_first_encounter
+Initialized st_shin_meets_sekibanki
+Initialized st_supply_run
+Initialized st_trigger_event
+Initialized st_chapter_start_1
+Initialized st_help_stranger
+Initialized st_kogasa_first_time
+Initialized st_shin_and_seija_first_encounter
+Initialized st_shin_meets_sekibanki
+Initialized st_supply_run
+Initialized st_trigger_event
+There's shattered glass in the stage curtain, shimmering in blue. Your enemy
+calls from the skies.
+
+???
+Come out, come out wish boy!
+
+Now... now is the time to strike!
+
+Shin
+May even your wish come true, someday.
+
+Initialized st_chapter_start_1
+Initialized st_help_stranger
+Initialized st_kogasa_first_time
+Initialized st_shin_and_seija_first_encounter
+Initialized st_shin_meets_sekibanki
+Initialized st_supply_run
+Initialized st_trigger_event
+Initialized st_chapter_start_1
+Initialized st_help_stranger
+Initialized st_kogasa_first_time
+Initialized st_shin_and_seija_first_encounter
+Initialized st_shin_meets_sekibanki
+Initialized st_supply_run
+Initialized st_trigger_event
+There's shattered glass in the stage curtain, shimmering in blue. Your enemy
+calls from the skies.
+
+???
+Come out, come out wish boy!
+
+Now... now is the time to strike!
+
+Shin
+May even your wish come true, someday.
+
+Initialized st_chapter_start_1
+Initialized st_help_stranger
+Initialized st_kogasa_first_time
+Initialized st_shin_and_seija_first_encounter
+Initialized st_shin_meets_sekibanki
+Initialized st_supply_run
+Initialized st_trigger_event
+Initialized st_chapter_start_1
+Initialized st_help_stranger
+Initialized st_kogasa_first_time
+Initialized st_shin_and_seija_first_encounter
+Initialized st_shin_meets_sekibanki
+Initialized st_supply_run
+Initialized st_trigger_event
+--- Sun Jun 23 19:50:53 2024
+
+--- Sun Jun 23 19:51:40 2024
+
+--- Sun Jun 23 19:52:20 2024
+
+--- Sun Jun 23 19:52:40 2024
+
+--- Sun Jun 23 19:53:04 2024
+
+--- Sun Jun 23 19:53:25 2024
+
+--- Sun Jun 23 19:53:47 2024
+
+--- Sun Jun 23 19:54:10 2024
+
+--- Sun Jun 23 19:54:27 2024
+
+--- Sun Jun 23 19:54:54 2024
+
+--- Sun Jun 23 19:55:24 2024
+
+--- Sun Jun 23 19:55:34 2024
+
+--- Sun Jun 23 19:56:00 2024
+
+--- Sun Jun 23 19:56:29 2024
+
+--- Sun Jun 23 19:56:31 2024
+
+--- Sun Jun 23 19:56:51 2024
+
+--- Sun Jun 23 19:58:28 2024
+
+--- Sun Jun 23 19:58:40 2024
+
+--- Sun Jun 23 19:58:43 2024
+
+--- Sun Jun 23 19:58:57 2024
+
+--- Sun Jun 23 19:59:10 2024
+
+--- Sun Jun 23 19:59:28 2024
+
+--- Sun Jun 23 19:59:39 2024
+
+--- Sun Jun 23 19:59:52 2024
+
+--- Sun Jun 23 20:00:14 2024
+
+--- Sun Jun 23 20:00:59 2024
+
+--- Sun Jun 23 20:01:27 2024
+

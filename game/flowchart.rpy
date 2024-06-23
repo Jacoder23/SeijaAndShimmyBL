@@ -5,7 +5,7 @@ screen flowchart:
         label "Upgrade Points: [upgrade_points]"
     vbox:
         xalign 0.95
-        yalign 0.95
+        yalign 0.90
         textbutton "Continue":
             action Function(renpy.call_in_new_context, "continue_storylets")
     vbox:
@@ -30,25 +30,30 @@ screen flowchart:
                         xalign 0.5
                         action ToggleScreen("characters_screen", transition=Dissolve, character=seija_battler)
                         tooltip "Open character sheet"
-    hbox:
-        viewport:
+    viewport:
+        xalign 0.5
+        mousewheel True
+        draggable True
+        scrollbars "vertical"
+        vbox:
+            xfill True
             xalign 0.5
-            mousewheel True
-            draggable True
-            scrollbars "vertical"
-            vbox:
-                xfill True
-                xalign 0.5
-                yalign 0.1
-                spacing -10
-                for i in range(0, 100):
-                    if len([x.urgency == 100 - i for x in storylets]) > 0:
-                        hbox:
-                            xalign 0.5
-                            spacing 50
-                            for storylet in [x for x in storylets if x.urgency == 100 - i]:
-                                $ previewColor = "FFF" if storylet.completed else "999"
-                                if persistent.showStoryletPreviews or storylet.completed:
-                                    label "{color=[previewColor]}[storylet.preview]{/color}"
-                                else:
-                                    label "{color=[previewColor]}???{/color}"
+            yalign 0.0
+            spacing -20
+            for i in range(0, 100):
+                if len([x.urgency == 100 - i for x in storylets]) > 0:
+                    hbox:
+                        ysize 20
+                        xalign 0.5
+                        spacing 50
+                        for storylet in [x for x in storylets if x.urgency == 100 - i]:
+                            if storylet.completed:
+                                $ previewColor = "FFF"
+                            elif storylet.skipped:
+                                $ previewColor = "FF3333"
+                            else:
+                                $ previewColor = "999"
+                            if persistent.showStoryletPreviews or storylet.completed:
+                                label "{color=[previewColor]}[storylet.preview]{/color}"
+                            else:
+                                label "{color=[previewColor]}???{/color}"

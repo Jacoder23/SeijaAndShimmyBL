@@ -300,7 +300,7 @@ screen achievement_gallery():
     ## Version 2 ###############################################################
     ## Otherwise, if you'd like this to be independent of the game menu,
     ## use the following:
-    textbutton _("Return") action Return():
+    textbutton _("RETURN") action Return():
         style "return_button"
         align (0.97, 0.97)
 
@@ -315,7 +315,7 @@ screen achievement_gallery():
     ############################################################################
     ## Version 3 ###############################################################
     ## You might also consider a vpgrid layout like so:
-    # textbutton _("Return") action Return() align (1.0, 1.0)
+    # textbutton _("RETURN") action Return() align (1.0, 1.0)
     # vpgrid:
     #     cols 2
     #     mousewheel True draggable True pagekeys True

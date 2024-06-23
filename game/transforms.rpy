@@ -1,6 +1,8 @@
 define longfade = Fade(0, 0.5, 3)
 
-define flash = Fade(1, 0.0, 0.5, color="#fff")
+define quickflash = Fade(0.1, 0.0, 0.1, color="#fff")
+
+define flash = Fade(0.5, 0.0, 0.5, color="#fff")
 
 define longflash = Fade(1, 1, 1, color="#fff")
 
@@ -13,7 +15,7 @@ transform glowing_interactable:
         ease 0.4 outline_transform(2, "#bdbdbd", 3.0, end_color="#00859c")
         repeat
     on hover:
-        ease 0.05 outline_transform(-1, "#00ff55", 3.0)
+        ease 0.05 outline_transform(1, "#00ff55", 3.0)
 
 define x_pos_stack_spacing = 200
 
