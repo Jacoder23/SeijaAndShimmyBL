@@ -1,6 +1,8 @@
 define longfade = Fade(0, 0.5, 3)
 
-define flash = Fade(1, 0.0, 0.5, color="#fff")
+define quickflash = Fade(0.1, 0.0, 0.1, color="#fff")
+
+define flash = Fade(0.5, 0.0, 0.5, color="#fff")
 
 define longflash = Fade(1, 1, 1, color="#fff")
 

@@ -5,7 +5,7 @@ screen flowchart:
         label "Upgrade Points: [upgrade_points]"
     vbox:
         xalign 0.95
-        yalign 0.95
+        yalign 0.90
         textbutton "Continue":
             action Function(renpy.call_in_new_context, "continue_storylets")
     vbox:

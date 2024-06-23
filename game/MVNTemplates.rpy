@@ -12,6 +12,9 @@
 
 # Nai @ Make Visual Novels
 
+transform NoShader: # Jacoder23
+    shader None
+
 transform AnimatedAberate:
     shader "MakeVisualNovels.AnimatedAberration"
     u_aberrationAmount(10.0)
@@ -176,7 +179,7 @@ transform TakeOnMe:
     shader "MakeVisualNovels.TakeOnMe"
     #Intensity here is 0 to 1 and determines how much of the darker colors are crushed to black.
     u_color (1.0,1.0,1.0,1.0)
-    u_intensity (0.6)
+    u_intensity (0.5)
     # How many changes per second.
     # Higher is more energetic.
     u_fps (6.0)
@@ -193,9 +196,9 @@ transform TakeOnMe:
     u_flipSpeed (0.15)
     u_flipScale (10)
     #Consider tacking on 
-    #pause 0 
+    pause 0 
     #and 
-    #repeat 
+    repeat 
     #to make RenPy actually render it properly.
     
 

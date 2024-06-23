@@ -519,6 +519,31 @@ label st_chapter_start_1:
 
     #scene bg black
 
+    # persona ah intro
+
+    scene bg black with fade
+
+    pause
+
+    show seija:
+        xpos -1000
+        ypos 100
+
+    show seija:
+        ease 1 xpos 500 rotate 15 zoom 1.5 ypos -200
+
+    $ renpy.pause(1.0, hard=True)
+
+    show seija at TakeOnMe
+    show text "{size=100}{font=[gui.name_text_font]}SEIJA KIJIN{/font}{/size}\n{size=70}WANTED FOR BEING A GAMER{/size}" at truecenter, outline_transform(3, "#000", 8.0)
+    with quickflash
+
+    pause
+
+    scene test bg
+    show seija at right_stack
+    with quickflash
+
     "There's shattered glass in the stage curtain, shimmering in blue. Your enemy calls from the skies."
 
     seija_secret "Come out, come out wish boy!"
