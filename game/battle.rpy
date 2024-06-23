@@ -100,15 +100,24 @@ init python:
     def QueueSFXWithIndex(sfx, index):
         queued_statements.insert(index, ("exec", "renpy.play('" + sfx + "')")) # TODO: Gotta take into consideration that the addition of more queued SFX messes up the order
 
+    # https://stackoverflow.com/a/53671539/5177938
+    def fstr(template):
+        return eval(f'f"""{template}"""')
+
     def OptionDescription(member, option):
         dc = option[0][3]
         modifier = option[0][4][1]
-        stat_name = option[0][4][0] if option[0][4][0] != "" else "No modifiers"
+        stat_name = option[0][4][0]
+        dev_log(stat_name)
+        if type(stat_name) != type(""):
+            stat_name = stat_name()
+        else:
+            stat_name = stat_name if stat_name != "" else "No modifiers"
 
-        if stat_name == "Tech":
-            stat_name = "Technique"
+        # if stat_name == "Tech":
+        #     stat_name = "Technique"
 
-        chance = round((20 - (dc - modifier)) / 20 * 100)
+        chance = min(round((20 - (dc - modifier)) / 20 * 100),100)
         
         if modifier == 0:
             modifier_formatted = ""

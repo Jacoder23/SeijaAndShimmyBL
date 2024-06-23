@@ -12539,3 +12539,2328 @@ Initialized st_trigger_event
 
 --- Sun Jun 23 20:01:27 2024
 
+--- Sun Jun 23 23:34:14 2024
+
+Initialized st_chapter_start_1
+Initialized st_help_stranger
+Initialized st_kogasa_first_time
+Initialized st_shin_and_seija_first_encounter
+Initialized st_shin_meets_sekibanki
+Initialized st_supply_run
+Initialized st_trigger_event
+There's shattered glass in the stage curtain, shimmering in blue. Your enemy
+calls from the skies.
+
+???
+Come out, come out wish boy!
+
+Now... now is the time to strike!
+
+Shin
+May even your wish come true, someday.
+
+{sc}WOOOOOOOOOOOOO!{/sc}
+
+The sound of tiny applause and unenthused parents rings out from your
+audience. It's a sea of small hands pointing to you.
+
+You hear the cue to bow so you do.
+
+We love you Wishmaker!
+
+{i}The smiles, the games, the acting... it's all...{/i}
+
+???
+Kids shit.
+
+The fallen mascot suit, in upstage left, took to its feet{fast} and removed
+its oversized head to reveal Backswitch.
+
+Minor villain, major nuisance.
+
+He's been around the block, making waves with her gravity flipping powers. As
+a relative newbie, this is your first time face-to-face with a villain.
+
+Despite the excited gasps from the audience, the staff begin ushering everyone
+out.
+
+Shin
+{i}Okay, this is fine. Drop the banter for now, focus on keeping it
+together.{/i}
+
+Backswitch
+I was wonderin' about the noise following some new hero. Looks like noise was
+all it was.
+
+Backswitch
+Don't you agree, {bt=6}{color=000000}wish boy?{/color}{/bt}
+
+10
+
+exec: exec
+Tutorial
+Often times, opponents will COUNTER or INTERRUPT your action and force you to
+make an unknown roll.
+
+You attempt to-
+
+
+exec: exec
+But you fail to notice the floorboard beneath your feet fly off, likely under
+Backswitch's power.
+
+ You fall without any ground beneath you.
+
+You land under the stage with a thud before climbing out unceremoniously; a
+jeering Backswitch there to greet you as you rise.
+
+Backswitch
+Had a nice trip?
+
+You hold a defensive stance, keeping distance from Backswitch.
+
+After dodging one or two hits, you start to get a feel for his timing, his
+rhythm.
+
+
+exec: exec
+Initialized st_chapter_start_1
+Initialized st_help_stranger
+Initialized st_kogasa_first_time
+Initialized st_shin_and_seija_first_encounter
+Initialized st_shin_meets_sekibanki
+Initialized st_supply_run
+Initialized st_trigger_event
+--- Sun Jun 23 23:35:07 2024
+
+Initialized st_chapter_start_1
+Initialized st_help_stranger
+Initialized st_kogasa_first_time
+Initialized st_shin_and_seija_first_encounter
+Initialized st_shin_meets_sekibanki
+Initialized st_supply_run
+Initialized st_trigger_event
+There's shattered glass in the stage curtain, shimmering in blue. Your enemy
+calls from the skies.
+
+???
+Come out, come out wish boy!
+
+Now... now is the time to strike!
+
+Shin
+May even your wish come true, someday.
+
+{sc}WOOOOOOOOOOOOO!{/sc}
+
+The sound of tiny applause and unenthused parents rings out from your
+audience. It's a sea of small hands pointing to you.
+
+You hear the cue to bow so you do.
+
+We love you Wishmaker!
+
+{i}The smiles, the games, the acting... it's all...{/i}
+
+???
+Kids shit.
+
+The fallen mascot suit, in upstage left, took to its feet{fast} and removed
+its oversized head to reveal Backswitch.
+
+Minor villain, major nuisance.
+
+He's been around the block, making waves with her gravity flipping powers. As
+a relative newbie, this is your first time face-to-face with a villain.
+
+Despite the excited gasps from the audience, the staff begin ushering everyone
+out.
+
+Shin
+{i}Okay, this is fine. Drop the banter for now, focus on keeping it
+together.{/i}
+
+Backswitch
+I was wonderin' about the noise following some new hero. Looks like noise was
+all it was.
+
+Backswitch
+Don't you agree, {bt=6}{color=000000}wish boy?{/color}{/bt}
+
+--- Sun Jun 23 23:36:07 2024
+
+Initialized st_chapter_start_1
+Initialized st_help_stranger
+Initialized st_kogasa_first_time
+Initialized st_shin_and_seija_first_encounter
+Initialized st_shin_meets_sekibanki
+Initialized st_supply_run
+Initialized st_trigger_event
+There's shattered glass in the stage curtain, shimmering in blue. Your enemy
+calls from the skies.
+
+???
+Come out, come out wish boy!
+
+Now... now is the time to strike!
+
+Shin
+May even your wish come true, someday.
+
+{sc}WOOOOOOOOOOOOO!{/sc}
+
+The sound of tiny applause and unenthused parents rings out from your
+audience. It's a sea of small hands pointing to you.
+
+You hear the cue to bow so you do.
+
+We love you Wishmaker!
+
+{i}The smiles, the games, the acting... it's all...{/i}
+
+???
+Kids shit.
+
+The fallen mascot suit, in upstage left, took to its feet{fast} and removed
+its oversized head to reveal Backswitch.
+
+Minor villain, major nuisance.
+
+He's been around the block, making waves with her gravity flipping powers. As
+a relative newbie, this is your first time face-to-face with a villain.
+
+Despite the excited gasps from the audience, the staff begin ushering everyone
+out.
+
+Shin
+{i}Okay, this is fine. Drop the banter for now, focus on keeping it
+together.{/i}
+
+Backswitch
+I was wonderin' about the noise following some new hero. Looks like noise was
+all it was.
+
+Backswitch
+Don't you agree, {bt=6}{color=000000}wish boy?{/color}{/bt}
+
+10
+
+exec: exec
+Tutorial
+Often times, opponents will COUNTER or INTERRUPT your action and force you to
+make an unknown roll.
+
+You attempt to-
+
+
+exec: exec
+But you fail to notice the floorboard beneath your feet fly off, likely under
+Backswitch's power.
+
+ You fall without any ground beneath you.
+
+You land under the stage with a thud before climbing out unceremoniously; a
+jeering Backswitch there to greet you as you rise.
+
+Backswitch
+Had a nice trip?
+
+You hold a defensive stance, keeping distance from Backswitch.
+
+After dodging one or two hits, you start to get a feel for his timing, his
+rhythm.
+
+10
+You bring your weapon in for a swing at Backswitch's midriff.
+
+
+exec: exec
+
+exec: exec
+Backswitch stifles a pained grunt.
+
+--- Sun Jun 23 23:37:03 2024
+
+--- Sun Jun 23 23:37:22 2024
+
+Initialized st_chapter_start_1
+Initialized st_help_stranger
+Initialized st_kogasa_first_time
+Initialized st_shin_and_seija_first_encounter
+Initialized st_shin_meets_sekibanki
+Initialized st_supply_run
+Initialized st_trigger_event
+There's shattered glass in the stage curtain, shimmering in blue. Your enemy
+calls from the skies.
+
+???
+Come out, come out wish boy!
+
+Now... now is the time to strike!
+
+Shin
+May even your wish come true, someday.
+
+{sc}WOOOOOOOOOOOOO!{/sc}
+
+The sound of tiny applause and unenthused parents rings out from your
+audience. It's a sea of small hands pointing to you.
+
+You hear the cue to bow so you do.
+
+We love you Wishmaker!
+
+{i}The smiles, the games, the acting... it's all...{/i}
+
+???
+Kids shit.
+
+The fallen mascot suit, in upstage left, took to its feet{fast} and removed
+its oversized head to reveal Backswitch.
+
+Minor villain, major nuisance.
+
+He's been around the block, making waves with her gravity flipping powers. As
+a relative newbie, this is your first time face-to-face with a villain.
+
+Despite the excited gasps from the audience, the staff begin ushering everyone
+out.
+
+Shin
+{i}Okay, this is fine. Drop the banter for now, focus on keeping it
+together.{/i}
+
+Backswitch
+I was wonderin' about the noise following some new hero. Looks like noise was
+all it was.
+
+Backswitch
+Don't you agree, {bt=6}{color=000000}wish boy?{/color}{/bt}
+
+10
+
+exec: exec
+Tutorial
+Often times, opponents will COUNTER or INTERRUPT your action and force you to
+make an unknown roll.
+
+You attempt to-
+
+
+exec: exec
+But you fail to notice the floorboard beneath your feet fly off, likely under
+Backswitch's power.
+
+ You fall without any ground beneath you.
+
+You land under the stage with a thud before climbing out unceremoniously; a
+jeering Backswitch there to greet you as you rise.
+
+Backswitch
+Had a nice trip?
+
+You hold a defensive stance, keeping distance from Backswitch.
+
+After dodging one or two hits, you start to get a feel for his timing, his
+rhythm.
+
+--- Sun Jun 23 23:41:13 2024
+
+--- Sun Jun 23 23:41:17 2024
+
+Initialized st_chapter_start_1
+Initialized st_help_stranger
+Initialized st_kogasa_first_time
+Initialized st_shin_and_seija_first_encounter
+Initialized st_shin_meets_sekibanki
+Initialized st_supply_run
+Initialized st_trigger_event
+There's shattered glass in the stage curtain, shimmering in blue. Your enemy
+calls from the skies.
+
+???
+Come out, come out wish boy!
+
+Now... now is the time to strike!
+
+Shin
+May even your wish come true, someday.
+
+{sc}WOOOOOOOOOOOOO!{/sc}
+
+The sound of tiny applause and unenthused parents rings out from your
+audience. It's a sea of small hands pointing to you.
+
+You hear the cue to bow so you do.
+
+We love you Wishmaker!
+
+{i}The smiles, the games, the acting... it's all...{/i}
+
+???
+Kids shit.
+
+The fallen mascot suit, in upstage left, took to its feet{fast} and removed
+its oversized head to reveal Backswitch.
+
+Minor villain, major nuisance.
+
+He's been around the block, making waves with her gravity flipping powers. As
+a relative newbie, this is your first time face-to-face with a villain.
+
+Despite the excited gasps from the audience, the staff begin ushering everyone
+out.
+
+Shin
+{i}Okay, this is fine. Drop the banter for now, focus on keeping it
+together.{/i}
+
+Backswitch
+I was wonderin' about the noise following some new hero. Looks like noise was
+all it was.
+
+Backswitch
+Don't you agree, {bt=6}{color=000000}wish boy?{/color}{/bt}
+
+--- Sun Jun 23 23:42:29 2024
+
+Initialized st_chapter_start_1
+Initialized st_help_stranger
+Initialized st_kogasa_first_time
+Initialized st_shin_and_seija_first_encounter
+Initialized st_shin_meets_sekibanki
+Initialized st_supply_run
+Initialized st_trigger_event
+There's shattered glass in the stage curtain, shimmering in blue. Your enemy
+calls from the skies.
+
+???
+Come out, come out wish boy!
+
+Now... now is the time to strike!
+
+Shin
+May even your wish come true, someday.
+
+{sc}WOOOOOOOOOOOOO!{/sc}
+
+The sound of tiny applause and unenthused parents rings out from your
+audience. It's a sea of small hands pointing to you.
+
+You hear the cue to bow so you do.
+
+We love you Wishmaker!
+
+{i}The smiles, the games, the acting... it's all...{/i}
+
+???
+Kids shit.
+
+The fallen mascot suit, in upstage left, took to its feet{fast} and removed
+its oversized head to reveal Backswitch.
+
+Minor villain, major nuisance.
+
+He's been around the block, making waves with her gravity flipping powers. As
+a relative newbie, this is your first time face-to-face with a villain.
+
+Despite the excited gasps from the audience, the staff begin ushering everyone
+out.
+
+Shin
+{i}Okay, this is fine. Drop the banter for now, focus on keeping it
+together.{/i}
+
+Backswitch
+I was wonderin' about the noise following some new hero. Looks like noise was
+all it was.
+
+Backswitch
+Don't you agree, {bt=6}{color=000000}wish boy?{/color}{/bt}
+
+--- Sun Jun 23 23:46:34 2024
+
+Initialized st_chapter_start_1
+Initialized st_help_stranger
+Initialized st_kogasa_first_time
+Initialized st_shin_and_seija_first_encounter
+Initialized st_shin_meets_sekibanki
+Initialized st_supply_run
+Initialized st_trigger_event
+There's shattered glass in the stage curtain, shimmering in blue. Your enemy
+calls from the skies.
+
+???
+Come out, come out wish boy!
+
+Now... now is the time to strike!
+
+Shin
+May even your wish come true, someday.
+
+{sc}WOOOOOOOOOOOOO!{/sc}
+
+The sound of tiny applause and unenthused parents rings out from your
+audience. It's a sea of small hands pointing to you.
+
+You hear the cue to bow so you do.
+
+We love you Wishmaker!
+
+{i}The smiles, the games, the acting... it's all...{/i}
+
+???
+Kids shit.
+
+The fallen mascot suit, in upstage left, took to its feet{fast} and removed
+its oversized head to reveal Backswitch.
+
+Minor villain, major nuisance.
+
+He's been around the block, making waves with her gravity flipping powers. As
+a relative newbie, this is your first time face-to-face with a villain.
+
+Despite the excited gasps from the audience, the staff begin ushering everyone
+out.
+
+Shin
+{i}Okay, this is fine. Drop the banter for now, focus on keeping it
+together.{/i}
+
+Backswitch
+I was wonderin' about the noise following some new hero. Looks like noise was
+all it was.
+
+Backswitch
+Don't you agree, {bt=6}{color=000000}wish boy?{/color}{/bt}
+
+--- Sun Jun 23 23:47:03 2024
+
+Initialized st_chapter_start_1
+Initialized st_help_stranger
+Initialized st_kogasa_first_time
+Initialized st_shin_and_seija_first_encounter
+Initialized st_shin_meets_sekibanki
+Initialized st_supply_run
+Initialized st_trigger_event
+There's shattered glass in the stage curtain, shimmering in blue. Your enemy
+calls from the skies.
+
+???
+Come out, come out wish boy!
+
+Now... now is the time to strike!
+
+Shin
+May even your wish come true, someday.
+
+{sc}WOOOOOOOOOOOOO!{/sc}
+
+The sound of tiny applause and unenthused parents rings out from your
+audience. It's a sea of small hands pointing to you.
+
+You hear the cue to bow so you do.
+
+We love you Wishmaker!
+
+{i}The smiles, the games, the acting... it's all...{/i}
+
+???
+Kids shit.
+
+The fallen mascot suit, in upstage left, took to its feet{fast} and removed
+its oversized head to reveal Backswitch.
+
+Minor villain, major nuisance.
+
+He's been around the block, making waves with her gravity flipping powers. As
+a relative newbie, this is your first time face-to-face with a villain.
+
+Despite the excited gasps from the audience, the staff begin ushering everyone
+out.
+
+Shin
+{i}Okay, this is fine. Drop the banter for now, focus on keeping it
+together.{/i}
+
+Backswitch
+I was wonderin' about the noise following some new hero. Looks like noise was
+all it was.
+
+Backswitch
+Don't you agree, {bt=6}{color=000000}wish boy?{/color}{/bt}
+
+--- Sun Jun 23 23:47:37 2024
+
+--- Sun Jun 23 23:47:43 2024
+
+Initialized st_chapter_start_1
+Initialized st_help_stranger
+Initialized st_kogasa_first_time
+Initialized st_shin_and_seija_first_encounter
+Initialized st_shin_meets_sekibanki
+Initialized st_supply_run
+Initialized st_trigger_event
+There's shattered glass in the stage curtain, shimmering in blue. Your enemy
+calls from the skies.
+
+???
+Come out, come out wish boy!
+
+Now... now is the time to strike!
+
+Shin
+May even your wish come true, someday.
+
+{sc}WOOOOOOOOOOOOO!{/sc}
+
+The sound of tiny applause and unenthused parents rings out from your
+audience. It's a sea of small hands pointing to you.
+
+You hear the cue to bow so you do.
+
+We love you Wishmaker!
+
+{i}The smiles, the games, the acting... it's all...{/i}
+
+???
+Kids shit.
+
+The fallen mascot suit, in upstage left, took to its feet{fast} and removed
+its oversized head to reveal Backswitch.
+
+Minor villain, major nuisance.
+
+He's been around the block, making waves with her gravity flipping powers. As
+a relative newbie, this is your first time face-to-face with a villain.
+
+Despite the excited gasps from the audience, the staff begin ushering everyone
+out.
+
+Shin
+{i}Okay, this is fine. Drop the banter for now, focus on keeping it
+together.{/i}
+
+Backswitch
+I was wonderin' about the noise following some new hero. Looks like noise was
+all it was.
+
+Backswitch
+Don't you agree, {bt=6}{color=000000}wish boy?{/color}{/bt}
+
+10
+You bring your weapon in for a swing at Backswitch's midriff.
+
+
+exec: exec
+
+exec: exec
+Backswitch stifles a pained grunt.
+
+You hold a defensive stance, keeping distance from Backswitch.
+
+After dodging one or two hits, you start to get a feel for his timing, his
+rhythm.
+
+13
+You throw your weight behind your weapon, bringing it down in a wide arc.
+
+
+exec: exec
+
+exec: exec
+Backswitch is hit squarely in the chest.
+
+He backs away a step while gasping for air.
+
+--- Sun Jun 23 23:49:33 2024
+
+Initialized st_chapter_start_1
+Initialized st_help_stranger
+Initialized st_kogasa_first_time
+Initialized st_shin_and_seija_first_encounter
+Initialized st_shin_meets_sekibanki
+Initialized st_supply_run
+Initialized st_trigger_event
+There's shattered glass in the stage curtain, shimmering in blue. Your enemy
+calls from the skies.
+
+???
+Come out, come out wish boy!
+
+Now... now is the time to strike!
+
+Shin
+May even your wish come true, someday.
+
+{sc}WOOOOOOOOOOOOO!{/sc}
+
+The sound of tiny applause and unenthused parents rings out from your
+audience. It's a sea of small hands pointing to you.
+
+You hear the cue to bow so you do.
+
+We love you Wishmaker!
+
+{i}The smiles, the games, the acting... it's all...{/i}
+
+???
+Kids shit.
+
+The fallen mascot suit, in upstage left, took to its feet{fast} and removed
+its oversized head to reveal Backswitch.
+
+Minor villain, major nuisance.
+
+He's been around the block, making waves with her gravity flipping powers. As
+a relative newbie, this is your first time face-to-face with a villain.
+
+Despite the excited gasps from the audience, the staff begin ushering everyone
+out.
+
+Shin
+{i}Okay, this is fine. Drop the banter for now, focus on keeping it
+together.{/i}
+
+Backswitch
+I was wonderin' about the noise following some new hero. Looks like noise was
+all it was.
+
+Backswitch
+Don't you agree, {bt=6}{color=000000}wish boy?{/color}{/bt}
+
+functools.partial(<function fstr at 0x0000000005488b80>, "Power{', Observed
+Backswitch' if precision > 0 else ''}")
+Agility
+Tech
+functools.partial(<function fstr at 0x0000000005488b80>, "Power{', Observed
+Backswitch' if precision > 0 else ''}")
+Agility
+Tech
+functools.partial(<function fstr at 0x0000000005488b80>, "Power{', Observed
+Backswitch' if precision > 0 else ''}")
+Agility
+Tech
+functools.partial(<function fstr at 0x0000000005488b80>, "Power{', Observed
+Backswitch' if precision > 0 else ''}")
+Agility
+Tech
+functools.partial(<function fstr at 0x0000000005488b80>, "Power{', Observed
+Backswitch' if precision > 0 else ''}")
+Agility
+Tech
+functools.partial(<function fstr at 0x0000000005488b80>, "Power{', Observed
+Backswitch' if precision > 0 else ''}")
+Agility
+Tech
+functools.partial(<function fstr at 0x0000000005488b80>, "Power{', Observed
+Backswitch' if precision > 0 else ''}")
+Agility
+Tech
+functools.partial(<function fstr at 0x0000000005488b80>, "Power{', Observed
+Backswitch' if precision > 0 else ''}")
+Agility
+Tech
+functools.partial(<function fstr at 0x0000000005488b80>, "Power{', Observed
+Backswitch' if precision > 0 else ''}")
+Agility
+Tech
+functools.partial(<function fstr at 0x0000000005488b80>, "Power{', Observed
+Backswitch' if precision > 0 else ''}")
+Agility
+Tech
+functools.partial(<function fstr at 0x0000000005488b80>, "Power{', Observed
+Backswitch' if precision > 0 else ''}")
+Agility
+Tech
+functools.partial(<function fstr at 0x0000000005488b80>, "Power{', Observed
+Backswitch' if precision > 0 else ''}")
+Agility
+Tech
+functools.partial(<function fstr at 0x0000000005488b80>, "Power{', Observed
+Backswitch' if precision > 0 else ''}")
+Agility
+Tech
+functools.partial(<function fstr at 0x0000000005488b80>, "Power{', Observed
+Backswitch' if precision > 0 else ''}")
+Agility
+Tech
+functools.partial(<function fstr at 0x0000000005488b80>, "Power{', Observed
+Backswitch' if precision > 0 else ''}")
+Agility
+Tech
+functools.partial(<function fstr at 0x0000000005488b80>, "Power{', Observed
+Backswitch' if precision > 0 else ''}")
+Agility
+Tech
+functools.partial(<function fstr at 0x0000000005488b80>, "Power{', Observed
+Backswitch' if precision > 0 else ''}")
+Agility
+Tech
+functools.partial(<function fstr at 0x0000000005488b80>, "Power{', Observed
+Backswitch' if precision > 0 else ''}")
+Agility
+Tech
+functools.partial(<function fstr at 0x0000000005488b80>, "Power{', Observed
+Backswitch' if precision > 0 else ''}")
+Agility
+Tech
+functools.partial(<function fstr at 0x0000000005488b80>, "Power{', Observed
+Backswitch' if precision > 0 else ''}")
+Agility
+Tech
+functools.partial(<function fstr at 0x0000000005488b80>, "Power{', Observed
+Backswitch' if precision > 0 else ''}")
+Agility
+Tech
+functools.partial(<function fstr at 0x0000000005488b80>, "Power{', Observed
+Backswitch' if precision > 0 else ''}")
+Agility
+Tech
+functools.partial(<function fstr at 0x0000000005488b80>, "Power{', Observed
+Backswitch' if precision > 0 else ''}")
+Agility
+Tech
+functools.partial(<function fstr at 0x0000000005488b80>, "Power{', Observed
+Backswitch' if precision > 0 else ''}")
+Agility
+Tech
+10
+
+exec: exec
+Tutorial
+Often times, opponents will COUNTER or INTERRUPT your action and force you to
+make an unknown roll.
+
+functools.partial(<function fstr at 0x0000000005488b80>, "Power{', Observed
+Backswitch' if precision > 0 else ''}")
+Agility
+Tech
+You attempt to-
+
+
+exec: exec
+functools.partial(<function fstr at 0x0000000005488b80>, "Power{', Observed
+Backswitch' if precision > 0 else ''}")
+Agility
+Tech
+But you fail to notice the floorboard beneath your feet fly off, likely under
+Backswitch's power.
+
+functools.partial(<function fstr at 0x0000000005488b80>, "Power{', Observed
+Backswitch' if precision > 0 else ''}")
+Agility
+Tech
+ You fall without any ground beneath you.
+
+functools.partial(<function fstr at 0x0000000005488b80>, "Power{', Observed
+Backswitch' if precision > 0 else ''}")
+Agility
+Tech
+You land under the stage with a thud before climbing out unceremoniously; a
+jeering Backswitch there to greet you as you rise.
+
+functools.partial(<function fstr at 0x0000000005488b80>, "Power{', Observed
+Backswitch' if precision > 0 else ''}")
+Agility
+Tech
+Backswitch
+Had a nice trip?
+
+functools.partial(<function fstr at 0x0000000005488b80>, "Power{', Observed
+Backswitch' if precision > 0 else ''}")
+Agility
+Tech
+functools.partial(<function fstr at 0x0000000005488b80>, "Power{', Observed
+Backswitch' if precision > 0 else ''}")
+Agility
+Tech
+functools.partial(<function fstr at 0x0000000005488b80>, "Power{', Observed
+Backswitch' if precision > 0 else ''}")
+Agility
+Tech
+functools.partial(<function fstr at 0x0000000005488b80>, "Power{', Observed
+Backswitch' if precision > 0 else ''}")
+Agility
+Tech
+functools.partial(<function fstr at 0x0000000005488b80>, "Power{', Observed
+Backswitch' if precision > 0 else ''}")
+Agility
+Tech
+functools.partial(<function fstr at 0x0000000005488b80>, "Power{', Observed
+Backswitch' if precision > 0 else ''}")
+Agility
+Tech
+functools.partial(<function fstr at 0x0000000005488b80>, "Power{', Observed
+Backswitch' if precision > 0 else ''}")
+Agility
+Tech
+functools.partial(<function fstr at 0x0000000005488b80>, "Power{', Observed
+Backswitch' if precision > 0 else ''}")
+Agility
+Tech
+functools.partial(<function fstr at 0x0000000005488b80>, "Power{', Observed
+Backswitch' if precision > 0 else ''}")
+Agility
+Tech
+functools.partial(<function fstr at 0x0000000005488b80>, "Power{', Observed
+Backswitch' if precision > 0 else ''}")
+Agility
+Tech
+functools.partial(<function fstr at 0x0000000005488b80>, "Power{', Observed
+Backswitch' if precision > 0 else ''}")
+Agility
+Tech
+functools.partial(<function fstr at 0x0000000005488b80>, "Power{', Observed
+Backswitch' if precision > 0 else ''}")
+Agility
+Tech
+functools.partial(<function fstr at 0x0000000005488b80>, "Power{', Observed
+Backswitch' if precision > 0 else ''}")
+Agility
+Tech
+functools.partial(<function fstr at 0x0000000005488b80>, "Power{', Observed
+Backswitch' if precision > 0 else ''}")
+Agility
+Tech
+functools.partial(<function fstr at 0x0000000005488b80>, "Power{', Observed
+Backswitch' if precision > 0 else ''}")
+Agility
+Tech
+functools.partial(<function fstr at 0x0000000005488b80>, "Power{', Observed
+Backswitch' if precision > 0 else ''}")
+Agility
+Tech
+functools.partial(<function fstr at 0x0000000005488b80>, "Power{', Observed
+Backswitch' if precision > 0 else ''}")
+Agility
+Tech
+functools.partial(<function fstr at 0x0000000005488b80>, "Power{', Observed
+Backswitch' if precision > 0 else ''}")
+Agility
+Tech
+functools.partial(<function fstr at 0x0000000005488b80>, "Power{', Observed
+Backswitch' if precision > 0 else ''}")
+Agility
+Tech
+functools.partial(<function fstr at 0x0000000005488b80>, "Power{', Observed
+Backswitch' if precision > 0 else ''}")
+Agility
+Tech
+functools.partial(<function fstr at 0x0000000005488b80>, "Power{', Observed
+Backswitch' if precision > 0 else ''}")
+Agility
+Tech
+functools.partial(<function fstr at 0x0000000005488b80>, "Power{', Observed
+Backswitch' if precision > 0 else ''}")
+Agility
+Tech
+functools.partial(<function fstr at 0x0000000005488b80>, "Power{', Observed
+Backswitch' if precision > 0 else ''}")
+Agility
+Tech
+functools.partial(<function fstr at 0x0000000005488b80>, "Power{', Observed
+Backswitch' if precision > 0 else ''}")
+Agility
+Tech
+functools.partial(<function fstr at 0x0000000005488b80>, "Power{', Observed
+Backswitch' if precision > 0 else ''}")
+Agility
+Tech
+functools.partial(<function fstr at 0x0000000005488b80>, "Power{', Observed
+Backswitch' if precision > 0 else ''}")
+Agility
+Tech
+functools.partial(<function fstr at 0x0000000005488b80>, "Power{', Observed
+Backswitch' if precision > 0 else ''}")
+Agility
+Tech
+functools.partial(<function fstr at 0x0000000005488b80>, "Power{', Observed
+Backswitch' if precision > 0 else ''}")
+Agility
+Tech
+functools.partial(<function fstr at 0x0000000005488b80>, "Power{', Observed
+Backswitch' if precision > 0 else ''}")
+Agility
+Tech
+functools.partial(<function fstr at 0x0000000005488b80>, "Power{', Observed
+Backswitch' if precision > 0 else ''}")
+Agility
+Tech
+functools.partial(<function fstr at 0x0000000005488b80>, "Power{', Observed
+Backswitch' if precision > 0 else ''}")
+Agility
+Tech
+functools.partial(<function fstr at 0x0000000005488b80>, "Power{', Observed
+Backswitch' if precision > 0 else ''}")
+Agility
+Tech
+functools.partial(<function fstr at 0x0000000005488b80>, "Power{', Observed
+Backswitch' if precision > 0 else ''}")
+Agility
+Tech
+functools.partial(<function fstr at 0x0000000005488b80>, "Power{', Observed
+Backswitch' if precision > 0 else ''}")
+Agility
+Tech
+functools.partial(<function fstr at 0x0000000005488b80>, "Power{', Observed
+Backswitch' if precision > 0 else ''}")
+Agility
+Tech
+functools.partial(<function fstr at 0x0000000005488b80>, "Power{', Observed
+Backswitch' if precision > 0 else ''}")
+Agility
+Tech
+functools.partial(<function fstr at 0x0000000005488b80>, "Power{', Observed
+Backswitch' if precision > 0 else ''}")
+Agility
+Tech
+functools.partial(<function fstr at 0x0000000005488b80>, "Power{', Observed
+Backswitch' if precision > 0 else ''}")
+Agility
+Tech
+functools.partial(<function fstr at 0x0000000005488b80>, "Power{', Observed
+Backswitch' if precision > 0 else ''}")
+Agility
+Tech
+functools.partial(<function fstr at 0x0000000005488b80>, "Power{', Observed
+Backswitch' if precision > 0 else ''}")
+Agility
+Tech
+functools.partial(<function fstr at 0x0000000005488b80>, "Power{', Observed
+Backswitch' if precision > 0 else ''}")
+Agility
+Tech
+functools.partial(<function fstr at 0x0000000005488b80>, "Power{', Observed
+Backswitch' if precision > 0 else ''}")
+Agility
+Tech
+functools.partial(<function fstr at 0x0000000005488b80>, "Power{', Observed
+Backswitch' if precision > 0 else ''}")
+Agility
+Tech
+functools.partial(<function fstr at 0x0000000005488b80>, "Power{', Observed
+Backswitch' if precision > 0 else ''}")
+Agility
+Tech
+functools.partial(<function fstr at 0x0000000005488b80>, "Power{', Observed
+Backswitch' if precision > 0 else ''}")
+Agility
+Tech
+functools.partial(<function fstr at 0x0000000005488b80>, "Power{', Observed
+Backswitch' if precision > 0 else ''}")
+Agility
+Tech
+functools.partial(<function fstr at 0x0000000005488b80>, "Power{', Observed
+Backswitch' if precision > 0 else ''}")
+Agility
+Tech
+functools.partial(<function fstr at 0x0000000005488b80>, "Power{', Observed
+Backswitch' if precision > 0 else ''}")
+Agility
+Tech
+functools.partial(<function fstr at 0x0000000005488b80>, "Power{', Observed
+Backswitch' if precision > 0 else ''}")
+Agility
+Tech
+functools.partial(<function fstr at 0x0000000005488b80>, "Power{', Observed
+Backswitch' if precision > 0 else ''}")
+Agility
+Tech
+functools.partial(<function fstr at 0x0000000005488b80>, "Power{', Observed
+Backswitch' if precision > 0 else ''}")
+Agility
+Tech
+functools.partial(<function fstr at 0x0000000005488b80>, "Power{', Observed
+Backswitch' if precision > 0 else ''}")
+Agility
+Tech
+functools.partial(<function fstr at 0x0000000005488b80>, "Power{', Observed
+Backswitch' if precision > 0 else ''}")
+Agility
+Tech
+functools.partial(<function fstr at 0x0000000005488b80>, "Power{', Observed
+Backswitch' if precision > 0 else ''}")
+Agility
+Tech
+functools.partial(<function fstr at 0x0000000005488b80>, "Power{', Observed
+Backswitch' if precision > 0 else ''}")
+Agility
+Tech
+functools.partial(<function fstr at 0x0000000005488b80>, "Power{', Observed
+Backswitch' if precision > 0 else ''}")
+Agility
+Tech
+functools.partial(<function fstr at 0x0000000005488b80>, "Power{', Observed
+Backswitch' if precision > 0 else ''}")
+Agility
+Tech
+functools.partial(<function fstr at 0x0000000005488b80>, "Power{', Observed
+Backswitch' if precision > 0 else ''}")
+Agility
+Tech
+functools.partial(<function fstr at 0x0000000005488b80>, "Power{', Observed
+Backswitch' if precision > 0 else ''}")
+Agility
+Tech
+functools.partial(<function fstr at 0x0000000005488b80>, "Power{', Observed
+Backswitch' if precision > 0 else ''}")
+Agility
+Tech
+functools.partial(<function fstr at 0x0000000005488b80>, "Power{', Observed
+Backswitch' if precision > 0 else ''}")
+Agility
+Tech
+functools.partial(<function fstr at 0x0000000005488b80>, "Power{', Observed
+Backswitch' if precision > 0 else ''}")
+Agility
+Tech
+functools.partial(<function fstr at 0x0000000005488b80>, "Power{', Observed
+Backswitch' if precision > 0 else ''}")
+Agility
+Tech
+functools.partial(<function fstr at 0x0000000005488b80>, "Power{', Observed
+Backswitch' if precision > 0 else ''}")
+Agility
+Tech
+functools.partial(<function fstr at 0x0000000005488b80>, "Power{', Observed
+Backswitch' if precision > 0 else ''}")
+Agility
+Tech
+functools.partial(<function fstr at 0x0000000005488b80>, "Power{', Observed
+Backswitch' if precision > 0 else ''}")
+Agility
+Tech
+functools.partial(<function fstr at 0x0000000005488b80>, "Power{', Observed
+Backswitch' if precision > 0 else ''}")
+Agility
+Tech
+functools.partial(<function fstr at 0x0000000005488b80>, "Power{', Observed
+Backswitch' if precision > 0 else ''}")
+Agility
+Tech
+functools.partial(<function fstr at 0x0000000005488b80>, "Power{', Observed
+Backswitch' if precision > 0 else ''}")
+Agility
+Tech
+functools.partial(<function fstr at 0x0000000005488b80>, "Power{', Observed
+Backswitch' if precision > 0 else ''}")
+Agility
+Tech
+functools.partial(<function fstr at 0x0000000005488b80>, "Power{', Observed
+Backswitch' if precision > 0 else ''}")
+Agility
+Tech
+functools.partial(<function fstr at 0x0000000005488b80>, "Power{', Observed
+Backswitch' if precision > 0 else ''}")
+Agility
+Tech
+functools.partial(<function fstr at 0x0000000005488b80>, "Power{', Observed
+Backswitch' if precision > 0 else ''}")
+Agility
+Tech
+functools.partial(<function fstr at 0x0000000005488b80>, "Power{', Observed
+Backswitch' if precision > 0 else ''}")
+Agility
+Tech
+functools.partial(<function fstr at 0x0000000005488b80>, "Power{', Observed
+Backswitch' if precision > 0 else ''}")
+Agility
+Tech
+functools.partial(<function fstr at 0x0000000005488b80>, "Power{', Observed
+Backswitch' if precision > 0 else ''}")
+Agility
+Tech
+functools.partial(<function fstr at 0x0000000005488b80>, "Power{', Observed
+Backswitch' if precision > 0 else ''}")
+Agility
+Tech
+functools.partial(<function fstr at 0x0000000005488b80>, "Power{', Observed
+Backswitch' if precision > 0 else ''}")
+Agility
+Tech
+functools.partial(<function fstr at 0x0000000005488b80>, "Power{', Observed
+Backswitch' if precision > 0 else ''}")
+Agility
+Tech
+functools.partial(<function fstr at 0x0000000005488b80>, "Power{', Observed
+Backswitch' if precision > 0 else ''}")
+Agility
+Tech
+functools.partial(<function fstr at 0x0000000005488b80>, "Power{', Observed
+Backswitch' if precision > 0 else ''}")
+Agility
+Tech
+functools.partial(<function fstr at 0x0000000005488b80>, "Power{', Observed
+Backswitch' if precision > 0 else ''}")
+Agility
+Tech
+functools.partial(<function fstr at 0x0000000005488b80>, "Power{', Observed
+Backswitch' if precision > 0 else ''}")
+Agility
+Tech
+functools.partial(<function fstr at 0x0000000005488b80>, "Power{', Observed
+Backswitch' if precision > 0 else ''}")
+Agility
+Tech
+functools.partial(<function fstr at 0x0000000005488b80>, "Power{', Observed
+Backswitch' if precision > 0 else ''}")
+Agility
+Tech
+functools.partial(<function fstr at 0x0000000005488b80>, "Power{', Observed
+Backswitch' if precision > 0 else ''}")
+Agility
+Tech
+functools.partial(<function fstr at 0x0000000005488b80>, "Power{', Observed
+Backswitch' if precision > 0 else ''}")
+Agility
+Tech
+functools.partial(<function fstr at 0x0000000005488b80>, "Power{', Observed
+Backswitch' if precision > 0 else ''}")
+Agility
+Tech
+functools.partial(<function fstr at 0x0000000005488b80>, "Power{', Observed
+Backswitch' if precision > 0 else ''}")
+Agility
+Tech
+functools.partial(<function fstr at 0x0000000005488b80>, "Power{', Observed
+Backswitch' if precision > 0 else ''}")
+Agility
+Tech
+functools.partial(<function fstr at 0x0000000005488b80>, "Power{', Observed
+Backswitch' if precision > 0 else ''}")
+Agility
+Tech
+functools.partial(<function fstr at 0x0000000005488b80>, "Power{', Observed
+Backswitch' if precision > 0 else ''}")
+Agility
+Tech
+functools.partial(<function fstr at 0x0000000005488b80>, "Power{', Observed
+Backswitch' if precision > 0 else ''}")
+Agility
+Tech
+functools.partial(<function fstr at 0x0000000005488b80>, "Power{', Observed
+Backswitch' if precision > 0 else ''}")
+Agility
+Tech
+functools.partial(<function fstr at 0x0000000005488b80>, "Power{', Observed
+Backswitch' if precision > 0 else ''}")
+Agility
+Tech
+functools.partial(<function fstr at 0x0000000005488b80>, "Power{', Observed
+Backswitch' if precision > 0 else ''}")
+Agility
+Tech
+functools.partial(<function fstr at 0x0000000005488b80>, "Power{', Observed
+Backswitch' if precision > 0 else ''}")
+Agility
+Tech
+functools.partial(<function fstr at 0x0000000005488b80>, "Power{', Observed
+Backswitch' if precision > 0 else ''}")
+Agility
+Tech
+functools.partial(<function fstr at 0x0000000005488b80>, "Power{', Observed
+Backswitch' if precision > 0 else ''}")
+Agility
+Tech
+functools.partial(<function fstr at 0x0000000005488b80>, "Power{', Observed
+Backswitch' if precision > 0 else ''}")
+Agility
+Tech
+functools.partial(<function fstr at 0x0000000005488b80>, "Power{', Observed
+Backswitch' if precision > 0 else ''}")
+Agility
+Tech
+functools.partial(<function fstr at 0x0000000005488b80>, "Power{', Observed
+Backswitch' if precision > 0 else ''}")
+Agility
+Tech
+functools.partial(<function fstr at 0x0000000005488b80>, "Power{', Observed
+Backswitch' if precision > 0 else ''}")
+Agility
+Tech
+functools.partial(<function fstr at 0x0000000005488b80>, "Power{', Observed
+Backswitch' if precision > 0 else ''}")
+Agility
+functools.partial(<function fstr at 0x0000000005488b80>, "Power{', Observed
+Backswitch' if precision > 0 else ''}")
+Agility
+functools.partial(<function fstr at 0x0000000005488b80>, "Power{', Observed
+Backswitch' if precision > 0 else ''}")
+Agility
+Tech
+functools.partial(<function fstr at 0x0000000005488b80>, "Power{', Observed
+Backswitch' if precision > 0 else ''}")
+Agility
+Tech
+functools.partial(<function fstr at 0x0000000005488b80>, "Power{', Observed
+Backswitch' if precision > 0 else ''}")
+Agility
+Tech
+
+exec: exec
+functools.partial(<function fstr at 0x0000000005488b80>, "Power{', Observed
+Backswitch' if precision > 0 else ''}")
+Agility
+Tech
+functools.partial(<function fstr at 0x0000000005488b80>, "Power{', Observed
+Backswitch' if precision > 0 else ''}")
+Agility
+Tech
+Initialized st_chapter_start_1
+Initialized st_help_stranger
+Initialized st_kogasa_first_time
+Initialized st_shin_and_seija_first_encounter
+Initialized st_shin_meets_sekibanki
+Initialized st_supply_run
+Initialized st_trigger_event
+--- Sun Jun 23 23:50:33 2024
+
+Initialized st_chapter_start_1
+Initialized st_help_stranger
+Initialized st_kogasa_first_time
+Initialized st_shin_and_seija_first_encounter
+Initialized st_shin_meets_sekibanki
+Initialized st_supply_run
+Initialized st_trigger_event
+There's shattered glass in the stage curtain, shimmering in blue. Your enemy
+calls from the skies.
+
+???
+Come out, come out wish boy!
+
+Now... now is the time to strike!
+
+Shin
+May even your wish come true, someday.
+
+{sc}WOOOOOOOOOOOOO!{/sc}
+
+The sound of tiny applause and unenthused parents rings out from your
+audience. It's a sea of small hands pointing to you.
+
+You hear the cue to bow so you do.
+
+We love you Wishmaker!
+
+{i}The smiles, the games, the acting... it's all...{/i}
+
+???
+Kids shit.
+
+The fallen mascot suit, in upstage left, took to its feet{fast} and removed
+its oversized head to reveal Backswitch.
+
+Minor villain, major nuisance.
+
+He's been around the block, making waves with her gravity flipping powers. As
+a relative newbie, this is your first time face-to-face with a villain.
+
+Despite the excited gasps from the audience, the staff begin ushering everyone
+out.
+
+Shin
+{i}Okay, this is fine. Drop the banter for now, focus on keeping it
+together.{/i}
+
+Backswitch
+I was wonderin' about the noise following some new hero. Looks like noise was
+all it was.
+
+Backswitch
+Don't you agree, {bt=6}{color=000000}wish boy?{/color}{/bt}
+
+functools.partial(<function fstr at 0x00000000075f5700>, "Power{', Observed
+Backswitch' if precision > 0 else ''}")
+Agility
+Tech
+functools.partial(<function fstr at 0x00000000075f5700>, "Power{', Observed
+Backswitch' if precision > 0 else ''}")
+Agility
+Tech
+functools.partial(<function fstr at 0x00000000075f5700>, "Power{', Observed
+Backswitch' if precision > 0 else ''}")
+Agility
+Tech
+functools.partial(<function fstr at 0x00000000075f5700>, "Power{', Observed
+Backswitch' if precision > 0 else ''}")
+Agility
+Tech
+functools.partial(<function fstr at 0x00000000075f5700>, "Power{', Observed
+Backswitch' if precision > 0 else ''}")
+Agility
+Tech
+functools.partial(<function fstr at 0x00000000075f5700>, "Power{', Observed
+Backswitch' if precision > 0 else ''}")
+Agility
+Tech
+functools.partial(<function fstr at 0x00000000075f5700>, "Power{', Observed
+Backswitch' if precision > 0 else ''}")
+Agility
+Tech
+functools.partial(<function fstr at 0x00000000075f5700>, "Power{', Observed
+Backswitch' if precision > 0 else ''}")
+Agility
+Tech
+functools.partial(<function fstr at 0x00000000075f5700>, "Power{', Observed
+Backswitch' if precision > 0 else ''}")
+Agility
+Tech
+functools.partial(<function fstr at 0x00000000075f5700>, "Power{', Observed
+Backswitch' if precision > 0 else ''}")
+Agility
+Tech
+functools.partial(<function fstr at 0x00000000075f5700>, "Power{', Observed
+Backswitch' if precision > 0 else ''}")
+Agility
+Tech
+functools.partial(<function fstr at 0x00000000075f5700>, "Power{', Observed
+Backswitch' if precision > 0 else ''}")
+Agility
+Tech
+functools.partial(<function fstr at 0x00000000075f5700>, "Power{', Observed
+Backswitch' if precision > 0 else ''}")
+Agility
+Tech
+functools.partial(<function fstr at 0x00000000075f5700>, "Power{', Observed
+Backswitch' if precision > 0 else ''}")
+Agility
+Tech
+functools.partial(<function fstr at 0x00000000075f5700>, "Power{', Observed
+Backswitch' if precision > 0 else ''}")
+Agility
+Tech
+functools.partial(<function fstr at 0x00000000075f5700>, "Power{', Observed
+Backswitch' if precision > 0 else ''}")
+Agility
+Tech
+10
+
+exec: exec
+Tutorial
+Often times, opponents will COUNTER or INTERRUPT your action and force you to
+make an unknown roll.
+
+You attempt to-
+
+
+exec: exec
+But you fail to notice the floorboard beneath your feet fly off, likely under
+Backswitch's power.
+
+ You fall without any ground beneath you.
+
+You land under the stage with a thud before climbing out unceremoniously; a
+jeering Backswitch there to greet you as you rise.
+
+Backswitch
+Had a nice trip?
+
+functools.partial(<function fstr at 0x00000000075f5700>, "Power{', Observed
+Backswitch' if precision > 0 else ''}")
+Agility
+Tech
+functools.partial(<function fstr at 0x00000000075f5700>, "Power{', Observed
+Backswitch' if precision > 0 else ''}")
+Agility
+Tech
+functools.partial(<function fstr at 0x00000000075f5700>, "Power{', Observed
+Backswitch' if precision > 0 else ''}")
+Agility
+Tech
+functools.partial(<function fstr at 0x00000000075f5700>, "Power{', Observed
+Backswitch' if precision > 0 else ''}")
+Agility
+Tech
+functools.partial(<function fstr at 0x00000000075f5700>, "Power{', Observed
+Backswitch' if precision > 0 else ''}")
+Agility
+Tech
+functools.partial(<function fstr at 0x00000000075f5700>, "Power{', Observed
+Backswitch' if precision > 0 else ''}")
+Agility
+Tech
+functools.partial(<function fstr at 0x00000000075f5700>, "Power{', Observed
+Backswitch' if precision > 0 else ''}")
+Agility
+Tech
+functools.partial(<function fstr at 0x00000000075f5700>, "Power{', Observed
+Backswitch' if precision > 0 else ''}")
+Agility
+Tech
+functools.partial(<function fstr at 0x00000000075f5700>, "Power{', Observed
+Backswitch' if precision > 0 else ''}")
+Agility
+Tech
+functools.partial(<function fstr at 0x00000000075f5700>, "Power{', Observed
+Backswitch' if precision > 0 else ''}")
+Agility
+Tech
+functools.partial(<function fstr at 0x00000000075f5700>, "Power{', Observed
+Backswitch' if precision > 0 else ''}")
+Agility
+Tech
+functools.partial(<function fstr at 0x00000000075f5700>, "Power{', Observed
+Backswitch' if precision > 0 else ''}")
+Agility
+Tech
+functools.partial(<function fstr at 0x00000000075f5700>, "Power{', Observed
+Backswitch' if precision > 0 else ''}")
+Agility
+Tech
+functools.partial(<function fstr at 0x00000000075f5700>, "Power{', Observed
+Backswitch' if precision > 0 else ''}")
+Agility
+Tech
+functools.partial(<function fstr at 0x00000000075f5700>, "Power{', Observed
+Backswitch' if precision > 0 else ''}")
+Agility
+Tech
+functools.partial(<function fstr at 0x00000000075f5700>, "Power{', Observed
+Backswitch' if precision > 0 else ''}")
+Agility
+Tech
+functools.partial(<function fstr at 0x00000000075f5700>, "Power{', Observed
+Backswitch' if precision > 0 else ''}")
+Agility
+Tech
+You hold a defensive stance, keeping distance from Backswitch.
+
+After dodging one or two hits, you start to get a feel for his timing, his
+rhythm.
+
+functools.partial(<function fstr at 0x00000000075f5700>, "Power{', Observed
+Backswitch' if precision > 0 else ''}")
+Agility
+functools.partial(<function fstr at 0x00000000075f5700>, "Power{', Observed
+Backswitch' if precision > 0 else ''}")
+Agility
+functools.partial(<function fstr at 0x00000000075f5700>, "Power{', Observed
+Backswitch' if precision > 0 else ''}")
+Agility
+functools.partial(<function fstr at 0x00000000075f5700>, "Power{', Observed
+Backswitch' if precision > 0 else ''}")
+Agility
+functools.partial(<function fstr at 0x00000000075f5700>, "Power{', Observed
+Backswitch' if precision > 0 else ''}")
+Agility
+functools.partial(<function fstr at 0x00000000075f5700>, "Power{', Observed
+Backswitch' if precision > 0 else ''}")
+Agility
+functools.partial(<function fstr at 0x00000000075f5700>, "Power{', Observed
+Backswitch' if precision > 0 else ''}")
+Agility
+functools.partial(<function fstr at 0x00000000075f5700>, "Power{', Observed
+Backswitch' if precision > 0 else ''}")
+Agility
+functools.partial(<function fstr at 0x00000000075f5700>, "Power{', Observed
+Backswitch' if precision > 0 else ''}")
+Agility
+functools.partial(<function fstr at 0x00000000075f5700>, "Power{', Observed
+Backswitch' if precision > 0 else ''}")
+Agility
+functools.partial(<function fstr at 0x00000000075f5700>, "Power{', Observed
+Backswitch' if precision > 0 else ''}")
+Agility
+functools.partial(<function fstr at 0x00000000075f5700>, "Power{', Observed
+Backswitch' if precision > 0 else ''}")
+Agility
+functools.partial(<function fstr at 0x00000000075f5700>, "Power{', Observed
+Backswitch' if precision > 0 else ''}")
+Agility
+functools.partial(<function fstr at 0x00000000075f5700>, "Power{', Observed
+Backswitch' if precision > 0 else ''}")
+Agility
+functools.partial(<function fstr at 0x00000000075f5700>, "Power{', Observed
+Backswitch' if precision > 0 else ''}")
+Agility
+functools.partial(<function fstr at 0x00000000075f5700>, "Power{', Observed
+Backswitch' if precision > 0 else ''}")
+Agility
+functools.partial(<function fstr at 0x00000000075f5700>, "Power{', Observed
+Backswitch' if precision > 0 else ''}")
+Agility
+functools.partial(<function fstr at 0x00000000075f5700>, "Power{', Observed
+Backswitch' if precision > 0 else ''}")
+Agility
+functools.partial(<function fstr at 0x00000000075f5700>, "Power{', Observed
+Backswitch' if precision > 0 else ''}")
+Agility
+functools.partial(<function fstr at 0x00000000075f5700>, "Power{', Observed
+Backswitch' if precision > 0 else ''}")
+Agility
+functools.partial(<function fstr at 0x00000000075f5700>, "Power{', Observed
+Backswitch' if precision > 0 else ''}")
+Agility
+functools.partial(<function fstr at 0x00000000075f5700>, "Power{', Observed
+Backswitch' if precision > 0 else ''}")
+Agility
+functools.partial(<function fstr at 0x00000000075f5700>, "Power{', Observed
+Backswitch' if precision > 0 else ''}")
+Agility
+functools.partial(<function fstr at 0x00000000075f5700>, "Power{', Observed
+Backswitch' if precision > 0 else ''}")
+Agility
+functools.partial(<function fstr at 0x00000000075f5700>, "Power{', Observed
+Backswitch' if precision > 0 else ''}")
+Agility
+functools.partial(<function fstr at 0x00000000075f5700>, "Power{', Observed
+Backswitch' if precision > 0 else ''}")
+Agility
+functools.partial(<function fstr at 0x00000000075f5700>, "Power{', Observed
+Backswitch' if precision > 0 else ''}")
+Agility
+functools.partial(<function fstr at 0x00000000075f5700>, "Power{', Observed
+Backswitch' if precision > 0 else ''}")
+Agility
+functools.partial(<function fstr at 0x00000000075f5700>, "Power{', Observed
+Backswitch' if precision > 0 else ''}")
+Agility
+functools.partial(<function fstr at 0x00000000075f5700>, "Power{', Observed
+Backswitch' if precision > 0 else ''}")
+Agility
+functools.partial(<function fstr at 0x00000000075f5700>, "Power{', Observed
+Backswitch' if precision > 0 else ''}")
+Agility
+functools.partial(<function fstr at 0x00000000075f5700>, "Power{', Observed
+Backswitch' if precision > 0 else ''}")
+Agility
+functools.partial(<function fstr at 0x00000000075f5700>, "Power{', Observed
+Backswitch' if precision > 0 else ''}")
+Agility
+functools.partial(<function fstr at 0x00000000075f5700>, "Power{', Observed
+Backswitch' if precision > 0 else ''}")
+Agility
+functools.partial(<function fstr at 0x00000000075f5700>, "Power{', Observed
+Backswitch' if precision > 0 else ''}")
+Agility
+functools.partial(<function fstr at 0x00000000075f5700>, "Power{', Observed
+Backswitch' if precision > 0 else ''}")
+Agility
+functools.partial(<function fstr at 0x00000000075f5700>, "Power{', Observed
+Backswitch' if precision > 0 else ''}")
+Agility
+Tech
+functools.partial(<function fstr at 0x00000000075f5700>, "Power{', Observed
+Backswitch' if precision > 0 else ''}")
+Agility
+Tech
+functools.partial(<function fstr at 0x00000000075f5700>, "Power{', Observed
+Backswitch' if precision > 0 else ''}")
+Agility
+Tech
+functools.partial(<function fstr at 0x00000000075f5700>, "Power{', Observed
+Backswitch' if precision > 0 else ''}")
+Agility
+Tech
+You attempt to-
+
+
+exec: exec
+functools.partial(<function fstr at 0x00000000075f5700>, "Power{', Observed
+Backswitch' if precision > 0 else ''}")
+Agility
+Tech
+But you fail to notice the floorboard beneath your feet fly off, likely under
+Backswitch's power.
+
+functools.partial(<function fstr at 0x00000000075f5700>, "Power{', Observed
+Backswitch' if precision > 0 else ''}")
+Agility
+Tech
+ You fall without any ground beneath you.
+
+functools.partial(<function fstr at 0x00000000075f5700>, "Power{', Observed
+Backswitch' if precision > 0 else ''}")
+Agility
+Tech
+You land under the stage with a thud before climbing out unceremoniously; a
+jeering Backswitch there to greet you as you rise.
+
+Backswitch
+Had a nice trip?
+
+functools.partial(<function fstr at 0x00000000075f5700>, "Power{', Observed
+Backswitch' if precision > 0 else ''}")
+Agility
+Tech
+functools.partial(<function fstr at 0x00000000075f5700>, "Power{', Observed
+Backswitch' if precision > 0 else ''}")
+Agility
+Tech
+functools.partial(<function fstr at 0x00000000075f5700>, "Power{', Observed
+Backswitch' if precision > 0 else ''}")
+Agility
+Tech
+functools.partial(<function fstr at 0x00000000075f5700>, "Power{', Observed
+Backswitch' if precision > 0 else ''}")
+Agility
+Tech
+functools.partial(<function fstr at 0x00000000075f5700>, "Power{', Observed
+Backswitch' if precision > 0 else ''}")
+Agility
+Tech
+functools.partial(<function fstr at 0x00000000075f5700>, "Power{', Observed
+Backswitch' if precision > 0 else ''}")
+Agility
+Tech
+functools.partial(<function fstr at 0x00000000075f5700>, "Power{', Observed
+Backswitch' if precision > 0 else ''}")
+Agility
+Tech
+functools.partial(<function fstr at 0x00000000075f5700>, "Power{', Observed
+Backswitch' if precision > 0 else ''}")
+Agility
+Tech
+functools.partial(<function fstr at 0x00000000075f5700>, "Power{', Observed
+Backswitch' if precision > 0 else ''}")
+Agility
+Tech
+functools.partial(<function fstr at 0x00000000075f5700>, "Power{', Observed
+Backswitch' if precision > 0 else ''}")
+Agility
+Tech
+functools.partial(<function fstr at 0x00000000075f5700>, "Power{', Observed
+Backswitch' if precision > 0 else ''}")
+Agility
+Tech
+functools.partial(<function fstr at 0x00000000075f5700>, "Power{', Observed
+Backswitch' if precision > 0 else ''}")
+Agility
+Tech
+functools.partial(<function fstr at 0x00000000075f5700>, "Power{', Observed
+Backswitch' if precision > 0 else ''}")
+Agility
+Tech
+functools.partial(<function fstr at 0x00000000075f5700>, "Power{', Observed
+Backswitch' if precision > 0 else ''}")
+Agility
+Tech
+functools.partial(<function fstr at 0x00000000075f5700>, "Power{', Observed
+Backswitch' if precision > 0 else ''}")
+Agility
+Tech
+functools.partial(<function fstr at 0x00000000075f5700>, "Power{', Observed
+Backswitch' if precision > 0 else ''}")
+Agility
+Tech
+functools.partial(<function fstr at 0x00000000075f5700>, "Power{', Observed
+Backswitch' if precision > 0 else ''}")
+Agility
+Tech
+functools.partial(<function fstr at 0x00000000075f5700>, "Power{', Observed
+Backswitch' if precision > 0 else ''}")
+Agility
+Tech
+functools.partial(<function fstr at 0x00000000075f5700>, "Power{', Observed
+Backswitch' if precision > 0 else ''}")
+Agility
+Tech
+functools.partial(<function fstr at 0x00000000075f5700>, "Power{', Observed
+Backswitch' if precision > 0 else ''}")
+Agility
+Tech
+functools.partial(<function fstr at 0x00000000075f5700>, "Power{', Observed
+Backswitch' if precision > 0 else ''}")
+Agility
+Tech
+functools.partial(<function fstr at 0x00000000075f5700>, "Power{', Observed
+Backswitch' if precision > 0 else ''}")
+Agility
+Tech
+functools.partial(<function fstr at 0x00000000075f5700>, "Power{', Observed
+Backswitch' if precision > 0 else ''}")
+Agility
+Tech
+functools.partial(<function fstr at 0x00000000075f5700>, "Power{', Observed
+Backswitch' if precision > 0 else ''}")
+Agility
+Tech
+functools.partial(<function fstr at 0x00000000075f5700>, "Power{', Observed
+Backswitch' if precision > 0 else ''}")
+Agility
+Tech
+functools.partial(<function fstr at 0x00000000075f5700>, "Power{', Observed
+Backswitch' if precision > 0 else ''}")
+Agility
+Tech
+functools.partial(<function fstr at 0x00000000075f5700>, "Power{', Observed
+Backswitch' if precision > 0 else ''}")
+Agility
+Tech
+functools.partial(<function fstr at 0x00000000075f5700>, "Power{', Observed
+Backswitch' if precision > 0 else ''}")
+Agility
+Tech
+functools.partial(<function fstr at 0x00000000075f5700>, "Power{', Observed
+Backswitch' if precision > 0 else ''}")
+Agility
+Tech
+functools.partial(<function fstr at 0x00000000075f5700>, "Power{', Observed
+Backswitch' if precision > 0 else ''}")
+Agility
+Tech
+functools.partial(<function fstr at 0x00000000075f5700>, "Power{', Observed
+Backswitch' if precision > 0 else ''}")
+Agility
+Tech
+functools.partial(<function fstr at 0x00000000075f5700>, "Power{', Observed
+Backswitch' if precision > 0 else ''}")
+Agility
+Tech
+functools.partial(<function fstr at 0x00000000075f5700>, "Power{', Observed
+Backswitch' if precision > 0 else ''}")
+Agility
+Tech
+functools.partial(<function fstr at 0x00000000075f5700>, "Power{', Observed
+Backswitch' if precision > 0 else ''}")
+Agility
+Tech
+functools.partial(<function fstr at 0x00000000075f5700>, "Power{', Observed
+Backswitch' if precision > 0 else ''}")
+Agility
+Tech
+functools.partial(<function fstr at 0x00000000075f5700>, "Power{', Observed
+Backswitch' if precision > 0 else ''}")
+Agility
+Tech
+functools.partial(<function fstr at 0x00000000075f5700>, "Power{', Observed
+Backswitch' if precision > 0 else ''}")
+Agility
+Tech
+functools.partial(<function fstr at 0x00000000075f5700>, "Power{', Observed
+Backswitch' if precision > 0 else ''}")
+Agility
+Tech
+functools.partial(<function fstr at 0x00000000075f5700>, "Power{', Observed
+Backswitch' if precision > 0 else ''}")
+Agility
+Tech
+functools.partial(<function fstr at 0x00000000075f5700>, "Power{', Observed
+Backswitch' if precision > 0 else ''}")
+Agility
+Tech
+You hold a defensive stance, keeping distance from Backswitch.
+
+After dodging one or two hits, you start to get a feel for his timing, his
+rhythm.
+
+functools.partial(<function fstr at 0x00000000075f5700>, "Power{', Observed
+Backswitch' if precision > 0 else ''}")
+Agility
+functools.partial(<function fstr at 0x00000000075f5700>, "Power{', Observed
+Backswitch' if precision > 0 else ''}")
+Agility
+functools.partial(<function fstr at 0x00000000075f5700>, "Power{', Observed
+Backswitch' if precision > 0 else ''}")
+Agility
+functools.partial(<function fstr at 0x00000000075f5700>, "Power{', Observed
+Backswitch' if precision > 0 else ''}")
+Agility
+functools.partial(<function fstr at 0x00000000075f5700>, "Power{', Observed
+Backswitch' if precision > 0 else ''}")
+Agility
+functools.partial(<function fstr at 0x00000000075f5700>, "Power{', Observed
+Backswitch' if precision > 0 else ''}")
+Agility
+functools.partial(<function fstr at 0x00000000075f5700>, "Power{', Observed
+Backswitch' if precision > 0 else ''}")
+Agility
+functools.partial(<function fstr at 0x00000000075f5700>, "Power{', Observed
+Backswitch' if precision > 0 else ''}")
+Agility
+functools.partial(<function fstr at 0x00000000075f5700>, "Power{', Observed
+Backswitch' if precision > 0 else ''}")
+Agility
+functools.partial(<function fstr at 0x00000000075f5700>, "Power{', Observed
+Backswitch' if precision > 0 else ''}")
+Agility
+functools.partial(<function fstr at 0x00000000075f5700>, "Power{', Observed
+Backswitch' if precision > 0 else ''}")
+Agility
+functools.partial(<function fstr at 0x00000000075f5700>, "Power{', Observed
+Backswitch' if precision > 0 else ''}")
+Agility
+functools.partial(<function fstr at 0x00000000075f5700>, "Power{', Observed
+Backswitch' if precision > 0 else ''}")
+Agility
+functools.partial(<function fstr at 0x00000000075f5700>, "Power{', Observed
+Backswitch' if precision > 0 else ''}")
+Agility
+functools.partial(<function fstr at 0x00000000075f5700>, "Power{', Observed
+Backswitch' if precision > 0 else ''}")
+Agility
+functools.partial(<function fstr at 0x00000000075f5700>, "Power{', Observed
+Backswitch' if precision > 0 else ''}")
+Agility
+functools.partial(<function fstr at 0x00000000075f5700>, "Power{', Observed
+Backswitch' if precision > 0 else ''}")
+Agility
+functools.partial(<function fstr at 0x00000000075f5700>, "Power{', Observed
+Backswitch' if precision > 0 else ''}")
+Agility
+functools.partial(<function fstr at 0x00000000075f5700>, "Power{', Observed
+Backswitch' if precision > 0 else ''}")
+Agility
+functools.partial(<function fstr at 0x00000000075f5700>, "Power{', Observed
+Backswitch' if precision > 0 else ''}")
+Agility
+functools.partial(<function fstr at 0x00000000075f5700>, "Power{', Observed
+Backswitch' if precision > 0 else ''}")
+Agility
+functools.partial(<function fstr at 0x00000000075f5700>, "Power{', Observed
+Backswitch' if precision > 0 else ''}")
+Agility
+functools.partial(<function fstr at 0x00000000075f5700>, "Power{', Observed
+Backswitch' if precision > 0 else ''}")
+Agility
+functools.partial(<function fstr at 0x00000000075f5700>, "Power{', Observed
+Backswitch' if precision > 0 else ''}")
+Agility
+functools.partial(<function fstr at 0x00000000075f5700>, "Power{', Observed
+Backswitch' if precision > 0 else ''}")
+Agility
+functools.partial(<function fstr at 0x00000000075f5700>, "Power{', Observed
+Backswitch' if precision > 0 else ''}")
+Agility
+functools.partial(<function fstr at 0x00000000075f5700>, "Power{', Observed
+Backswitch' if precision > 0 else ''}")
+Agility
+functools.partial(<function fstr at 0x00000000075f5700>, "Power{', Observed
+Backswitch' if precision > 0 else ''}")
+Agility
+functools.partial(<function fstr at 0x00000000075f5700>, "Power{', Observed
+Backswitch' if precision > 0 else ''}")
+Agility
+functools.partial(<function fstr at 0x00000000075f5700>, "Power{', Observed
+Backswitch' if precision > 0 else ''}")
+Agility
+functools.partial(<function fstr at 0x00000000075f5700>, "Power{', Observed
+Backswitch' if precision > 0 else ''}")
+Agility
+functools.partial(<function fstr at 0x00000000075f5700>, "Power{', Observed
+Backswitch' if precision > 0 else ''}")
+Agility
+functools.partial(<function fstr at 0x00000000075f5700>, "Power{', Observed
+Backswitch' if precision > 0 else ''}")
+Agility
+functools.partial(<function fstr at 0x00000000075f5700>, "Power{', Observed
+Backswitch' if precision > 0 else ''}")
+Agility
+functools.partial(<function fstr at 0x00000000075f5700>, "Power{', Observed
+Backswitch' if precision > 0 else ''}")
+Agility
+functools.partial(<function fstr at 0x00000000075f5700>, "Power{', Observed
+Backswitch' if precision > 0 else ''}")
+Agility
+functools.partial(<function fstr at 0x00000000075f5700>, "Power{', Observed
+Backswitch' if precision > 0 else ''}")
+Agility
+functools.partial(<function fstr at 0x00000000075f5700>, "Power{', Observed
+Backswitch' if precision > 0 else ''}")
+Agility
+functools.partial(<function fstr at 0x00000000075f5700>, "Power{', Observed
+Backswitch' if precision > 0 else ''}")
+Agility
+functools.partial(<function fstr at 0x00000000075f5700>, "Power{', Observed
+Backswitch' if precision > 0 else ''}")
+Agility
+functools.partial(<function fstr at 0x00000000075f5700>, "Power{', Observed
+Backswitch' if precision > 0 else ''}")
+Agility
+functools.partial(<function fstr at 0x00000000075f5700>, "Power{', Observed
+Backswitch' if precision > 0 else ''}")
+Agility
+functools.partial(<function fstr at 0x00000000075f5700>, "Power{', Observed
+Backswitch' if precision > 0 else ''}")
+Agility
+functools.partial(<function fstr at 0x00000000075f5700>, "Power{', Observed
+Backswitch' if precision > 0 else ''}")
+Agility
+functools.partial(<function fstr at 0x00000000075f5700>, "Power{', Observed
+Backswitch' if precision > 0 else ''}")
+Agility
+functools.partial(<function fstr at 0x00000000075f5700>, "Power{', Observed
+Backswitch' if precision > 0 else ''}")
+Agility
+functools.partial(<function fstr at 0x00000000075f5700>, "Power{', Observed
+Backswitch' if precision > 0 else ''}")
+Agility
+functools.partial(<function fstr at 0x00000000075f5700>, "Power{', Observed
+Backswitch' if precision > 0 else ''}")
+Agility
+functools.partial(<function fstr at 0x00000000075f5700>, "Power{', Observed
+Backswitch' if precision > 0 else ''}")
+Agility
+functools.partial(<function fstr at 0x00000000075f5700>, "Power{', Observed
+Backswitch' if precision > 0 else ''}")
+Agility
+functools.partial(<function fstr at 0x00000000075f5700>, "Power{', Observed
+Backswitch' if precision > 0 else ''}")
+Agility
+functools.partial(<function fstr at 0x00000000075f5700>, "Power{', Observed
+Backswitch' if precision > 0 else ''}")
+Agility
+functools.partial(<function fstr at 0x00000000075f5700>, "Power{', Observed
+Backswitch' if precision > 0 else ''}")
+Agility
+functools.partial(<function fstr at 0x00000000075f5700>, "Power{', Observed
+Backswitch' if precision > 0 else ''}")
+Agility
+functools.partial(<function fstr at 0x00000000075f5700>, "Power{', Observed
+Backswitch' if precision > 0 else ''}")
+Agility
+functools.partial(<function fstr at 0x00000000075f5700>, "Power{', Observed
+Backswitch' if precision > 0 else ''}")
+Agility
+functools.partial(<function fstr at 0x00000000075f5700>, "Power{', Observed
+Backswitch' if precision > 0 else ''}")
+Agility
+functools.partial(<function fstr at 0x00000000075f5700>, "Power{', Observed
+Backswitch' if precision > 0 else ''}")
+Agility
+functools.partial(<function fstr at 0x00000000075f5700>, "Power{', Observed
+Backswitch' if precision > 0 else ''}")
+Agility
+functools.partial(<function fstr at 0x00000000075f5700>, "Power{', Observed
+Backswitch' if precision > 0 else ''}")
+Agility
+functools.partial(<function fstr at 0x00000000075f5700>, "Power{', Observed
+Backswitch' if precision > 0 else ''}")
+Agility
+functools.partial(<function fstr at 0x00000000075f5700>, "Power{', Observed
+Backswitch' if precision > 0 else ''}")
+Agility
+functools.partial(<function fstr at 0x00000000075f5700>, "Power{', Observed
+Backswitch' if precision > 0 else ''}")
+Agility
+functools.partial(<function fstr at 0x00000000075f5700>, "Power{', Observed
+Backswitch' if precision > 0 else ''}")
+Agility
+functools.partial(<function fstr at 0x00000000075f5700>, "Power{', Observed
+Backswitch' if precision > 0 else ''}")
+Agility
+functools.partial(<function fstr at 0x00000000075f5700>, "Power{', Observed
+Backswitch' if precision > 0 else ''}")
+Agility
+functools.partial(<function fstr at 0x00000000075f5700>, "Power{', Observed
+Backswitch' if precision > 0 else ''}")
+Agility
+functools.partial(<function fstr at 0x00000000075f5700>, "Power{', Observed
+Backswitch' if precision > 0 else ''}")
+Agility
+functools.partial(<function fstr at 0x00000000075f5700>, "Power{', Observed
+Backswitch' if precision > 0 else ''}")
+Agility
+functools.partial(<function fstr at 0x00000000075f5700>, "Power{', Observed
+Backswitch' if precision > 0 else ''}")
+Agility
+functools.partial(<function fstr at 0x00000000075f5700>, "Power{', Observed
+Backswitch' if precision > 0 else ''}")
+Agility
+functools.partial(<function fstr at 0x00000000075f5700>, "Power{', Observed
+Backswitch' if precision > 0 else ''}")
+Agility
+functools.partial(<function fstr at 0x00000000075f5700>, "Power{', Observed
+Backswitch' if precision > 0 else ''}")
+Agility
+functools.partial(<function fstr at 0x00000000075f5700>, "Power{', Observed
+Backswitch' if precision > 0 else ''}")
+Agility
+functools.partial(<function fstr at 0x00000000075f5700>, "Power{', Observed
+Backswitch' if precision > 0 else ''}")
+Agility
+functools.partial(<function fstr at 0x00000000075f5700>, "Power{', Observed
+Backswitch' if precision > 0 else ''}")
+Agility
+functools.partial(<function fstr at 0x00000000075f5700>, "Power{', Observed
+Backswitch' if precision > 0 else ''}")
+Agility
+functools.partial(<function fstr at 0x00000000075f5700>, "Power{', Observed
+Backswitch' if precision > 0 else ''}")
+Agility
+functools.partial(<function fstr at 0x00000000075f5700>, "Power{', Observed
+Backswitch' if precision > 0 else ''}")
+Agility
+functools.partial(<function fstr at 0x00000000075f5700>, "Power{', Observed
+Backswitch' if precision > 0 else ''}")
+Agility
+functools.partial(<function fstr at 0x00000000075f5700>, "Power{', Observed
+Backswitch' if precision > 0 else ''}")
+Agility
+functools.partial(<function fstr at 0x00000000075f5700>, "Power{', Observed
+Backswitch' if precision > 0 else ''}")
+Agility
+functools.partial(<function fstr at 0x00000000075f5700>, "Power{', Observed
+Backswitch' if precision > 0 else ''}")
+Agility
+functools.partial(<function fstr at 0x00000000075f5700>, "Power{', Observed
+Backswitch' if precision > 0 else ''}")
+Agility
+functools.partial(<function fstr at 0x00000000075f5700>, "Power{', Observed
+Backswitch' if precision > 0 else ''}")
+Agility
+functools.partial(<function fstr at 0x00000000075f5700>, "Power{', Observed
+Backswitch' if precision > 0 else ''}")
+Agility
+functools.partial(<function fstr at 0x00000000075f5700>, "Power{', Observed
+Backswitch' if precision > 0 else ''}")
+Agility
+functools.partial(<function fstr at 0x00000000075f5700>, "Power{', Observed
+Backswitch' if precision > 0 else ''}")
+Agility
+functools.partial(<function fstr at 0x00000000075f5700>, "Power{', Observed
+Backswitch' if precision > 0 else ''}")
+Agility
+functools.partial(<function fstr at 0x00000000075f5700>, "Power{', Observed
+Backswitch' if precision > 0 else ''}")
+Agility
+functools.partial(<function fstr at 0x00000000075f5700>, "Power{', Observed
+Backswitch' if precision > 0 else ''}")
+Agility
+functools.partial(<function fstr at 0x00000000075f5700>, "Power{', Observed
+Backswitch' if precision > 0 else ''}")
+Agility
+functools.partial(<function fstr at 0x00000000075f5700>, "Power{', Observed
+Backswitch' if precision > 0 else ''}")
+Agility
+functools.partial(<function fstr at 0x00000000075f5700>, "Power{', Observed
+Backswitch' if precision > 0 else ''}")
+Agility
+functools.partial(<function fstr at 0x00000000075f5700>, "Power{', Observed
+Backswitch' if precision > 0 else ''}")
+Agility
+functools.partial(<function fstr at 0x00000000075f5700>, "Power{', Observed
+Backswitch' if precision > 0 else ''}")
+Agility
+functools.partial(<function fstr at 0x00000000075f5700>, "Power{', Observed
+Backswitch' if precision > 0 else ''}")
+Agility
+functools.partial(<function fstr at 0x00000000075f5700>, "Power{', Observed
+Backswitch' if precision > 0 else ''}")
+Agility
+functools.partial(<function fstr at 0x00000000075f5700>, "Power{', Observed
+Backswitch' if precision > 0 else ''}")
+Agility
+functools.partial(<function fstr at 0x00000000075f5700>, "Power{', Observed
+Backswitch' if precision > 0 else ''}")
+Agility
+functools.partial(<function fstr at 0x00000000075f5700>, "Power{', Observed
+Backswitch' if precision > 0 else ''}")
+Agility
+functools.partial(<function fstr at 0x00000000075f5700>, "Power{', Observed
+Backswitch' if precision > 0 else ''}")
+Agility
+functools.partial(<function fstr at 0x00000000075f5700>, "Power{', Observed
+Backswitch' if precision > 0 else ''}")
+Agility
+functools.partial(<function fstr at 0x00000000075f5700>, "Power{', Observed
+Backswitch' if precision > 0 else ''}")
+Agility
+functools.partial(<function fstr at 0x00000000075f5700>, "Power{', Observed
+Backswitch' if precision > 0 else ''}")
+Agility
+functools.partial(<function fstr at 0x00000000075f5700>, "Power{', Observed
+Backswitch' if precision > 0 else ''}")
+Agility
+functools.partial(<function fstr at 0x00000000075f5700>, "Power{', Observed
+Backswitch' if precision > 0 else ''}")
+Agility
+functools.partial(<function fstr at 0x00000000075f5700>, "Power{', Observed
+Backswitch' if precision > 0 else ''}")
+Agility
+functools.partial(<function fstr at 0x00000000075f5700>, "Power{', Observed
+Backswitch' if precision > 0 else ''}")
+Agility
+functools.partial(<function fstr at 0x00000000075f5700>, "Power{', Observed
+Backswitch' if precision > 0 else ''}")
+Agility
+functools.partial(<function fstr at 0x00000000075f5700>, "Power{', Observed
+Backswitch' if precision > 0 else ''}")
+Agility
+functools.partial(<function fstr at 0x00000000075f5700>, "Power{', Observed
+Backswitch' if precision > 0 else ''}")
+Agility
+functools.partial(<function fstr at 0x00000000075f5700>, "Power{', Observed
+Backswitch' if precision > 0 else ''}")
+Agility
+functools.partial(<function fstr at 0x00000000075f5700>, "Power{', Observed
+Backswitch' if precision > 0 else ''}")
+Agility
+functools.partial(<function fstr at 0x00000000075f5700>, "Power{', Observed
+Backswitch' if precision > 0 else ''}")
+Agility
+functools.partial(<function fstr at 0x00000000075f5700>, "Power{', Observed
+Backswitch' if precision > 0 else ''}")
+Agility
+functools.partial(<function fstr at 0x00000000075f5700>, "Power{', Observed
+Backswitch' if precision > 0 else ''}")
+Agility
+functools.partial(<function fstr at 0x00000000075f5700>, "Power{', Observed
+Backswitch' if precision > 0 else ''}")
+Agility
+functools.partial(<function fstr at 0x00000000075f5700>, "Power{', Observed
+Backswitch' if precision > 0 else ''}")
+Agility
+functools.partial(<function fstr at 0x00000000075f5700>, "Power{', Observed
+Backswitch' if precision > 0 else ''}")
+Agility
+functools.partial(<function fstr at 0x00000000075f5700>, "Power{', Observed
+Backswitch' if precision > 0 else ''}")
+Agility
+functools.partial(<function fstr at 0x00000000075f5700>, "Power{', Observed
+Backswitch' if precision > 0 else ''}")
+Agility
+functools.partial(<function fstr at 0x00000000075f5700>, "Power{', Observed
+Backswitch' if precision > 0 else ''}")
+Agility
+functools.partial(<function fstr at 0x00000000075f5700>, "Power{', Observed
+Backswitch' if precision > 0 else ''}")
+Agility
+10
+Power
+Agility
+You bring your weapon in for a swing at Backswitch's midriff.
+
+
+exec: exec
+
+exec: exec
+Backswitch stifles a pained grunt.
+
+Power
+Agility
+Power
+Agility
+Power
+Agility
+Power
+Agility
+Power
+Agility
+Power
+Agility
+Power
+Agility
+Power
+Agility
+Power
+Agility
+Power
+Agility
+Power
+Agility
+Power
+Agility
+Power
+Agility
+Power
+Agility
+Power
+Agility
+Power
+Agility
+Power
+Agility
+13
+You throw your weight behind your weapon, bringing it down in a wide arc.
+
+
+exec: exec
+
+exec: exec
+Backswitch sidesteps your swing and sends a prop sword flying at your face.
+
+You parry the prop sword, reading Backswitch's rhythm.
+
+Power
+Agility
+Power
+Agility
+Power
+Agility
+Power
+Agility
+Power
+Agility
+Power
+Agility
+Power
+Agility
+Power
+Agility
+Power
+Agility
+Power
+Agility
+Power
+Agility
+Power
+Agility
+16
+You swing with a little too much oomph, nearly lifting you off your feet.
+
+
+exec: exec
+
+exec: exec
+Backswitch blocks the telegraphed attack but the sheer force sends him
+backpedaling, wincing.
+
+Agility
+Backswitch
+Hmm. Not as talkative as your stage persona, are ya?
+
+Wishmaker
+Shut it with the backtalk, Backswitch.
+
+Backswitch
+Backtalk, smacktalk.
+
+Backswitch
+You know who you really need to watch out for? Truck drivers.
+
+Wishmaker
+Huh? What does that m-{nw}
+
+But Backswitch was already running away.
+
+You began to run after him but not before incoming traffic became INCOMING
+traffic with Backswitch sent a truck, its tires squealing, toppling sidewards
+towards you.
+
+Wishmaker
+What does that-
+
+But Backswitch was already running away.
+
+You began to run after him but not before incoming traffic became INCOMING
+traffic with Backswitch sent a truck, its tires squealing, toppling sidewards
+towards you.
+
+Everyone's thought about it once.
+
+Being the hero.
+
+Shin
+{i}But despite getting superpowers...{/i}
+
+You dive out of the way of the truck as its thrown into a nearby freeway,
+crashing into traffic. You see smoke. You hear screaming.
+
+Shin
+{i}...and I HATE admitting this...{/i}
+
+You run over to one of the nearby pedestrians, picking the one who looks the
+most physically capable; the most likely choice.
+
+Shin
+{i}...I never get to be the hero.{/i}
+
+You clasp his hands and ask.
+
+Shin
+Do you {gradient2=6-E40303-FF8C00-2-FF8C00-FFED00-2-FFED00-008026-2-008026-004
+CFF-2-004CFF-732982-2-732982-E40303-2}WISH{/gradient2} to be a hero?
+
+Jumping back to storylets...
