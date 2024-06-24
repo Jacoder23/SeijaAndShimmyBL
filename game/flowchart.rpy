@@ -40,20 +40,26 @@ screen flowchart:
             xalign 0.5
             yalign 0.0
             spacing -20
-            for i in range(0, 100):
+            $ empty_space = False
+            for i in range(0, 200):
+                $ i = round((i+0.1)/2) # round up, double up
                 if len([x.urgency == 100 - i for x in storylets]) > 0:
                     hbox:
                         ysize 20
                         xalign 0.5
                         spacing 50
                         for storylet in [x for x in storylets if x.urgency == 100 - i]:
-                            if storylet.completed:
-                                $ previewColor = "FFF"
-                            elif storylet.skipped:
-                                $ previewColor = "FF3333"
+                            if empty_space:
+                                label ""
                             else:
-                                $ previewColor = "999"
-                            if persistent.showStoryletPreviews or storylet.completed:
-                                label "{color=[previewColor]}[storylet.preview]{/color}"
-                            else:
-                                label "{color=[previewColor]}???{/color}"
+                                if storylet.completed:
+                                    $ previewColor = "FFF"
+                                elif storylet.skipped:
+                                    $ previewColor = "FF3333"
+                                else:
+                                    $ previewColor = "999"
+                                if persistent.showStoryletPreviews or storylet.completed:
+                                    label "{color=[previewColor]}[storylet.preview]{/color}"
+                                else:
+                                    label "{color=[previewColor]}???{/color}"
+                    $ empty_space = not empty_space

@@ -46,6 +46,17 @@ init python:
 
     can_upgrade = False
 
+screen dev_tooltip:
+    zorder 300
+    timer 0.05 repeat True action Function(get_mouse)
+    $ mx = mouse_xy[0] #LR
+    $ my = mouse_xy[1] #UD
+    text f"({mx}, {my})":
+        pos(mx+30, my-30)
+        color "#fff"
+        size 30
+        outlines [(2, "#000005", 0, 0)]
+
 define seija = Character("Seija", callback = [name_callback, functools.partial(boopy_voice, boopfile="bleeps/bleep002.ogg")], cb_name = "Seija")
 define seija_costumed = Character("Backswitch", callback = [name_callback, functools.partial(boopy_voice, boopfile="bleeps/bleep002.ogg")], cb_name = "Backswitch")
 define seija_secret = Character("???", callback = [name_callback, functools.partial(boopy_voice, boopfile="bleeps/bleep002.ogg")], cb_name = "???")
@@ -173,6 +184,8 @@ label start:
     $ label_tracker = "start"
 
     if config.developer:
+
+        show screen dev_tooltip
 
         $ continue_label = "start_devtest"
 

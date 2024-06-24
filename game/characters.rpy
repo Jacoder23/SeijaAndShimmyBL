@@ -37,6 +37,7 @@ screen characters_screen(character = None):
         text_font "fonts/ITC Eras Std Bold.otf"
         xalign 0.5
         ypos 65
+        at outline_transform(2, "#3b3b3bff", 4.0, offset=(0, 5), num_passes=2)
     frame:
         xalign 0.5 yalign 0.5
         if renpy.exists(f"images/{current_character.name.lower()}.png"):
@@ -125,7 +126,10 @@ screen characters_screen(character = None):
                         ypos -5
                         vbox:
                             hbox:
-                                textbutton "{space=85}VIOLENT ":
+                                image "gui/DX_button/violence.png":
+                                    zoom 0.08
+                                    yalign 0.5
+                                textbutton "VIOLENT ":
                                     action NullAction()
                                     tooltip "You solve problems with physical force."
                                 bar value StaticValue(current_character.violence, 7):
@@ -144,7 +148,14 @@ screen characters_screen(character = None):
                                 textbutton " PACIFIST":
                                     action NullAction()
                                     tooltip "You solve problems without physical force."
+                                image "gui/DX_button/pacifism.png":
+                                    zoom 0.08
+                                    yalign 0.5
                             hbox:
+                                xoffset -90
+                                image "gui/DX_button/team_player.png":
+                                    zoom 0.08
+                                    yalign 0.5
                                 textbutton "TEAM PLAYER ":
                                     action NullAction()
                                     tooltip "You work better with others in solving problems."
@@ -164,8 +175,15 @@ screen characters_screen(character = None):
                                 textbutton " ISOLATED":
                                     action NullAction()
                                     tooltip "You work better alone in solving problems."
+                                image "gui/DX_button/isolation.png":
+                                    zoom 0.08
+                                    yalign 0.5
                             hbox:
-                                textbutton "{space=93}PRECISE ":
+                                xoffset -20
+                                image "gui/DX_button/precision.png":
+                                    zoom 0.08
+                                    yalign 0.5
+                                textbutton "PRECISE ":
                                     action NullAction()
                                     tooltip "Your solutions are precise, measured, and rational."
                                 bar value StaticValue(current_character.precision, 7):
@@ -184,6 +202,9 @@ screen characters_screen(character = None):
                                 textbutton " TENDER":
                                     action NullAction()
                                     tooltip "Your solutions are emotional, considerate, and empathetic."
+                                image "gui/DX_button/tenderness.png":
+                                    zoom 0.08
+                                    yalign 0.5
     
     vbox:
         xalign 0.65
